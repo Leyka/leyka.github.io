@@ -1,0 +1,50 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr;
+  width: 100vw;
+  height: 100vh;
+}
+.container .container__left {
+  min-width: 300px;
+  padding: 10px;
+  border-right: 3px dashed #3c4c5940;
+}
+.container .container__right {
+  padding: 10px;
+}
+.container .title {
+  margin-bottom: 30px;
+}
+.noFileUploaded .noFileUploaded__fileInput {
+  display: block;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 1.2rem;
+  margin: 15px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.noFileUploaded .noFileUploaded__label {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+/******* Helpers ******/
+h1, h2, h3 {
+  margin: 0;
+}
+
+p {
+  font-size: 1.1rem;
+}
+/*# sourceMappingURL=absent-present.04a2a7ba.css.map */
