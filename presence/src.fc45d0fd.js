@@ -324,7 +324,7 @@ checkPropTypes.resetWarningCache = function () {
 
 module.exports = checkPropTypes;
 },{"./lib/ReactPropTypesSecret":"node_modules/prop-types/lib/ReactPropTypesSecret.js"}],"node_modules/react/cjs/react.development.js":[function(require,module,exports) {
-/** @license React v16.13.1
+/** @license React v16.14.0
  * react.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -342,7 +342,7 @@ if ("development" !== "production") {
 
     var checkPropTypes = require('prop-types/checkPropTypes');
 
-    var ReactVersion = '16.13.1'; // The Symbol used to tag the ReactElement-like types. If there is no native Symbol
+    var ReactVersion = '16.14.0'; // The Symbol used to tag the ReactElement-like types. If there is no native Symbol
     // nor polyfill, then a plain number is used for performance.
 
     var hasSymbol = typeof Symbol === 'function' && Symbol.for;
@@ -3428,7 +3428,7 @@ if ("development" === 'production') {
   module.exports = require('./cjs/scheduler-tracing.development.js');
 }
 },{"./cjs/scheduler-tracing.development.js":"node_modules/scheduler/cjs/scheduler-tracing.development.js"}],"node_modules/react-dom/cjs/react-dom.development.js":[function(require,module,exports) {
-/** @license React v16.13.1
+/** @license React v16.14.0
  * react-dom.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -28166,7 +28166,7 @@ if ("development" !== "production") {
       };
     }
 
-    var ReactVersion = '16.13.1';
+    var ReactVersion = '16.14.0';
     setAttemptUserBlockingHydration(attemptUserBlockingHydration$1);
     setAttemptContinuousHydration(attemptContinuousHydration$1);
     setAttemptHydrationAtCurrentPriority(attemptHydrationAtCurrentPriority$1);
@@ -28566,9 +28566,9 @@ exports.elevationClass = elevationClass;
 exports.iconClass = iconClass;
 exports.intentClass = intentClass;
 exports.positionClass = positionClass;
-exports.CONTROL_INDICATOR_CHILD = exports.CONTROL_INDICATOR = exports.CONTROL = exports.INPUT_ACTION = exports.INPUT_LEFT_CONTAINER = exports.INPUT_GROUP = exports.INPUT_GHOST = exports.INPUT = exports.HTML_TABLE_STRIPED = exports.HTML_TABLE_CONDENSED = exports.HTML_TABLE_BORDERED = exports.HTML_TABLE = exports.SELECT = exports.HTML_SELECT = exports.FLEX_EXPANDER = exports.EDITABLE_TEXT_PLACEHOLDER = exports.EDITABLE_TEXT_INPUT = exports.EDITABLE_TEXT_EDITING = exports.EDITABLE_TEXT_CONTENT = exports.EDITABLE_TEXT = exports.DRAWER_HEADER = exports.DRAWER_FOOTER = exports.DRAWER_BODY = exports.DRAWER = exports.DIVIDER = exports.DIALOG_HEADER = exports.DIALOG_FOOTER_ACTIONS = exports.DIALOG_FOOTER = exports.DIALOG_CLOSE_BUTTON = exports.DIALOG_BODY = exports.DIALOG_CONTAINER = exports.DIALOG = exports.CONTROL_GROUP = exports.CONTEXT_MENU_POPOVER_TARGET = exports.CONTEXT_MENU = exports.COLLAPSIBLE_LIST = exports.COLLAPSE_BODY = exports.COLLAPSE = exports.CARD = exports.CALLOUT_ICON = exports.CALLOUT = exports.BUTTON_TEXT = exports.BUTTON_SPINNER = exports.BUTTON_GROUP = exports.BUTTON = exports.BREADCRUMBS_COLLAPSED = exports.BREADCRUMBS = exports.BREADCRUMB_CURRENT = exports.BREADCRUMB = exports.ALERT_FOOTER = exports.ALERT_CONTENTS = exports.ALERT_BODY = exports.ALERT = exports.RTL = exports.LIST_UNSTYLED = exports.LIST = exports.HEADING = exports.CODE_BLOCK = exports.CODE = exports.BLOCKQUOTE = exports.TEXT_OVERFLOW_ELLIPSIS = exports.TEXT_DISABLED = exports.TEXT_MUTED = exports.TEXT_SMALL = exports.TEXT_LARGE = exports.MONOSPACE_TEXT = exports.RUNNING_TEXT = exports.UI_TEXT = exports.FOCUS_DISABLED = exports.INTENT_DANGER = exports.INTENT_WARNING = exports.INTENT_SUCCESS = exports.INTENT_PRIMARY = exports.ELEVATION_4 = exports.ELEVATION_3 = exports.ELEVATION_2 = exports.ELEVATION_1 = exports.ELEVATION_0 = exports.POSITION_RIGHT = exports.POSITION_LEFT = exports.POSITION_BOTTOM = exports.POSITION_TOP = exports.VERTICAL = exports.SMALL = exports.ROUND = exports.MULTILINE = exports.OUTLINED = exports.MINIMAL = exports.LOADING = exports.LARGE = exports.INTERACTIVE = exports.INLINE = exports.FIXED_TOP = exports.FIXED = exports.FILL = exports.DISABLED = exports.DARK = exports.ALIGN_RIGHT = exports.ALIGN_LEFT = exports.ACTIVE = void 0;
-exports.TREE_NODE_EXPANDED = exports.TREE_NODE_CONTENT = exports.TREE_NODE_CARET_OPEN = exports.TREE_NODE_CARET_NONE = exports.TREE_NODE_CARET_CLOSED = exports.TREE_NODE_CARET = exports.TREE_NODE = exports.TREE = exports.TOOLTIP_INDICATOR = exports.TOOLTIP = exports.TOAST_MESSAGE = exports.TOAST_CONTAINER = exports.TOAST = exports.TAG_INPUT_VALUES = exports.TAG_INPUT_ICON = exports.TAG_INPUT = exports.TAG_REMOVE = exports.TAG = exports.TABS = exports.TAB_PANEL = exports.TAB_LIST = exports.TAB_INDICATOR_WRAPPER = exports.TAB_INDICATOR = exports.TAB = exports.SPINNER_TRACK = exports.SPINNER_NO_SPIN = exports.SPINNER_HEAD = exports.SPINNER_ANIMATION = exports.SPINNER = exports.END = exports.START = exports.SLIDER_PROGRESS = exports.SLIDER_TRACK = exports.SLIDER_LABEL = exports.SLIDER_HANDLE = exports.SLIDER_AXIS = exports.SLIDER = exports.SKELETON = exports.PORTAL = exports.PROGRESS_NO_ANIMATION = exports.PROGRESS_NO_STRIPES = exports.PROGRESS_METER = exports.PROGRESS_BAR = exports.TRANSITION_CONTAINER = exports.POPOVER_WRAPPER = exports.POPOVER_TARGET = exports.POPOVER_OPEN = exports.POPOVER_DISMISS_OVERRIDE = exports.POPOVER_DISMISS = exports.POPOVER_CONTENT_SIZING = exports.POPOVER_CONTENT = exports.POPOVER_CAPTURING_DISMISS = exports.POPOVER_BACKDROP = exports.POPOVER_ARROW = exports.POPOVER = exports.PANEL_STACK_VIEW = exports.PANEL_STACK_HEADER_BACK = exports.PANEL_STACK_HEADER = exports.PANEL_STACK = exports.OVERLAY_SCROLL_CONTAINER = exports.OVERLAY_OPEN = exports.OVERLAY_INLINE = exports.OVERLAY_CONTENT = exports.OVERLAY_CONTAINER = exports.OVERLAY_BACKDROP = exports.OVERLAY = exports.OVERFLOW_LIST_SPACER = exports.OVERFLOW_LIST = exports.NUMERIC_INPUT = exports.NON_IDEAL_STATE_VISUAL = exports.NON_IDEAL_STATE = exports.NAVBAR_DIVIDER = exports.NAVBAR_HEADING = exports.NAVBAR_GROUP = exports.NAVBAR = exports.MENU_HEADER = exports.MENU_DIVIDER = exports.MENU_SUBMENU = exports.MENU_ITEM_LABEL = exports.MENU_ITEM = exports.MENU = exports.FORM_HELPER_TEXT = exports.FORM_CONTENT = exports.FORM_GROUP = exports.LABEL = exports.HOTKEY_DIALOG = exports.HOTKEY_COLUMN = exports.HOTKEY_LABEL = exports.HOTKEY = exports.MODIFIER_KEY = exports.KEY_COMBO = exports.KEY = exports.FILE_UPLOAD_INPUT_CUSTOM_TEXT = exports.FILE_UPLOAD_INPUT = exports.FILE_INPUT_HAS_SELECTION = exports.FILE_INPUT = exports.SWITCH_INNER_TEXT = exports.SWITCH = exports.RADIO = exports.CHECKBOX = void 0;
-exports.ICON_LARGE = exports.ICON_STANDARD = exports.ICON = exports.TREE_ROOT = exports.TREE_NODE_SELECTED = exports.TREE_NODE_SECONDARY_LABEL = exports.TREE_NODE_LIST = exports.TREE_NODE_LABEL = exports.TREE_NODE_ICON = void 0;
+exports.INPUT_LEFT_CONTAINER = exports.INPUT_GROUP = exports.INPUT_GHOST = exports.INPUT = exports.HTML_TABLE_STRIPED = exports.HTML_TABLE_CONDENSED = exports.HTML_TABLE_BORDERED = exports.HTML_TABLE = exports.SELECT = exports.HTML_SELECT = exports.FLEX_EXPANDER = exports.EDITABLE_TEXT_PLACEHOLDER = exports.EDITABLE_TEXT_INPUT = exports.EDITABLE_TEXT_EDITING = exports.EDITABLE_TEXT_CONTENT = exports.EDITABLE_TEXT = exports.DRAWER_HEADER = exports.DRAWER_FOOTER = exports.DRAWER_BODY = exports.DRAWER = exports.DIVIDER = exports.DIALOG_STEP_ICON = exports.DIALOG_STEP_TITLE = exports.DIALOG_STEP_CONTAINER = exports.DIALOG_STEP = exports.DIALOG_HEADER = exports.DIALOG_FOOTER_ACTIONS = exports.DIALOG_FOOTER = exports.DIALOG_CLOSE_BUTTON = exports.DIALOG_BODY = exports.DIALOG_CONTAINER = exports.DIALOG = exports.CONTROL_GROUP = exports.CONTEXT_MENU_POPOVER_TARGET = exports.CONTEXT_MENU = exports.COLLAPSIBLE_LIST = exports.COLLAPSE_BODY = exports.COLLAPSE = exports.CARD = exports.CALLOUT_ICON = exports.CALLOUT = exports.BUTTON_TEXT = exports.BUTTON_SPINNER = exports.BUTTON_GROUP = exports.BUTTON = exports.BREADCRUMBS_COLLAPSED = exports.BREADCRUMBS = exports.BREADCRUMB_CURRENT = exports.BREADCRUMB = exports.ALERT_FOOTER = exports.ALERT_CONTENTS = exports.ALERT_BODY = exports.ALERT = exports.RTL = exports.LIST_UNSTYLED = exports.LIST = exports.HEADING = exports.CODE_BLOCK = exports.CODE = exports.BLOCKQUOTE = exports.TEXT_OVERFLOW_ELLIPSIS = exports.TEXT_DISABLED = exports.TEXT_MUTED = exports.TEXT_SMALL = exports.TEXT_LARGE = exports.MONOSPACE_TEXT = exports.RUNNING_TEXT = exports.UI_TEXT = exports.FOCUS_DISABLED = exports.INTENT_DANGER = exports.INTENT_WARNING = exports.INTENT_SUCCESS = exports.INTENT_PRIMARY = exports.ELEVATION_4 = exports.ELEVATION_3 = exports.ELEVATION_2 = exports.ELEVATION_1 = exports.ELEVATION_0 = exports.POSITION_RIGHT = exports.POSITION_LEFT = exports.POSITION_BOTTOM = exports.POSITION_TOP = exports.VERTICAL = exports.SMALL = exports.ROUND = exports.MULTILINE = exports.OUTLINED = exports.MINIMAL = exports.LOADING = exports.LARGE = exports.INTERACTIVE = exports.INLINE = exports.FIXED_TOP = exports.FIXED = exports.FILL = exports.DISABLED = exports.DARK = exports.ALIGN_RIGHT = exports.ALIGN_LEFT = exports.ACTIVE = void 0;
+exports.TOOLTIP = exports.TOAST_MESSAGE = exports.TOAST_CONTAINER = exports.TOAST = exports.TAG_INPUT_VALUES = exports.TAG_INPUT_ICON = exports.TAG_INPUT = exports.TAG_REMOVE = exports.TAG = exports.TABS = exports.TAB_PANEL = exports.TAB_LIST = exports.TAB_INDICATOR_WRAPPER = exports.TAB_INDICATOR = exports.TAB = exports.SPINNER_TRACK = exports.SPINNER_NO_SPIN = exports.SPINNER_HEAD = exports.SPINNER_ANIMATION = exports.SPINNER = exports.END = exports.START = exports.SLIDER_PROGRESS = exports.SLIDER_TRACK = exports.SLIDER_LABEL = exports.SLIDER_HANDLE = exports.SLIDER_AXIS = exports.SLIDER = exports.SKELETON = exports.PORTAL = exports.PROGRESS_NO_ANIMATION = exports.PROGRESS_NO_STRIPES = exports.PROGRESS_METER = exports.PROGRESS_BAR = exports.TRANSITION_CONTAINER = exports.POPOVER_WRAPPER = exports.POPOVER_TARGET = exports.POPOVER_OPEN = exports.POPOVER_DISMISS_OVERRIDE = exports.POPOVER_DISMISS = exports.POPOVER_CONTENT_SIZING = exports.POPOVER_CONTENT = exports.POPOVER_CAPTURING_DISMISS = exports.POPOVER_BACKDROP = exports.POPOVER_ARROW = exports.POPOVER = exports.PANEL_STACK_VIEW = exports.PANEL_STACK_HEADER_BACK = exports.PANEL_STACK_HEADER = exports.PANEL_STACK = exports.OVERLAY_SCROLL_CONTAINER = exports.OVERLAY_OPEN = exports.OVERLAY_INLINE = exports.OVERLAY_CONTENT = exports.OVERLAY_CONTAINER = exports.OVERLAY_BACKDROP = exports.OVERLAY = exports.OVERFLOW_LIST_SPACER = exports.OVERFLOW_LIST = exports.NUMERIC_INPUT = exports.NON_IDEAL_STATE_VISUAL = exports.NON_IDEAL_STATE = exports.NAVBAR_DIVIDER = exports.NAVBAR_HEADING = exports.NAVBAR_GROUP = exports.NAVBAR = exports.MULTISTEP_DIALOG_FOOTER = exports.MULTISTEP_DIALOG_RIGHT_PANEL = exports.MULTISTEP_DIALOG_LEFT_PANEL = exports.MULTISTEP_DIALOG_PANELS = exports.MULTISTEP_DIALOG = exports.MENU_HEADER = exports.MENU_DIVIDER = exports.MENU_SUBMENU = exports.MENU_ITEM_LABEL = exports.MENU_ITEM = exports.MENU = exports.FORM_HELPER_TEXT = exports.FORM_CONTENT = exports.FORM_GROUP = exports.LABEL = exports.HOTKEY_DIALOG = exports.HOTKEY_COLUMN = exports.HOTKEY_LABEL = exports.HOTKEY = exports.MODIFIER_KEY = exports.KEY_COMBO = exports.KEY = exports.FILE_UPLOAD_INPUT_CUSTOM_TEXT = exports.FILE_UPLOAD_INPUT = exports.FILE_INPUT_HAS_SELECTION = exports.FILE_INPUT = exports.SWITCH_INNER_TEXT = exports.SWITCH = exports.RADIO = exports.CHECKBOX = exports.CONTROL_INDICATOR_CHILD = exports.CONTROL_INDICATOR = exports.CONTROL = exports.INPUT_ACTION = void 0;
+exports.ICON_LARGE = exports.ICON_STANDARD = exports.ICON = exports.TREE_ROOT = exports.TREE_NODE_SELECTED = exports.TREE_NODE_SECONDARY_LABEL = exports.TREE_NODE_LIST = exports.TREE_NODE_LABEL = exports.TREE_NODE_ICON = exports.TREE_NODE_EXPANDED = exports.TREE_NODE_CONTENT = exports.TREE_NODE_CARET_OPEN = exports.TREE_NODE_CARET_NONE = exports.TREE_NODE_CARET_CLOSED = exports.TREE_NODE_CARET = exports.TREE_NODE = exports.TREE = exports.TOOLTIP_INDICATOR = void 0;
 
 var _alignment = require("./alignment");
 
@@ -28748,6 +28748,14 @@ var DIALOG_FOOTER_ACTIONS = DIALOG + "-footer-actions";
 exports.DIALOG_FOOTER_ACTIONS = DIALOG_FOOTER_ACTIONS;
 var DIALOG_HEADER = DIALOG + "-header";
 exports.DIALOG_HEADER = DIALOG_HEADER;
+var DIALOG_STEP = NS + "-dialog-step";
+exports.DIALOG_STEP = DIALOG_STEP;
+var DIALOG_STEP_CONTAINER = DIALOG_STEP + "-container";
+exports.DIALOG_STEP_CONTAINER = DIALOG_STEP_CONTAINER;
+var DIALOG_STEP_TITLE = DIALOG_STEP + "-title";
+exports.DIALOG_STEP_TITLE = DIALOG_STEP_TITLE;
+var DIALOG_STEP_ICON = DIALOG_STEP + "-icon";
+exports.DIALOG_STEP_ICON = DIALOG_STEP_ICON;
 var DIVIDER = NS + "-divider";
 exports.DIVIDER = DIVIDER;
 var DRAWER = NS + "-drawer";
@@ -28850,6 +28858,16 @@ var MENU_DIVIDER = MENU + "-divider";
 exports.MENU_DIVIDER = MENU_DIVIDER;
 var MENU_HEADER = MENU + "-header";
 exports.MENU_HEADER = MENU_HEADER;
+var MULTISTEP_DIALOG = NS + "-multistep-dialog";
+exports.MULTISTEP_DIALOG = MULTISTEP_DIALOG;
+var MULTISTEP_DIALOG_PANELS = MULTISTEP_DIALOG + "-panels";
+exports.MULTISTEP_DIALOG_PANELS = MULTISTEP_DIALOG_PANELS;
+var MULTISTEP_DIALOG_LEFT_PANEL = MULTISTEP_DIALOG + "-left-panel";
+exports.MULTISTEP_DIALOG_LEFT_PANEL = MULTISTEP_DIALOG_LEFT_PANEL;
+var MULTISTEP_DIALOG_RIGHT_PANEL = MULTISTEP_DIALOG + "-right-panel";
+exports.MULTISTEP_DIALOG_RIGHT_PANEL = MULTISTEP_DIALOG_RIGHT_PANEL;
+var MULTISTEP_DIALOG_FOOTER = MULTISTEP_DIALOG + "-footer";
+exports.MULTISTEP_DIALOG_FOOTER = MULTISTEP_DIALOG_FOOTER;
 var NAVBAR = NS + "-navbar";
 exports.NAVBAR = NAVBAR;
 var NAVBAR_GROUP = NAVBAR + "-group";
@@ -29013,8 +29031,12 @@ exports.TREE_NODE_SELECTED = TREE_NODE_SELECTED;
 var TREE_ROOT = NS + "-tree-root";
 exports.TREE_ROOT = TREE_ROOT;
 var ICON = NS + "-icon";
+/** @deprecated use <Icon> components and iconName prop APIs instead */
+
 exports.ICON = ICON;
 var ICON_STANDARD = ICON + "-standard";
+/** @deprecated use <Icon> components and iconName prop APIs instead */
+
 exports.ICON_STANDARD = ICON_STANDARD;
 var ICON_LARGE = ICON + "-large";
 /**
@@ -29044,14 +29066,12 @@ function alignmentClass(alignment) {
 }
 
 function elevationClass(elevation) {
-  if (elevation == null) {
+  if (elevation === undefined) {
     return undefined;
   }
 
   return NS + "-elevation-" + elevation;
 }
-/** Returns CSS class for icon name. */
-
 
 function iconClass(iconName) {
   if (iconName == null) {
@@ -29060,8 +29080,6 @@ function iconClass(iconName) {
 
   return iconName.indexOf(NS + "-icon-") === 0 ? iconName : NS + "-icon-" + iconName;
 }
-/** Return CSS class for intent. */
-
 
 function intentClass(intent) {
   if (intent == null || intent === _intent.Intent.NONE) {
@@ -29072,7 +29090,7 @@ function intentClass(intent) {
 }
 
 function positionClass(position) {
-  if (position == null) {
+  if (position === undefined) {
     return undefined;
   }
 
@@ -29133,7 +29151,8 @@ function () {
     this.handleMouseDown = function () {
       _this.reset();
 
-      _this.container.classList.add(_this.className);
+      _this.container.classList.add(_this.className); // HACKHACK: see https://github.com/palantir/blueprint/issues/4342
+
 
       _this.container.addEventListener("keydown", _this.handleKeyDown);
     };
@@ -29160,7 +29179,8 @@ function () {
   };
 
   InteractionModeEngine.prototype.reset = function () {
-    this.container.classList.remove(this.className);
+    this.container.classList.remove(this.className); // HACKHACK: see https://github.com/palantir/blueprint/issues/4342
+
     this.container.removeEventListener("keydown", this.handleKeyDown);
     this.container.removeEventListener("mousedown", this.handleMouseDown);
   };
@@ -29233,6 +29253,7 @@ var _focusStyleManager = require("./focusStyleManager");
 
 Object.keys(_focusStyleManager).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _focusStyleManager[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -29748,6 +29769,7 @@ function arraysEqual(arrA, arrB, compare) {
 /**
  * Shallow comparison between objects. If `keys` is provided, just that subset
  * of keys will be compared; otherwise, all keys will be compared.
+ *
  * @returns true if items are equal.
  */
 
@@ -29776,6 +29798,7 @@ function shallowCompareKeys(objA, objB, keys) {
 /**
  * Deep comparison between objects. If `keys` is provided, just that subset of
  * keys will be compared; otherwise, all keys will be compared.
+ *
  * @returns true if items are equal.
  */
 
@@ -30005,6 +30028,7 @@ function elementIsOrContains(element, testElement) {
  * Throttle an event on an EventTarget by wrapping it in a
  * `requestAnimationFrame` call. Returns the event handler that was bound to
  * given eventName so you can clean up after yourself.
+ *
  * @see https://developer.mozilla.org/en-US/docs/Web/Events/scroll
  */
 
@@ -30019,6 +30043,7 @@ function throttleEvent(target, eventName, newEventName) {
 /**
  * Throttle a callback by wrapping it in a `requestAnimationFrame` call. Returns
  * the throttled function.
+ *
  * @see https://www.html5rocks.com/en/tutorials/speed/animations/
  */
 
@@ -30090,7 +30115,7 @@ function throttleImpl(onAnimationFrameRequested, onBeforeIsRunningCheck, onAfter
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.TOASTER_MAX_TOASTS_INVALID = exports.DRAWER_ANGLE_POSITIONS_ARE_CASTED = exports.DRAWER_VERTICAL_IS_IGNORED = exports.DIALOG_WARN_NO_HEADER_CLOSE_BUTTON = exports.DIALOG_WARN_NO_HEADER_ICON = exports.TOASTER_WARN_INLINE = exports.TOASTER_CREATE_NULL = exports.SPINNER_WARN_CLASSES_SIZE = exports.MULTISLIDER_INVALID_CHILD = exports.RANGESLIDER_NULL_VALUE = exports.SLIDER_ZERO_LABEL_STEP = exports.SLIDER_ZERO_STEP = exports.RADIOGROUP_WARN_CHILDREN_OPTIONS_MUTEX = exports.PORTAL_CONTEXT_CLASS_NAME_STRING = exports.POPOVER_WARN_UNCONTROLLED_ONINTERACTION = exports.POPOVER_WARN_HAS_BACKDROP_INLINE = exports.POPOVER_WARN_EMPTY_CONTENT = exports.POPOVER_WARN_DOUBLE_TARGET = exports.POPOVER_WARN_DOUBLE_CONTENT = exports.POPOVER_WARN_TOO_MANY_CHILDREN = exports.POPOVER_HAS_BACKDROP_INTERACTION = exports.POPOVER_REQUIRES_TARGET = exports.OVERFLOW_LIST_OBSERVE_PARENTS_CHANGED = exports.PANEL_STACK_REQUIRES_PANEL = exports.PANEL_STACK_INITIAL_PANEL_STACK_MUTEX = exports.NUMERIC_INPUT_CONTROLLED_VALUE_INVALID = exports.NUMERIC_INPUT_STEP_SIZE_NULL = exports.NUMERIC_INPUT_STEP_SIZE_NON_POSITIVE = exports.NUMERIC_INPUT_MAJOR_STEP_SIZE_NON_POSITIVE = exports.NUMERIC_INPUT_MINOR_STEP_SIZE_NON_POSITIVE = exports.NUMERIC_INPUT_MAJOR_STEP_SIZE_BOUND = exports.NUMERIC_INPUT_MINOR_STEP_SIZE_BOUND = exports.NUMERIC_INPUT_MIN_MAX = exports.INPUT_WARN_LEFT_ELEMENT_LEFT_ICON_MUTEX = exports.HOTKEYS_WARN_DECORATOR_NEEDS_REACT_ELEMENT = exports.HOTKEYS_WARN_DECORATOR_NO_METHOD = exports.HOTKEYS_HOTKEY_CHILDREN = exports.CONTEXTMENU_WARN_DECORATOR_NEEDS_REACT_ELEMENT = exports.CONTEXTMENU_WARN_DECORATOR_NO_METHOD = exports.COLLAPSIBLE_LIST_INVALID_CHILD = exports.ALERT_WARN_CANCEL_OUTSIDE_CLICK = exports.ALERT_WARN_CANCEL_ESCAPE_KEY = exports.ALERT_WARN_CANCEL_PROPS = exports.CLAMP_MIN_MAX = void 0;
+exports.TOASTER_MAX_TOASTS_INVALID = exports.DRAWER_ANGLE_POSITIONS_ARE_CASTED = exports.DRAWER_VERTICAL_IS_IGNORED = exports.DIALOG_WARN_NO_HEADER_CLOSE_BUTTON = exports.DIALOG_WARN_NO_HEADER_ICON = exports.TOASTER_WARN_INLINE = exports.TOASTER_CREATE_NULL = exports.SPINNER_WARN_CLASSES_SIZE = exports.MULTISLIDER_WARN_LABEL_STEP_SIZE_LABEL_VALUES_MUTEX = exports.MULTISLIDER_INVALID_CHILD = exports.RANGESLIDER_NULL_VALUE = exports.SLIDER_ZERO_LABEL_STEP = exports.SLIDER_ZERO_STEP = exports.RADIOGROUP_WARN_CHILDREN_OPTIONS_MUTEX = exports.PORTAL_CONTEXT_CLASS_NAME_STRING = exports.POPOVER_WARN_UNCONTROLLED_ONINTERACTION = exports.POPOVER_WARN_HAS_BACKDROP_INLINE = exports.POPOVER_WARN_EMPTY_CONTENT = exports.POPOVER_WARN_DOUBLE_TARGET = exports.POPOVER_WARN_DOUBLE_CONTENT = exports.POPOVER_WARN_TOO_MANY_CHILDREN = exports.POPOVER_HAS_BACKDROP_INTERACTION = exports.POPOVER_REQUIRES_TARGET = exports.OVERFLOW_LIST_OBSERVE_PARENTS_CHANGED = exports.PANEL_STACK_REQUIRES_PANEL = exports.PANEL_STACK_INITIAL_PANEL_STACK_MUTEX = exports.NUMERIC_INPUT_CONTROLLED_VALUE_INVALID = exports.NUMERIC_INPUT_STEP_SIZE_NON_POSITIVE = exports.NUMERIC_INPUT_MAJOR_STEP_SIZE_NON_POSITIVE = exports.NUMERIC_INPUT_MINOR_STEP_SIZE_NON_POSITIVE = exports.NUMERIC_INPUT_MAJOR_STEP_SIZE_BOUND = exports.NUMERIC_INPUT_MINOR_STEP_SIZE_BOUND = exports.NUMERIC_INPUT_MIN_MAX = exports.INPUT_WARN_LEFT_ELEMENT_LEFT_ICON_MUTEX = exports.HOTKEYS_TARGET2_CHILDREN_LOCAL_HOTKEYS = exports.HOTKEYS_WARN_DECORATOR_NEEDS_REACT_ELEMENT = exports.HOTKEYS_WARN_DECORATOR_NO_METHOD = exports.HOTKEYS_HOTKEY_CHILDREN = exports.CONTEXTMENU_WARN_DECORATOR_NEEDS_REACT_ELEMENT = exports.CONTEXTMENU_WARN_DECORATOR_NO_METHOD = exports.COLLAPSIBLE_LIST_INVALID_CHILD = exports.ALERT_WARN_CANCEL_OUTSIDE_CLICK = exports.ALERT_WARN_CANCEL_ESCAPE_KEY = exports.ALERT_WARN_CANCEL_PROPS = exports.CLAMP_MIN_MAX = void 0;
 
 /*
  * Copyright 2015 Palantir Technologies, Inc. All rights reserved.
@@ -30128,6 +30153,8 @@ var HOTKEYS_WARN_DECORATOR_NO_METHOD = ns + " @HotkeysTarget-decorated class sho
 exports.HOTKEYS_WARN_DECORATOR_NO_METHOD = HOTKEYS_WARN_DECORATOR_NO_METHOD;
 var HOTKEYS_WARN_DECORATOR_NEEDS_REACT_ELEMENT = ns + " \"@HotkeysTarget-decorated components must return a single JSX.Element or an empty render.";
 exports.HOTKEYS_WARN_DECORATOR_NEEDS_REACT_ELEMENT = HOTKEYS_WARN_DECORATOR_NEEDS_REACT_ELEMENT;
+var HOTKEYS_TARGET2_CHILDREN_LOCAL_HOTKEYS = ns + " <HotkeysTarget2> was configured with local hotkeys, but you did not use the generated event handlers to bind their event handlers. Try using a render function as the child of this component.";
+exports.HOTKEYS_TARGET2_CHILDREN_LOCAL_HOTKEYS = HOTKEYS_TARGET2_CHILDREN_LOCAL_HOTKEYS;
 var INPUT_WARN_LEFT_ELEMENT_LEFT_ICON_MUTEX = ns + " <InputGroup> leftElement and leftIcon prop are mutually exclusive, with leftElement taking priority.";
 exports.INPUT_WARN_LEFT_ELEMENT_LEFT_ICON_MUTEX = INPUT_WARN_LEFT_ELEMENT_LEFT_ICON_MUTEX;
 var NUMERIC_INPUT_MIN_MAX = ns + " <NumericInput> requires min to be no greater than max if both are defined.";
@@ -30142,17 +30169,13 @@ var NUMERIC_INPUT_MAJOR_STEP_SIZE_NON_POSITIVE = ns + " <NumericInput> requires 
 exports.NUMERIC_INPUT_MAJOR_STEP_SIZE_NON_POSITIVE = NUMERIC_INPUT_MAJOR_STEP_SIZE_NON_POSITIVE;
 var NUMERIC_INPUT_STEP_SIZE_NON_POSITIVE = ns + " <NumericInput> requires stepSize to be strictly greater than zero.";
 exports.NUMERIC_INPUT_STEP_SIZE_NON_POSITIVE = NUMERIC_INPUT_STEP_SIZE_NON_POSITIVE;
-var NUMERIC_INPUT_STEP_SIZE_NULL = ns + " <NumericInput> requires stepSize to be defined.";
-exports.NUMERIC_INPUT_STEP_SIZE_NULL = NUMERIC_INPUT_STEP_SIZE_NULL;
 var NUMERIC_INPUT_CONTROLLED_VALUE_INVALID = ns + " <NumericInput> controlled value prop does not adhere to stepSize, min, and/or max constraints.";
 exports.NUMERIC_INPUT_CONTROLLED_VALUE_INVALID = NUMERIC_INPUT_CONTROLLED_VALUE_INVALID;
 var PANEL_STACK_INITIAL_PANEL_STACK_MUTEX = ns + " <PanelStack> requires exactly one of initialPanel and stack prop";
 exports.PANEL_STACK_INITIAL_PANEL_STACK_MUTEX = PANEL_STACK_INITIAL_PANEL_STACK_MUTEX;
 var PANEL_STACK_REQUIRES_PANEL = ns + " <PanelStack> requires at least one panel in the stack";
 exports.PANEL_STACK_REQUIRES_PANEL = PANEL_STACK_REQUIRES_PANEL;
-var OVERFLOW_LIST_OBSERVE_PARENTS_CHANGED = ns + " <OverflowList> does not support changing observeParents after mounting."; // TODO (clewis): Migrate old Popover validation errors to the component formerly known as Popover2.
-// See: https://github.com/palantir/blueprint/issues/1940
-
+var OVERFLOW_LIST_OBSERVE_PARENTS_CHANGED = ns + " <OverflowList> does not support changing observeParents after mounting.";
 exports.OVERFLOW_LIST_OBSERVE_PARENTS_CHANGED = OVERFLOW_LIST_OBSERVE_PARENTS_CHANGED;
 var POPOVER_REQUIRES_TARGET = ns + " <Popover> requires target prop or at least one child element.";
 exports.POPOVER_REQUIRES_TARGET = POPOVER_REQUIRES_TARGET;
@@ -30182,6 +30205,8 @@ var RANGESLIDER_NULL_VALUE = ns + " <RangeSlider> value prop must be an array of
 exports.RANGESLIDER_NULL_VALUE = RANGESLIDER_NULL_VALUE;
 var MULTISLIDER_INVALID_CHILD = ns + " <MultiSlider> children must be <SliderHandle>s or <SliderTrackStop>s";
 exports.MULTISLIDER_INVALID_CHILD = MULTISLIDER_INVALID_CHILD;
+var MULTISLIDER_WARN_LABEL_STEP_SIZE_LABEL_VALUES_MUTEX = ns + " <MultiSlider> labelStepSize and labelValues prop are mutually exclusive, with labelStepSize taking priority.";
+exports.MULTISLIDER_WARN_LABEL_STEP_SIZE_LABEL_VALUES_MUTEX = MULTISLIDER_WARN_LABEL_STEP_SIZE_LABEL_VALUES_MUTEX;
 var SPINNER_WARN_CLASSES_SIZE = ns + " <Spinner> Classes.SMALL/LARGE are ignored if size prop is set.";
 exports.SPINNER_WARN_CLASSES_SIZE = SPINNER_WARN_CLASSES_SIZE;
 var TOASTER_CREATE_NULL = ns + " Toaster.create() is not supported inside React lifecycle methods in React 16." + " See usage example on the docs site.";
@@ -30517,6 +30542,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.isReactNodeEmpty = isReactNodeEmpty;
+exports.isReactChildrenElementOrElements = isReactChildrenElementOrElements;
 exports.ensureElement = ensureElement;
 exports.isReactElement = isReactElement;
 exports.getDisplayName = getDisplayName;
@@ -30561,6 +30587,16 @@ function isReactNodeEmpty(node, skipArray) {
   }));
 }
 /**
+ * Returns true if children are a mappable children array
+ *
+ * @internal
+ */
+
+
+function isReactChildrenElementOrElements(children) {
+  return !isReactNodeEmpty(children, true) && children !== true;
+}
+/**
  * Converts a React node to an element: non-empty string or number or
  * `React.Fragment` (React 16.3+) is wrapped in given tag name; empty strings
  * and booleans are discarded.
@@ -30601,6 +30637,7 @@ function getDisplayName(ComponentClass) {
  * NOTE: This function only checks equality of `displayName` for performance and
  * to tolerate multiple minor versions of a component being included in one
  * application bundle.
+ *
  * @param element JSX element in question
  * @param ComponentType desired component type of element
  */
@@ -30663,1118 +30700,7 @@ function safeInvokeMember(obj, key) {
 
   return undefined;
 }
-},{"./functionUtils":"node_modules/@blueprintjs/core/lib/esm/common/utils/functionUtils.js"}],"node_modules/@blueprintjs/core/lib/esm/common/refs.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.isRefObject = isRefObject;
-exports.isRefCallback = isRefCallback;
-exports.getRef = getRef;
-
-/*
- * Copyright 2020 Palantir Technologies, Inc. All rights reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-function isRefObject(value) {
-  return value != null && typeof value.current !== "undefined";
-}
-
-function isRefCallback(value) {
-  return typeof value === "function";
-}
-
-function getRef(ref) {
-  if (ref && ref.current) {
-    return ref.current;
-  }
-
-  return ref;
-}
-},{}],"node_modules/@blueprintjs/core/lib/esm/common/utils/index.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-var _exportNames = {
-  getRef: true
-};
-Object.defineProperty(exports, "getRef", {
-  enumerable: true,
-  get: function () {
-    return _refs.getRef;
-  }
-});
-
-var _compareUtils = require("./compareUtils");
-
-Object.keys(_compareUtils).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function () {
-      return _compareUtils[key];
-    }
-  });
-});
-
-var _domUtils = require("./domUtils");
-
-Object.keys(_domUtils).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function () {
-      return _domUtils[key];
-    }
-  });
-});
-
-var _functionUtils = require("./functionUtils");
-
-Object.keys(_functionUtils).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function () {
-      return _functionUtils[key];
-    }
-  });
-});
-
-var _jsUtils = require("./jsUtils");
-
-Object.keys(_jsUtils).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function () {
-      return _jsUtils[key];
-    }
-  });
-});
-
-var _reactUtils = require("./reactUtils");
-
-Object.keys(_reactUtils).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function () {
-      return _reactUtils[key];
-    }
-  });
-});
-
-var _safeInvokeMember = require("./safeInvokeMember");
-
-Object.keys(_safeInvokeMember).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function () {
-      return _safeInvokeMember[key];
-    }
-  });
-});
-
-var _refs = require("../refs");
-},{"./compareUtils":"node_modules/@blueprintjs/core/lib/esm/common/utils/compareUtils.js","./domUtils":"node_modules/@blueprintjs/core/lib/esm/common/utils/domUtils.js","./functionUtils":"node_modules/@blueprintjs/core/lib/esm/common/utils/functionUtils.js","./jsUtils":"node_modules/@blueprintjs/core/lib/esm/common/utils/jsUtils.js","./reactUtils":"node_modules/@blueprintjs/core/lib/esm/common/utils/reactUtils.js","./safeInvokeMember":"node_modules/@blueprintjs/core/lib/esm/common/utils/safeInvokeMember.js","../refs":"node_modules/@blueprintjs/core/lib/esm/common/refs.js"}],"node_modules/@blueprintjs/core/lib/esm/common/abstractComponent.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.AbstractComponent = void 0;
-
-var _tslib = require("tslib");
-
-var React = _interopRequireWildcard(require("react"));
-
-var _utils = require("./utils");
-
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-
-/*
- * Copyright 2015 Palantir Technologies, Inc. All rights reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-/**
- * An abstract component that Blueprint components can extend
- * in order to add some common functionality like runtime props validation.
- * @deprecated componentWillReceiveProps is deprecated in React 16.9; use AbstractComponent2 instead
- */
-var AbstractComponent =
-/** @class */
-function (_super) {
-  (0, _tslib.__extends)(AbstractComponent, _super);
-
-  function AbstractComponent(props, context) {
-    var _this = _super.call(this, props, context) || this; // Not bothering to remove entries when their timeouts finish because clearing invalid ID is a no-op
-
-
-    _this.timeoutIds = [];
-    /**
-     * Clear all known timeouts.
-     */
-
-    _this.clearTimeouts = function () {
-      if (_this.timeoutIds.length > 0) {
-        for (var _i = 0, _a = _this.timeoutIds; _i < _a.length; _i++) {
-          var timeoutId = _a[_i];
-          window.clearTimeout(timeoutId);
-        }
-
-        _this.timeoutIds = [];
-      }
-    };
-
-    if (!(0, _utils.isNodeEnv)("production")) {
-      _this.validateProps(_this.props);
-    }
-
-    return _this;
-  }
-
-  AbstractComponent.prototype.componentWillReceiveProps = function (nextProps) {
-    if (!(0, _utils.isNodeEnv)("production")) {
-      this.validateProps(nextProps);
-    }
-  };
-
-  AbstractComponent.prototype.componentWillUnmount = function () {
-    this.clearTimeouts();
-  };
-  /**
-   * Set a timeout and remember its ID.
-   * All stored timeouts will be cleared when component unmounts.
-   * @returns a "cancel" function that will clear timeout when invoked.
-   */
-
-
-  AbstractComponent.prototype.setTimeout = function (callback, timeout) {
-    var handle = window.setTimeout(callback, timeout);
-    this.timeoutIds.push(handle);
-    return function () {
-      return window.clearTimeout(handle);
-    };
-  };
-  /**
-   * Ensures that the props specified for a component are valid.
-   * Implementations should check that props are valid and usually throw an Error if they are not.
-   * Implementations should not duplicate checks that the type system already guarantees.
-   *
-   * This method should be used instead of React's
-   * [propTypes](https://facebook.github.io/react/docs/reusable-components.html#prop-validation) feature.
-   * Like propTypes, these runtime checks run only in development mode.
-   */
-
-
-  AbstractComponent.prototype.validateProps = function (_) {// implement in subclass
-  };
-
-  return AbstractComponent;
-}(React.Component);
-
-exports.AbstractComponent = AbstractComponent;
-},{"tslib":"node_modules/tslib/tslib.es6.js","react":"node_modules/react/index.js","./utils":"node_modules/@blueprintjs/core/lib/esm/common/utils/index.js"}],"node_modules/@blueprintjs/core/lib/esm/common/abstractComponent2.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.AbstractComponent2 = void 0;
-
-var _tslib = require("tslib");
-
-var React = _interopRequireWildcard(require("react"));
-
-var _utils = require("./utils");
-
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-
-/*
- * Copyright 2019 Palantir Technologies, Inc. All rights reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-/**
- * An abstract component that Blueprint components can extend
- * in order to add some common functionality like runtime props validation.
- */
-// eslint-disable-next-line @typescript-eslint/ban-types
-var AbstractComponent2 =
-/** @class */
-function (_super) {
-  (0, _tslib.__extends)(AbstractComponent2, _super);
-
-  function AbstractComponent2(props, context) {
-    var _this = _super.call(this, props, context) || this; // Not bothering to remove entries when their timeouts finish because clearing invalid ID is a no-op
-
-
-    _this.timeoutIds = [];
-    _this.requestIds = [];
-    /**
-     * Clear all known timeouts.
-     */
-
-    _this.clearTimeouts = function () {
-      if (_this.timeoutIds.length > 0) {
-        for (var _i = 0, _a = _this.timeoutIds; _i < _a.length; _i++) {
-          var timeoutId = _a[_i];
-          window.clearTimeout(timeoutId);
-        }
-
-        _this.timeoutIds = [];
-      }
-    };
-    /**
-     * Clear all known animation frame requests.
-     */
-
-
-    _this.cancelAnimationFrames = function () {
-      if (_this.requestIds.length > 0) {
-        for (var _i = 0, _a = _this.requestIds; _i < _a.length; _i++) {
-          var requestId = _a[_i];
-          window.cancelAnimationFrame(requestId);
-        }
-
-        _this.requestIds = [];
-      }
-    };
-
-    if (!(0, _utils.isNodeEnv)("production")) {
-      _this.validateProps(_this.props);
-    }
-
-    return _this;
-  }
-
-  AbstractComponent2.prototype.componentDidUpdate = function (_prevProps, _prevState, _snapshot) {
-    if (!(0, _utils.isNodeEnv)("production")) {
-      this.validateProps(this.props);
-    }
-  };
-
-  AbstractComponent2.prototype.componentWillUnmount = function () {
-    this.clearTimeouts();
-    this.cancelAnimationFrames();
-  };
-  /**
-   * Request an animation frame and remember its ID.
-   * All pending requests will be canceled when component unmounts.
-   * @returns a "cancel" function that will cancel the request when invoked.
-   */
-
-
-  AbstractComponent2.prototype.requestAnimationFrame = function (callback) {
-    var handle = window.requestAnimationFrame(callback);
-    this.requestIds.push(handle);
-    return function () {
-      return window.cancelAnimationFrame(handle);
-    };
-  };
-  /**
-   * Set a timeout and remember its ID.
-   * All stored timeouts will be cleared when component unmounts.
-   * @returns a "cancel" function that will clear timeout when invoked.
-   */
-
-
-  AbstractComponent2.prototype.setTimeout = function (callback, timeout) {
-    var handle = window.setTimeout(callback, timeout);
-    this.timeoutIds.push(handle);
-    return function () {
-      return window.clearTimeout(handle);
-    };
-  };
-  /**
-   * Ensures that the props specified for a component are valid.
-   * Implementations should check that props are valid and usually throw an Error if they are not.
-   * Implementations should not duplicate checks that the type system already guarantees.
-   *
-   * This method should be used instead of React's
-   * [propTypes](https://facebook.github.io/react/docs/reusable-components.html#prop-validation) feature.
-   * Like propTypes, these runtime checks run only in development mode.
-   */
-
-
-  AbstractComponent2.prototype.validateProps = function (_props) {// implement in subclass
-  };
-
-  return AbstractComponent2;
-}(React.Component);
-
-exports.AbstractComponent2 = AbstractComponent2;
-},{"tslib":"node_modules/tslib/tslib.es6.js","react":"node_modules/react/index.js","./utils":"node_modules/@blueprintjs/core/lib/esm/common/utils/index.js"}],"node_modules/@blueprintjs/core/lib/esm/common/abstractPureComponent.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.AbstractPureComponent = void 0;
-
-var _tslib = require("tslib");
-
-var React = _interopRequireWildcard(require("react"));
-
-var _utils = require("./utils");
-
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-
-/*
- * Copyright 2015 Palantir Technologies, Inc. All rights reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-/**
- * An abstract component that Blueprint components can extend
- * in order to add some common functionality like runtime props validation.
- * @deprecated componentWillReceiveProps is deprecated in React 16.9; use AbstractPureComponent2 instead
- */
-// eslint-disable-next-line @typescript-eslint/ban-types
-var AbstractPureComponent =
-/** @class */
-function (_super) {
-  (0, _tslib.__extends)(AbstractPureComponent, _super);
-
-  function AbstractPureComponent(props, context) {
-    var _this = _super.call(this, props, context) || this; // Not bothering to remove entries when their timeouts finish because clearing invalid ID is a no-op
-
-
-    _this.timeoutIds = [];
-    /**
-     * Clear all known timeouts.
-     */
-
-    _this.clearTimeouts = function () {
-      if (_this.timeoutIds.length > 0) {
-        for (var _i = 0, _a = _this.timeoutIds; _i < _a.length; _i++) {
-          var timeoutId = _a[_i];
-          window.clearTimeout(timeoutId);
-        }
-
-        _this.timeoutIds = [];
-      }
-    };
-
-    if (!(0, _utils.isNodeEnv)("production")) {
-      _this.validateProps(_this.props);
-    }
-
-    return _this;
-  }
-
-  AbstractPureComponent.prototype.componentWillReceiveProps = function (nextProps) {
-    if (!(0, _utils.isNodeEnv)("production")) {
-      this.validateProps(nextProps);
-    }
-  };
-
-  AbstractPureComponent.prototype.componentWillUnmount = function () {
-    this.clearTimeouts();
-  };
-  /**
-   * Set a timeout and remember its ID.
-   * All stored timeouts will be cleared when component unmounts.
-   * @returns a "cancel" function that will clear timeout when invoked.
-   */
-
-
-  AbstractPureComponent.prototype.setTimeout = function (callback, timeout) {
-    var handle = window.setTimeout(callback, timeout);
-    this.timeoutIds.push(handle);
-    return function () {
-      return window.clearTimeout(handle);
-    };
-  };
-  /**
-   * Ensures that the props specified for a component are valid.
-   * Implementations should check that props are valid and usually throw an Error if they are not.
-   * Implementations should not duplicate checks that the type system already guarantees.
-   *
-   * This method should be used instead of React's
-   * [propTypes](https://facebook.github.io/react/docs/reusable-components.html#prop-validation) feature.
-   * Like propTypes, these runtime checks run only in development mode.
-   */
-
-
-  AbstractPureComponent.prototype.validateProps = function (_props) {// implement in subclass
-  };
-
-  return AbstractPureComponent;
-}(React.PureComponent);
-
-exports.AbstractPureComponent = AbstractPureComponent;
-},{"tslib":"node_modules/tslib/tslib.es6.js","react":"node_modules/react/index.js","./utils":"node_modules/@blueprintjs/core/lib/esm/common/utils/index.js"}],"node_modules/@blueprintjs/core/lib/esm/common/abstractPureComponent2.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.AbstractPureComponent2 = void 0;
-
-var _tslib = require("tslib");
-
-var React = _interopRequireWildcard(require("react"));
-
-var _utils = require("./utils");
-
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-
-/*
- * Copyright 2019 Palantir Technologies, Inc. All rights reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-/**
- * An abstract component that Blueprint components can extend
- * in order to add some common functionality like runtime props validation.
- */
-// eslint-disable-next-line @typescript-eslint/ban-types
-var AbstractPureComponent2 =
-/** @class */
-function (_super) {
-  (0, _tslib.__extends)(AbstractPureComponent2, _super);
-
-  function AbstractPureComponent2(props, context) {
-    var _this = _super.call(this, props, context) || this; // Not bothering to remove entries when their timeouts finish because clearing invalid ID is a no-op
-
-
-    _this.timeoutIds = [];
-    _this.requestIds = [];
-    /**
-     * Clear all known timeouts.
-     */
-
-    _this.clearTimeouts = function () {
-      if (_this.timeoutIds.length > 0) {
-        for (var _i = 0, _a = _this.timeoutIds; _i < _a.length; _i++) {
-          var timeoutId = _a[_i];
-          window.clearTimeout(timeoutId);
-        }
-
-        _this.timeoutIds = [];
-      }
-    };
-    /**
-     * Clear all known animation frame requests.
-     */
-
-
-    _this.cancelAnimationFrames = function () {
-      if (_this.requestIds.length > 0) {
-        for (var _i = 0, _a = _this.requestIds; _i < _a.length; _i++) {
-          var requestId = _a[_i];
-          window.cancelAnimationFrame(requestId);
-        }
-
-        _this.requestIds = [];
-      }
-    };
-
-    if (!(0, _utils.isNodeEnv)("production")) {
-      _this.validateProps(_this.props);
-    }
-
-    return _this;
-  }
-
-  AbstractPureComponent2.prototype.componentDidUpdate = function (_prevProps, _prevState, _snapshot) {
-    if (!(0, _utils.isNodeEnv)("production")) {
-      this.validateProps(this.props);
-    }
-  };
-
-  AbstractPureComponent2.prototype.componentWillUnmount = function () {
-    this.clearTimeouts();
-    this.cancelAnimationFrames();
-  };
-  /**
-   * Request an animation frame and remember its ID.
-   * All pending requests will be canceled when component unmounts.
-   * @returns a "cancel" function that will cancel the request when invoked.
-   */
-
-
-  AbstractPureComponent2.prototype.requestAnimationFrame = function (callback) {
-    var handle = window.requestAnimationFrame(callback);
-    this.requestIds.push(handle);
-    return function () {
-      return window.cancelAnimationFrame(handle);
-    };
-  };
-  /**
-   * Set a timeout and remember its ID.
-   * All pending timeouts will be cleared when component unmounts.
-   * @returns a "cancel" function that will clear timeout when invoked.
-   */
-
-
-  AbstractPureComponent2.prototype.setTimeout = function (callback, timeout) {
-    var handle = window.setTimeout(callback, timeout);
-    this.timeoutIds.push(handle);
-    return function () {
-      return window.clearTimeout(handle);
-    };
-  };
-  /**
-   * Ensures that the props specified for a component are valid.
-   * Implementations should check that props are valid and usually throw an Error if they are not.
-   * Implementations should not duplicate checks that the type system already guarantees.
-   *
-   * This method should be used instead of React's
-   * [propTypes](https://facebook.github.io/react/docs/reusable-components.html#prop-validation) feature.
-   * Like propTypes, these runtime checks run only in development mode.
-   */
-
-
-  AbstractPureComponent2.prototype.validateProps = function (_props) {// implement in subclass
-  };
-
-  return AbstractPureComponent2;
-}(React.PureComponent);
-
-exports.AbstractPureComponent2 = AbstractPureComponent2;
-},{"tslib":"node_modules/tslib/tslib.es6.js","react":"node_modules/react/index.js","./utils":"node_modules/@blueprintjs/core/lib/esm/common/utils/index.js"}],"node_modules/@blueprintjs/core/lib/esm/common/boundary.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.Boundary = void 0;
-
-/*
- * Copyright 2018 Palantir Technologies, Inc. All rights reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-/** Boundary of a one-dimensional interval. */
-var Boundary = {
-  START: "start",
-  // tslint:disable-next-line:object-literal-sort-keys
-  END: "end"
-};
-exports.Boundary = Boundary;
-},{}],"node_modules/@blueprintjs/core/lib/esm/common/colors.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.Colors = void 0;
-
-/*
- * Copyright 2016 Palantir Technologies, Inc. All rights reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-var Colors = {
-  BLACK: "#10161A",
-  BLUE1: "#0E5A8A",
-  BLUE2: "#106BA3",
-  BLUE3: "#137CBD",
-  BLUE4: "#2B95D6",
-  BLUE5: "#48AFF0",
-  COBALT1: "#1F4B99",
-  COBALT2: "#2458B3",
-  COBALT3: "#2965CC",
-  COBALT4: "#4580E6",
-  COBALT5: "#669EFF",
-  DARK_GRAY1: "#182026",
-  DARK_GRAY2: "#202B33",
-  DARK_GRAY3: "#293742",
-  DARK_GRAY4: "#30404D",
-  DARK_GRAY5: "#394B59",
-  FOREST1: "#1D7324",
-  FOREST2: "#238C2C",
-  FOREST3: "#29A634",
-  FOREST4: "#43BF4D",
-  FOREST5: "#62D96B",
-  GOLD1: "#A67908",
-  GOLD2: "#BF8C0A",
-  GOLD3: "#D99E0B",
-  GOLD4: "#F2B824",
-  GOLD5: "#FFC940",
-  GRAY1: "#5C7080",
-  GRAY2: "#738694",
-  GRAY3: "#8A9BA8",
-  GRAY4: "#A7B6C2",
-  GRAY5: "#BFCCD6",
-  GREEN1: "#0A6640",
-  GREEN2: "#0D8050",
-  GREEN3: "#0F9960",
-  GREEN4: "#15B371",
-  GREEN5: "#3DCC91",
-  INDIGO1: "#5642A6",
-  INDIGO2: "#634DBF",
-  INDIGO3: "#7157D9",
-  INDIGO4: "#9179F2",
-  INDIGO5: "#AD99FF",
-  LIGHT_GRAY1: "#CED9E0",
-  LIGHT_GRAY2: "#D8E1E8",
-  LIGHT_GRAY3: "#E1E8ED",
-  LIGHT_GRAY4: "#EBF1F5",
-  LIGHT_GRAY5: "#F5F8FA",
-  LIME1: "#728C23",
-  LIME2: "#87A629",
-  LIME3: "#9BBF30",
-  LIME4: "#B6D94C",
-  LIME5: "#D1F26D",
-  ORANGE1: "#A66321",
-  ORANGE2: "#BF7326",
-  ORANGE3: "#D9822B",
-  ORANGE4: "#F29D49",
-  ORANGE5: "#FFB366",
-  RED1: "#A82A2A",
-  RED2: "#C23030",
-  RED3: "#DB3737",
-  RED4: "#F55656",
-  RED5: "#FF7373",
-  ROSE1: "#A82255",
-  ROSE2: "#C22762",
-  ROSE3: "#DB2C6F",
-  ROSE4: "#F5498B",
-  ROSE5: "#FF66A1",
-  SEPIA1: "#63411E",
-  SEPIA2: "#7D5125",
-  SEPIA3: "#96622D",
-  SEPIA4: "#B07B46",
-  SEPIA5: "#C99765",
-  TURQUOISE1: "#008075",
-  TURQUOISE2: "#00998C",
-  TURQUOISE3: "#00B3A4",
-  TURQUOISE4: "#14CCBD",
-  TURQUOISE5: "#2EE6D6",
-  VERMILION1: "#9E2B0E",
-  VERMILION2: "#B83211",
-  VERMILION3: "#D13913",
-  VERMILION4: "#EB532D",
-  VERMILION5: "#FF6E4A",
-  VIOLET1: "#5C255C",
-  VIOLET2: "#752F75",
-  VIOLET3: "#8F398F",
-  VIOLET4: "#A854A8",
-  VIOLET5: "#C274C2",
-  WHITE: "#FFFFFF"
-};
-exports.Colors = Colors;
-},{}],"node_modules/@blueprintjs/core/lib/esm/common/constructor.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-},{}],"node_modules/@blueprintjs/core/lib/esm/common/props.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.removeNonHTMLProps = removeNonHTMLProps;
-exports.DISPLAYNAME_PREFIX = void 0;
-
-var _tslib = require("tslib");
-
-/*
- * Copyright 2015 Palantir Technologies, Inc. All rights reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-var DISPLAYNAME_PREFIX = "Blueprint3";
-/** A collection of curated prop keys used across our Components which are not valid HTMLElement props. */
-
-exports.DISPLAYNAME_PREFIX = DISPLAYNAME_PREFIX;
-var INVALID_PROPS = ["active", "alignText", "containerRef", "current", "elementRef", "fill", "icon", "inputRef", "intent", "inline", "large", "loading", "leftElement", "leftIcon", "minimal", "onRemove", "outlined", "panel", "panelClassName", "popoverProps", "rightElement", "rightIcon", "round", "small", "text"];
-/**
- * Typically applied to HTMLElements to filter out disallowed props. When applied to a Component,
- * can filter props from being passed down to the children. Can also filter by a combined list of
- * supplied prop keys and the denylist (only appropriate for HTMLElements).
- * @param props The original props object to filter down.
- * @param {string[]} invalidProps If supplied, overwrites the default denylist.
- * @param {boolean} shouldMerge If true, will merge supplied invalidProps and denylist together.
- */
-
-function removeNonHTMLProps(props, invalidProps, shouldMerge) {
-  if (invalidProps === void 0) {
-    invalidProps = INVALID_PROPS;
-  }
-
-  if (shouldMerge === void 0) {
-    shouldMerge = false;
-  }
-
-  if (shouldMerge) {
-    invalidProps = invalidProps.concat(INVALID_PROPS);
-  }
-
-  return invalidProps.reduce(function (prev, curr) {
-    // Props with hyphens (e.g. data-*) are always considered html props
-    if (curr.indexOf("-") !== -1) {
-      return prev;
-    }
-
-    if (prev.hasOwnProperty(curr)) {
-      delete prev[curr];
-    }
-
-    return prev;
-  }, (0, _tslib.__assign)({}, props));
-}
-},{"tslib":"node_modules/tslib/tslib.es6.js"}],"node_modules/@blueprintjs/core/lib/esm/common/keys.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.isKeyboardClick = isKeyboardClick;
-exports.DELETE = exports.ARROW_DOWN = exports.ARROW_RIGHT = exports.ARROW_UP = exports.ARROW_LEFT = exports.SPACE = exports.ESCAPE = exports.SHIFT = exports.ENTER = exports.TAB = exports.BACKSPACE = void 0;
-
-/*
- * Copyright 2015 Palantir Technologies, Inc. All rights reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-var BACKSPACE = 8;
-exports.BACKSPACE = BACKSPACE;
-var TAB = 9;
-exports.TAB = TAB;
-var ENTER = 13;
-exports.ENTER = ENTER;
-var SHIFT = 16;
-exports.SHIFT = SHIFT;
-var ESCAPE = 27;
-exports.ESCAPE = ESCAPE;
-var SPACE = 32;
-exports.SPACE = SPACE;
-var ARROW_LEFT = 37;
-exports.ARROW_LEFT = ARROW_LEFT;
-var ARROW_UP = 38;
-exports.ARROW_UP = ARROW_UP;
-var ARROW_RIGHT = 39;
-exports.ARROW_RIGHT = ARROW_RIGHT;
-var ARROW_DOWN = 40;
-exports.ARROW_DOWN = ARROW_DOWN;
-var DELETE = 46;
-/** Returns whether the key code is `enter` or `space`, the two keys that can click a button. */
-
-exports.DELETE = DELETE;
-
-function isKeyboardClick(keyCode) {
-  return keyCode === ENTER || keyCode === SPACE;
-}
-},{}],"node_modules/@blueprintjs/core/lib/esm/common/index.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-var _exportNames = {
-  Classes: true,
-  Keys: true,
-  Utils: true
-};
-exports.Utils = exports.Keys = exports.Classes = void 0;
-
-var _abstractComponent = require("./abstractComponent");
-
-Object.keys(_abstractComponent).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function () {
-      return _abstractComponent[key];
-    }
-  });
-});
-
-var _abstractComponent2 = require("./abstractComponent2");
-
-Object.keys(_abstractComponent2).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function () {
-      return _abstractComponent2[key];
-    }
-  });
-});
-
-var _abstractPureComponent = require("./abstractPureComponent");
-
-Object.keys(_abstractPureComponent).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function () {
-      return _abstractPureComponent[key];
-    }
-  });
-});
-
-var _abstractPureComponent2 = require("./abstractPureComponent2");
-
-Object.keys(_abstractPureComponent2).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function () {
-      return _abstractPureComponent2[key];
-    }
-  });
-});
-
-var _alignment = require("./alignment");
-
-Object.keys(_alignment).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function () {
-      return _alignment[key];
-    }
-  });
-});
-
-var _boundary = require("./boundary");
-
-Object.keys(_boundary).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function () {
-      return _boundary[key];
-    }
-  });
-});
-
-var _colors = require("./colors");
-
-Object.keys(_colors).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function () {
-      return _colors[key];
-    }
-  });
-});
-
-var _constructor = require("./constructor");
-
-Object.keys(_constructor).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function () {
-      return _constructor[key];
-    }
-  });
-});
-
-var _elevation = require("./elevation");
-
-Object.keys(_elevation).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function () {
-      return _elevation[key];
-    }
-  });
-});
-
-var _intent = require("./intent");
-
-Object.keys(_intent).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function () {
-      return _intent[key];
-    }
-  });
-});
-
-var _position = require("./position");
-
-Object.keys(_position).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function () {
-      return _position[key];
-    }
-  });
-});
-
-var _props = require("./props");
-
-Object.keys(_props).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function () {
-      return _props[key];
-    }
-  });
-});
-
-var _refs = require("./refs");
-
-Object.keys(_refs).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function () {
-      return _refs[key];
-    }
-  });
-});
-
-var Classes = _interopRequireWildcard(require("./classes"));
-
-exports.Classes = Classes;
-
-var Keys = _interopRequireWildcard(require("./keys"));
-
-exports.Keys = Keys;
-
-var Utils = _interopRequireWildcard(require("./utils"));
-
-exports.Utils = Utils;
-
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-},{"./abstractComponent":"node_modules/@blueprintjs/core/lib/esm/common/abstractComponent.js","./abstractComponent2":"node_modules/@blueprintjs/core/lib/esm/common/abstractComponent2.js","./abstractPureComponent":"node_modules/@blueprintjs/core/lib/esm/common/abstractPureComponent.js","./abstractPureComponent2":"node_modules/@blueprintjs/core/lib/esm/common/abstractPureComponent2.js","./alignment":"node_modules/@blueprintjs/core/lib/esm/common/alignment.js","./boundary":"node_modules/@blueprintjs/core/lib/esm/common/boundary.js","./colors":"node_modules/@blueprintjs/core/lib/esm/common/colors.js","./constructor":"node_modules/@blueprintjs/core/lib/esm/common/constructor.js","./elevation":"node_modules/@blueprintjs/core/lib/esm/common/elevation.js","./intent":"node_modules/@blueprintjs/core/lib/esm/common/intent.js","./position":"node_modules/@blueprintjs/core/lib/esm/common/position.js","./props":"node_modules/@blueprintjs/core/lib/esm/common/props.js","./refs":"node_modules/@blueprintjs/core/lib/esm/common/refs.js","./classes":"node_modules/@blueprintjs/core/lib/esm/common/classes.js","./keys":"node_modules/@blueprintjs/core/lib/esm/common/keys.js","./utils":"node_modules/@blueprintjs/core/lib/esm/common/utils/index.js"}],"node_modules/dom4/build/dom4.max.js":[function(require,module,exports) {
+},{"./functionUtils":"node_modules/@blueprintjs/core/lib/esm/common/utils/functionUtils.js"}],"node_modules/dom4/build/dom4.max.js":[function(require,module,exports) {
 var global = arguments[3];
 /*!
 Copyright (C) 2013-2015 by Andrea Giammarchi - @WebReflection
@@ -32521,6 +31447,7 @@ THE SOFTWARE.
         return find(this, querySelectorAll, css);
       };
       function find(node, method, css) {
+        if (node.type != document.ELEMENT_NODE) return method.call(node, css);
         node.setAttribute(dataScope, null);
         var result = method.call(
           node,
@@ -32762,6 +31689,7 @@ THE SOFTWARE.
 }(self));
 
 },{}],"node_modules/@blueprintjs/core/lib/esm/common/configureDom4.js":[function(require,module,exports) {
+"use strict";
 /*
  * Copyright 2019 Palantir Technologies, Inc. All rights reserved.
  *
@@ -32783,7 +31711,1255 @@ if (typeof require !== "undefined" && typeof window !== "undefined" && typeof do
     // we'll still need dom4 types for the TypeScript to compile, these are included in package.json
 }
 
-},{"dom4":"node_modules/dom4/build/dom4.max.js"}],"node_modules/classnames/index.js":[function(require,module,exports) {
+},{"dom4":"node_modules/dom4/build/dom4.max.js"}],"node_modules/@blueprintjs/core/lib/esm/common/utils/isDarkTheme.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.isDarkTheme = isDarkTheme;
+
+require("../configureDom4");
+
+var Classes = _interopRequireWildcard(require("../classes"));
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/*
+ * Copyright 2017 Palantir Technologies, Inc. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+function isDarkTheme(element) {
+  return element != null && element instanceof Element && element.closest("." + Classes.DARK) != null;
+}
+},{"../configureDom4":"node_modules/@blueprintjs/core/lib/esm/common/configureDom4.js","../classes":"node_modules/@blueprintjs/core/lib/esm/common/classes.js"}],"node_modules/@blueprintjs/core/lib/esm/common/refs.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.isRefObject = isRefObject;
+exports.isRefCallback = isRefCallback;
+exports.combineRefs = combineRefs;
+exports.mergeRefs = mergeRefs;
+exports.getRef = getRef;
+exports.setRef = setRef;
+exports.refHandler = refHandler;
+
+/*
+ * Copyright 2020 Palantir Technologies, Inc. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+function isRefObject(value) {
+  return value != null && typeof value.current !== "undefined";
+}
+
+function isRefCallback(value) {
+  return typeof value === "function";
+}
+
+function combineRefs(ref1, ref2) {
+  return mergeRefs(ref1, ref2);
+}
+
+function mergeRefs() {
+  var refs = [];
+
+  for (var _i = 0; _i < arguments.length; _i++) {
+    refs[_i] = arguments[_i];
+  }
+
+  return function (value) {
+    refs.forEach(function (ref) {
+      if (isRefCallback(ref)) {
+        ref(value);
+      } else if (isRefObject(ref)) {
+        ref.current = value;
+      }
+    });
+  };
+}
+
+function getRef(ref) {
+  var _a;
+
+  if (ref === null) {
+    return null;
+  }
+
+  return (_a = ref.current) !== null && _a !== void 0 ? _a : ref;
+}
+/**
+ * Assign the given ref to a target, either a React ref object or a callback which takes the ref as its first argument.
+ */
+
+
+function setRef(refTarget, ref) {
+  if (refTarget === undefined) {
+    return;
+  }
+
+  if (isRefObject(refTarget)) {
+    refTarget.current = ref;
+  } else if (isRefCallback(refTarget)) {
+    refTarget(ref);
+  }
+}
+
+function refHandler(refTargetParent, refTargetKey, refProp) {
+  if (isRefObject(refProp)) {
+    refTargetParent[refTargetKey] = refProp;
+    return refProp;
+  }
+
+  return function (ref) {
+    refTargetParent[refTargetKey] = ref;
+
+    if (isRefCallback(refProp)) {
+      refProp(ref);
+    }
+  };
+}
+},{}],"node_modules/@blueprintjs/core/lib/esm/common/utils/index.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var _exportNames = {
+  isDarkTheme: true,
+  setRef: true,
+  getRef: true
+};
+Object.defineProperty(exports, "isDarkTheme", {
+  enumerable: true,
+  get: function () {
+    return _isDarkTheme.isDarkTheme;
+  }
+});
+Object.defineProperty(exports, "setRef", {
+  enumerable: true,
+  get: function () {
+    return _refs.setRef;
+  }
+});
+Object.defineProperty(exports, "getRef", {
+  enumerable: true,
+  get: function () {
+    return _refs.getRef;
+  }
+});
+
+var _compareUtils = require("./compareUtils");
+
+Object.keys(_compareUtils).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _compareUtils[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _compareUtils[key];
+    }
+  });
+});
+
+var _domUtils = require("./domUtils");
+
+Object.keys(_domUtils).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _domUtils[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _domUtils[key];
+    }
+  });
+});
+
+var _functionUtils = require("./functionUtils");
+
+Object.keys(_functionUtils).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _functionUtils[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _functionUtils[key];
+    }
+  });
+});
+
+var _jsUtils = require("./jsUtils");
+
+Object.keys(_jsUtils).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _jsUtils[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _jsUtils[key];
+    }
+  });
+});
+
+var _reactUtils = require("./reactUtils");
+
+Object.keys(_reactUtils).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _reactUtils[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _reactUtils[key];
+    }
+  });
+});
+
+var _safeInvokeMember = require("./safeInvokeMember");
+
+Object.keys(_safeInvokeMember).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _safeInvokeMember[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _safeInvokeMember[key];
+    }
+  });
+});
+
+var _isDarkTheme = require("./isDarkTheme");
+
+var _refs = require("../refs");
+},{"./compareUtils":"node_modules/@blueprintjs/core/lib/esm/common/utils/compareUtils.js","./domUtils":"node_modules/@blueprintjs/core/lib/esm/common/utils/domUtils.js","./functionUtils":"node_modules/@blueprintjs/core/lib/esm/common/utils/functionUtils.js","./jsUtils":"node_modules/@blueprintjs/core/lib/esm/common/utils/jsUtils.js","./reactUtils":"node_modules/@blueprintjs/core/lib/esm/common/utils/reactUtils.js","./safeInvokeMember":"node_modules/@blueprintjs/core/lib/esm/common/utils/safeInvokeMember.js","./isDarkTheme":"node_modules/@blueprintjs/core/lib/esm/common/utils/isDarkTheme.js","../refs":"node_modules/@blueprintjs/core/lib/esm/common/refs.js"}],"node_modules/@blueprintjs/core/lib/esm/common/abstractComponent.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.AbstractComponent = void 0;
+
+var _tslib = require("tslib");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _utils = require("./utils");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/*
+ * Copyright 2015 Palantir Technologies, Inc. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/**
+ * An abstract component that Blueprint components can extend
+ * in order to add some common functionality like runtime props validation.
+ *
+ * @deprecated componentWillReceiveProps is deprecated in React 16.9; use AbstractComponent2 instead
+ */
+var AbstractComponent =
+/** @class */
+function (_super) {
+  (0, _tslib.__extends)(AbstractComponent, _super);
+
+  function AbstractComponent(props, context) {
+    var _this = _super.call(this, props, context) || this; // Not bothering to remove entries when their timeouts finish because clearing invalid ID is a no-op
+
+
+    _this.timeoutIds = [];
+    /**
+     * Clear all known timeouts.
+     */
+
+    _this.clearTimeouts = function () {
+      if (_this.timeoutIds.length > 0) {
+        for (var _i = 0, _a = _this.timeoutIds; _i < _a.length; _i++) {
+          var timeoutId = _a[_i];
+          window.clearTimeout(timeoutId);
+        }
+
+        _this.timeoutIds = [];
+      }
+    };
+
+    if (!(0, _utils.isNodeEnv)("production")) {
+      _this.validateProps(_this.props);
+    }
+
+    return _this;
+  }
+
+  AbstractComponent.prototype.componentWillReceiveProps = function (nextProps) {
+    if (!(0, _utils.isNodeEnv)("production")) {
+      this.validateProps(nextProps);
+    }
+  };
+
+  AbstractComponent.prototype.componentWillUnmount = function () {
+    this.clearTimeouts();
+  };
+  /**
+   * Set a timeout and remember its ID.
+   * All stored timeouts will be cleared when component unmounts.
+   *
+   * @returns a "cancel" function that will clear timeout when invoked.
+   */
+
+
+  AbstractComponent.prototype.setTimeout = function (callback, timeout) {
+    var handle = window.setTimeout(callback, timeout);
+    this.timeoutIds.push(handle);
+    return function () {
+      return window.clearTimeout(handle);
+    };
+  };
+  /**
+   * Ensures that the props specified for a component are valid.
+   * Implementations should check that props are valid and usually throw an Error if they are not.
+   * Implementations should not duplicate checks that the type system already guarantees.
+   *
+   * This method should be used instead of React's
+   * [propTypes](https://facebook.github.io/react/docs/reusable-components.html#prop-validation) feature.
+   * Like propTypes, these runtime checks run only in development mode.
+   */
+
+
+  AbstractComponent.prototype.validateProps = function (_) {// implement in subclass
+  };
+
+  return AbstractComponent;
+}(React.Component);
+
+exports.AbstractComponent = AbstractComponent;
+},{"tslib":"node_modules/tslib/tslib.es6.js","react":"node_modules/react/index.js","./utils":"node_modules/@blueprintjs/core/lib/esm/common/utils/index.js"}],"node_modules/@blueprintjs/core/lib/esm/common/abstractComponent2.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.AbstractComponent2 = void 0;
+
+var _tslib = require("tslib");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _utils = require("./utils");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/*
+ * Copyright 2019 Palantir Technologies, Inc. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/**
+ * An abstract component that Blueprint components can extend
+ * in order to add some common functionality like runtime props validation.
+ */
+// eslint-disable-next-line @typescript-eslint/ban-types
+var AbstractComponent2 =
+/** @class */
+function (_super) {
+  (0, _tslib.__extends)(AbstractComponent2, _super);
+
+  function AbstractComponent2(props, context) {
+    var _this = _super.call(this, props, context) || this; // Not bothering to remove entries when their timeouts finish because clearing invalid ID is a no-op
+
+
+    _this.timeoutIds = [];
+    _this.requestIds = [];
+    /**
+     * Clear all known timeouts.
+     */
+
+    _this.clearTimeouts = function () {
+      if (_this.timeoutIds.length > 0) {
+        for (var _i = 0, _a = _this.timeoutIds; _i < _a.length; _i++) {
+          var timeoutId = _a[_i];
+          window.clearTimeout(timeoutId);
+        }
+
+        _this.timeoutIds = [];
+      }
+    };
+    /**
+     * Clear all known animation frame requests.
+     */
+
+
+    _this.cancelAnimationFrames = function () {
+      if (_this.requestIds.length > 0) {
+        for (var _i = 0, _a = _this.requestIds; _i < _a.length; _i++) {
+          var requestId = _a[_i];
+          window.cancelAnimationFrame(requestId);
+        }
+
+        _this.requestIds = [];
+      }
+    };
+
+    if (!(0, _utils.isNodeEnv)("production")) {
+      _this.validateProps(_this.props);
+    }
+
+    return _this;
+  }
+
+  AbstractComponent2.prototype.componentDidUpdate = function (_prevProps, _prevState, _snapshot) {
+    if (!(0, _utils.isNodeEnv)("production")) {
+      this.validateProps(this.props);
+    }
+  };
+
+  AbstractComponent2.prototype.componentWillUnmount = function () {
+    this.clearTimeouts();
+    this.cancelAnimationFrames();
+  };
+  /**
+   * Request an animation frame and remember its ID.
+   * All pending requests will be canceled when component unmounts.
+   *
+   * @returns a "cancel" function that will cancel the request when invoked.
+   */
+
+
+  AbstractComponent2.prototype.requestAnimationFrame = function (callback) {
+    var handle = window.requestAnimationFrame(callback);
+    this.requestIds.push(handle);
+    return function () {
+      return window.cancelAnimationFrame(handle);
+    };
+  };
+  /**
+   * Set a timeout and remember its ID.
+   * All stored timeouts will be cleared when component unmounts.
+   *
+   * @returns a "cancel" function that will clear timeout when invoked.
+   */
+
+
+  AbstractComponent2.prototype.setTimeout = function (callback, timeout) {
+    var handle = window.setTimeout(callback, timeout);
+    this.timeoutIds.push(handle);
+    return function () {
+      return window.clearTimeout(handle);
+    };
+  };
+  /**
+   * Ensures that the props specified for a component are valid.
+   * Implementations should check that props are valid and usually throw an Error if they are not.
+   * Implementations should not duplicate checks that the type system already guarantees.
+   *
+   * This method should be used instead of React's
+   * [propTypes](https://facebook.github.io/react/docs/reusable-components.html#prop-validation) feature.
+   * Like propTypes, these runtime checks run only in development mode.
+   */
+
+
+  AbstractComponent2.prototype.validateProps = function (_props) {// implement in subclass
+  };
+
+  return AbstractComponent2;
+}(React.Component);
+
+exports.AbstractComponent2 = AbstractComponent2;
+},{"tslib":"node_modules/tslib/tslib.es6.js","react":"node_modules/react/index.js","./utils":"node_modules/@blueprintjs/core/lib/esm/common/utils/index.js"}],"node_modules/@blueprintjs/core/lib/esm/common/abstractPureComponent.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.AbstractPureComponent = void 0;
+
+var _tslib = require("tslib");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _utils = require("./utils");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/*
+ * Copyright 2015 Palantir Technologies, Inc. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/**
+ * An abstract component that Blueprint components can extend
+ * in order to add some common functionality like runtime props validation.
+ *
+ * @deprecated componentWillReceiveProps is deprecated in React 16.9; use AbstractPureComponent2 instead
+ */
+// eslint-disable-next-line @typescript-eslint/ban-types
+var AbstractPureComponent =
+/** @class */
+function (_super) {
+  (0, _tslib.__extends)(AbstractPureComponent, _super);
+
+  function AbstractPureComponent(props, context) {
+    var _this = _super.call(this, props, context) || this; // Not bothering to remove entries when their timeouts finish because clearing invalid ID is a no-op
+
+
+    _this.timeoutIds = [];
+    /**
+     * Clear all known timeouts.
+     */
+
+    _this.clearTimeouts = function () {
+      if (_this.timeoutIds.length > 0) {
+        for (var _i = 0, _a = _this.timeoutIds; _i < _a.length; _i++) {
+          var timeoutId = _a[_i];
+          window.clearTimeout(timeoutId);
+        }
+
+        _this.timeoutIds = [];
+      }
+    };
+
+    if (!(0, _utils.isNodeEnv)("production")) {
+      _this.validateProps(_this.props);
+    }
+
+    return _this;
+  }
+
+  AbstractPureComponent.prototype.componentWillReceiveProps = function (nextProps) {
+    if (!(0, _utils.isNodeEnv)("production")) {
+      this.validateProps(nextProps);
+    }
+  };
+
+  AbstractPureComponent.prototype.componentWillUnmount = function () {
+    this.clearTimeouts();
+  };
+  /**
+   * Set a timeout and remember its ID.
+   * All stored timeouts will be cleared when component unmounts.
+   *
+   * @returns a "cancel" function that will clear timeout when invoked.
+   */
+
+
+  AbstractPureComponent.prototype.setTimeout = function (callback, timeout) {
+    var handle = window.setTimeout(callback, timeout);
+    this.timeoutIds.push(handle);
+    return function () {
+      return window.clearTimeout(handle);
+    };
+  };
+  /**
+   * Ensures that the props specified for a component are valid.
+   * Implementations should check that props are valid and usually throw an Error if they are not.
+   * Implementations should not duplicate checks that the type system already guarantees.
+   *
+   * This method should be used instead of React's
+   * [propTypes](https://facebook.github.io/react/docs/reusable-components.html#prop-validation) feature.
+   * Like propTypes, these runtime checks run only in development mode.
+   */
+
+
+  AbstractPureComponent.prototype.validateProps = function (_props) {// implement in subclass
+  };
+
+  return AbstractPureComponent;
+}(React.PureComponent);
+
+exports.AbstractPureComponent = AbstractPureComponent;
+},{"tslib":"node_modules/tslib/tslib.es6.js","react":"node_modules/react/index.js","./utils":"node_modules/@blueprintjs/core/lib/esm/common/utils/index.js"}],"node_modules/@blueprintjs/core/lib/esm/common/abstractPureComponent2.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.AbstractPureComponent2 = void 0;
+
+var _tslib = require("tslib");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _utils = require("./utils");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/*
+ * Copyright 2019 Palantir Technologies, Inc. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/**
+ * An abstract component that Blueprint components can extend
+ * in order to add some common functionality like runtime props validation.
+ */
+// eslint-disable-next-line @typescript-eslint/ban-types
+var AbstractPureComponent2 =
+/** @class */
+function (_super) {
+  (0, _tslib.__extends)(AbstractPureComponent2, _super);
+
+  function AbstractPureComponent2(props, context) {
+    var _this = _super.call(this, props, context) || this; // Not bothering to remove entries when their timeouts finish because clearing invalid ID is a no-op
+
+
+    _this.timeoutIds = [];
+    _this.requestIds = [];
+    /**
+     * Clear all known timeouts.
+     */
+
+    _this.clearTimeouts = function () {
+      if (_this.timeoutIds.length > 0) {
+        for (var _i = 0, _a = _this.timeoutIds; _i < _a.length; _i++) {
+          var timeoutId = _a[_i];
+          window.clearTimeout(timeoutId);
+        }
+
+        _this.timeoutIds = [];
+      }
+    };
+    /**
+     * Clear all known animation frame requests.
+     */
+
+
+    _this.cancelAnimationFrames = function () {
+      if (_this.requestIds.length > 0) {
+        for (var _i = 0, _a = _this.requestIds; _i < _a.length; _i++) {
+          var requestId = _a[_i];
+          window.cancelAnimationFrame(requestId);
+        }
+
+        _this.requestIds = [];
+      }
+    };
+
+    if (!(0, _utils.isNodeEnv)("production")) {
+      _this.validateProps(_this.props);
+    }
+
+    return _this;
+  }
+
+  AbstractPureComponent2.prototype.componentDidUpdate = function (_prevProps, _prevState, _snapshot) {
+    if (!(0, _utils.isNodeEnv)("production")) {
+      this.validateProps(this.props);
+    }
+  };
+
+  AbstractPureComponent2.prototype.componentWillUnmount = function () {
+    this.clearTimeouts();
+    this.cancelAnimationFrames();
+  };
+  /**
+   * Request an animation frame and remember its ID.
+   * All pending requests will be canceled when component unmounts.
+   *
+   * @returns a "cancel" function that will cancel the request when invoked.
+   */
+
+
+  AbstractPureComponent2.prototype.requestAnimationFrame = function (callback) {
+    var handle = window.requestAnimationFrame(callback);
+    this.requestIds.push(handle);
+    return function () {
+      return window.cancelAnimationFrame(handle);
+    };
+  };
+  /**
+   * Set a timeout and remember its ID.
+   * All pending timeouts will be cleared when component unmounts.
+   *
+   * @returns a "cancel" function that will clear timeout when invoked.
+   */
+
+
+  AbstractPureComponent2.prototype.setTimeout = function (callback, timeout) {
+    var handle = window.setTimeout(callback, timeout);
+    this.timeoutIds.push(handle);
+    return function () {
+      return window.clearTimeout(handle);
+    };
+  };
+  /**
+   * Ensures that the props specified for a component are valid.
+   * Implementations should check that props are valid and usually throw an Error if they are not.
+   * Implementations should not duplicate checks that the type system already guarantees.
+   *
+   * This method should be used instead of React's
+   * [propTypes](https://facebook.github.io/react/docs/reusable-components.html#prop-validation) feature.
+   * Like propTypes, these runtime checks run only in development mode.
+   */
+
+
+  AbstractPureComponent2.prototype.validateProps = function (_props) {// implement in subclass
+  };
+
+  return AbstractPureComponent2;
+}(React.PureComponent);
+
+exports.AbstractPureComponent2 = AbstractPureComponent2;
+},{"tslib":"node_modules/tslib/tslib.es6.js","react":"node_modules/react/index.js","./utils":"node_modules/@blueprintjs/core/lib/esm/common/utils/index.js"}],"node_modules/@blueprintjs/core/lib/esm/common/boundary.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Boundary = void 0;
+
+/*
+ * Copyright 2018 Palantir Technologies, Inc. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/** Boundary of a one-dimensional interval. */
+var Boundary = {
+  START: "start",
+  // tslint:disable-next-line:object-literal-sort-keys
+  END: "end"
+};
+exports.Boundary = Boundary;
+},{}],"node_modules/@blueprintjs/core/lib/esm/common/colors.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Colors = void 0;
+
+/*
+ * Copyright 2016 Palantir Technologies, Inc. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+var Colors = {
+  BLACK: "#10161A",
+  BLUE1: "#0E5A8A",
+  BLUE2: "#106BA3",
+  BLUE3: "#137CBD",
+  BLUE4: "#2B95D6",
+  BLUE5: "#48AFF0",
+  COBALT1: "#1F4B99",
+  COBALT2: "#2458B3",
+  COBALT3: "#2965CC",
+  COBALT4: "#4580E6",
+  COBALT5: "#669EFF",
+  DARK_GRAY1: "#182026",
+  DARK_GRAY2: "#202B33",
+  DARK_GRAY3: "#293742",
+  DARK_GRAY4: "#30404D",
+  DARK_GRAY5: "#394B59",
+  FOREST1: "#1D7324",
+  FOREST2: "#238C2C",
+  FOREST3: "#29A634",
+  FOREST4: "#43BF4D",
+  FOREST5: "#62D96B",
+  GOLD1: "#A67908",
+  GOLD2: "#BF8C0A",
+  GOLD3: "#D99E0B",
+  GOLD4: "#F2B824",
+  GOLD5: "#FFC940",
+  GRAY1: "#5C7080",
+  GRAY2: "#738694",
+  GRAY3: "#8A9BA8",
+  GRAY4: "#A7B6C2",
+  GRAY5: "#BFCCD6",
+  GREEN1: "#0A6640",
+  GREEN2: "#0D8050",
+  GREEN3: "#0F9960",
+  GREEN4: "#15B371",
+  GREEN5: "#3DCC91",
+  INDIGO1: "#5642A6",
+  INDIGO2: "#634DBF",
+  INDIGO3: "#7157D9",
+  INDIGO4: "#9179F2",
+  INDIGO5: "#AD99FF",
+  LIGHT_GRAY1: "#CED9E0",
+  LIGHT_GRAY2: "#D8E1E8",
+  LIGHT_GRAY3: "#E1E8ED",
+  LIGHT_GRAY4: "#EBF1F5",
+  LIGHT_GRAY5: "#F5F8FA",
+  LIME1: "#728C23",
+  LIME2: "#87A629",
+  LIME3: "#9BBF30",
+  LIME4: "#B6D94C",
+  LIME5: "#D1F26D",
+  ORANGE1: "#A66321",
+  ORANGE2: "#BF7326",
+  ORANGE3: "#D9822B",
+  ORANGE4: "#F29D49",
+  ORANGE5: "#FFB366",
+  RED1: "#A82A2A",
+  RED2: "#C23030",
+  RED3: "#DB3737",
+  RED4: "#F55656",
+  RED5: "#FF7373",
+  ROSE1: "#A82255",
+  ROSE2: "#C22762",
+  ROSE3: "#DB2C6F",
+  ROSE4: "#F5498B",
+  ROSE5: "#FF66A1",
+  SEPIA1: "#63411E",
+  SEPIA2: "#7D5125",
+  SEPIA3: "#96622D",
+  SEPIA4: "#B07B46",
+  SEPIA5: "#C99765",
+  TURQUOISE1: "#008075",
+  TURQUOISE2: "#00998C",
+  TURQUOISE3: "#00B3A4",
+  TURQUOISE4: "#14CCBD",
+  TURQUOISE5: "#2EE6D6",
+  VERMILION1: "#9E2B0E",
+  VERMILION2: "#B83211",
+  VERMILION3: "#D13913",
+  VERMILION4: "#EB532D",
+  VERMILION5: "#FF6E4A",
+  VIOLET1: "#5C255C",
+  VIOLET2: "#752F75",
+  VIOLET3: "#8F398F",
+  VIOLET4: "#A854A8",
+  VIOLET5: "#C274C2",
+  WHITE: "#FFFFFF"
+};
+exports.Colors = Colors;
+},{}],"node_modules/@blueprintjs/core/lib/esm/common/constructor.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+},{}],"node_modules/@blueprintjs/core/lib/esm/common/props.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.removeNonHTMLProps = removeNonHTMLProps;
+exports.DISPLAYNAME_PREFIX = void 0;
+
+var _tslib = require("tslib");
+
+/*
+ * Copyright 2015 Palantir Technologies, Inc. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+var DISPLAYNAME_PREFIX = "Blueprint3";
+/** A collection of curated prop keys used across our Components which are not valid HTMLElement props. */
+
+exports.DISPLAYNAME_PREFIX = DISPLAYNAME_PREFIX;
+var INVALID_PROPS = ["active", "alignText", "asyncControl", "containerRef", "current", "elementRef", "fill", "icon", "inputRef", "intent", "inline", "large", "loading", "leftElement", "leftIcon", "minimal", "onRemove", "outlined", "panel", "panelClassName", "popoverProps", "rightElement", "rightIcon", "round", "small", "text"];
+/**
+ * Typically applied to HTMLElements to filter out disallowed props. When applied to a Component,
+ * can filter props from being passed down to the children. Can also filter by a combined list of
+ * supplied prop keys and the denylist (only appropriate for HTMLElements).
+ *
+ * @param props The original props object to filter down.
+ * @param {string[]} invalidProps If supplied, overwrites the default denylist.
+ * @param {boolean} shouldMerge If true, will merge supplied invalidProps and denylist together.
+ */
+
+function removeNonHTMLProps(props, invalidProps, shouldMerge) {
+  if (invalidProps === void 0) {
+    invalidProps = INVALID_PROPS;
+  }
+
+  if (shouldMerge === void 0) {
+    shouldMerge = false;
+  }
+
+  if (shouldMerge) {
+    invalidProps = invalidProps.concat(INVALID_PROPS);
+  }
+
+  return invalidProps.reduce(function (prev, curr) {
+    // Props with hyphens (e.g. data-*) are always considered html props
+    if (curr.indexOf("-") !== -1) {
+      return prev;
+    }
+
+    if (prev.hasOwnProperty(curr)) {
+      delete prev[curr];
+    }
+
+    return prev;
+  }, (0, _tslib.__assign)({}, props));
+}
+},{"tslib":"node_modules/tslib/tslib.es6.js"}],"node_modules/@blueprintjs/core/lib/esm/common/keys.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.isKeyboardClick = isKeyboardClick;
+exports.DELETE = exports.ARROW_DOWN = exports.ARROW_RIGHT = exports.ARROW_UP = exports.ARROW_LEFT = exports.SPACE = exports.ESCAPE = exports.SHIFT = exports.ENTER = exports.TAB = exports.BACKSPACE = void 0;
+
+/*
+ * Copyright 2015 Palantir Technologies, Inc. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+var BACKSPACE = 8;
+exports.BACKSPACE = BACKSPACE;
+var TAB = 9;
+exports.TAB = TAB;
+var ENTER = 13;
+exports.ENTER = ENTER;
+var SHIFT = 16;
+exports.SHIFT = SHIFT;
+var ESCAPE = 27;
+exports.ESCAPE = ESCAPE;
+var SPACE = 32;
+exports.SPACE = SPACE;
+var ARROW_LEFT = 37;
+exports.ARROW_LEFT = ARROW_LEFT;
+var ARROW_UP = 38;
+exports.ARROW_UP = ARROW_UP;
+var ARROW_RIGHT = 39;
+exports.ARROW_RIGHT = ARROW_RIGHT;
+var ARROW_DOWN = 40;
+exports.ARROW_DOWN = ARROW_DOWN;
+var DELETE = 46;
+/** Returns whether the key code is `enter` or `space`, the two keys that can click a button. */
+
+exports.DELETE = DELETE;
+
+function isKeyboardClick(keyCode) {
+  return keyCode === ENTER || keyCode === SPACE;
+}
+},{}],"node_modules/@blueprintjs/core/lib/esm/common/index.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var _exportNames = {
+  Classes: true,
+  Keys: true,
+  Utils: true
+};
+exports.Utils = exports.Keys = exports.Classes = void 0;
+
+var _abstractComponent = require("./abstractComponent");
+
+Object.keys(_abstractComponent).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _abstractComponent[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _abstractComponent[key];
+    }
+  });
+});
+
+var _abstractComponent2 = require("./abstractComponent2");
+
+Object.keys(_abstractComponent2).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _abstractComponent2[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _abstractComponent2[key];
+    }
+  });
+});
+
+var _abstractPureComponent = require("./abstractPureComponent");
+
+Object.keys(_abstractPureComponent).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _abstractPureComponent[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _abstractPureComponent[key];
+    }
+  });
+});
+
+var _abstractPureComponent2 = require("./abstractPureComponent2");
+
+Object.keys(_abstractPureComponent2).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _abstractPureComponent2[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _abstractPureComponent2[key];
+    }
+  });
+});
+
+var _alignment = require("./alignment");
+
+Object.keys(_alignment).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _alignment[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _alignment[key];
+    }
+  });
+});
+
+var _boundary = require("./boundary");
+
+Object.keys(_boundary).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _boundary[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _boundary[key];
+    }
+  });
+});
+
+var _colors = require("./colors");
+
+Object.keys(_colors).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _colors[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _colors[key];
+    }
+  });
+});
+
+var _constructor = require("./constructor");
+
+Object.keys(_constructor).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _constructor[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _constructor[key];
+    }
+  });
+});
+
+var _elevation = require("./elevation");
+
+Object.keys(_elevation).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _elevation[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _elevation[key];
+    }
+  });
+});
+
+var _intent = require("./intent");
+
+Object.keys(_intent).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _intent[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _intent[key];
+    }
+  });
+});
+
+var _position = require("./position");
+
+Object.keys(_position).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _position[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _position[key];
+    }
+  });
+});
+
+var _props = require("./props");
+
+Object.keys(_props).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _props[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _props[key];
+    }
+  });
+});
+
+var _refs = require("./refs");
+
+Object.keys(_refs).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _refs[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _refs[key];
+    }
+  });
+});
+
+var Classes = _interopRequireWildcard(require("./classes"));
+
+exports.Classes = Classes;
+
+var Keys = _interopRequireWildcard(require("./keys"));
+
+exports.Keys = Keys;
+
+var Utils = _interopRequireWildcard(require("./utils"));
+
+exports.Utils = Utils;
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+},{"./abstractComponent":"node_modules/@blueprintjs/core/lib/esm/common/abstractComponent.js","./abstractComponent2":"node_modules/@blueprintjs/core/lib/esm/common/abstractComponent2.js","./abstractPureComponent":"node_modules/@blueprintjs/core/lib/esm/common/abstractPureComponent.js","./abstractPureComponent2":"node_modules/@blueprintjs/core/lib/esm/common/abstractPureComponent2.js","./alignment":"node_modules/@blueprintjs/core/lib/esm/common/alignment.js","./boundary":"node_modules/@blueprintjs/core/lib/esm/common/boundary.js","./colors":"node_modules/@blueprintjs/core/lib/esm/common/colors.js","./constructor":"node_modules/@blueprintjs/core/lib/esm/common/constructor.js","./elevation":"node_modules/@blueprintjs/core/lib/esm/common/elevation.js","./intent":"node_modules/@blueprintjs/core/lib/esm/common/intent.js","./position":"node_modules/@blueprintjs/core/lib/esm/common/position.js","./props":"node_modules/@blueprintjs/core/lib/esm/common/props.js","./refs":"node_modules/@blueprintjs/core/lib/esm/common/refs.js","./classes":"node_modules/@blueprintjs/core/lib/esm/common/classes.js","./keys":"node_modules/@blueprintjs/core/lib/esm/common/keys.js","./utils":"node_modules/@blueprintjs/core/lib/esm/common/utils/index.js"}],"node_modules/classnames/index.js":[function(require,module,exports) {
 var define;
 /*!
   Copyright (c) 2017 Jed Watson.
@@ -33007,7 +33183,28 @@ function _extends() {
 }
 
 module.exports = _extends;
-},{}],"node_modules/@babel/runtime/helpers/assertThisInitialized.js":[function(require,module,exports) {
+},{}],"node_modules/@babel/runtime/helpers/setPrototypeOf.js":[function(require,module,exports) {
+function _setPrototypeOf(o, p) {
+  module.exports = _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+
+  return _setPrototypeOf(o, p);
+}
+
+module.exports = _setPrototypeOf;
+},{}],"node_modules/@babel/runtime/helpers/inheritsLoose.js":[function(require,module,exports) {
+var setPrototypeOf = require("./setPrototypeOf");
+
+function _inheritsLoose(subClass, superClass) {
+  subClass.prototype = Object.create(superClass.prototype);
+  subClass.prototype.constructor = subClass;
+  setPrototypeOf(subClass, superClass);
+}
+
+module.exports = _inheritsLoose;
+},{"./setPrototypeOf":"node_modules/@babel/runtime/helpers/setPrototypeOf.js"}],"node_modules/@babel/runtime/helpers/assertThisInitialized.js":[function(require,module,exports) {
 function _assertThisInitialized(self) {
   if (self === void 0) {
     throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
@@ -33017,14 +33214,6 @@ function _assertThisInitialized(self) {
 }
 
 module.exports = _assertThisInitialized;
-},{}],"node_modules/@babel/runtime/helpers/inheritsLoose.js":[function(require,module,exports) {
-function _inheritsLoose(subClass, superClass) {
-  subClass.prototype = Object.create(superClass.prototype);
-  subClass.prototype.constructor = subClass;
-  subClass.__proto__ = superClass;
-}
-
-module.exports = _inheritsLoose;
 },{}],"node_modules/@babel/runtime/helpers/defineProperty.js":[function(require,module,exports) {
 function _defineProperty(obj, key, value) {
   if (key in obj) {
@@ -33042,1086 +33231,7 @@ function _defineProperty(obj, key, value) {
 }
 
 module.exports = _defineProperty;
-},{}],"node_modules/object-keys/isArguments.js":[function(require,module,exports) {
-'use strict';
-
-var toStr = Object.prototype.toString;
-
-module.exports = function isArguments(value) {
-  var str = toStr.call(value);
-  var isArgs = str === '[object Arguments]';
-
-  if (!isArgs) {
-    isArgs = str !== '[object Array]' && value !== null && typeof value === 'object' && typeof value.length === 'number' && value.length >= 0 && toStr.call(value.callee) === '[object Function]';
-  }
-
-  return isArgs;
-};
-},{}],"node_modules/object-keys/implementation.js":[function(require,module,exports) {
-'use strict';
-
-var keysShim;
-
-if (!Object.keys) {
-  // modified from https://github.com/es-shims/es5-shim
-  var has = Object.prototype.hasOwnProperty;
-  var toStr = Object.prototype.toString;
-
-  var isArgs = require('./isArguments'); // eslint-disable-line global-require
-
-
-  var isEnumerable = Object.prototype.propertyIsEnumerable;
-  var hasDontEnumBug = !isEnumerable.call({
-    toString: null
-  }, 'toString');
-  var hasProtoEnumBug = isEnumerable.call(function () {}, 'prototype');
-  var dontEnums = ['toString', 'toLocaleString', 'valueOf', 'hasOwnProperty', 'isPrototypeOf', 'propertyIsEnumerable', 'constructor'];
-
-  var equalsConstructorPrototype = function (o) {
-    var ctor = o.constructor;
-    return ctor && ctor.prototype === o;
-  };
-
-  var excludedKeys = {
-    $applicationCache: true,
-    $console: true,
-    $external: true,
-    $frame: true,
-    $frameElement: true,
-    $frames: true,
-    $innerHeight: true,
-    $innerWidth: true,
-    $onmozfullscreenchange: true,
-    $onmozfullscreenerror: true,
-    $outerHeight: true,
-    $outerWidth: true,
-    $pageXOffset: true,
-    $pageYOffset: true,
-    $parent: true,
-    $scrollLeft: true,
-    $scrollTop: true,
-    $scrollX: true,
-    $scrollY: true,
-    $self: true,
-    $webkitIndexedDB: true,
-    $webkitStorageInfo: true,
-    $window: true
-  };
-
-  var hasAutomationEqualityBug = function () {
-    /* global window */
-    if (typeof window === 'undefined') {
-      return false;
-    }
-
-    for (var k in window) {
-      try {
-        if (!excludedKeys['$' + k] && has.call(window, k) && window[k] !== null && typeof window[k] === 'object') {
-          try {
-            equalsConstructorPrototype(window[k]);
-          } catch (e) {
-            return true;
-          }
-        }
-      } catch (e) {
-        return true;
-      }
-    }
-
-    return false;
-  }();
-
-  var equalsConstructorPrototypeIfNotBuggy = function (o) {
-    /* global window */
-    if (typeof window === 'undefined' || !hasAutomationEqualityBug) {
-      return equalsConstructorPrototype(o);
-    }
-
-    try {
-      return equalsConstructorPrototype(o);
-    } catch (e) {
-      return false;
-    }
-  };
-
-  keysShim = function keys(object) {
-    var isObject = object !== null && typeof object === 'object';
-    var isFunction = toStr.call(object) === '[object Function]';
-    var isArguments = isArgs(object);
-    var isString = isObject && toStr.call(object) === '[object String]';
-    var theKeys = [];
-
-    if (!isObject && !isFunction && !isArguments) {
-      throw new TypeError('Object.keys called on a non-object');
-    }
-
-    var skipProto = hasProtoEnumBug && isFunction;
-
-    if (isString && object.length > 0 && !has.call(object, 0)) {
-      for (var i = 0; i < object.length; ++i) {
-        theKeys.push(String(i));
-      }
-    }
-
-    if (isArguments && object.length > 0) {
-      for (var j = 0; j < object.length; ++j) {
-        theKeys.push(String(j));
-      }
-    } else {
-      for (var name in object) {
-        if (!(skipProto && name === 'prototype') && has.call(object, name)) {
-          theKeys.push(String(name));
-        }
-      }
-    }
-
-    if (hasDontEnumBug) {
-      var skipConstructor = equalsConstructorPrototypeIfNotBuggy(object);
-
-      for (var k = 0; k < dontEnums.length; ++k) {
-        if (!(skipConstructor && dontEnums[k] === 'constructor') && has.call(object, dontEnums[k])) {
-          theKeys.push(dontEnums[k]);
-        }
-      }
-    }
-
-    return theKeys;
-  };
-}
-
-module.exports = keysShim;
-},{"./isArguments":"node_modules/object-keys/isArguments.js"}],"node_modules/object-keys/index.js":[function(require,module,exports) {
-'use strict';
-
-var slice = Array.prototype.slice;
-
-var isArgs = require('./isArguments');
-
-var origKeys = Object.keys;
-var keysShim = origKeys ? function keys(o) {
-  return origKeys(o);
-} : require('./implementation');
-var originalKeys = Object.keys;
-
-keysShim.shim = function shimObjectKeys() {
-  if (Object.keys) {
-    var keysWorksWithArguments = function () {
-      // Safari 5.0 bug
-      var args = Object.keys(arguments);
-      return args && args.length === arguments.length;
-    }(1, 2);
-
-    if (!keysWorksWithArguments) {
-      Object.keys = function keys(object) {
-        // eslint-disable-line func-name-matching
-        if (isArgs(object)) {
-          return originalKeys(slice.call(object));
-        }
-
-        return originalKeys(object);
-      };
-    }
-  } else {
-    Object.keys = keysShim;
-  }
-
-  return Object.keys || keysShim;
-};
-
-module.exports = keysShim;
-},{"./isArguments":"node_modules/object-keys/isArguments.js","./implementation":"node_modules/object-keys/implementation.js"}],"node_modules/is-arguments/index.js":[function(require,module,exports) {
-'use strict';
-
-var hasToStringTag = typeof Symbol === 'function' && typeof Symbol.toStringTag === 'symbol';
-var toStr = Object.prototype.toString;
-
-var isStandardArguments = function isArguments(value) {
-  if (hasToStringTag && value && typeof value === 'object' && Symbol.toStringTag in value) {
-    return false;
-  }
-
-  return toStr.call(value) === '[object Arguments]';
-};
-
-var isLegacyArguments = function isArguments(value) {
-  if (isStandardArguments(value)) {
-    return true;
-  }
-
-  return value !== null && typeof value === 'object' && typeof value.length === 'number' && value.length >= 0 && toStr.call(value) !== '[object Array]' && toStr.call(value.callee) === '[object Function]';
-};
-
-var supportsStandardArguments = function () {
-  return isStandardArguments(arguments);
-}();
-
-isStandardArguments.isLegacyArguments = isLegacyArguments; // for tests
-
-module.exports = supportsStandardArguments ? isStandardArguments : isLegacyArguments;
-},{}],"node_modules/define-properties/index.js":[function(require,module,exports) {
-'use strict';
-
-var keys = require('object-keys');
-
-var hasSymbols = typeof Symbol === 'function' && typeof Symbol('foo') === 'symbol';
-var toStr = Object.prototype.toString;
-var concat = Array.prototype.concat;
-var origDefineProperty = Object.defineProperty;
-
-var isFunction = function (fn) {
-  return typeof fn === 'function' && toStr.call(fn) === '[object Function]';
-};
-
-var arePropertyDescriptorsSupported = function () {
-  var obj = {};
-
-  try {
-    origDefineProperty(obj, 'x', {
-      enumerable: false,
-      value: obj
-    }); // eslint-disable-next-line no-unused-vars, no-restricted-syntax
-
-    for (var _ in obj) {
-      // jscs:ignore disallowUnusedVariables
-      return false;
-    }
-
-    return obj.x === obj;
-  } catch (e) {
-    /* this is IE 8. */
-    return false;
-  }
-};
-
-var supportsDescriptors = origDefineProperty && arePropertyDescriptorsSupported();
-
-var defineProperty = function (object, name, value, predicate) {
-  if (name in object && (!isFunction(predicate) || !predicate())) {
-    return;
-  }
-
-  if (supportsDescriptors) {
-    origDefineProperty(object, name, {
-      configurable: true,
-      enumerable: false,
-      value: value,
-      writable: true
-    });
-  } else {
-    object[name] = value;
-  }
-};
-
-var defineProperties = function (object, map) {
-  var predicates = arguments.length > 2 ? arguments[2] : {};
-  var props = keys(map);
-
-  if (hasSymbols) {
-    props = concat.call(props, Object.getOwnPropertySymbols(map));
-  }
-
-  for (var i = 0; i < props.length; i += 1) {
-    defineProperty(object, props[i], map[props[i]], predicates[props[i]]);
-  }
-};
-
-defineProperties.supportsDescriptors = !!supportsDescriptors;
-module.exports = defineProperties;
-},{"object-keys":"node_modules/object-keys/index.js"}],"node_modules/function-bind/implementation.js":[function(require,module,exports) {
-'use strict';
-
-/* eslint no-invalid-this: 1 */
-
-var ERROR_MESSAGE = 'Function.prototype.bind called on incompatible ';
-var slice = Array.prototype.slice;
-var toStr = Object.prototype.toString;
-var funcType = '[object Function]';
-
-module.exports = function bind(that) {
-    var target = this;
-    if (typeof target !== 'function' || toStr.call(target) !== funcType) {
-        throw new TypeError(ERROR_MESSAGE + target);
-    }
-    var args = slice.call(arguments, 1);
-
-    var bound;
-    var binder = function () {
-        if (this instanceof bound) {
-            var result = target.apply(
-                this,
-                args.concat(slice.call(arguments))
-            );
-            if (Object(result) === result) {
-                return result;
-            }
-            return this;
-        } else {
-            return target.apply(
-                that,
-                args.concat(slice.call(arguments))
-            );
-        }
-    };
-
-    var boundLength = Math.max(0, target.length - args.length);
-    var boundArgs = [];
-    for (var i = 0; i < boundLength; i++) {
-        boundArgs.push('$' + i);
-    }
-
-    bound = Function('binder', 'return function (' + boundArgs.join(',') + '){ return binder.apply(this,arguments); }')(binder);
-
-    if (target.prototype) {
-        var Empty = function Empty() {};
-        Empty.prototype = target.prototype;
-        bound.prototype = new Empty();
-        Empty.prototype = null;
-    }
-
-    return bound;
-};
-
-},{}],"node_modules/function-bind/index.js":[function(require,module,exports) {
-'use strict';
-
-var implementation = require('./implementation');
-
-module.exports = Function.prototype.bind || implementation;
-
-},{"./implementation":"node_modules/function-bind/implementation.js"}],"node_modules/has-symbols/shams.js":[function(require,module,exports) {
-'use strict';
-/* eslint complexity: [2, 18], max-statements: [2, 33] */
-
-module.exports = function hasSymbols() {
-  if (typeof Symbol !== 'function' || typeof Object.getOwnPropertySymbols !== 'function') {
-    return false;
-  }
-
-  if (typeof Symbol.iterator === 'symbol') {
-    return true;
-  }
-
-  var obj = {};
-  var sym = Symbol('test');
-  var symObj = Object(sym);
-
-  if (typeof sym === 'string') {
-    return false;
-  }
-
-  if (Object.prototype.toString.call(sym) !== '[object Symbol]') {
-    return false;
-  }
-
-  if (Object.prototype.toString.call(symObj) !== '[object Symbol]') {
-    return false;
-  } // temp disabled per https://github.com/ljharb/object.assign/issues/17
-  // if (sym instanceof Symbol) { return false; }
-  // temp disabled per https://github.com/WebReflection/get-own-property-symbols/issues/4
-  // if (!(symObj instanceof Symbol)) { return false; }
-  // if (typeof Symbol.prototype.toString !== 'function') { return false; }
-  // if (String(sym) !== Symbol.prototype.toString.call(sym)) { return false; }
-
-
-  var symVal = 42;
-  obj[sym] = symVal;
-
-  for (sym in obj) {
-    return false;
-  } // eslint-disable-line no-restricted-syntax
-
-
-  if (typeof Object.keys === 'function' && Object.keys(obj).length !== 0) {
-    return false;
-  }
-
-  if (typeof Object.getOwnPropertyNames === 'function' && Object.getOwnPropertyNames(obj).length !== 0) {
-    return false;
-  }
-
-  var syms = Object.getOwnPropertySymbols(obj);
-
-  if (syms.length !== 1 || syms[0] !== sym) {
-    return false;
-  }
-
-  if (!Object.prototype.propertyIsEnumerable.call(obj, sym)) {
-    return false;
-  }
-
-  if (typeof Object.getOwnPropertyDescriptor === 'function') {
-    var descriptor = Object.getOwnPropertyDescriptor(obj, sym);
-
-    if (descriptor.value !== symVal || descriptor.enumerable !== true) {
-      return false;
-    }
-  }
-
-  return true;
-};
-},{}],"node_modules/has-symbols/index.js":[function(require,module,exports) {
-var global = arguments[3];
-'use strict';
-
-var origSymbol = global.Symbol;
-
-var hasSymbolSham = require('./shams');
-
-module.exports = function hasNativeSymbols() {
-  if (typeof origSymbol !== 'function') {
-    return false;
-  }
-
-  if (typeof Symbol !== 'function') {
-    return false;
-  }
-
-  if (typeof origSymbol('foo') !== 'symbol') {
-    return false;
-  }
-
-  if (typeof Symbol('bar') !== 'symbol') {
-    return false;
-  }
-
-  return hasSymbolSham();
-};
-},{"./shams":"node_modules/has-symbols/shams.js"}],"node_modules/es-abstract/GetIntrinsic.js":[function(require,module,exports) {
-'use strict';
-/* globals
-	Atomics,
-	SharedArrayBuffer,
-*/
-
-var undefined;
-var $TypeError = TypeError;
-var $gOPD = Object.getOwnPropertyDescriptor;
-
-if ($gOPD) {
-  try {
-    $gOPD({}, '');
-  } catch (e) {
-    $gOPD = null; // this is IE 8, which has a broken gOPD
-  }
-}
-
-var throwTypeError = function () {
-  throw new $TypeError();
-};
-
-var ThrowTypeError = $gOPD ? function () {
-  try {
-    // eslint-disable-next-line no-unused-expressions, no-caller, no-restricted-properties
-    arguments.callee; // IE 8 does not throw here
-
-    return throwTypeError;
-  } catch (calleeThrows) {
-    try {
-      // IE 8 throws on Object.getOwnPropertyDescriptor(arguments, '')
-      return $gOPD(arguments, 'callee').get;
-    } catch (gOPDthrows) {
-      return throwTypeError;
-    }
-  }
-}() : throwTypeError;
-
-var hasSymbols = require('has-symbols')();
-
-var getProto = Object.getPrototypeOf || function (x) {
-  return x.__proto__;
-}; // eslint-disable-line no-proto
-
-
-var generator; // = function * () {};
-
-var generatorFunction = generator ? getProto(generator) : undefined;
-var asyncFn; // async function() {};
-
-var asyncFunction = asyncFn ? asyncFn.constructor : undefined;
-var asyncGen; // async function * () {};
-
-var asyncGenFunction = asyncGen ? getProto(asyncGen) : undefined;
-var asyncGenIterator = asyncGen ? asyncGen() : undefined;
-var TypedArray = typeof Uint8Array === 'undefined' ? undefined : getProto(Uint8Array);
-var INTRINSICS = {
-  '%Array%': Array,
-  '%ArrayBuffer%': typeof ArrayBuffer === 'undefined' ? undefined : ArrayBuffer,
-  '%ArrayBufferPrototype%': typeof ArrayBuffer === 'undefined' ? undefined : ArrayBuffer.prototype,
-  '%ArrayIteratorPrototype%': hasSymbols ? getProto([][Symbol.iterator]()) : undefined,
-  '%ArrayPrototype%': Array.prototype,
-  '%ArrayProto_entries%': Array.prototype.entries,
-  '%ArrayProto_forEach%': Array.prototype.forEach,
-  '%ArrayProto_keys%': Array.prototype.keys,
-  '%ArrayProto_values%': Array.prototype.values,
-  '%AsyncFromSyncIteratorPrototype%': undefined,
-  '%AsyncFunction%': asyncFunction,
-  '%AsyncFunctionPrototype%': asyncFunction ? asyncFunction.prototype : undefined,
-  '%AsyncGenerator%': asyncGen ? getProto(asyncGenIterator) : undefined,
-  '%AsyncGeneratorFunction%': asyncGenFunction,
-  '%AsyncGeneratorPrototype%': asyncGenFunction ? asyncGenFunction.prototype : undefined,
-  '%AsyncIteratorPrototype%': asyncGenIterator && hasSymbols && Symbol.asyncIterator ? asyncGenIterator[Symbol.asyncIterator]() : undefined,
-  '%Atomics%': typeof Atomics === 'undefined' ? undefined : Atomics,
-  '%Boolean%': Boolean,
-  '%BooleanPrototype%': Boolean.prototype,
-  '%DataView%': typeof DataView === 'undefined' ? undefined : DataView,
-  '%DataViewPrototype%': typeof DataView === 'undefined' ? undefined : DataView.prototype,
-  '%Date%': Date,
-  '%DatePrototype%': Date.prototype,
-  '%decodeURI%': decodeURI,
-  '%decodeURIComponent%': decodeURIComponent,
-  '%encodeURI%': encodeURI,
-  '%encodeURIComponent%': encodeURIComponent,
-  '%Error%': Error,
-  '%ErrorPrototype%': Error.prototype,
-  '%eval%': eval,
-  // eslint-disable-line no-eval
-  '%EvalError%': EvalError,
-  '%EvalErrorPrototype%': EvalError.prototype,
-  '%Float32Array%': typeof Float32Array === 'undefined' ? undefined : Float32Array,
-  '%Float32ArrayPrototype%': typeof Float32Array === 'undefined' ? undefined : Float32Array.prototype,
-  '%Float64Array%': typeof Float64Array === 'undefined' ? undefined : Float64Array,
-  '%Float64ArrayPrototype%': typeof Float64Array === 'undefined' ? undefined : Float64Array.prototype,
-  '%Function%': Function,
-  '%FunctionPrototype%': Function.prototype,
-  '%Generator%': generator ? getProto(generator()) : undefined,
-  '%GeneratorFunction%': generatorFunction,
-  '%GeneratorPrototype%': generatorFunction ? generatorFunction.prototype : undefined,
-  '%Int8Array%': typeof Int8Array === 'undefined' ? undefined : Int8Array,
-  '%Int8ArrayPrototype%': typeof Int8Array === 'undefined' ? undefined : Int8Array.prototype,
-  '%Int16Array%': typeof Int16Array === 'undefined' ? undefined : Int16Array,
-  '%Int16ArrayPrototype%': typeof Int16Array === 'undefined' ? undefined : Int8Array.prototype,
-  '%Int32Array%': typeof Int32Array === 'undefined' ? undefined : Int32Array,
-  '%Int32ArrayPrototype%': typeof Int32Array === 'undefined' ? undefined : Int32Array.prototype,
-  '%isFinite%': isFinite,
-  '%isNaN%': isNaN,
-  '%IteratorPrototype%': hasSymbols ? getProto(getProto([][Symbol.iterator]())) : undefined,
-  '%JSON%': typeof JSON === 'object' ? JSON : undefined,
-  '%JSONParse%': typeof JSON === 'object' ? JSON.parse : undefined,
-  '%Map%': typeof Map === 'undefined' ? undefined : Map,
-  '%MapIteratorPrototype%': typeof Map === 'undefined' || !hasSymbols ? undefined : getProto(new Map()[Symbol.iterator]()),
-  '%MapPrototype%': typeof Map === 'undefined' ? undefined : Map.prototype,
-  '%Math%': Math,
-  '%Number%': Number,
-  '%NumberPrototype%': Number.prototype,
-  '%Object%': Object,
-  '%ObjectPrototype%': Object.prototype,
-  '%ObjProto_toString%': Object.prototype.toString,
-  '%ObjProto_valueOf%': Object.prototype.valueOf,
-  '%parseFloat%': parseFloat,
-  '%parseInt%': parseInt,
-  '%Promise%': typeof Promise === 'undefined' ? undefined : Promise,
-  '%PromisePrototype%': typeof Promise === 'undefined' ? undefined : Promise.prototype,
-  '%PromiseProto_then%': typeof Promise === 'undefined' ? undefined : Promise.prototype.then,
-  '%Promise_all%': typeof Promise === 'undefined' ? undefined : Promise.all,
-  '%Promise_reject%': typeof Promise === 'undefined' ? undefined : Promise.reject,
-  '%Promise_resolve%': typeof Promise === 'undefined' ? undefined : Promise.resolve,
-  '%Proxy%': typeof Proxy === 'undefined' ? undefined : Proxy,
-  '%RangeError%': RangeError,
-  '%RangeErrorPrototype%': RangeError.prototype,
-  '%ReferenceError%': ReferenceError,
-  '%ReferenceErrorPrototype%': ReferenceError.prototype,
-  '%Reflect%': typeof Reflect === 'undefined' ? undefined : Reflect,
-  '%RegExp%': RegExp,
-  '%RegExpPrototype%': RegExp.prototype,
-  '%Set%': typeof Set === 'undefined' ? undefined : Set,
-  '%SetIteratorPrototype%': typeof Set === 'undefined' || !hasSymbols ? undefined : getProto(new Set()[Symbol.iterator]()),
-  '%SetPrototype%': typeof Set === 'undefined' ? undefined : Set.prototype,
-  '%SharedArrayBuffer%': typeof SharedArrayBuffer === 'undefined' ? undefined : SharedArrayBuffer,
-  '%SharedArrayBufferPrototype%': typeof SharedArrayBuffer === 'undefined' ? undefined : SharedArrayBuffer.prototype,
-  '%String%': String,
-  '%StringIteratorPrototype%': hasSymbols ? getProto(''[Symbol.iterator]()) : undefined,
-  '%StringPrototype%': String.prototype,
-  '%Symbol%': hasSymbols ? Symbol : undefined,
-  '%SymbolPrototype%': hasSymbols ? Symbol.prototype : undefined,
-  '%SyntaxError%': SyntaxError,
-  '%SyntaxErrorPrototype%': SyntaxError.prototype,
-  '%ThrowTypeError%': ThrowTypeError,
-  '%TypedArray%': TypedArray,
-  '%TypedArrayPrototype%': TypedArray ? TypedArray.prototype : undefined,
-  '%TypeError%': $TypeError,
-  '%TypeErrorPrototype%': $TypeError.prototype,
-  '%Uint8Array%': typeof Uint8Array === 'undefined' ? undefined : Uint8Array,
-  '%Uint8ArrayPrototype%': typeof Uint8Array === 'undefined' ? undefined : Uint8Array.prototype,
-  '%Uint8ClampedArray%': typeof Uint8ClampedArray === 'undefined' ? undefined : Uint8ClampedArray,
-  '%Uint8ClampedArrayPrototype%': typeof Uint8ClampedArray === 'undefined' ? undefined : Uint8ClampedArray.prototype,
-  '%Uint16Array%': typeof Uint16Array === 'undefined' ? undefined : Uint16Array,
-  '%Uint16ArrayPrototype%': typeof Uint16Array === 'undefined' ? undefined : Uint16Array.prototype,
-  '%Uint32Array%': typeof Uint32Array === 'undefined' ? undefined : Uint32Array,
-  '%Uint32ArrayPrototype%': typeof Uint32Array === 'undefined' ? undefined : Uint32Array.prototype,
-  '%URIError%': URIError,
-  '%URIErrorPrototype%': URIError.prototype,
-  '%WeakMap%': typeof WeakMap === 'undefined' ? undefined : WeakMap,
-  '%WeakMapPrototype%': typeof WeakMap === 'undefined' ? undefined : WeakMap.prototype,
-  '%WeakSet%': typeof WeakSet === 'undefined' ? undefined : WeakSet,
-  '%WeakSetPrototype%': typeof WeakSet === 'undefined' ? undefined : WeakSet.prototype
-};
-
-var bind = require('function-bind');
-
-var $replace = bind.call(Function.call, String.prototype.replace);
-/* adapted from https://github.com/lodash/lodash/blob/4.17.15/dist/lodash.js#L6735-L6744 */
-
-var rePropName = /[^%.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|%$))/g;
-var reEscapeChar = /\\(\\)?/g;
-/** Used to match backslashes in property paths. */
-
-var stringToPath = function stringToPath(string) {
-  var result = [];
-  $replace(string, rePropName, function (match, number, quote, subString) {
-    result[result.length] = quote ? $replace(subString, reEscapeChar, '$1') : number || match;
-  });
-  return result;
-};
-/* end adaptation */
-
-
-var getBaseIntrinsic = function getBaseIntrinsic(name, allowMissing) {
-  if (!(name in INTRINSICS)) {
-    throw new SyntaxError('intrinsic ' + name + ' does not exist!');
-  } // istanbul ignore if // hopefully this is impossible to test :-)
-
-
-  if (typeof INTRINSICS[name] === 'undefined' && !allowMissing) {
-    throw new $TypeError('intrinsic ' + name + ' exists, but is not available. Please file an issue!');
-  }
-
-  return INTRINSICS[name];
-};
-
-module.exports = function GetIntrinsic(name, allowMissing) {
-  if (typeof name !== 'string' || name.length === 0) {
-    throw new TypeError('intrinsic name must be a non-empty string');
-  }
-
-  if (arguments.length > 1 && typeof allowMissing !== 'boolean') {
-    throw new TypeError('"allowMissing" argument must be a boolean');
-  }
-
-  var parts = stringToPath(name);
-  var value = getBaseIntrinsic('%' + (parts.length > 0 ? parts[0] : '') + '%', allowMissing);
-
-  for (var i = 1; i < parts.length; i += 1) {
-    if (value != null) {
-      if ($gOPD && i + 1 >= parts.length) {
-        var desc = $gOPD(value, parts[i]);
-
-        if (!allowMissing && !(parts[i] in value)) {
-          throw new $TypeError('base intrinsic for ' + name + ' exists, but the property is not available.');
-        }
-
-        value = desc ? desc.get || desc.value : value[parts[i]];
-      } else {
-        value = value[parts[i]];
-      }
-    }
-  }
-
-  return value;
-};
-},{"has-symbols":"node_modules/has-symbols/index.js","function-bind":"node_modules/function-bind/index.js"}],"node_modules/es-abstract/helpers/callBind.js":[function(require,module,exports) {
-'use strict';
-
-var bind = require('function-bind');
-
-var GetIntrinsic = require('../GetIntrinsic');
-
-var $apply = GetIntrinsic('%Function.prototype.apply%');
-var $call = GetIntrinsic('%Function.prototype.call%');
-var $reflectApply = GetIntrinsic('%Reflect.apply%', true) || bind.call($call, $apply);
-
-module.exports = function callBind() {
-  return $reflectApply(bind, $call, arguments);
-};
-
-module.exports.apply = function applyBind() {
-  return $reflectApply(bind, $apply, arguments);
-};
-},{"function-bind":"node_modules/function-bind/index.js","../GetIntrinsic":"node_modules/es-abstract/GetIntrinsic.js"}],"node_modules/object-is/implementation.js":[function(require,module,exports) {
-'use strict';
-
-var numberIsNaN = function (value) {
-  return value !== value;
-};
-
-module.exports = function is(a, b) {
-  if (a === 0 && b === 0) {
-    return 1 / a === 1 / b;
-  }
-
-  if (a === b) {
-    return true;
-  }
-
-  if (numberIsNaN(a) && numberIsNaN(b)) {
-    return true;
-  }
-
-  return false;
-};
-},{}],"node_modules/object-is/polyfill.js":[function(require,module,exports) {
-'use strict';
-
-var implementation = require('./implementation');
-
-module.exports = function getPolyfill() {
-  return typeof Object.is === 'function' ? Object.is : implementation;
-};
-},{"./implementation":"node_modules/object-is/implementation.js"}],"node_modules/object-is/shim.js":[function(require,module,exports) {
-
-'use strict';
-
-var getPolyfill = require('./polyfill');
-
-var define = require('define-properties');
-
-module.exports = function shimObjectIs() {
-  var polyfill = getPolyfill();
-  define(Object, {
-    is: polyfill
-  }, {
-    is: function testObjectIs() {
-      return Object.is !== polyfill;
-    }
-  });
-  return polyfill;
-};
-},{"./polyfill":"node_modules/object-is/polyfill.js","define-properties":"node_modules/define-properties/index.js"}],"node_modules/object-is/index.js":[function(require,module,exports) {
-
-'use strict';
-
-var define = require('define-properties');
-
-var callBind = require('es-abstract/helpers/callBind');
-
-var implementation = require('./implementation');
-
-var getPolyfill = require('./polyfill');
-
-var shim = require('./shim');
-
-var polyfill = callBind(getPolyfill(), Object);
-define(polyfill, {
-  getPolyfill: getPolyfill,
-  implementation: implementation,
-  shim: shim
-});
-module.exports = polyfill;
-},{"define-properties":"node_modules/define-properties/index.js","es-abstract/helpers/callBind":"node_modules/es-abstract/helpers/callBind.js","./implementation":"node_modules/object-is/implementation.js","./polyfill":"node_modules/object-is/polyfill.js","./shim":"node_modules/object-is/shim.js"}],"node_modules/is-regex/index.js":[function(require,module,exports) {
-'use strict';
-
-var hasSymbols = require('has-symbols')();
-
-var hasToStringTag = hasSymbols && typeof Symbol.toStringTag === 'symbol';
-var hasOwnProperty;
-var regexExec;
-var isRegexMarker;
-var badStringifier;
-
-if (hasToStringTag) {
-  hasOwnProperty = Function.call.bind(Object.prototype.hasOwnProperty);
-  regexExec = Function.call.bind(RegExp.prototype.exec);
-  isRegexMarker = {};
-
-  var throwRegexMarker = function () {
-    throw isRegexMarker;
-  };
-
-  badStringifier = {
-    toString: throwRegexMarker,
-    valueOf: throwRegexMarker
-  };
-
-  if (typeof Symbol.toPrimitive === 'symbol') {
-    badStringifier[Symbol.toPrimitive] = throwRegexMarker;
-  }
-}
-
-var toStr = Object.prototype.toString;
-var gOPD = Object.getOwnPropertyDescriptor;
-var regexClass = '[object RegExp]';
-module.exports = hasToStringTag // eslint-disable-next-line consistent-return
-? function isRegex(value) {
-  if (!value || typeof value !== 'object') {
-    return false;
-  }
-
-  var descriptor = gOPD(value, 'lastIndex');
-  var hasLastIndexDataProperty = descriptor && hasOwnProperty(descriptor, 'value');
-
-  if (!hasLastIndexDataProperty) {
-    return false;
-  }
-
-  try {
-    regexExec(value, badStringifier);
-  } catch (e) {
-    return e === isRegexMarker;
-  }
-} : function isRegex(value) {
-  // In older browsers, typeof regex incorrectly returns 'function'
-  if (!value || typeof value !== 'object' && typeof value !== 'function') {
-    return false;
-  }
-
-  return toStr.call(value) === regexClass;
-};
-},{"has-symbols":"node_modules/has-symbols/index.js"}],"node_modules/regexp.prototype.flags/implementation.js":[function(require,module,exports) {
-'use strict';
-
-var $Object = Object;
-var $TypeError = TypeError;
-
-module.exports = function flags() {
-  if (this != null && this !== $Object(this)) {
-    throw new $TypeError('RegExp.prototype.flags getter called on non-object');
-  }
-
-  var result = '';
-
-  if (this.global) {
-    result += 'g';
-  }
-
-  if (this.ignoreCase) {
-    result += 'i';
-  }
-
-  if (this.multiline) {
-    result += 'm';
-  }
-
-  if (this.dotAll) {
-    result += 's';
-  }
-
-  if (this.unicode) {
-    result += 'u';
-  }
-
-  if (this.sticky) {
-    result += 'y';
-  }
-
-  return result;
-};
-},{}],"node_modules/regexp.prototype.flags/polyfill.js":[function(require,module,exports) {
-'use strict';
-
-var implementation = require('./implementation');
-
-var supportsDescriptors = require('define-properties').supportsDescriptors;
-
-var $gOPD = Object.getOwnPropertyDescriptor;
-var $TypeError = TypeError;
-
-module.exports = function getPolyfill() {
-  if (!supportsDescriptors) {
-    throw new $TypeError('RegExp.prototype.flags requires a true ES5 environment that supports property descriptors');
-  }
-
-  if (/a/mig.flags === 'gim') {
-    var descriptor = $gOPD(RegExp.prototype, 'flags');
-
-    if (descriptor && typeof descriptor.get === 'function' && typeof /a/.dotAll === 'boolean') {
-      return descriptor.get;
-    }
-  }
-
-  return implementation;
-};
-},{"./implementation":"node_modules/regexp.prototype.flags/implementation.js","define-properties":"node_modules/define-properties/index.js"}],"node_modules/regexp.prototype.flags/shim.js":[function(require,module,exports) {
-'use strict';
-
-var supportsDescriptors = require('define-properties').supportsDescriptors;
-
-var getPolyfill = require('./polyfill');
-
-var gOPD = Object.getOwnPropertyDescriptor;
-var defineProperty = Object.defineProperty;
-var TypeErr = TypeError;
-var getProto = Object.getPrototypeOf;
-var regex = /a/;
-
-module.exports = function shimFlags() {
-  if (!supportsDescriptors || !getProto) {
-    throw new TypeErr('RegExp.prototype.flags requires a true ES5 environment that supports property descriptors');
-  }
-
-  var polyfill = getPolyfill();
-  var proto = getProto(regex);
-  var descriptor = gOPD(proto, 'flags');
-
-  if (!descriptor || descriptor.get !== polyfill) {
-    defineProperty(proto, 'flags', {
-      configurable: true,
-      enumerable: false,
-      get: polyfill
-    });
-  }
-
-  return polyfill;
-};
-},{"define-properties":"node_modules/define-properties/index.js","./polyfill":"node_modules/regexp.prototype.flags/polyfill.js"}],"node_modules/regexp.prototype.flags/index.js":[function(require,module,exports) {
-
-'use strict';
-
-var define = require('define-properties');
-
-var callBind = require('es-abstract/helpers/callBind');
-
-var implementation = require('./implementation');
-
-var getPolyfill = require('./polyfill');
-
-var shim = require('./shim');
-
-var flagsBound = callBind(implementation);
-define(flagsBound, {
-  getPolyfill: getPolyfill,
-  implementation: implementation,
-  shim: shim
-});
-module.exports = flagsBound;
-},{"define-properties":"node_modules/define-properties/index.js","es-abstract/helpers/callBind":"node_modules/es-abstract/helpers/callBind.js","./implementation":"node_modules/regexp.prototype.flags/implementation.js","./polyfill":"node_modules/regexp.prototype.flags/polyfill.js","./shim":"node_modules/regexp.prototype.flags/shim.js"}],"node_modules/is-date-object/index.js":[function(require,module,exports) {
-'use strict';
-
-var getDay = Date.prototype.getDay;
-
-var tryDateObject = function tryDateGetDayCall(value) {
-  try {
-    getDay.call(value);
-    return true;
-  } catch (e) {
-    return false;
-  }
-};
-
-var toStr = Object.prototype.toString;
-var dateClass = '[object Date]';
-var hasToStringTag = typeof Symbol === 'function' && typeof Symbol.toStringTag === 'symbol';
-
-module.exports = function isDateObject(value) {
-  if (typeof value !== 'object' || value === null) {
-    return false;
-  }
-
-  return hasToStringTag ? tryDateObject(value) : toStr.call(value) === dateClass;
-};
-},{}],"node_modules/deep-equal/index.js":[function(require,module,exports) {
-var objectKeys = require('object-keys');
-var isArguments = require('is-arguments');
-var is = require('object-is');
-var isRegex = require('is-regex');
-var flags = require('regexp.prototype.flags');
-var isDate = require('is-date-object');
-
-var getTime = Date.prototype.getTime;
-
-function deepEqual(actual, expected, options) {
-  var opts = options || {};
-
-  // 7.1. All identical values are equivalent, as determined by ===.
-  if (opts.strict ? is(actual, expected) : actual === expected) {
-    return true;
-  }
-
-  // 7.3. Other pairs that do not both pass typeof value == 'object', equivalence is determined by ==.
-  if (!actual || !expected || (typeof actual !== 'object' && typeof expected !== 'object')) {
-    return opts.strict ? is(actual, expected) : actual == expected;
-  }
-
-  /*
-   * 7.4. For all other Object pairs, including Array objects, equivalence is
-   * determined by having the same number of owned properties (as verified
-   * with Object.prototype.hasOwnProperty.call), the same set of keys
-   * (although not necessarily the same order), equivalent values for every
-   * corresponding key, and an identical 'prototype' property. Note: this
-   * accounts for both named and indexed properties on Arrays.
-   */
-  // eslint-disable-next-line no-use-before-define
-  return objEquiv(actual, expected, opts);
-}
-
-function isUndefinedOrNull(value) {
-  return value === null || value === undefined;
-}
-
-function isBuffer(x) {
-  if (!x || typeof x !== 'object' || typeof x.length !== 'number') {
-    return false;
-  }
-  if (typeof x.copy !== 'function' || typeof x.slice !== 'function') {
-    return false;
-  }
-  if (x.length > 0 && typeof x[0] !== 'number') {
-    return false;
-  }
-  return true;
-}
-
-function objEquiv(a, b, opts) {
-  /* eslint max-statements: [2, 50] */
-  var i, key;
-  if (typeof a !== typeof b) { return false; }
-  if (isUndefinedOrNull(a) || isUndefinedOrNull(b)) { return false; }
-
-  // an identical 'prototype' property.
-  if (a.prototype !== b.prototype) { return false; }
-
-  if (isArguments(a) !== isArguments(b)) { return false; }
-
-  var aIsRegex = isRegex(a);
-  var bIsRegex = isRegex(b);
-  if (aIsRegex !== bIsRegex) { return false; }
-  if (aIsRegex || bIsRegex) {
-    return a.source === b.source && flags(a) === flags(b);
-  }
-
-  if (isDate(a) && isDate(b)) {
-    return getTime.call(a) === getTime.call(b);
-  }
-
-  var aIsBuffer = isBuffer(a);
-  var bIsBuffer = isBuffer(b);
-  if (aIsBuffer !== bIsBuffer) { return false; }
-  if (aIsBuffer || bIsBuffer) { // && would work too, because both are true or both false here
-    if (a.length !== b.length) { return false; }
-    for (i = 0; i < a.length; i++) {
-      if (a[i] !== b[i]) { return false; }
-    }
-    return true;
-  }
-
-  if (typeof a !== typeof b) { return false; }
-
-  try {
-    var ka = objectKeys(a);
-    var kb = objectKeys(b);
-  } catch (e) { // happens when one is a string literal and the other isn't
-    return false;
-  }
-  // having the same number of owned properties (keys incorporates hasOwnProperty)
-  if (ka.length !== kb.length) { return false; }
-
-  // the same set of keys (although not necessarily the same order),
-  ka.sort();
-  kb.sort();
-  // ~~~cheap key test
-  for (i = ka.length - 1; i >= 0; i--) {
-    if (ka[i] != kb[i]) { return false; }
-  }
-  // equivalent values for every corresponding key, and ~~~possibly expensive deep test
-  for (i = ka.length - 1; i >= 0; i--) {
-    key = ka[i];
-    if (!deepEqual(a[key], b[key], opts)) { return false; }
-  }
-
-  return true;
-}
-
-module.exports = deepEqual;
-
-},{"object-keys":"node_modules/object-keys/index.js","is-arguments":"node_modules/is-arguments/index.js","object-is":"node_modules/object-is/index.js","is-regex":"node_modules/is-regex/index.js","regexp.prototype.flags":"node_modules/regexp.prototype.flags/index.js","is-date-object":"node_modules/is-date-object/index.js"}],"node_modules/popper.js/dist/esm/popper.js":[function(require,module,exports) {
+},{}],"node_modules/popper.js/dist/esm/popper.js":[function(require,module,exports) {
 var global = arguments[3];
 "use strict";
 
@@ -37930,9 +37040,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = exports.ManagerReferenceNodeSetterContext = exports.ManagerReferenceNodeContext = void 0;
 
-var _assertThisInitialized2 = _interopRequireDefault(require("@babel/runtime/helpers/assertThisInitialized"));
-
 var _inheritsLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/inheritsLoose"));
+
+var _assertThisInitialized2 = _interopRequireDefault(require("@babel/runtime/helpers/assertThisInitialized"));
 
 var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
 
@@ -37962,8 +37072,8 @@ var Manager = /*#__PURE__*/function (_React$Component) {
     }
 
     _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "referenceNode", void 0);
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "setReferenceNode", function (newReferenceNode) {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "referenceNode", void 0);
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "setReferenceNode", function (newReferenceNode) {
       if (newReferenceNode && _this.referenceNode !== newReferenceNode) {
         _this.referenceNode = newReferenceNode;
 
@@ -37991,7 +37101,7 @@ var Manager = /*#__PURE__*/function (_React$Component) {
 }(React.Component);
 
 exports.default = Manager;
-},{"@babel/runtime/helpers/assertThisInitialized":"node_modules/@babel/runtime/helpers/assertThisInitialized.js","@babel/runtime/helpers/inheritsLoose":"node_modules/@babel/runtime/helpers/inheritsLoose.js","@babel/runtime/helpers/defineProperty":"node_modules/@babel/runtime/helpers/defineProperty.js","react":"node_modules/react/index.js","create-react-context":"node_modules/create-react-context/lib/index.js"}],"node_modules/react-popper/lib/esm/utils.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/inheritsLoose":"node_modules/@babel/runtime/helpers/inheritsLoose.js","@babel/runtime/helpers/assertThisInitialized":"node_modules/@babel/runtime/helpers/assertThisInitialized.js","@babel/runtime/helpers/defineProperty":"node_modules/@babel/runtime/helpers/defineProperty.js","react":"node_modules/react/index.js","create-react-context":"node_modules/create-react-context/lib/index.js"}],"node_modules/react-popper/lib/esm/utils.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -38080,13 +37190,11 @@ var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runt
 
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 
-var _assertThisInitialized2 = _interopRequireDefault(require("@babel/runtime/helpers/assertThisInitialized"));
-
 var _inheritsLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/inheritsLoose"));
 
-var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
+var _assertThisInitialized2 = _interopRequireDefault(require("@babel/runtime/helpers/assertThisInitialized"));
 
-var _deepEqual = _interopRequireDefault(require("deep-equal"));
+var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
 
 var React = _interopRequireWildcard(require("react"));
 
@@ -38122,24 +37230,24 @@ var InnerPopper = /*#__PURE__*/function (_React$Component) {
     }
 
     _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "state", {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "state", {
       data: undefined,
       placement: undefined
     });
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "popperInstance", void 0);
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "popperNode", null);
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "arrowNode", null);
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "setPopperNode", function (popperNode) {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "popperInstance", void 0);
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "popperNode", null);
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "arrowNode", null);
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "setPopperNode", function (popperNode) {
       if (!popperNode || _this.popperNode === popperNode) return;
       (0, _utils.setRef)(_this.props.innerRef, popperNode);
       _this.popperNode = popperNode;
 
       _this.updatePopperInstance();
     });
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "setArrowNode", function (arrowNode) {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "setArrowNode", function (arrowNode) {
       _this.arrowNode = arrowNode;
     });
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "updateStateModifier", {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "updateStateModifier", {
       enabled: true,
       order: 900,
       fn: function fn(data) {
@@ -38153,7 +37261,7 @@ var InnerPopper = /*#__PURE__*/function (_React$Component) {
         return data;
       }
     });
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "getOptions", function () {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "getOptions", function () {
       return {
         placement: _this.props.placement,
         eventsEnabled: _this.props.eventsEnabled,
@@ -38170,38 +37278,38 @@ var InnerPopper = /*#__PURE__*/function (_React$Component) {
         })
       };
     });
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "getPopperStyle", function () {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "getPopperStyle", function () {
       return !_this.popperNode || !_this.state.data ? initialStyle : (0, _extends2.default)({
         position: _this.state.data.offsets.popper.position
       }, _this.state.data.styles);
     });
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "getPopperPlacement", function () {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "getPopperPlacement", function () {
       return !_this.state.data ? undefined : _this.state.placement;
     });
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "getArrowStyle", function () {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "getArrowStyle", function () {
       return !_this.arrowNode || !_this.state.data ? initialArrowStyle : _this.state.data.arrowStyles;
     });
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "getOutOfBoundariesState", function () {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "getOutOfBoundariesState", function () {
       return _this.state.data ? _this.state.data.hide : undefined;
     });
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "destroyPopperInstance", function () {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "destroyPopperInstance", function () {
       if (!_this.popperInstance) return;
 
       _this.popperInstance.destroy();
 
       _this.popperInstance = null;
     });
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "updatePopperInstance", function () {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "updatePopperInstance", function () {
       _this.destroyPopperInstance();
 
-      var _assertThisInitialize = (0, _assertThisInitialized2.default)(_this),
+      var _assertThisInitialize = (0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)),
           popperNode = _assertThisInitialize.popperNode;
 
       var referenceElement = _this.props.referenceElement;
       if (!referenceElement || !popperNode) return;
       _this.popperInstance = new _popper.default(referenceElement, popperNode, _this.getOptions());
     });
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "scheduleUpdate", function () {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "scheduleUpdate", function () {
       if (_this.popperInstance) {
         _this.popperInstance.scheduleUpdate();
       }
@@ -38213,9 +37321,7 @@ var InnerPopper = /*#__PURE__*/function (_React$Component) {
 
   _proto.componentDidUpdate = function componentDidUpdate(prevProps, prevState) {
     // If the Popper.js options have changed, update the instance (destroy + create)
-    if (this.props.placement !== prevProps.placement || this.props.referenceElement !== prevProps.referenceElement || this.props.positionFixed !== prevProps.positionFixed || !(0, _deepEqual.default)(this.props.modifiers, prevProps.modifiers, {
-      strict: true
-    })) {
+    if (this.props.placement !== prevProps.placement || this.props.referenceElement !== prevProps.referenceElement || this.props.positionFixed !== prevProps.positionFixed || this.props.modifiers !== prevProps.modifiers) {
       // develop only check that modifiers isn't being updated needlessly
       if ("development" === "development") {
         if (this.props.modifiers !== prevProps.modifiers && this.props.modifiers != null && prevProps.modifiers != null && (0, _utils.shallowEqual)(this.props.modifiers, prevProps.modifiers)) {
@@ -38278,7 +37384,7 @@ function Popper(_ref) {
     }, props));
   });
 }
-},{"@babel/runtime/helpers/objectWithoutPropertiesLoose":"node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js","@babel/runtime/helpers/extends":"node_modules/@babel/runtime/helpers/extends.js","@babel/runtime/helpers/assertThisInitialized":"node_modules/@babel/runtime/helpers/assertThisInitialized.js","@babel/runtime/helpers/inheritsLoose":"node_modules/@babel/runtime/helpers/inheritsLoose.js","@babel/runtime/helpers/defineProperty":"node_modules/@babel/runtime/helpers/defineProperty.js","deep-equal":"node_modules/deep-equal/index.js","react":"node_modules/react/index.js","popper.js":"node_modules/popper.js/dist/esm/popper.js","./Manager":"node_modules/react-popper/lib/esm/Manager.js","./utils":"node_modules/react-popper/lib/esm/utils.js"}],"node_modules/react-popper/lib/esm/Reference.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/objectWithoutPropertiesLoose":"node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js","@babel/runtime/helpers/extends":"node_modules/@babel/runtime/helpers/extends.js","@babel/runtime/helpers/inheritsLoose":"node_modules/@babel/runtime/helpers/inheritsLoose.js","@babel/runtime/helpers/assertThisInitialized":"node_modules/@babel/runtime/helpers/assertThisInitialized.js","@babel/runtime/helpers/defineProperty":"node_modules/@babel/runtime/helpers/defineProperty.js","react":"node_modules/react/index.js","popper.js":"node_modules/popper.js/dist/esm/popper.js","./Manager":"node_modules/react-popper/lib/esm/Manager.js","./utils":"node_modules/react-popper/lib/esm/utils.js"}],"node_modules/react-popper/lib/esm/Reference.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -38288,9 +37394,9 @@ exports.default = Reference;
 
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 
-var _assertThisInitialized2 = _interopRequireDefault(require("@babel/runtime/helpers/assertThisInitialized"));
-
 var _inheritsLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/inheritsLoose"));
+
+var _assertThisInitialized2 = _interopRequireDefault(require("@babel/runtime/helpers/assertThisInitialized"));
 
 var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
 
@@ -38319,7 +37425,7 @@ var InnerReference = /*#__PURE__*/function (_React$Component) {
     }
 
     _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
-    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)(_this), "refHandler", function (node) {
+    (0, _defineProperty2.default)((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)), "refHandler", function (node) {
       (0, _utils.setRef)(_this.props.innerRef, node);
       (0, _utils.safeInvoke)(_this.props.setReferenceNode, node);
     });
@@ -38349,7 +37455,7 @@ function Reference(props) {
     }, props));
   });
 }
-},{"@babel/runtime/helpers/extends":"node_modules/@babel/runtime/helpers/extends.js","@babel/runtime/helpers/assertThisInitialized":"node_modules/@babel/runtime/helpers/assertThisInitialized.js","@babel/runtime/helpers/inheritsLoose":"node_modules/@babel/runtime/helpers/inheritsLoose.js","@babel/runtime/helpers/defineProperty":"node_modules/@babel/runtime/helpers/defineProperty.js","react":"node_modules/react/index.js","warning":"node_modules/warning/warning.js","./Manager":"node_modules/react-popper/lib/esm/Manager.js","./utils":"node_modules/react-popper/lib/esm/utils.js"}],"node_modules/react-popper/lib/esm/index.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/extends":"node_modules/@babel/runtime/helpers/extends.js","@babel/runtime/helpers/inheritsLoose":"node_modules/@babel/runtime/helpers/inheritsLoose.js","@babel/runtime/helpers/assertThisInitialized":"node_modules/@babel/runtime/helpers/assertThisInitialized.js","@babel/runtime/helpers/defineProperty":"node_modules/@babel/runtime/helpers/defineProperty.js","react":"node_modules/react/index.js","warning":"node_modules/warning/warning.js","./Manager":"node_modules/react-popper/lib/esm/Manager.js","./utils":"node_modules/react-popper/lib/esm/utils.js"}],"node_modules/react-popper/lib/esm/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -40188,9 +39294,11 @@ function (_super) {
   function Portal() {
     var _this = _super !== null && _super.apply(this, arguments) || this;
 
+    _this.context = {};
     _this.state = {
       hasMounted: false
     };
+    _this.portalElement = null;
     return _this;
   }
 
@@ -40198,7 +39306,7 @@ function (_super) {
     // Only render `children` once this component has mounted in a browser environment, so they are
     // immediately attached to the DOM tree and can do DOM things like measuring or `autoFocus`.
     // See long comment on componentDidMount in https://reactjs.org/docs/portals.html#event-bubbling-through-portals
-    if (cannotCreatePortal || typeof document === "undefined" || !this.state.hasMounted) {
+    if (cannotCreatePortal || typeof document === "undefined" || !this.state.hasMounted || this.portalElement === null) {
       return null;
     } else {
       return ReactDOM.createPortal(this.props.children, this.portalElement);
@@ -40212,6 +39320,8 @@ function (_super) {
 
     this.portalElement = this.createContainerElement();
     this.props.container.appendChild(this.portalElement);
+    /* eslint-disable-next-line react/no-did-mount-set-state */
+
     this.setState({
       hasMounted: true
     }, this.props.onChildrenMount);
@@ -40224,7 +39334,10 @@ function (_super) {
   Portal.prototype.componentDidUpdate = function (prevProps) {
     // update className prop on portal DOM element
     if (this.portalElement != null && prevProps.className !== this.props.className) {
-      this.portalElement.classList.remove(prevProps.className);
+      if (prevProps.className !== undefined) {
+        this.portalElement.classList.remove(prevProps.className);
+      }
+
       maybeAddClass(this.portalElement.classList, this.props.className);
     }
 
@@ -40256,6 +39369,10 @@ function (_super) {
   };
 
   Portal.prototype.unstableRenderNoPortal = function () {
+    if (this.portalElement === null) {
+      return;
+    }
+
     ReactDOM.unstable_renderSubtreeIntoContainer(
     /* parentComponent */
     this, React.createElement("div", null, this.props.children), this.portalElement);
@@ -40264,7 +39381,7 @@ function (_super) {
   Portal.displayName = _props.DISPLAYNAME_PREFIX + ".Portal";
   Portal.contextTypes = REACT_CONTEXT_TYPES;
   Portal.defaultProps = {
-    container: typeof document !== "undefined" ? document.body : null
+    container: typeof document !== "undefined" ? document.body : undefined
   };
   return Portal;
 }(React.Component);
@@ -40290,15 +39407,17 @@ var _classnames = _interopRequireDefault(require("classnames"));
 
 var React = _interopRequireWildcard(require("react"));
 
+var _reactDom = require("react-dom");
+
 var _reactLifecyclesCompat = require("react-lifecycles-compat");
 
 var _reactTransitionGroup = require("react-transition-group");
 
-var _reactDom = require("react-dom");
-
 var _common = require("../../common");
 
 var _props = require("../../common/props");
+
+var _utils = require("../../common/utils");
 
 var _portal = require("../portal/portal");
 
@@ -40323,21 +39442,34 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+// HACKHACK: https://github.com/palantir/blueprint/issues/4342
 var Overlay =
 /** @class */
 function (_super) {
   (0, _tslib.__extends)(Overlay, _super);
 
-  function Overlay(props, context) {
-    var _this = _super.call(this, props, context) || this;
+  function Overlay() {
+    var _this = _super !== null && _super.apply(this, arguments) || this;
 
+    _this.state = {
+      hasEverOpened: _this.props.isOpen
+    }; // an HTMLElement that contains the backdrop and any children, to query for focus target
+
+    _this.containerElement = null;
     _this.refHandlers = {
+      // HACKHACK: see https://github.com/palantir/blueprint/issues/3979
+
+      /* eslint-disable-next-line react/no-find-dom-node */
       container: function (ref) {
         return _this.containerElement = (0, _reactDom.findDOMNode)(ref);
       }
     };
 
     _this.maybeRenderChild = function (child) {
+      if ((0, _utils.isFunction)(child)) {
+        child = child();
+      }
+
       if (child == null) {
         return null;
       } // add a special class to each child element that will automatically set the appropriate
@@ -40347,7 +39479,7 @@ function (_super) {
 
       var decoratedChild = typeof child === "object" ? React.cloneElement(child, {
         className: (0, _classnames.default)(child.props.className, _common.Classes.OVERLAY_CONTENT),
-        tabIndex: 0
+        tabIndex: _this.props.enforceFocus || _this.props.autoFocus ? 0 : undefined
       }) : React.createElement("span", {
         className: _common.Classes.OVERLAY_CONTENT
       }, child);
@@ -40367,7 +39499,8 @@ function (_super) {
         onEntered: onOpened,
         onExiting: onClosing,
         onExited: onClosed,
-        timeout: transitionDuration
+        timeout: transitionDuration,
+        addEndListener: _this.handleTransitionAddEnd
       }, decoratedChild);
     };
 
@@ -40389,7 +39522,7 @@ function (_super) {
         _this.bringFocusInsideOverlay();
       }
 
-      (_a = backdropProps.onMouseDown) === null || _a === void 0 ? void 0 : _a.call(backdropProps, e);
+      (_a = backdropProps === null || backdropProps === void 0 ? void 0 : backdropProps.onMouseDown) === null || _a === void 0 ? void 0 : _a.call(backdropProps, e);
     };
 
     _this.handleDocumentClick = function (e) {
@@ -40440,9 +39573,9 @@ function (_super) {
       }
     };
 
-    _this.state = {
-      hasEverOpened: props.isOpen
+    _this.handleTransitionAddEnd = function () {// no-op
     };
+
     return _this;
   }
 
@@ -40461,23 +39594,30 @@ function (_super) {
   };
 
   Overlay.prototype.render = function () {
-    var _a; // oh snap! no reason to render anything at all if we're being truly lazy
+    var _a;
+
+    var _b; // oh snap! no reason to render anything at all if we're being truly lazy
 
 
     if (this.props.lazy && !this.state.hasEverOpened) {
       return null;
     }
 
-    var _b = this.props,
-        children = _b.children,
-        className = _b.className,
-        usePortal = _b.usePortal,
-        isOpen = _b.isOpen; // TransitionGroup types require single array of children; does not support nested arrays.
+    var _c = this.props,
+        children = _c.children,
+        className = _c.className,
+        usePortal = _c.usePortal,
+        isOpen = _c.isOpen; // TransitionGroup types require single array of children; does not support nested arrays.
     // So we must collapse backdrop and children into one array, and every item must be wrapped in a
     // Transition element (no ReactText allowed).
 
-    var childrenWithTransitions = isOpen ? React.Children.map(children, this.maybeRenderChild) : [];
-    childrenWithTransitions.unshift(this.maybeRenderBackdrop());
+    var childrenWithTransitions = isOpen ? (_b = React.Children.map(children, this.maybeRenderChild)) !== null && _b !== void 0 ? _b : [] : [];
+    var maybeBackdrop = this.maybeRenderBackdrop();
+
+    if (maybeBackdrop !== null) {
+      childrenWithTransitions.unshift(maybeBackdrop);
+    }
+
     var containerClasses = (0, _classnames.default)(_common.Classes.OVERLAY, (_a = {}, _a[_common.Classes.OVERLAY_OPEN] = isOpen, _a[_common.Classes.OVERLAY_INLINE] = !usePortal, _a), className);
     var transitionGroup = React.createElement(_reactTransitionGroup.TransitionGroup, {
       appear: true,
@@ -40561,11 +39701,12 @@ function (_super) {
       return React.createElement(_reactTransitionGroup.CSSTransition, {
         classNames: transitionName,
         key: "__backdrop",
-        timeout: transitionDuration
+        timeout: transitionDuration,
+        addEndListener: this.handleTransitionAddEnd
       }, React.createElement("div", (0, _tslib.__assign)({}, backdropProps, {
-        className: (0, _classnames.default)(_common.Classes.OVERLAY_BACKDROP, backdropClassName, backdropProps.className),
+        className: (0, _classnames.default)(_common.Classes.OVERLAY_BACKDROP, backdropClassName, backdropProps === null || backdropProps === void 0 ? void 0 : backdropProps.className),
         onMouseDown: this.handleBackdropMouseDown,
-        tabIndex: this.props.canOutsideClickClose ? 0 : null
+        tabIndex: this.props.canOutsideClickClose ? 0 : undefined
       })));
     } else {
       return null;
@@ -40658,7 +39799,7 @@ function (_super) {
 }(_common.AbstractPureComponent2);
 
 exports.Overlay = Overlay;
-},{"tslib":"node_modules/tslib/tslib.es6.js","classnames":"node_modules/classnames/index.js","react":"node_modules/react/index.js","react-lifecycles-compat":"node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","react-transition-group":"node_modules/react-transition-group/index.js","react-dom":"node_modules/react-dom/index.js","../../common":"node_modules/@blueprintjs/core/lib/esm/common/index.js","../../common/props":"node_modules/@blueprintjs/core/lib/esm/common/props.js","../portal/portal":"node_modules/@blueprintjs/core/lib/esm/components/portal/portal.js"}],"node_modules/resize-observer-polyfill/dist/ResizeObserver.es.js":[function(require,module,exports) {
+},{"tslib":"node_modules/tslib/tslib.es6.js","classnames":"node_modules/classnames/index.js","react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","react-lifecycles-compat":"node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","react-transition-group":"node_modules/react-transition-group/index.js","../../common":"node_modules/@blueprintjs/core/lib/esm/common/index.js","../../common/props":"node_modules/@blueprintjs/core/lib/esm/common/props.js","../../common/utils":"node_modules/@blueprintjs/core/lib/esm/common/utils/index.js","../portal/portal":"node_modules/@blueprintjs/core/lib/esm/components/portal/portal.js"}],"node_modules/resize-observer-polyfill/dist/ResizeObserver.es.js":[function(require,module,exports) {
 var global = arguments[3];
 "use strict";
 
@@ -41904,6 +41045,9 @@ function (_super) {
       // using findDOMNode for two reasons:
       // 1. cloning to insert a ref is unwieldy and not performant.
       // 2. ensure that we resolve to an actual DOM node (instead of any JSX ref instance).
+      // HACKHACK: see https://github.com/palantir/blueprint/issues/3979
+
+      /* eslint-disable-next-line react/no-find-dom-node */
       return (0, _reactDom.findDOMNode)(this);
     } catch (_a) {
       // swallow error if findDOMNode is run on unmounted component.
@@ -41961,40 +41105,53 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * limitations under the License.
  */
 // eslint-disable-next-line import/no-cycle
+
+/** @deprecated use { Tooltip2 } from "@blueprintjs/popover2" */
 var Tooltip =
 /** @class */
 function (_super) {
   (0, _tslib.__extends)(Tooltip, _super);
 
   function Tooltip() {
-    var _this = _super !== null && _super.apply(this, arguments) || this;
+    var _this = _super !== null && _super.apply(this, arguments) || this; // eslint-disable-next-line deprecation/deprecation
+
 
     _this.popover = null;
     return _this;
   }
 
   Tooltip.prototype.render = function () {
+    var _a;
+
     var _this = this;
 
-    var _a = this.props,
-        children = _a.children,
-        intent = _a.intent,
-        popoverClassName = _a.popoverClassName,
-        restProps = (0, _tslib.__rest)(_a, ["children", "intent", "popoverClassName"]);
-    var classes = (0, _classnames.default)(_common.Classes.TOOLTIP, _common.Classes.intentClass(intent), popoverClassName);
-    return React.createElement(_popover.Popover, (0, _tslib.__assign)({
-      interactionKind: _popover.PopoverInteractionKind.HOVER_TARGET_ONLY
-    }, restProps, {
-      autoFocus: false,
-      canEscapeKeyClose: false,
-      enforceFocus: false,
-      lazy: true,
-      popoverClassName: classes,
-      portalContainer: this.props.portalContainer,
-      ref: function (ref) {
-        return _this.popover = ref;
-      }
-    }), children);
+    var _b = this.props,
+        children = _b.children,
+        intent = _b.intent,
+        popoverClassName = _b.popoverClassName,
+        restProps = (0, _tslib.__rest)(_b, ["children", "intent", "popoverClassName"]);
+    var classes = (0, _classnames.default)(_common.Classes.TOOLTIP, (_a = {}, _a[_common.Classes.MINIMAL] = this.props.minimal, _a), _common.Classes.intentClass(intent), popoverClassName);
+    return (
+      /* eslint-disable deprecation/deprecation */
+      React.createElement(_popover.Popover, (0, _tslib.__assign)({
+        interactionKind: _popover.PopoverInteractionKind.HOVER_TARGET_ONLY,
+        modifiers: {
+          arrow: {
+            enabled: !this.props.minimal
+          }
+        }
+      }, restProps, {
+        autoFocus: false,
+        canEscapeKeyClose: false,
+        enforceFocus: false,
+        lazy: true,
+        popoverClassName: classes,
+        portalContainer: this.props.portalContainer,
+        ref: function (ref) {
+          return _this.popover = ref;
+        }
+      }), children)
+    );
   };
 
   Tooltip.prototype.reposition = function () {
@@ -42007,6 +41164,7 @@ function (_super) {
   Tooltip.defaultProps = {
     hoverCloseDelay: 0,
     hoverOpenDelay: 100,
+    minimal: false,
     transitionDuration: 100
   };
   Tooltip = (0, _tslib.__decorate)([_reactLifecyclesCompat.polyfill], Tooltip);
@@ -42211,7 +41369,7 @@ var PopoverArrow = function (_a) {
   return React.createElement("div", {
     className: Classes.POPOVER_ARROW,
     ref: ref,
-    style: isNaN(+style.left) ? {} : style
+    style: style.left == null || isNaN(+style.left) ? {} : style
   }, React.createElement("svg", {
     viewBox: "0 0 30 30",
     style: {
@@ -42256,6 +41414,7 @@ var _position = require("../../common/position");
 
 /**
  * Convert a position to a placement.
+ *
  * @param position the position to convert
  */
 function positionToPlacement(position) {
@@ -42379,6 +41538,8 @@ var PopoverInteractionKind = {
   HOVER: "hover",
   HOVER_TARGET_ONLY: "hover-target"
 };
+/** @deprecated use { Popover2 } from "@blueprintjs/popover2" */
+
 exports.PopoverInteractionKind = PopoverInteractionKind;
 
 var Popover =
@@ -42390,6 +41551,16 @@ function (_super) {
     var _this = _super !== null && _super.apply(this, arguments) || this;
 
     _this.popoverRef = Utils.createReactRef();
+    /**
+     * DOM element that contains the popover.
+     * When `usePortal={true}`, this element will be portaled outside the usual DOM flow,
+     * so this reference can be very useful for testing.
+     */
+
+    _this.popoverElement = null;
+    /** DOM element that contains the target. */
+
+    _this.targetElement = null;
     _this.state = {
       hasDarkParent: false,
       isOpen: _this.getIsOpen(_this.props),
@@ -42401,16 +41572,10 @@ function (_super) {
     // element on the same page.
 
     _this.lostFocusOnSamePage = true;
-    _this.refHandlers = {
-      popover: function (ref) {
-        var _a, _b;
+    _this.handlePopoverRef = (0, _common.refHandler)(_this, "popoverElement", _this.props.popoverRef);
 
-        _this.popoverElement = ref;
-        (_b = (_a = _this.props).popoverRef) === null || _b === void 0 ? void 0 : _b.call(_a, ref);
-      },
-      target: function (ref) {
-        return _this.targetElement = ref;
-      }
+    _this.handleTargetRef = function (ref) {
+      return _this.targetElement = ref;
     };
     /**
      * Instance method to instruct the `Popover` to recompute its position.
@@ -42420,6 +41585,7 @@ function (_super) {
      * without changing its _size_ (since `Popover` already repositions when it
      * detects a resize).
      */
+
 
     _this.reposition = function () {
       var _a;
@@ -42501,6 +41667,11 @@ function (_super) {
       finalTargetProps.className = (0, _classnames.default)(_common.Classes.POPOVER_TARGET, (_a = {}, _a[_common.Classes.POPOVER_OPEN] = isOpen, _a), targetProps.className, targetClassName);
       finalTargetProps.ref = referenceProps.ref;
       var rawTarget = Utils.ensureElement(_this.understandChildren().target);
+
+      if (rawTarget === undefined) {
+        return null;
+      }
+
       var rawTabIndex = rawTarget.props.tabIndex; // ensure target is focusable if relevant prop enabled
 
       var tabIndex = rawTabIndex == null && openOnTargetFocus && isHoverInteractionKind ? 0 : rawTabIndex;
@@ -42509,6 +41680,8 @@ function (_super) {
         // when they are opened by a user interaction
         _b[_common.Classes.ACTIVE] = isOpen && !isControlled && !isHoverInteractionKind, _b)),
         // force disable single Tooltip child when popover is open (BLUEPRINT-552)
+
+        /* eslint-disable-next-line deprecation/deprecation */
         disabled: isOpen && Utils.isElementOfType(rawTarget, _tooltip.Tooltip) ? true : rawTarget.props.disabled,
         tabIndex: tabIndex
       });
@@ -42523,7 +41696,7 @@ function (_super) {
     };
 
     _this.handleTargetFocus = function (e) {
-      var _a;
+      var _a, _b;
 
       if (_this.props.openOnTargetFocus && _this.isHoverInteractionKind()) {
         if (e.relatedTarget == null && !_this.lostFocusOnSamePage) {
@@ -42535,7 +41708,7 @@ function (_super) {
         _this.handleMouseEnter(e);
       }
 
-      (_a = _this.props.targetProps) === null || _a === void 0 ? void 0 : _a.onFocus(e);
+      (_b = (_a = _this.props.targetProps) === null || _a === void 0 ? void 0 : _a.onFocus) === null || _b === void 0 ? void 0 : _b.call(_a, e);
     };
 
     _this.handleTargetBlur = function (e) {
@@ -42595,7 +41768,7 @@ function (_super) {
       var eventTarget = e.target;
       var eventPopover = eventTarget.closest("." + _common.Classes.POPOVER);
       var isEventFromSelf = eventPopover === _this.popoverRef.current;
-      var isEventPopoverCapturing = eventPopover.classList.contains(_common.Classes.POPOVER_CAPTURING_DISMISS); // an OVERRIDE inside a DISMISS does not dismiss, and a DISMISS inside an OVERRIDE will dismiss.
+      var isEventPopoverCapturing = eventPopover === null || eventPopover === void 0 ? void 0 : eventPopover.classList.contains(_common.Classes.POPOVER_CAPTURING_DISMISS); // an OVERRIDE inside a DISMISS does not dismiss, and a DISMISS inside an OVERRIDE will dismiss.
 
       var dismissElement = eventTarget.closest("." + _common.Classes.POPOVER_DISMISS + ", ." + _common.Classes.POPOVER_DISMISS_OVERRIDE);
       var shouldDismiss = dismissElement != null && dismissElement.classList.contains(_common.Classes.POPOVER_DISMISS);
@@ -42607,6 +41780,10 @@ function (_super) {
     };
 
     _this.handleOverlayClose = function (e) {
+      if (_this.targetElement === null || e === undefined) {
+        return;
+      }
+
       var eventTarget = e.target; // if click was in target, target event listener will handle things, so don't close
 
       if (!Utils.elementIsOrContains(_this.targetElement, eventTarget) || e.nativeEvent instanceof KeyboardEvent) {
@@ -42657,7 +41834,8 @@ function (_super) {
     var _b = this.props,
         className = _b.className,
         disabled = _b.disabled,
-        fill = _b.fill;
+        fill = _b.fill,
+        placement = _b.placement;
     var isOpen = this.state.isOpen;
     var wrapperTagName = this.props.wrapperTagName;
 
@@ -42676,7 +41854,7 @@ function (_super) {
     var wrapper = React.createElement(wrapperTagName, {
       className: wrapperClasses
     }, React.createElement(_reactPopper.Reference, {
-      innerRef: this.refHandlers.target
+      innerRef: this.handleTargetRef
     }, this.renderTarget), React.createElement(_overlay.Overlay, {
       autoFocus: this.props.autoFocus,
       backdropClassName: _common.Classes.POPOVER_BACKDROP,
@@ -42697,8 +41875,9 @@ function (_super) {
       usePortal: this.props.usePortal,
       portalContainer: this.props.portalContainer
     }, React.createElement(_reactPopper.Popper, {
-      innerRef: this.refHandlers.popover,
-      placement: (0, _popoverMigrationUtils.positionToPlacement)(this.props.position),
+      innerRef: this.handlePopoverRef,
+      // eslint-disable-next-line deprecation/deprecation
+      placement: placement !== null && placement !== void 0 ? placement : (0, _popoverMigrationUtils.positionToPlacement)(this.props.position),
       modifiers: this.getPopperModifiers()
     }, this.renderPopover)));
     return React.createElement(_reactPopper.Manager, null, wrapper);
@@ -42803,10 +41982,11 @@ function (_super) {
     var _a = this.props,
         boundary = _a.boundary,
         modifiers = _a.modifiers;
-    var _b = modifiers.flip,
-        flip = _b === void 0 ? {} : _b,
-        _c = modifiers.preventOverflow,
-        preventOverflow = _c === void 0 ? {} : _c;
+    var _b = modifiers,
+        _c = _b.flip,
+        flip = _c === void 0 ? {} : _c,
+        _d = _b.preventOverflow,
+        preventOverflow = _d === void 0 ? {} : _d;
     return (0, _tslib.__assign)((0, _tslib.__assign)({}, modifiers), {
       arrowOffset: {
         enabled: this.isArrowEnabled(),
@@ -42837,7 +42017,7 @@ function (_super) {
 
     (_a = this.cancelOpenTimeout) === null || _a === void 0 ? void 0 : _a.call(this);
 
-    if (timeout > 0) {
+    if (timeout !== undefined && timeout > 0) {
       this.cancelOpenTimeout = this.setTimeout(function () {
         return _this.setOpenState(isOpen, e);
       }, timeout);
@@ -42851,6 +42031,8 @@ function (_super) {
       }
 
       if (!isOpen) {
+        // non-null assertion because the only time `e` is undefined is when in controlled mode
+        // or the rare special case in uncontrolled mode when the `disabled` flag is toggled true
         (_e = (_d = this.props).onClose) === null || _e === void 0 ? void 0 : _e.call(_d, e);
       }
     }
@@ -42859,9 +42041,9 @@ function (_super) {
   Popover.prototype.isArrowEnabled = function () {
     var _a = this.props,
         minimal = _a.minimal,
-        arrow = _a.modifiers.arrow; // omitting `arrow` from `modifiers` uses Popper default, which does show an arrow.
+        modifiers = _a.modifiers; // omitting `arrow` from `modifiers` uses Popper default, which does show an arrow.
 
-    return !minimal && (arrow == null || arrow.enabled);
+    return !minimal && ((modifiers === null || modifiers === void 0 ? void 0 : modifiers.arrow) == null || modifiers.arrow.enabled);
   };
 
   Popover.prototype.isElementInPopover = function (element) {
@@ -42887,6 +42069,8 @@ function (_super) {
     minimal: false,
     modifiers: {},
     openOnTargetFocus: true,
+    // N.B. we don't set a default for `placement` here because that would override
+    // the deprecated `position` prop
     position: "auto",
     targetTagName: "span",
     transitionDuration: 300,
@@ -42951,6 +42135,8 @@ var POPPER_MODIFIERS = {
 var TRANSITION_DURATION = 100;
 /* istanbul ignore next */
 
+/** @deprecated use ContextMenu2 */
+
 var ContextMenu =
 /** @class */
 function (_super) {
@@ -42961,9 +42147,7 @@ function (_super) {
 
     _this.state = {
       isDarkTheme: false,
-      isOpen: false,
-      menu: null,
-      offset: null
+      isOpen: false
     };
 
     _this.cancelContextMenu = function (e) {
@@ -42983,7 +42167,7 @@ function (_super) {
         var newTarget = document.elementFromPoint(e.clientX, e.clientY);
         var view = e.view,
             newEventInit = (0, _tslib.__rest)(e, ["view"]);
-        newTarget.dispatchEvent(new MouseEvent("contextmenu", newEventInit));
+        newTarget === null || newTarget === void 0 ? void 0 : newTarget.dispatchEvent(new MouseEvent("contextmenu", newEventInit));
       }, TRANSITION_DURATION);
     };
 
@@ -43012,8 +42196,10 @@ function (_super) {
     // Generate key based on offset so a new Popover instance is created
     // when offset changes, to force recomputing position.
 
-    var key = this.state.offset == null ? "" : this.state.offset.left + "x" + this.state.offset.top; // wrap the popover in a positioned div to make sure it is properly
+    var key = this.state.offset === undefined ? "" : this.state.offset.left + "x" + this.state.offset.top; // wrap the popover in a positioned div to make sure it is properly
     // offset on the screen.
+
+    /* eslint-disable deprecation/deprecation */
 
     return React.createElement("div", {
       className: _common.Classes.CONTEXT_MENU_POPOVER_TARGET,
@@ -43035,9 +42221,14 @@ function (_super) {
       target: React.createElement("div", null),
       transitionDuration: TRANSITION_DURATION
     })));
+    /* eslint-enable deprecation/deprecation */
   };
 
   ContextMenu.prototype.show = function (menu, offset, onClose, isDarkTheme) {
+    if (isDarkTheme === void 0) {
+      isDarkTheme = false;
+    }
+
     this.setState({
       isOpen: true,
       menu: menu,
@@ -43061,7 +42252,8 @@ function (_super) {
   return ContextMenu;
 }(_common.AbstractPureComponent2);
 
-var contextMenuElement;
+var contextMenuElement; // eslint-disable-next-line deprecation/deprecation
+
 var contextMenu;
 /**
  * Show the given menu element at the given offset from the top-left corner of the viewport.
@@ -43070,13 +42262,16 @@ var contextMenu;
  */
 
 function show(menu, offset, onClose, isDarkTheme) {
-  if (contextMenuElement == null) {
+  if (contextMenuElement === undefined) {
     contextMenuElement = document.createElement("div");
     contextMenuElement.classList.add(_common.Classes.CONTEXT_MENU);
     document.body.appendChild(contextMenuElement);
+    /* eslint-disable deprecation/deprecation */
+
     contextMenu = ReactDOM.render(React.createElement(ContextMenu, {
       onClosed: remove
     }), contextMenuElement);
+    /* eslint-enable deprecation/deprecation */
   }
 
   contextMenu.show(menu, offset, onClose, isDarkTheme);
@@ -43085,9 +42280,7 @@ function show(menu, offset, onClose, isDarkTheme) {
 
 
 function hide() {
-  if (contextMenu != null) {
-    contextMenu.hide();
-  }
+  contextMenu === null || contextMenu === void 0 ? void 0 : contextMenu.hide();
 }
 /** Return whether a context menu is currently open. */
 
@@ -43100,8 +42293,8 @@ function remove() {
   if (contextMenuElement != null) {
     ReactDOM.unmountComponentAtNode(contextMenuElement);
     contextMenuElement.remove();
-    contextMenuElement = null;
-    contextMenu = null;
+    contextMenuElement = undefined;
+    contextMenu = undefined;
   }
 }
 },{"tslib":"node_modules/tslib/tslib.es6.js","classnames":"node_modules/classnames/index.js","react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","react-lifecycles-compat":"node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","../../common":"node_modules/@blueprintjs/core/lib/esm/common/index.js","../popover/popover":"node_modules/@blueprintjs/core/lib/esm/components/popover/popover.js"}],"node_modules/@blueprintjs/icons/lib/esm/generated/iconContents.js":[function(require,module,exports) {
@@ -44097,12 +43290,12 @@ exports.ZOOM_TO_FIT = ZOOM_TO_FIT;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.DASHBOARD = exports.CYCLE = exports.CUT = exports.CURVED_RANGE_CHART = exports.CUBE_REMOVE = exports.CUBE_ADD = exports.CUBE = exports.CROWN = exports.CROSS = exports.CREDIT_CARD = exports.CONTROL = exports.CONTRAST = exports.CONSOLE = exports.CONFIRM = exports.COMPRESSED = exports.COMPASS = exports.COMPARISON = exports.COMMENT = exports.COLUMN_LAYOUT = exports.COLLAPSE_ALL = exports.COG = exports.CODE_BLOCK = exports.CODE = exports.CLOUD_UPLOAD = exports.CLOUD_DOWNLOAD = exports.CLOUD = exports.CLIPBOARD = exports.CLEAN = exports.CITATION = exports.CIRCLE_ARROW_UP = exports.CIRCLE_ARROW_RIGHT = exports.CIRCLE_ARROW_LEFT = exports.CIRCLE_ARROW_DOWN = exports.CIRCLE = exports.CHEVRON_UP = exports.CHEVRON_RIGHT = exports.CHEVRON_LEFT = exports.CHEVRON_FORWARD = exports.CHEVRON_DOWN = exports.CHEVRON_BACKWARD = exports.CHAT = exports.CHART = exports.CHANGES = exports.CELL_TOWER = exports.CARET_UP = exports.CARET_RIGHT = exports.CARET_LEFT = exports.CARET_DOWN = exports.CAMERA = exports.CALENDAR = exports.CALCULATOR = exports.BUILD = exports.BRING_DATA = exports.BRIEFCASE = exports.BOX = exports.BOOKMARK = exports.BOOK = exports.BOLD = exports.BLOCKED_PERSON = exports.BLANK = exports.BARCODE = exports.BANK_ACCOUNT = exports.BAN_CIRCLE = exports.BADGE = exports.BACKLINK = exports.AUTOMATIC_UPDATES = exports.ASTERISK = exports.ARROWS_VERTICAL = exports.ARROWS_HORIZONTAL = exports.ARROW_UP = exports.ARROW_TOP_RIGHT = exports.ARROW_TOP_LEFT = exports.ARROW_RIGHT = exports.ARROW_LEFT = exports.ARROW_DOWN = exports.ARROW_BOTTOM_RIGHT = exports.ARROW_BOTTOM_LEFT = exports.ARCHIVE = exports.APPLICATIONS = exports.APPLICATION = exports.APP_HEADER = exports.ANNOTATION = exports.ALIGNMENT_VERTICAL_CENTER = exports.ALIGNMENT_TOP = exports.ALIGNMENT_RIGHT = exports.ALIGNMENT_LEFT = exports.ALIGNMENT_HORIZONTAL_CENTER = exports.ALIGNMENT_BOTTOM = exports.ALIGN_RIGHT = exports.ALIGN_LEFT = exports.ALIGN_JUSTIFY = exports.ALIGN_CENTER = exports.AIRPLANE = exports.ADD_TO_FOLDER = exports.ADD_TO_ARTIFACT = exports.ADD_ROW_TOP = exports.ADD_ROW_BOTTOM = exports.ADD_COLUMN_RIGHT = exports.ADD_COLUMN_LEFT = exports.ADD = void 0;
-exports.GREATER_THAN = exports.GRAPH_REMOVE = exports.GRAPH = exports.GLOBE_NETWORK = exports.GLOBE = exports.GLASS = exports.GIT_REPO = exports.GIT_PUSH = exports.GIT_PULL = exports.GIT_NEW_BRANCH = exports.GIT_MERGE = exports.GIT_COMMIT = exports.GIT_BRANCH = exports.GEOSEARCH = exports.GEOLOCATION = exports.GEOFENCE = exports.GANTT_CHART = exports.FUNCTION = exports.FULLSCREEN = exports.FULL_STACKED_CHART = exports.FULL_CIRCLE = exports.FORM = exports.FORK = exports.FONT = exports.FOLLOWING = exports.FOLLOWER = exports.FOLDER_SHARED_OPEN = exports.FOLDER_SHARED = exports.FOLDER_OPEN = exports.FOLDER_NEW = exports.FOLDER_CLOSE = exports.FLOWS = exports.FLOW_REVIEW_BRANCH = exports.FLOW_REVIEW = exports.FLOW_LINEAR = exports.FLOW_END = exports.FLOW_BRANCH = exports.FLOPPY_DISK = exports.FLASH = exports.FLAME = exports.FLAG = exports.FILTER_REMOVE = exports.FILTER_OPEN = exports.FILTER_LIST = exports.FILTER_KEEP = exports.FILTER = exports.FILM = exports.FEED_SUBSCRIBED = exports.FEED = exports.FAST_FORWARD = exports.FAST_BACKWARD = exports.EYE_OPEN = exports.EYE_ON = exports.EYE_OFF = exports.EXPORT = exports.EXPAND_ALL = exports.EXCLUDE_ROW = exports.EXCHANGE = exports.EURO = exports.ERROR = exports.ERASER = exports.EQUALS = exports.ENVELOPE = exports.ENDORSED = exports.EJECT = exports.EDIT = exports.DUPLICATE = exports.DRIVE_TIME = exports.DRAWER_RIGHT_FILLED = exports.DRAWER_RIGHT = exports.DRAWER_LEFT_FILLED = exports.DRAWER_LEFT = exports.DRAW = exports.DRAG_HANDLE_VERTICAL = exports.DRAG_HANDLE_HORIZONTAL = exports.DOWNLOAD = exports.DOUGHNUT_CHART = exports.DOUBLE_CHEVRON_UP = exports.DOUBLE_CHEVRON_RIGHT = exports.DOUBLE_CHEVRON_LEFT = exports.DOUBLE_CHEVRON_DOWN = exports.DOUBLE_CARET_VERTICAL = exports.DOUBLE_CARET_HORIZONTAL = exports.DOT = exports.DOLLAR = exports.DOCUMENT_SHARE = exports.DOCUMENT_OPEN = exports.DOCUMENT = exports.DISABLE = exports.DIRECTION_RIGHT = exports.DIRECTION_LEFT = exports.DIAGRAM_TREE = exports.DIAGNOSIS = exports.DESKTOP = exports.DERIVE_COLUMN = exports.DELTA = exports.DELETE = exports.DATABASE = exports.DATA_LINEAGE = exports.DATA_CONNECTION = void 0;
-exports.MERGE_LINKS = exports.MERGE_COLUMNS = exports.MENU_OPEN = exports.MENU_CLOSED = exports.MENU = exports.MEDIA = exports.MAXIMIZE = exports.MAP_MARKER = exports.MAP_CREATE = exports.MAP = exports.MANUALLY_ENTERED_DATA = exports.MANUAL = exports.LOG_OUT = exports.LOG_IN = exports.LOCK = exports.LOCATE = exports.LIST_DETAIL_VIEW = exports.LIST_COLUMNS = exports.LIST = exports.LINK = exports.LIGHTBULB = exports.LIFESAVER = exports.LESS_THAN_OR_EQUAL_TO = exports.LESS_THAN = exports.LEFT_JOIN = exports.LEARNING = exports.LAYOUT_SORTED_CLUSTERS = exports.LAYOUT_SKEW_GRID = exports.LAYOUT_LINEAR = exports.LAYOUT_HIERARCHY = exports.LAYOUT_GROUP_BY = exports.LAYOUT_GRID = exports.LAYOUT_CIRCLE = exports.LAYOUT_BALLOON = exports.LAYOUT_AUTO = exports.LAYOUT = exports.LAYERS = exports.LAYER = exports.LABEL = exports.LAB_TEST = exports.KNOWN_VEHICLE = exports.KEY_TAB = exports.KEY_SHIFT = exports.KEY_OPTION = exports.KEY_ESCAPE = exports.KEY_ENTER = exports.KEY_DELETE = exports.KEY_CONTROL = exports.KEY_COMMAND = exports.KEY_BACKSPACE = exports.KEY = exports.JOIN_TABLE = exports.ITALIC = exports.ISSUE_NEW = exports.ISSUE_CLOSED = exports.ISSUE = exports.IP_ADDRESS = exports.INTERSECTION = exports.INSERT = exports.INNER_JOIN = exports.INHERITED_GROUP = exports.INHERITANCE = exports.INFO_SIGN = exports.INBOX_UPDATE = exports.INBOX_SEARCH = exports.INBOX_GEO = exports.INBOX_FILTERED = exports.INBOX = exports.IMPORT = exports.IMAGE_ROTATE_RIGHT = exports.IMAGE_ROTATE_LEFT = exports.ID_NUMBER = exports.HORIZONTAL_DISTRIBUTION = exports.HORIZONTAL_BAR_CHART_DESC = exports.HORIZONTAL_BAR_CHART_ASC = exports.HORIZONTAL_BAR_CHART = exports.HOME = exports.HISTORY = exports.HIGHLIGHT = exports.HELPER_MANAGEMENT = exports.HELP = exports.HEATMAP = exports.HEAT_GRID = exports.HEART_BROKEN = exports.HEART = exports.HEADSET = exports.HEADER_TWO = exports.HEADER_ONE = exports.HEADER = exports.HAT = exports.HAND_UP = exports.HAND_RIGHT = exports.HAND_LEFT = exports.HAND_DOWN = exports.HAND = exports.GROUPED_BAR_CHART = exports.GROUP_OBJECTS = exports.GRID_VIEW = exports.GRID = exports.GREATER_THAN_OR_EQUAL_TO = void 0;
-exports.SERIES_FILTERED = exports.SERIES_DERIVED = exports.SERIES_CONFIGURATION = exports.SERIES_ADD = exports.SEND_TO_MAP = exports.SEND_TO_GRAPH = exports.SEND_TO = exports.SEND_MESSAGE = exports.SELECTION = exports.SELECT = exports.SEGMENTED_CONTROL = exports.SEARCH_TEXT = exports.SEARCH_TEMPLATE = exports.SEARCH_AROUND = exports.SEARCH = exports.SCATTER_PLOT = exports.SAVED = exports.SATELLITE = exports.ROUTE = exports.ROTATE_PAGE = exports.ROTATE_DOCUMENT = exports.RING = exports.RIGHT_JOIN = exports.RIG = exports.RESOLVE = exports.RESET = exports.REPEAT = exports.REMOVE_ROW_TOP = exports.REMOVE_ROW_BOTTOM = exports.REMOVE_COLUMN_RIGHT = exports.REMOVE_COLUMN_LEFT = exports.REMOVE_COLUMN = exports.REMOVE = exports.REGRESSION_CHART = exports.REFRESH = exports.REDO = exports.RECORD = exports.RANDOM = exports.PULSE = exports.PUBLISH_FUNCTION = exports.PROPERTY = exports.PROPERTIES = exports.PROJECTS = exports.PRINT = exports.PRESENTATION = exports.PRESCRIPTION = exports.PREDICTIVE_ANALYSIS = exports.POWER = exports.POLYGON_FILTER = exports.PLUS = exports.PLAY = exports.PIVOT_TABLE = exports.PIVOT = exports.PIN = exports.PIE_CHART = exports.PHONE = exports.PERSON = exports.PERCENTAGE = exports.PEOPLE = exports.PAUSE = exports.PATH_SEARCH = exports.PATH = exports.PARAGRAPH = exports.PAPERCLIP = exports.PANEL_TABLE = exports.PANEL_STATS = exports.PAGE_LAYOUT = exports.OUTDATED = exports.ONE_COLUMN = exports.OIL_FIELD = exports.OFFLINE = exports.OFFICE = exports.NUMERICAL = exports.NUMBERED_LIST = exports.NOTIFICATIONS_UPDATED = exports.NOTIFICATIONS = exports.NOT_EQUAL_TO = exports.NINJA = exports.NEW_TEXT_BOX = exports.NEW_PRESCRIPTION = exports.NEW_PERSON = exports.NEW_OBJECT = exports.NEW_LINK = exports.NEW_LAYERS = exports.NEW_LAYER = exports.NEW_GRID_ITEM = exports.NEW_DRAWING = exports.MUSIC = exports.MULTI_SELECT = exports.MUGSHOT = exports.MOVE = exports.MOUNTAIN = exports.MORE = exports.MOON = exports.MODAL_FILLED = exports.MODAL = exports.MOBILE_VIDEO = exports.MOBILE_PHONE = exports.MINUS = exports.MINIMIZE = void 0;
-exports.ZOOM_IN = exports.WRENCH = exports.WIDGET_HEADER = exports.WIDGET_FOOTER = exports.WIDGET_BUTTON = exports.WIDGET = exports.WATERFALL_CHART = exports.WARNING_SIGN = exports.WALK = exports.VOLUME_UP = exports.VOLUME_OFF = exports.VOLUME_DOWN = exports.VIRUS = exports.VIDEO = exports.VERTICAL_DISTRIBUTION = exports.VERTICAL_BAR_CHART_DESC = exports.VERTICAL_BAR_CHART_ASC = exports.VARIABLE = exports.USER = exports.UPLOAD = exports.UPDATED = exports.UNRESOLVE = exports.UNPIN = exports.UNLOCK = exports.UNKNOWN_VEHICLE = exports.UNGROUP_OBJECTS = exports.UNDO = exports.UNDERLINE = exports.UNARCHIVE = exports.TWO_COLUMNS = exports.TRUCK = exports.TRENDING_UP = exports.TRENDING_DOWN = exports.TREE = exports.TRASH = exports.TRANSLATE = exports.TRAIN = exports.TRACTOR = exports.TORCH = exports.TINT = exports.TIMELINE_LINE_CHART = exports.TIMELINE_EVENTS = exports.TIMELINE_BAR_CHART = exports.TIMELINE_AREA_CHART = exports.TIME = exports.TICK_CIRCLE = exports.TICK = exports.THUMBS_UP = exports.THUMBS_DOWN = exports.TH_LIST = exports.TH_FILTERED = exports.TH_DISCONNECT = exports.TH_DERIVED = exports.TH = exports.TEXT_HIGHLIGHT = exports.TAXI = exports.TAKE_ACTION = exports.TAG = exports.SYMBOL_TRIANGLE_UP = exports.SYMBOL_TRIANGLE_DOWN = exports.SYMBOL_SQUARE = exports.SYMBOL_DIAMOND = exports.SYMBOL_CROSS = exports.SYMBOL_CIRCLE = exports.SWAP_VERTICAL = exports.SWAP_HORIZONTAL = exports.STYLE = exports.STRIKETHROUGH = exports.STOPWATCH = exports.STOP = exports.STEP_FORWARD = exports.STEP_CHART = exports.STEP_BACKWARD = exports.STAR_EMPTY = exports.STAR = exports.STACKED_CHART = exports.SQUARE = exports.SPLIT_COLUMNS = exports.SORT_NUMERICAL_DESC = exports.SORT_NUMERICAL = exports.SORT_DESC = exports.SORT_ASC = exports.SORT_ALPHABETICAL_DESC = exports.SORT_ALPHABETICAL = exports.SORT = exports.SOCIAL_MEDIA = exports.SNOWFLAKE = exports.SMALL_TICK = exports.SMALL_PLUS = exports.SMALL_MINUS = exports.SMALL_CROSS = exports.SLASH = exports.SIM_CARD = exports.SIGNAL_SEARCH = exports.SHOPPING_CART = exports.SHOP = exports.SHIELD = exports.SHARE = exports.SETTINGS = exports.SERIES_SEARCH = void 0;
-exports.ZOOM_TO_FIT = exports.ZOOM_OUT = void 0;
+exports.CUBE = exports.CROWN = exports.CROSS = exports.CREDIT_CARD = exports.CONTROL = exports.CONTRAST = exports.CONSOLE = exports.CONFIRM = exports.COMPRESSED = exports.COMPASS = exports.COMPARISON = exports.COMMENT = exports.COLUMN_LAYOUT = exports.COLLAPSE_ALL = exports.COG = exports.CODE_BLOCK = exports.CODE = exports.CLOUD_UPLOAD = exports.CLOUD_DOWNLOAD = exports.CLOUD = exports.CLIPBOARD = exports.CLEAN = exports.CITATION = exports.CIRCLE_ARROW_UP = exports.CIRCLE_ARROW_RIGHT = exports.CIRCLE_ARROW_LEFT = exports.CIRCLE_ARROW_DOWN = exports.CIRCLE = exports.CHEVRON_UP = exports.CHEVRON_RIGHT = exports.CHEVRON_LEFT = exports.CHEVRON_FORWARD = exports.CHEVRON_DOWN = exports.CHEVRON_BACKWARD = exports.CHAT = exports.CHART = exports.CHANGES = exports.CELL_TOWER = exports.CARET_UP = exports.CARET_RIGHT = exports.CARET_LEFT = exports.CARET_DOWN = exports.CAMERA = exports.CALENDAR = exports.CALCULATOR = exports.BUILD = exports.BRING_DATA = exports.BRIEFCASE = exports.BOX = exports.BOOKMARK = exports.BOOK = exports.BOLD = exports.BLOCKED_PERSON = exports.BLANK = exports.BARCODE = exports.BANK_ACCOUNT = exports.BAN_CIRCLE = exports.BADGE = exports.BACKLINK = exports.AUTOMATIC_UPDATES = exports.ASTERISK = exports.ARROWS_VERTICAL = exports.ARROWS_HORIZONTAL = exports.ARROW_UP = exports.ARROW_TOP_RIGHT = exports.ARROW_TOP_LEFT = exports.ARROW_RIGHT = exports.ARROW_LEFT = exports.ARROW_DOWN = exports.ARROW_BOTTOM_RIGHT = exports.ARROW_BOTTOM_LEFT = exports.ARRAY_TIMESTAMP = exports.ARRAY_STRING = exports.ARRAY_NUMERIC = exports.ARRAY_DATE = exports.ARRAY_BOOLEAN = exports.ARRAY = exports.ARCHIVE = exports.APPLICATIONS = exports.APPLICATION = exports.APP_HEADER = exports.ANNOTATION = exports.ALIGNMENT_VERTICAL_CENTER = exports.ALIGNMENT_TOP = exports.ALIGNMENT_RIGHT = exports.ALIGNMENT_LEFT = exports.ALIGNMENT_HORIZONTAL_CENTER = exports.ALIGNMENT_BOTTOM = exports.ALIGN_RIGHT = exports.ALIGN_LEFT = exports.ALIGN_JUSTIFY = exports.ALIGN_CENTER = exports.AIRPLANE = exports.ADD_TO_FOLDER = exports.ADD_TO_ARTIFACT = exports.ADD_ROW_TOP = exports.ADD_ROW_BOTTOM = exports.ADD_COLUMN_RIGHT = exports.ADD_COLUMN_LEFT = exports.ADD = void 0;
+exports.GIT_PUSH = exports.GIT_PULL = exports.GIT_NEW_BRANCH = exports.GIT_MERGE = exports.GIT_COMMIT = exports.GIT_BRANCH = exports.GEOSEARCH = exports.GEOLOCATION = exports.GEOFENCE = exports.GANTT_CHART = exports.FUNCTION = exports.FULLSCREEN = exports.FULL_STACKED_CHART = exports.FULL_CIRCLE = exports.FORM = exports.FORK = exports.FONT = exports.FOLLOWING = exports.FOLLOWER = exports.FOLDER_SHARED_OPEN = exports.FOLDER_SHARED = exports.FOLDER_OPEN = exports.FOLDER_NEW = exports.FOLDER_CLOSE = exports.FLOWS = exports.FLOW_REVIEW_BRANCH = exports.FLOW_REVIEW = exports.FLOW_LINEAR = exports.FLOW_END = exports.FLOW_BRANCH = exports.FLOPPY_DISK = exports.FLASH = exports.FLAME = exports.FLAG = exports.FILTER_REMOVE = exports.FILTER_OPEN = exports.FILTER_LIST = exports.FILTER_KEEP = exports.FILTER = exports.FILM = exports.FEED_SUBSCRIBED = exports.FEED = exports.FAST_FORWARD = exports.FAST_BACKWARD = exports.EYE_OPEN = exports.EYE_ON = exports.EYE_OFF = exports.EXPORT = exports.EXPAND_ALL = exports.EXCLUDE_ROW = exports.EXCHANGE = exports.EURO = exports.ERROR = exports.ERASER = exports.EQUALS = exports.ENVELOPE = exports.ENDORSED = exports.EMOJI = exports.EJECT = exports.EDIT = exports.DUPLICATE = exports.DRIVE_TIME = exports.DRAWER_RIGHT_FILLED = exports.DRAWER_RIGHT = exports.DRAWER_LEFT_FILLED = exports.DRAWER_LEFT = exports.DRAW = exports.DRAG_HANDLE_VERTICAL = exports.DRAG_HANDLE_HORIZONTAL = exports.DOWNLOAD = exports.DOUGHNUT_CHART = exports.DOUBLE_CHEVRON_UP = exports.DOUBLE_CHEVRON_RIGHT = exports.DOUBLE_CHEVRON_LEFT = exports.DOUBLE_CHEVRON_DOWN = exports.DOUBLE_CARET_VERTICAL = exports.DOUBLE_CARET_HORIZONTAL = exports.DOT = exports.DOLLAR = exports.DOCUMENT_SHARE = exports.DOCUMENT_OPEN = exports.DOCUMENT = exports.DISABLE = exports.DIRECTION_RIGHT = exports.DIRECTION_LEFT = exports.DIAGRAM_TREE = exports.DIAGNOSIS = exports.DESKTOP = exports.DERIVE_COLUMN = exports.DELTA = exports.DELETE = exports.DATABASE = exports.DATA_LINEAGE = exports.DATA_CONNECTION = exports.DASHBOARD = exports.CYCLE = exports.CUT = exports.CURVED_RANGE_CHART = exports.CUBE_REMOVE = exports.CUBE_ADD = void 0;
+exports.MAP = exports.MANUALLY_ENTERED_DATA = exports.MANUAL = exports.LOG_OUT = exports.LOG_IN = exports.LOCK = exports.LOCATE = exports.LIST_DETAIL_VIEW = exports.LIST_COLUMNS = exports.LIST = exports.LINK = exports.LIGHTBULB = exports.LIFESAVER = exports.LESS_THAN_OR_EQUAL_TO = exports.LESS_THAN = exports.LEFT_JOIN = exports.LEARNING = exports.LAYOUT_SORTED_CLUSTERS = exports.LAYOUT_SKEW_GRID = exports.LAYOUT_LINEAR = exports.LAYOUT_HIERARCHY = exports.LAYOUT_GROUP_BY = exports.LAYOUT_GRID = exports.LAYOUT_CIRCLE = exports.LAYOUT_BALLOON = exports.LAYOUT_AUTO = exports.LAYOUT = exports.LAYERS = exports.LAYER_OUTLINE = exports.LAYER = exports.LABEL = exports.LAB_TEST = exports.KNOWN_VEHICLE = exports.KEY_TAB = exports.KEY_SHIFT = exports.KEY_OPTION = exports.KEY_ESCAPE = exports.KEY_ENTER = exports.KEY_DELETE = exports.KEY_CONTROL = exports.KEY_COMMAND = exports.KEY_BACKSPACE = exports.KEY = exports.JOIN_TABLE = exports.ITALIC = exports.ISSUE_NEW = exports.ISSUE_CLOSED = exports.ISSUE = exports.IP_ADDRESS = exports.INTERSECTION = exports.INSERT = exports.INNER_JOIN = exports.INHERITED_GROUP = exports.INHERITANCE = exports.INFO_SIGN = exports.INBOX_UPDATE = exports.INBOX_SEARCH = exports.INBOX_GEO = exports.INBOX_FILTERED = exports.INBOX = exports.IMPORT = exports.IMAGE_ROTATE_RIGHT = exports.IMAGE_ROTATE_LEFT = exports.ID_NUMBER = exports.HORIZONTAL_DISTRIBUTION = exports.HORIZONTAL_BAR_CHART_DESC = exports.HORIZONTAL_BAR_CHART_ASC = exports.HORIZONTAL_BAR_CHART = exports.HOME = exports.HISTORY = exports.HIGHLIGHT = exports.HIGH_PRIORITY = exports.HELPER_MANAGEMENT = exports.HELP = exports.HEATMAP = exports.HEAT_GRID = exports.HEART_BROKEN = exports.HEART = exports.HEADSET = exports.HEADER_TWO = exports.HEADER_ONE = exports.HEADER = exports.HAT = exports.HAND_UP = exports.HAND_RIGHT = exports.HAND_LEFT = exports.HAND_DOWN = exports.HAND = exports.GROUPED_BAR_CHART = exports.GROUP_OBJECTS = exports.GRID_VIEW = exports.GRID = exports.GREATER_THAN_OR_EQUAL_TO = exports.GREATER_THAN = exports.GRAPH_REMOVE = exports.GRAPH = exports.GLOBE_NETWORK = exports.GLOBE = exports.GLASS = exports.GIT_REPO = void 0;
+exports.SEGMENTED_CONTROL = exports.SEARCH_TEXT = exports.SEARCH_TEMPLATE = exports.SEARCH_AROUND = exports.SEARCH = exports.SCATTER_PLOT = exports.SAVED = exports.SATELLITE = exports.ROUTE = exports.ROTATE_PAGE = exports.ROTATE_DOCUMENT = exports.RING = exports.RIGHT_JOIN = exports.RIG = exports.RESOLVE = exports.RESET = exports.REPEAT = exports.REMOVE_ROW_TOP = exports.REMOVE_ROW_BOTTOM = exports.REMOVE_COLUMN_RIGHT = exports.REMOVE_COLUMN_LEFT = exports.REMOVE_COLUMN = exports.REMOVE = exports.REGRESSION_CHART = exports.REFRESH = exports.REDO = exports.RECORD = exports.RANDOM = exports.PULSE = exports.PUBLISH_FUNCTION = exports.PROPERTY = exports.PROPERTIES = exports.PROJECTS = exports.PRINT = exports.PRESENTATION = exports.PRESCRIPTION = exports.PREDICTIVE_ANALYSIS = exports.POWER = exports.POLYGON_FILTER = exports.PLUS = exports.PLAY = exports.PIVOT_TABLE = exports.PIVOT = exports.PIN = exports.PIE_CHART = exports.PHONE = exports.PERSON = exports.PERCENTAGE = exports.PEOPLE = exports.PAUSE = exports.PATH_SEARCH = exports.PATH = exports.PARAGRAPH = exports.PAPERCLIP = exports.PANEL_TABLE = exports.PANEL_STATS = exports.PAGE_LAYOUT = exports.OUTDATED = exports.ONE_COLUMN = exports.OIL_FIELD = exports.OFFLINE = exports.OFFICE = exports.NUMERICAL = exports.NUMBERED_LIST = exports.NOTIFICATIONS_UPDATED = exports.NOTIFICATIONS_SNOOZE = exports.NOTIFICATIONS = exports.NOT_EQUAL_TO = exports.NINJA = exports.NEW_TEXT_BOX = exports.NEW_PRESCRIPTION = exports.NEW_PERSON = exports.NEW_OBJECT = exports.NEW_LINK = exports.NEW_LAYERS = exports.NEW_LAYER = exports.NEW_GRID_ITEM = exports.NEW_DRAWING = exports.MUSIC = exports.MULTI_SELECT = exports.MUGSHOT = exports.MOVE = exports.MOUNTAIN = exports.MORE = exports.MOON = exports.MODAL_FILLED = exports.MODAL = exports.MOBILE_VIDEO = exports.MOBILE_PHONE = exports.MINUS = exports.MINIMIZE = exports.MERGE_LINKS = exports.MERGE_COLUMNS = exports.MENU_OPEN = exports.MENU_CLOSED = exports.MENU = exports.MEDIA = exports.MAXIMIZE = exports.MAP_MARKER = exports.MAP_CREATE = void 0;
+exports.VOLUME_DOWN = exports.VIRUS = exports.VIDEO = exports.VERTICAL_DISTRIBUTION = exports.VERTICAL_BAR_CHART_DESC = exports.VERTICAL_BAR_CHART_ASC = exports.VARIABLE = exports.USER = exports.UPLOAD = exports.UPDATED = exports.UNRESOLVE = exports.UNPIN = exports.UNLOCK = exports.UNKNOWN_VEHICLE = exports.UNGROUP_OBJECTS = exports.UNDO = exports.UNDERLINE = exports.UNARCHIVE = exports.TWO_COLUMNS = exports.TRUCK = exports.TRENDING_UP = exports.TRENDING_DOWN = exports.TREE = exports.TRASH = exports.TRANSLATE = exports.TRAIN = exports.TRACTOR = exports.TORCH = exports.TINT = exports.TIMELINE_LINE_CHART = exports.TIMELINE_EVENTS = exports.TIMELINE_BAR_CHART = exports.TIMELINE_AREA_CHART = exports.TIME = exports.TICK_CIRCLE = exports.TICK = exports.THUMBS_UP = exports.THUMBS_DOWN = exports.TH_LIST = exports.TH_FILTERED = exports.TH_DISCONNECT = exports.TH_DERIVED = exports.TH = exports.TEXT_HIGHLIGHT = exports.TAXI = exports.TAKE_ACTION = exports.TAG = exports.SYMBOL_TRIANGLE_UP = exports.SYMBOL_TRIANGLE_DOWN = exports.SYMBOL_SQUARE = exports.SYMBOL_DIAMOND = exports.SYMBOL_CROSS = exports.SYMBOL_CIRCLE = exports.SWITCH = exports.SWAP_VERTICAL = exports.SWAP_HORIZONTAL = exports.STYLE = exports.STRIKETHROUGH = exports.STOPWATCH = exports.STOP = exports.STEP_FORWARD = exports.STEP_CHART = exports.STEP_BACKWARD = exports.STAR_EMPTY = exports.STAR = exports.STACKED_CHART = exports.SQUARE = exports.SPLIT_COLUMNS = exports.SORT_NUMERICAL_DESC = exports.SORT_NUMERICAL = exports.SORT_DESC = exports.SORT_ASC = exports.SORT_ALPHABETICAL_DESC = exports.SORT_ALPHABETICAL = exports.SORT = exports.SOCIAL_MEDIA = exports.SNOWFLAKE = exports.SMALL_TICK = exports.SMALL_PLUS = exports.SMALL_MINUS = exports.SMALL_CROSS = exports.SLASH = exports.SIM_CARD = exports.SIGNAL_SEARCH = exports.SHOPPING_CART = exports.SHOP = exports.SHIELD = exports.SHARE = exports.SETTINGS = exports.SERIES_SEARCH = exports.SERIES_FILTERED = exports.SERIES_DERIVED = exports.SERIES_CONFIGURATION = exports.SERIES_ADD = exports.SEND_TO_MAP = exports.SEND_TO_GRAPH = exports.SEND_TO = exports.SEND_MESSAGE = exports.SELECTION = exports.SELECT = void 0;
+exports.ZOOM_TO_FIT = exports.ZOOM_OUT = exports.ZOOM_IN = exports.WRENCH = exports.WIDGET_HEADER = exports.WIDGET_FOOTER = exports.WIDGET_BUTTON = exports.WIDGET = exports.WATERFALL_CHART = exports.WARNING_SIGN = exports.WALK = exports.VOLUME_UP = exports.VOLUME_OFF = void 0;
 
 /*
  * Copyright 2017 Palantir Technologies, Inc. All rights reserved.
@@ -44153,6 +43346,18 @@ var APPLICATIONS = "applications";
 exports.APPLICATIONS = APPLICATIONS;
 var ARCHIVE = "archive";
 exports.ARCHIVE = ARCHIVE;
+var ARRAY = "array";
+exports.ARRAY = ARRAY;
+var ARRAY_BOOLEAN = "array-boolean";
+exports.ARRAY_BOOLEAN = ARRAY_BOOLEAN;
+var ARRAY_DATE = "array-date";
+exports.ARRAY_DATE = ARRAY_DATE;
+var ARRAY_NUMERIC = "array-numeric";
+exports.ARRAY_NUMERIC = ARRAY_NUMERIC;
+var ARRAY_STRING = "array-string";
+exports.ARRAY_STRING = ARRAY_STRING;
+var ARRAY_TIMESTAMP = "array-timestamp";
+exports.ARRAY_TIMESTAMP = ARRAY_TIMESTAMP;
 var ARROW_BOTTOM_LEFT = "arrow-bottom-left";
 exports.ARROW_BOTTOM_LEFT = ARROW_BOTTOM_LEFT;
 var ARROW_BOTTOM_RIGHT = "arrow-bottom-right";
@@ -44379,6 +43584,8 @@ var EDIT = "edit";
 exports.EDIT = EDIT;
 var EJECT = "eject";
 exports.EJECT = EJECT;
+var EMOJI = "emoji";
+exports.EMOJI = EMOJI;
 var ENDORSED = "endorsed";
 exports.ENDORSED = ENDORSED;
 var ENVELOPE = "envelope";
@@ -44549,6 +43756,8 @@ var HELP = "help";
 exports.HELP = HELP;
 var HELPER_MANAGEMENT = "helper-management";
 exports.HELPER_MANAGEMENT = HELPER_MANAGEMENT;
+var HIGH_PRIORITY = "high-priority";
+exports.HIGH_PRIORITY = HIGH_PRIORITY;
 var HIGHLIGHT = "highlight";
 exports.HIGHLIGHT = HIGHLIGHT;
 var HISTORY = "history";
@@ -44633,6 +43842,8 @@ var LABEL = "label";
 exports.LABEL = LABEL;
 var LAYER = "layer";
 exports.LAYER = LAYER;
+var LAYER_OUTLINE = "layer-outline";
+exports.LAYER_OUTLINE = LAYER_OUTLINE;
 var LAYERS = "layers";
 exports.LAYERS = LAYERS;
 var LAYOUT = "layout";
@@ -44757,6 +43968,8 @@ var NOT_EQUAL_TO = "not-equal-to";
 exports.NOT_EQUAL_TO = NOT_EQUAL_TO;
 var NOTIFICATIONS = "notifications";
 exports.NOTIFICATIONS = NOTIFICATIONS;
+var NOTIFICATIONS_SNOOZE = "notifications-snooze";
+exports.NOTIFICATIONS_SNOOZE = NOTIFICATIONS_SNOOZE;
 var NOTIFICATIONS_UPDATED = "notifications-updated";
 exports.NOTIFICATIONS_UPDATED = NOTIFICATIONS_UPDATED;
 var NUMBERED_LIST = "numbered-list";
@@ -44979,6 +44192,8 @@ var SWAP_HORIZONTAL = "swap-horizontal";
 exports.SWAP_HORIZONTAL = SWAP_HORIZONTAL;
 var SWAP_VERTICAL = "swap-vertical";
 exports.SWAP_VERTICAL = SWAP_VERTICAL;
+var SWITCH = "switch";
+exports.SWITCH = SWITCH;
 var SYMBOL_CIRCLE = "symbol-circle";
 exports.SYMBOL_CIRCLE = SYMBOL_CIRCLE;
 var SYMBOL_CROSS = "symbol-cross";
@@ -45146,6 +44361,12 @@ var IconSvgPaths16 = {
   "application": ["M3.5 7h7c.28 0 .5-.22.5-.5s-.22-.5-.5-.5h-7c-.28 0-.5.22-.5.5s.22.5.5.5zM15 1H1c-.55 0-1 .45-1 1v12c0 .55.45 1 1 1h14c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zm-1 12H2V5h12v8zM3.5 9h4c.28 0 .5-.22.5-.5S7.78 8 7.5 8h-4c-.28 0-.5.22-.5.5s.22.5.5.5zm0 2h5c.28 0 .5-.22.5-.5s-.22-.5-.5-.5h-5c-.28 0-.5.22-.5.5s.22.5.5.5z"],
   "applications": ["M3.5 11h2c.28 0 .5-.22.5-.5s-.22-.5-.5-.5h-2c-.28 0-.5.22-.5.5s.22.5.5.5zm0-2h5c.28 0 .5-.22.5-.5S8.78 8 8.5 8h-5c-.28 0-.5.22-.5.5s.22.5.5.5zM11 4H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h10c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zm-1 10H2V7h8v7zm5-14H5c-.55 0-1 .45-1 1v2h2V2h8v7h-1v2h2c.55 0 1-.45 1-1V1c0-.55-.45-1-1-1zM3.5 13h3c.28 0 .5-.22.5-.5s-.22-.5-.5-.5h-3c-.28 0-.5.22-.5.5s.22.5.5.5z"],
   "archive": ["M13.382 0a1 1 0 01.894.553L16 4v11a1 1 0 01-1 1H1a1 1 0 01-1-1V4L1.724.553A1 1 0 012.618 0h10.764zM8 6c-.55 0-1 .45-1 1v2.59l-.29-.29-.081-.076A.97.97 0 006 9a1.003 1.003 0 00-.71 1.71l2 2 .096.084c.168.13.38.206.614.206.28 0 .53-.11.71-.29l2-2 .084-.096A1.003 1.003 0 009.29 9.29l-.29.3V7l-.007-.116A1.004 1.004 0 008 6zm5-4H3L2 4h12l-1-2z"],
+  "array": ["M15 0a1 1 0 01.993.883L16 1v14a1 1 0 01-.883.993L15 16h-3a1 1 0 01-.117-1.993L12 14h2V2h-2a1 1 0 01-.993-.883L11 1a1 1 0 01.883-.993L12 0h3zM4 0a1 1 0 01.117 1.993L4 2H2v12h2a1 1 0 01.993.883L5 15a1 1 0 01-.883.993L4 16H1a1 1 0 01-.993-.883L0 15V1A1 1 0 01.883.007L1 0h3zm4 7a1 1 0 110 2 1 1 0 010-2zM5 7a1 1 0 110 2 1 1 0 010-2zm6 0a1 1 0 110 2 1 1 0 010-2z"],
+  "array-boolean": ["M15 0a1 1 0 01.993.883L16 1v14a1 1 0 01-.883.993L15 16h-3a1 1 0 01-.117-1.993L12 14h2V2h-2a1 1 0 01-.993-.883L11 1a1 1 0 01.883-.993L12 0h3zM4 0a1 1 0 01.117 1.993L4 2H2v12h2a1 1 0 01.993.883L5 15a1 1 0 01-.883.993L4 16H1a1 1 0 01-.993-.883L0 15V1A1 1 0 01.883.007L1 0h3zm7 6a1 1 0 01.993.883L12 7v2a1 1 0 01-.883.993L11 10H5a1 1 0 01-.993-.883L4 9V7a1 1 0 01.883-.993L5 6h6zm0 1H8v2h3V7z"],
+  "array-date": ["M15 0a1 1 0 01.993.883L16 1v14a1 1 0 01-.883.993L15 16h-3a1 1 0 01-.117-1.993L12 14h2V2h-2a1 1 0 01-.993-.883L11 1a1 1 0 01.883-.993L12 0h3zM4 0a1 1 0 01.117 1.993L4 2H2v12h2a1 1 0 01.993.883L5 15a1 1 0 01-.883.993L4 16H1a1 1 0 01-.993-.883L0 15V1A1 1 0 01.883.007L1 0h3zm6.5 4a.5.5 0 01.5.5V5a1 1 0 01.993.883L12 6v5a1 1 0 01-.883.993L11 12H5a1 1 0 01-.993-.883L4 11V6a1 1 0 01.883-.993L5 5v-.5a.5.5 0 011 0V5h4v-.5a.5.5 0 01.5-.5zm.5 3H5v4h6V7z"],
+  "array-numeric": ["M15 0a1 1 0 01.993.883L16 1v14a1 1 0 01-.883.993L15 16h-3a1 1 0 01-.117-1.993L12 14h2V2h-2a1 1 0 01-.993-.883L11 1a1 1 0 01.883-.993L12 0h3zM4 0a1 1 0 01.117 1.993L4 2H2v12h2a1 1 0 01.993.883L5 15a1 1 0 01-.883.993L4 16H1a1 1 0 01-.993-.883L0 15V1A1 1 0 01.883.007L1 0h3zm6.904 5c.256 0 .483.037.68.112a1.343 1.343 0 01.812.788c.072.184.108.385.108.604 0 .23-.05.441-.152.636a1.314 1.314 0 01-.456.492v.016l.08.04c.055.031.111.072.168.124.085.077.163.172.232.284a1.673 1.673 0 01.24.872c0 .25-.043.477-.128.68a1.518 1.518 0 01-.896.852 1.937 1.937 0 01-.68.116c-.427 0-.792-.101-1.096-.304a1.362 1.362 0 01-.584-.864c-.01-.053.01-.088.064-.104l.696-.16.033-.002c.03.002.051.022.063.058.059.16.155.296.288.408.133.112.312.168.536.168.256 0 .453-.076.592-.228a.827.827 0 00.208-.58c0-.277-.08-.495-.24-.652-.16-.157-.376-.236-.648-.236h-.232l-.035-.005c-.03-.01-.045-.035-.045-.075v-.632l.005-.035c.01-.03.035-.045.075-.045h.216l.138-.009a.734.734 0 00.438-.207c.144-.144.216-.336.216-.576a.745.745 0 00-.192-.532c-.128-.136-.307-.204-.536-.204-.203 0-.363.05-.48.152a.815.815 0 00-.248.408c-.016.048-.048.067-.096.056l-.68-.16-.034-.012c-.028-.016-.038-.044-.03-.084a1.347 1.347 0 01.516-.828c.136-.104.296-.185.48-.244A1.98 1.98 0 0110.904 5zm-6.152.088l.035.005c.03.01.045.035.045.075v5.28l-.005.035c-.01.03-.035.045-.075.045h-.736l-.035-.005c-.03-.01-.045-.035-.045-.075V6.16H3.92l-.832.584-.032.016C3.02 6.773 3 6.751 3 6.696V5.88l.006-.04a.157.157 0 01.05-.072l.872-.632.04-.027a.236.236 0 01.104-.021h.68zM7.344 5c.256 0 .483.04.68.12.197.08.364.188.5.324s.24.296.312.48c.072.184.108.383.108.596 0 .245-.045.47-.136.676-.09.205-.216.404-.376.596l-1.584 1.92v.016h2.016l.035.005c.03.01.045.035.045.075v.64l-.005.035c-.01.03-.035.045-.075.045H5.808l-.035-.005c-.03-.01-.045-.035-.045-.075v-.6l.004-.04a.132.132 0 01.036-.064l1.92-2.392.1-.133a1.95 1.95 0 00.156-.267.985.985 0 00.096-.432.736.736 0 00-.188-.512c-.125-.139-.303-.208-.532-.208-.219 0-.39.061-.512.184a.826.826 0 00-.224.496c-.01.053-.04.075-.088.064L5.792 6.4l-.034-.012c-.028-.016-.038-.044-.03-.084a1.425 1.425 0 01.94-1.192A1.88 1.88 0 017.344 5z"],
+  "array-string": ["M15 0a1 1 0 01.993.883L16 1v14a1 1 0 01-.883.993L15 16h-3a1 1 0 01-.117-1.993L12 14h2V2h-2a1 1 0 01-.993-.883L11 1a1 1 0 01.883-.993L12 0h3zM4 0a1 1 0 01.117 1.993L4 2H2v12h2a1 1 0 01.993.883L5 15a1 1 0 01-.883.993L4 16H1a1 1 0 01-.993-.883L0 15V1A1 1 0 01.883.007L1 0h3zm1.61 5c.514 0 .962.212 1.343.637.382.425.573.997.573 1.716 0 .838-.258 1.588-.773 2.252-.514.663-1.327 1.2-2.437 1.609v-.465l.233-.095a3.09 3.09 0 001.274-1.017c.366-.505.55-1.03.55-1.577a.478.478 0 00-.057-.26c-.018-.037-.043-.056-.074-.056s-.08.025-.149.075c-.198.142-.446.214-.744.214-.36 0-.675-.145-.944-.433A1.453 1.453 0 014 6.572c0-.422.155-.79.465-1.102.31-.313.692-.47 1.144-.47zm4.474 0c.514 0 .963.212 1.344.637.381.425.572.997.572 1.716 0 .838-.257 1.588-.772 2.252-.515.663-1.327 1.2-2.437 1.609v-.465l.233-.095a3.09 3.09 0 001.274-1.017c.366-.505.549-1.03.549-1.577a.478.478 0 00-.056-.26c-.019-.037-.044-.056-.075-.056-.03 0-.08.025-.149.075-.198.142-.446.214-.744.214-.36 0-.674-.145-.944-.433a1.453 1.453 0 01-.405-1.028c0-.422.155-.79.466-1.102.31-.313.691-.47 1.144-.47z"],
+  "array-timestamp": ["M15 0a1 1 0 01.993.883L16 1v14a1 1 0 01-.883.993L15 16h-3a1 1 0 01-.117-1.993L12 14h2V2h-2a1 1 0 01-.993-.883L11 1a1 1 0 01.883-.993L12 0h3zM4 0a1 1 0 01.117 1.993L4 2H2v12h2a1 1 0 01.993.883L5 15a1 1 0 01-.883.993L4 16H1a1 1 0 01-.993-.883L0 15V1A1 1 0 01.883.007L1 0h3zm4 3a5 5 0 110 10A5 5 0 018 3zm0 1a4 4 0 100 8 4 4 0 000-8zm2.354 1.646a.5.5 0 01.057.638l-.057.07-2 2a.5.5 0 01-.638.057l-.07-.057-1-1a.5.5 0 01.638-.765l.07.057.646.647 1.646-1.647a.5.5 0 01.708 0z"],
   "arrow-bottom-left": ["M14 3a1.003 1.003 0 00-1.71-.71L4 10.59V6c0-.55-.45-1-1-1s-1 .45-1 1v7c0 .55.45 1 1 1h7c.55 0 1-.45 1-1s-.45-1-1-1H5.41l8.29-8.29c.19-.18.3-.43.3-.71z"],
   "arrow-bottom-right": ["M13 5c-.55 0-1 .45-1 1v4.59l-8.29-8.3a1.003 1.003 0 00-1.42 1.42l8.3 8.29H6c-.55 0-1 .45-1 1s.45 1 1 1h7c.55 0 1-.45 1-1V6c0-.55-.45-1-1-1z"],
   "arrow-down": ["M13 8c-.3 0-.5.1-.7.3L9 11.6V2c0-.5-.4-1-1-1s-1 .5-1 1v9.6L3.7 8.3C3.5 8.1 3.3 8 3 8c-.5 0-1 .5-1 1 0 .3.1.5.3.7l5 5c.2.2.4.3.7.3s.5-.1.7-.3l5-5c.2-.2.3-.4.3-.7 0-.6-.4-1-1-1z"],
@@ -45259,6 +44480,7 @@ var IconSvgPaths16 = {
   "duplicate": ["M15 0H5c-.55 0-1 .45-1 1v2h2V2h8v7h-1v2h2c.55 0 1-.45 1-1V1c0-.55-.45-1-1-1zm-4 4H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h10c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zm-1 10H2V6h8v8z"],
   "edit": ["M3.25 10.26l2.47 2.47 6.69-6.69-2.46-2.48-6.7 6.7zM.99 14.99l3.86-1.39-2.46-2.44-1.4 3.83zm12.25-14c-.48 0-.92.2-1.24.51l-1.44 1.44 2.47 2.47 1.44-1.44c.32-.32.51-.75.51-1.24.01-.95-.77-1.74-1.74-1.74z"],
   "eject": ["M4 9h8a1.003 1.003 0 00.71-1.71l-4-4C8.53 3.11 8.28 3 8 3s-.53.11-.71.29l-4 4A1.003 1.003 0 004 9zm8 1H4c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1h8c.55 0 1-.45 1-1v-1c0-.55-.45-1-1-1z"],
+  "emoji": ["M8 0a8 8 0 110 16A8 8 0 018 0zm0 1a7 7 0 100 14A7 7 0 008 1zM4 8c.228 2.262 2 4 4 4 1.938 0 3.77-1.738 3.984-3.8L12 8h1c-.128 2.888-2.317 5-5 5a5 5 0 01-4.995-4.783L3 8h1zm2-3a1 1 0 110 2 1 1 0 010-2zm4 0a1 1 0 110 2 1 1 0 010-2z"],
   "endorsed": ["M15.86 7.5l-.81-1.42V4.5c0-.36-.19-.68-.49-.87l-1.37-.8-.81-1.41c-.19-.31-.51-.49-.86-.49H9.89L8.5.14a.948.948 0 00-1 0l-1.39.8H4.52a1 1 0 00-.86.49l-.8 1.37-1.44.83c-.3.19-.49.51-.49.87v1.65l-.8 1.37c-.08.15-.13.32-.13.49s.05.34.14.49l.8 1.37v1.65c0 .36.19.68.49.87l1.42.81.8 1.37c.19.31.51.49.86.49H6.1l1.39.8c.15.09.32.14.48.14s.34-.05.49-.14l1.39-.8h1.63a1 1 0 00.86-.49l.81-1.41 1.37-.8c.3-.19.49-.51.49-.87V9.93l.81-1.42a.89.89 0 00.04-1.01zm-4.12-.82l-4.01 4.01c-.18.18-.43.29-.71.29s-.53-.11-.71-.29l-2-2c-.18-.19-.3-.44-.3-.71a1.003 1.003 0 011.71-.71l1.3 1.3 3.3-3.3a1.003 1.003 0 011.71.71.95.95 0 01-.29.7z"],
   "envelope": ["M0 3.06v9.88L4.94 8 0 3.06zM14.94 2H1.06L8 8.94 14.94 2zm-6.41 8.53c-.14.14-.32.22-.53.22s-.39-.08-.53-.22L6 9.06 1.06 14h13.88L10 9.06l-1.47 1.47zM11.06 8L16 12.94V3.06L11.06 8z"],
   "equals": ["M3 5h10a1 1 0 010 2H3a1 1 0 110-2zm0 4h10a1 1 0 010 2H3a1 1 0 010-2z"],
@@ -45344,6 +44566,7 @@ var IconSvgPaths16 = {
   "heatmap": ["M2 11c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm11-7c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm3 4.5A2.5 2.5 0 0013.5 6c-.98 0-1.82.57-2.23 1.39-.6-.78-1.51-1.3-2.56-1.36.18-.49.29-.99.29-1.53C9 2.01 6.99 0 4.5 0S0 2.01 0 4.5 2.01 9 4.5 9c.19 0 .37-.03.56-.06-.03.19-.06.37-.06.56C5 11.43 6.57 13 8.5 13c1.63 0 2.98-1.11 3.37-2.62.44.38 1 .62 1.63.62A2.5 2.5 0 0016 8.5zM14.5 13c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5 1.5-.67 1.5-1.5-.67-1.5-1.5-1.5z"],
   "help": ["M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm1 13H7v-2h2v2zm1.93-6.52c-.14.32-.35.64-.62.97L9.25 8.83c-.12.15-.24.29-.28.42-.04.13-.09.3-.09.52V10H7.12V8.88s.05-.51.21-.71L8.4 6.73c.22-.26.35-.49.44-.68.09-.19.12-.38.12-.58 0-.3-.1-.55-.28-.75-.18-.19-.44-.28-.76-.28-.33 0-.59.1-.78.29-.19.19-.33.46-.4.81-.03.11-.1.15-.2.14l-1.7-.25c-.12-.01-.16-.08-.14-.19.12-.82.46-1.47 1.03-1.94.57-.48 1.32-.72 2.25-.72.47 0 .9.07 1.29.22s.72.34 1 .59c.28.25.49.55.65.89.15.35.22.72.22 1.12s-.07.75-.21 1.08z"],
   "helper-management": ["M13 5h-2v2h2V5zm0 6h-2v2h2v-2zm0-3h-2v2h2V8zm2-8H1C.4 0 0 .4 0 1v14c0 .6.4 1 1 1h14c.6 0 1-.4 1-1V1c0-.6-.4-1-1-1zm-1 14H2V2h12v12zm-7-3H5v2h2v-2zm3 0H8v2h2v-2z"],
+  "high-priority": ["M9 14v2H7v-2h2zm1-14L9 12H7L6 0h4z"],
   "highlight": ["M9.12 11.07l2-2.02.71.71 4-4.04L10.17 0l-4 4.04.71.71-2 2.02 4.24 4.3zM2 12.97h4c.28 0 .53-.11.71-.3l1-1.01-3.42-3.45-3 3.03c-.18.18-.29.44-.29.72 0 .55.45 1.01 1 1.01zm13 1.01H1c-.55 0-1 .45-1 1.01S.45 16 1 16h14c.55 0 1-.45 1-1.01s-.45-1.01-1-1.01z"],
   "history": ["M8 3c-.55 0-1 .45-1 1v4c0 .28.11.53.29.71l2 2a1.003 1.003 0 001.42-1.42L9 7.59V4c0-.55-.45-1-1-1zm0-3a7.95 7.95 0 00-6 2.74V1c0-.55-.45-1-1-1S0 .45 0 1v4c0 .55.45 1 1 1h4c.55 0 1-.45 1-1s-.45-1-1-1H3.54C4.64 2.78 6.23 2 8 2c3.31 0 6 2.69 6 6 0 2.61-1.67 4.81-4 5.63v-.01c-.63.23-1.29.38-2 .38-3.31 0-6-2.69-6-6 0-.55-.45-1-1-1s-1 .45-1 1c0 4.42 3.58 8 8 8 .34 0 .67-.03 1-.07.02 0 .04-.01.06-.01C12.98 15.4 16 12.06 16 8c0-4.42-3.58-8-8-8z"],
   "home": ["M2 10v5c0 .55.45 1 1 1h3v-5h4v5h3c.55 0 1-.45 1-1v-5L8 4l-6 6zm13.71-2.71L14 5.59V2c0-.55-.45-1-1-1s-1 .45-1 1v1.59L8.71.29C8.53.11 8.28 0 8 0s-.53.11-.71.29l-7 7a1.003 1.003 0 001.42 1.42L8 2.41l6.29 6.29c.18.19.43.3.71.3a1.003 1.003 0 00.71-1.71z"],
@@ -45386,6 +44609,7 @@ var IconSvgPaths16 = {
   "lab-test": ["M11 1a1 1 0 010 2v3l3 7v1.25a.75.75 0 01-.75.75H2.75a.75.75 0 01-.75-.75V13l3-7V3a1 1 0 110-2h6zM9 3H7v3l-1.714 4h5.428L9 6V3z"],
   "label": ["M11 2H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h14c.55 0 1-.45 1-1V7l-5-5zm3 10H2V4h8v2H3v1h7v1h4v4zm-3-5V4l3 3h-3zm-8 3h10V9H3v1z"],
   "layer": ["M16 8c0-.37-.21-.68-.51-.85l.01-.01-7-4-.01.01C8.34 3.06 8.18 3 8 3s-.34.06-.49.15l-.01-.02-7 4 .01.01C.21 7.32 0 7.63 0 8s.21.68.51.85l-.01.01 7 4 .01-.01c.15.09.31.15.49.15s.34-.06.49-.15l.01.01 7-4-.01-.01c.3-.17.51-.48.51-.85z"],
+  "layer-outline": ["M7.504 3.132l-7 4a1 1 0 000 1.736l7 4a1 1 0 00.992 0l7-4a1 1 0 000-1.736l-7-4a1 1 0 00-.992 0zM8 5.152L12.983 8 8 10.847 3.016 8 8 5.152z"],
   "layers": ["M.55 4.89l7 3.5c.14.07.29.11.45.11s.31-.04.45-.11l7-3.5a.998.998 0 00-.06-1.81L8.4.08a1.006 1.006 0 00-.79 0l-6.99 3a.992.992 0 00-.07 1.81zM15 10c-.16 0-.31.04-.45.11L8 13.38 1.45 10.1c-.14-.06-.29-.1-.45-.1-.55 0-1 .45-1 1 0 .39.23.73.55.89l7 3.5c.14.07.29.11.45.11s.31-.04.45-.11l7-3.5c.32-.16.55-.5.55-.89 0-.55-.45-1-1-1zm0-3.5c-.16 0-.31.04-.45.11L8 9.88 1.45 6.61A.997.997 0 001 6.5c-.55 0-1 .45-1 1 0 .39.23.73.55.89l7 3.5c.14.07.29.11.45.11s.31-.04.45-.11l7-3.5c.32-.16.55-.5.55-.89 0-.55-.45-1-1-1z"],
   "layout": ["M14 4c-1.1 0-2 .9-2 2 0 .47.17.9.44 1.24l-.68.91A1.996 1.996 0 009.07 9.5H7.93C7.71 8.64 6.93 8 6 8c-.47 0-.9.17-1.24.44l-.91-.68c.1-.23.15-.49.15-.76 0-.37-.11-.71-.28-1.01l2.27-2.27c.3.17.64.28 1.01.28 1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2c0 .37.11.71.28 1.01L3.01 5.28C2.71 5.11 2.37 5 2 5 .9 5 0 5.9 0 7s.9 2 2 2c.47 0 .9-.17 1.24-.44l.91.68c-.1.23-.15.49-.15.76 0 .37.11.71.28 1.01l-1.27 1.27C2.71 12.11 2.37 12 2 12c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2c0-.37-.11-.71-.28-1.01l1.27-1.27c.3.17.64.28 1.01.28.93 0 1.71-.64 1.93-1.5h1.14c.22.86 1 1.5 1.93 1.5 1.1 0 2-.9 2-2 0-.47-.17-.9-.44-1.24l.68-.91c.23.1.49.15.76.15 1.1 0 2-.9 2-2s-.9-2-2-2z"],
   "layout-auto": ["M14 9.5c-.56 0-1.06.23-1.42.59L8.99 8l3.59-2.09A2.002 2.002 0 0016 4.5c0-1.1-.9-2-2-2s-2 .9-2 2c0 .19.03.37.08.54L8.5 7.13v-3.2c.86-.22 1.5-1 1.5-1.93 0-1.1-.9-2-2-2S6 .9 6 2c0 .93.64 1.71 1.5 1.93v3.2L3.92 5.04c.05-.17.08-.35.08-.54 0-1.1-.9-2-2-2s-2 .9-2 2 .9 2 2 2c.56 0 1.06-.23 1.42-.59L7.01 8l-3.59 2.09A2.002 2.002 0 000 11.5c0 1.1.9 2 2 2s2-.9 2-2c0-.19-.03-.37-.08-.54L7.5 8.87v3.2c-.86.22-1.5 1-1.5 1.93 0 1.1.9 2 2 2s2-.9 2-2c0-.93-.64-1.71-1.5-1.93v-3.2l3.58 2.09c-.05.17-.08.35-.08.54 0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2z"],
@@ -45448,6 +44672,7 @@ var IconSvgPaths16 = {
   "ninja": ["M16 5s-2.52 2.11-4.96 1.99C11.03 4.89 10.39.23 5 0c0 0 2.11 2.54 1.96 4.99C4.86 5.01.23 5.65 0 11c0 0 2.56-2.12 5.02-1.95.02 2.11.67 6.72 5.98 6.95 0 0-2.09-2.54-1.94-4.99 2.11-.02 6.71-.68 6.94-6.01zM8 9.5c-.83 0-1.5-.67-1.5-1.5S7.17 6.5 8 6.5s1.5.67 1.5 1.5S8.83 9.5 8 9.5z"],
   "not-equal-to": ["M7.58 5l.44-2.196a1 1 0 011.96.392L9.62 5H13a1 1 0 010 2H9.22l-.4 2H13a1 1 0 010 2H8.42l-.44 2.196a1 1 0 01-1.96-.392L6.38 11H3a1 1 0 010-2h3.78l.4-2H3a1 1 0 110-2h4.58z"],
   "notifications": ["M8 16c1.1 0 2-.9 2-2H6c0 1.1.9 2 2 2zm6-5c-.55 0-1-.45-1-1V6c0-2.43-1.73-4.45-4.02-4.9 0-.04.02-.06.02-.1 0-.55-.45-1-1-1S7 .45 7 1c0 .04.02.06.02.1A4.992 4.992 0 003 6v4c0 .55-.45 1-1 1s-1 .45-1 1 .45 1 1 1h12c.55 0 1-.45 1-1s-.45-1-1-1z"],
+  "notifications-snooze": ["M9 14c0 1.1-.9 2-2 2s-2-.9-2-2zM7 0c.404 0 .755.243.912.59L7.9.6c-.7.6-.9 1.36-.9 1.9 0 .8.267 1.433.8 1.9-.533.6-.795 1.222-.784 1.867l.004.358A2.8 2.8 0 009.82 9.4L12 9.399V10c0 .51.388.935.884.993L13 11c.55 0 1 .45 1 1s-.45 1-1 1H1c-.55 0-1-.45-1-1s.45-1 1-1 1-.45 1-1V6c0-2.43 1.73-4.45 4.02-4.9L6 1c0-.55.45-1 1-1z", "M13 6.702a.632.632 0 00-.632-.632h-1.743l2.208-2.734A.75.75 0 0013 2.864v-.3A.565.565 0 0012.435 2H9.561a.561.561 0 100 1.123h1.814L9.221 5.795A1 1 0 009 6.423v.279c0 .349.283.631.632.631h2.736A.632.632 0 0013 6.702z"],
   "notifications-updated": ["M8 16c1.1 0 2-.9 2-2H6c0 1.1.9 2 2 2zm3.399-13.667l-.413.412A2.99 2.99 0 009 1.99a3 3 0 00-3 2.99c0 .8.32 1.558.876 2.114l2.002 1.992A2.99 2.99 0 0013 9.184V10c0 .55.45 1 1 1s1 .45 1 1-.45 1-1 1H2c-.55 0-1-.45-1-1s.45-1 1-1 1-.45 1-1V6c0-2.43 1.73-4.45 4.02-4.9 0-.04-.02-.06-.02-.1 0-.55.45-1 1-1s1 .45 1 1c0 .04-.02.06-.02.1a4.97 4.97 0 012.419 1.233zM10.29 7.67l-2-1.99a.99.99 0 01-.29-.7 1 1 0 011-.99c.27 0 .52.11.7.29l1.29 1.29 3.28-3.28c.18-.18.42-.29.7-.29.55 0 1 .44 1 .99 0 .28-.11.52-.3.7l-3.98 3.98a.99.99 0 01-1.4 0z"],
   "numbered-list": ["M2.76 7h1.26V0h-.94c-.04.21-.12.39-.25.54-.13.15-.29.27-.48.36-.18.09-.39.16-.62.2-.23.04-.46.06-.71.06v.9h1.74V7zm-.59 7.17c.18-.12.37-.25.58-.37a10.763 10.763 0 001.24-.83c.2-.16.37-.33.52-.51.15-.19.28-.39.37-.61.09-.22.14-.47.14-.74 0-.22-.04-.45-.12-.7-.08-.26-.21-.49-.4-.69-.18-.21-.43-.39-.72-.52-.3-.14-.68-.21-1.12-.21-.41 0-.77.07-1.08.2-.32.14-.58.32-.8.56-.22.23-.38.51-.49.84-.11.32-.16.67-.16 1.05h1.19c.01-.24.03-.47.08-.67.05-.21.11-.39.21-.54.09-.15.22-.27.38-.36.16-.09.35-.13.59-.13.26 0 .47.04.63.12.16.08.29.18.38.3.09.12.15.25.18.39s.05.27.05.4c-.01.27-.08.5-.22.71-.14.21-.32.4-.53.57-.22.18-.45.34-.71.49-.26.15-.51.31-.74.47-.5.31-.89.68-1.17 1.11-.3.41-.44.91-.45 1.48h5v-1H1.43c.05-.15.14-.29.27-.43.14-.13.29-.26.47-.38zM15.01 1.99h-7c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1h7c.55 0 1-.45 1-1v-1c0-.55-.44-1-1-1zm0 9h-7c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1h7c.55 0 1-.45 1-1v-1c0-.55-.44-1-1-1z"],
   "numerical": ["M2.79 4.61c-.13.17-.29.3-.48.41-.18.11-.39.18-.62.23-.23.04-.46.07-.71.07v1.03h1.74V12h1.26V4h-.94c-.04.23-.12.44-.25.61zm4.37 5.31c.18-.14.37-.28.58-.42l.63-.45c.21-.16.41-.33.61-.51s.37-.38.52-.59c.15-.21.28-.45.37-.7.09-.25.13-.54.13-.85 0-.25-.04-.52-.12-.8-.07-.29-.2-.55-.39-.79a2.18 2.18 0 00-.73-.6c-.29-.15-.66-.23-1.11-.23-.41 0-.77.08-1.08.23-.31.16-.58.37-.79.64-.22.27-.38.59-.49.96-.11.37-.16.77-.16 1.2h1.19c.01-.27.03-.53.08-.77.04-.24.11-.45.21-.62.09-.18.22-.32.38-.42.16-.1.35-.15.59-.15.26 0 .47.05.63.14.15.09.28.21.37.35.09.14.15.29.18.45.03.16.05.31.05.45-.01.31-.08.58-.22.82-.14.23-.32.45-.53.65-.22.21-.46.39-.71.57-.26.18-.51.36-.75.54-.5.36-.89.78-1.17 1.27-.28.49-.43 1.06-.44 1.71h5v-1.15H6.43c.05-.17.14-.33.27-.49.13-.15.29-.29.46-.44zm8.5-1.56c-.23-.35-.54-.57-.95-.65v-.02c.34-.13.6-.34.76-.63.16-.29.24-.63.24-1.02 0-.34-.06-.64-.19-.9s-.3-.47-.51-.64c-.21-.17-.45-.3-.72-.38-.27-.09-.54-.13-.82-.13-.36 0-.68.07-.96.2-.28.13-.53.32-.72.55-.2.23-.36.51-.47.83-.11.32-.18.66-.19 1.04h1.15c-.01-.2.01-.39.06-.58.05-.19.12-.36.22-.51.1-.15.22-.27.37-.36.15-.09.32-.13.53-.13.32 0 .59.1.79.3.21.2.31.46.31.79 0 .23-.05.43-.14.59-.09.16-.21.29-.35.38-.15.09-.32.16-.51.19-.19.04-.38.05-.57.04v.93c.23-.01.45 0 .67.02.22.02.42.08.59.17.18.09.32.23.43.4.11.18.16.41.16.71 0 .44-.13.78-.39 1.02s-.58.36-.97.36c-.45 0-.79-.16-1.02-.47-.23-.31-.33-.7-.32-1.17H11c.01.4.06.77.17 1.1.11.33.26.61.47.85.21.23.46.42.77.54.31.13.67.19 1.08.19.34 0 .66-.05.96-.16.3-.11.57-.27.8-.47.23-.2.41-.45.55-.74.13-.27.2-.6.2-.97 0-.5-.11-.92-.34-1.27z"],
@@ -45559,6 +44784,7 @@ var IconSvgPaths16 = {
   "style": ["M14 14H2V2h8.76l2-2H1C.45 0 0 .45 0 1v14c0 .55.45 1 1 1h14c.55 0 1-.45 1-1V6.24l-2 2V14zm1.4-14L9.7 5.7l2.1 2.1L16 3.6V0h-.6zM4 11.92c2.33.15 4.42.15 6.15-1.5.82-.83.82-2.25 0-3.08-.45-.38-.98-.6-1.5-.6-.53 0-1.05.22-1.43.6-.82.91-1.27 3.38-3.22 4.58z"],
   "swap-horizontal": ["M0 7.02L.05 7H0v.02zm2-2.03h9.57l-1.29 1.29A1.003 1.003 0 0011.7 7.7l2.99-3c.18-.18.29-.43.29-.71 0-.28-.11-.53-.29-.71l-2.99-3a1.07 1.07 0 00-.71-.28 1.003 1.003 0 00-.71 1.71L11.57 3H2c-.55 0-1 .45-1 1a1 1 0 001 .99zM15.96 9H16v-.02l-.04.02zM14 11.01H4.43l1.29-1.29A1.003 1.003 0 004.3 8.3l-2.99 3a.99.99 0 00-.29.7c0 .28.11.53.29.71l2.99 3a1.003 1.003 0 001.42-1.42L4.43 13H14c.55 0 1-.45 1-1s-.45-.99-1-.99z"],
   "swap-vertical": ["M9 0h-.02L9 .04V0zM7 16h.02L7 15.95V16zM4.7 1.31c-.18-.18-.43-.29-.7-.29s-.53.11-.71.29l-3 2.99a1.003 1.003 0 001.42 1.42L3 4.43V14c0 .55.45 1 1 1s1-.45 1-1V4.43l1.29 1.29c.18.18.43.29.7.29A1.003 1.003 0 007.7 4.3l-3-2.99zM15 9.99c-.28 0-.53.11-.71.29L13 11.57V2c0-.55-.45-1-1-1s-1 .45-1 1v9.57l-1.29-1.29a.99.99 0 00-.7-.29 1.003 1.003 0 00-.71 1.71l3 2.99c.18.18.43.29.71.29.28 0 .53-.11.71-.29l3-2.99c.18-.18.29-.43.29-.71-.01-.55-.46-1-1.01-1z"],
+  "switch": ["M9.293 2.293l1.414 1.414-4.999 5a3 3 0 11-1.415-1.415l5-5zM13 7a3 3 0 110 6 3 3 0 010-6zM3 9a1 1 0 100 2 1 1 0 000-2zm10 0a1 1 0 100 2 1 1 0 000-2z"],
   "symbol-circle": ["M8 3.01a5 5 0 100 10 5 5 0 100-10z"],
   "symbol-cross": ["M12 6.01h-2v-2c0-.55-.45-1-1-1H7c-.55 0-1 .45-1 1v2H4c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1h2v2c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-2h2c.55 0 1-.45 1-1v-2c0-.56-.45-1-1-1z"],
   "symbol-diamond": ["M12 8.01c0-.19-.07-.36-.16-.51l.01-.01-3-5-.01.01c-.17-.29-.48-.49-.84-.49s-.67.2-.84.49l-.02-.01-3 5 .02.01c-.09.15-.16.32-.16.51s.07.36.16.51h-.02l3 5 .01-.01c.18.29.49.5.85.5s.67-.2.84-.49l.01.01 3-5-.01-.01c.09-.16.16-.32.16-.51z"],
@@ -45651,6 +44877,12 @@ var IconSvgPaths20 = {
   "application": ["M3.5 9h9c.28 0 .5-.22.5-.5s-.22-.5-.5-.5h-9c-.28 0-.5.22-.5.5s.22.5.5.5zm0 2h5c.28 0 .5-.22.5-.5s-.22-.5-.5-.5h-5c-.28 0-.5.22-.5.5s.22.5.5.5zM19 1H1c-.55 0-1 .45-1 1v16c0 .55.45 1 1 1h18c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zm-1 16H2V6h16v11zM3.5 13h7c.28 0 .5-.22.5-.5s-.22-.5-.5-.5h-7c-.28 0-.5.22-.5.5s.22.5.5.5z"],
   "applications": ["M15 5H1c-.55 0-1 .45-1 1v13c0 .55.45 1 1 1h14c.55 0 1-.45 1-1V6c0-.55-.45-1-1-1zm-1 13H2V8h12v10zM3.5 10h7c.28 0 .5-.22.5-.5s-.22-.5-.5-.5h-7c-.28 0-.5.22-.5.5s.22.5.5.5zm0 2h3c.28 0 .5-.22.5-.5s-.22-.5-.5-.5h-3c-.28 0-.5.22-.5.5s.22.5.5.5zm0 2h5c.28 0 .5-.22.5-.5s-.22-.5-.5-.5h-5c-.28 0-.5.22-.5.5s.22.5.5.5zM19 0H5c-.55 0-1 .45-1 1v3h2V3h12v10h-1v2h2c.55 0 1-.45 1-1V1c0-.55-.45-1-1-1z"],
   "archive": ["M16.434 0a1 1 0 01.857.486L20 5v14a1 1 0 01-1 1H1a1 1 0 01-1-1V5L2.709.486A1 1 0 013.566 0h12.868zM10 8c-.55 0-1 .45-1 1v4.58l-1.29-1.29-.081-.073A.996.996 0 007 11.99a1.003 1.003 0 00-.71 1.71l3 3 .096.084c.168.13.38.206.614.206.28 0 .53-.11.71-.29l3-3 .084-.096a1.003 1.003 0 00-1.504-1.324L11 13.58V9l-.007-.116A1.004 1.004 0 0010 8zm6-6H4L2 5.002h16L16 2z"],
+  "array": ["M19 0a1 1 0 01.993.883L20 1v18a1 1 0 01-.883.993L19 20h-4a1 1 0 01-.117-1.993L15 18h3V2h-3a1 1 0 01-.993-.883L14 1a1 1 0 01.883-.993L15 0h4zM5 0a1 1 0 01.117 1.993L5 2H2v16h3a1 1 0 01.993.883L6 19a1 1 0 01-.883.993L5 20H1a1 1 0 01-.993-.883L0 19V1A1 1 0 01.883.007L1 0h4zm5 9a1 1 0 110 2 1 1 0 010-2zM6 9a1 1 0 110 2 1 1 0 010-2zm8 0a1 1 0 110 2 1 1 0 010-2z"],
+  "array-boolean": ["M19 0a1 1 0 01.993.883L20 1v18a1 1 0 01-.883.993L19 20h-4a1 1 0 01-.117-1.993L15 18h3V2h-3a1 1 0 01-.993-.883L14 1a1 1 0 01.883-.993L15 0h4zM5 0a1 1 0 01.117 1.993L5 2H2v16h3a1 1 0 01.993.883L6 19a1 1 0 01-.883.993L5 20H1a1 1 0 01-.993-.883L0 19V1A1 1 0 01.883.007L1 0h4zm10 7a1 1 0 01.993.883L16 8v4a1 1 0 01-.883.993L15 13H5a1 1 0 01-.993-.883L4 12V8a1 1 0 01.883-.993L5 7h10zm0 1h-5v4h5V8z"],
+  "array-date": ["M19 0a1 1 0 01.993.883L20 1v18a1 1 0 01-.883.993L19 20h-4a1 1 0 01-.117-1.993L15 18h3V2h-3a1 1 0 01-.993-.883L14 1a1 1 0 01.883-.993L15 0h4zM5 0a1 1 0 01.117 1.993L5 2H2v16h3a1 1 0 01.993.883L6 19a1 1 0 01-.883.993L5 20H1a1 1 0 01-.993-.883L0 19V1A1 1 0 01.883.007L1 0h4zm2.5 5a.5.5 0 01.5.5V6h4v-.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5V6h1a1 1 0 01.993.883L16 7v7a1 1 0 01-.883.993L15 15H5a1 1 0 01-.993-.883L4 14V7a1 1 0 01.883-.993L5 6h1v-.5a.5.5 0 01.5-.5h1zM15 9H5v5h10V9z"],
+  "array-numeric": ["M19 0a1 1 0 01.993.883L20 1v18a1 1 0 01-.883.993L19 20h-4a1 1 0 01-.117-1.993L15 18h3V2h-3a1 1 0 01-.993-.883L14 1a1 1 0 01.883-.993L15 0h4zM5 0a1 1 0 01.117 1.993L5 2H2v16h3a1 1 0 01.993.883L6 19a1 1 0 01-.883.993L5 20H1a1 1 0 01-.993-.883L0 19V1A1 1 0 01.883.007L1 0h4zm8.995 6.09c.32 0 .603.047.85.14a1.679 1.679 0 011.015.985c.09.23.135.482.135.755 0 .287-.063.552-.19.795a1.642 1.642 0 01-.57.615v.02l.101.05c.068.039.138.09.209.155.107.097.203.215.29.355a2.09 2.09 0 01.3 1.09c0 .313-.053.597-.16.85a1.898 1.898 0 01-1.12 1.065 2.42 2.42 0 01-.85.145c-.533 0-.99-.127-1.37-.38a1.702 1.702 0 01-.73-1.08c-.013-.067.013-.11.08-.13l.87-.2.041-.003c.038.004.064.028.079.073.073.2.193.37.36.51.167.14.39.21.67.21.32 0 .567-.095.74-.285.173-.19.26-.432.26-.725 0-.347-.1-.618-.3-.815-.2-.197-.47-.295-.81-.295h-.29l-.044-.006c-.037-.013-.056-.044-.056-.094V9.1l.006-.044c.013-.037.044-.056.094-.056h.27l.145-.008a.925.925 0 00.575-.262c.18-.18.27-.42.27-.72 0-.273-.08-.495-.24-.665-.16-.17-.383-.255-.67-.255-.253 0-.453.063-.6.19-.147.127-.25.297-.31.51-.02.06-.06.083-.12.07l-.85-.2-.042-.015c-.035-.02-.048-.055-.038-.105a1.684 1.684 0 01.645-1.035c.17-.13.37-.232.6-.305.23-.073.482-.11.755-.11zm-7.99.11l.044.006c.037.013.056.044.056.094v6.6l-.006.044c-.013.037-.044.056-.094.056h-.92l-.044-.006c-.037-.013-.056-.044-.056-.094V7.54h-.02l-1.04.73-.04.02c-.047.016-.07-.01-.07-.08V7.19l.008-.051a.196.196 0 01.062-.089l1.09-.79.051-.033a.295.295 0 01.129-.027h.85zm3.34-.11c.32 0 .603.05.85.15.247.1.455.235.625.405.17.17.3.37.39.6.09.23.135.478.135.745 0 .307-.057.588-.17.845a3.16 3.16 0 01-.47.745l-1.98 2.4V12h2.52l.044.006c.037.013.056.044.056.094v.8l-.006.044c-.013.037-.044.056-.094.056h-3.82l-.044-.006c-.037-.013-.056-.044-.056-.094v-.75l.006-.05a.165.165 0 01.044-.08l2.4-2.99.124-.167c.077-.11.143-.222.196-.333.08-.167.12-.347.12-.54a.92.92 0 00-.235-.64c-.157-.173-.378-.26-.665-.26-.273 0-.487.077-.64.23-.153.153-.247.36-.28.62-.013.067-.05.093-.11.08l-.88-.18-.043-.015c-.035-.02-.047-.055-.037-.105a1.78 1.78 0 01.56-1.115c.167-.157.372-.282.615-.375a2.35 2.35 0 01.845-.14z"],
+  "array-string": ["M19 0a1 1 0 01.993.883L20 1v18a1 1 0 01-.883.993L19 20h-4a1 1 0 01-.117-1.993L15 18h3V2h-3a1 1 0 01-.993-.883L14 1a1 1 0 01.883-.993L15 0h4zM5 0a1 1 0 01.117 1.993L5 2H2v16h3a1 1 0 01.993.883L6 19a1 1 0 01-.883.993L5 20H1a1 1 0 01-.993-.883L0 19V1A1 1 0 01.883.007L1 0h4zm2.012 6c.643 0 1.203.266 1.68.797.477.53.715 1.246.715 2.145a4.472 4.472 0 01-.965 2.814c-.644.83-1.66 1.5-3.047 2.011v-.581l.26-.104a3.87 3.87 0 001.624-1.285c.457-.632.686-1.29.686-1.971 0-.148-.023-.256-.07-.326-.023-.047-.054-.07-.093-.07-.038 0-.1.031-.186.093-.248.179-.558.268-.93.268-.45 0-.843-.18-1.18-.541A1.817 1.817 0 015 7.965c0-.527.194-.986.581-1.378A1.934 1.934 0 017.011 6zm5.593 0c.643 0 1.203.266 1.68.797.477.53.715 1.246.715 2.145a4.472 4.472 0 01-.965 2.814c-.644.83-1.659 1.5-3.047 2.011v-.581l.26-.104a3.87 3.87 0 001.624-1.285c.457-.632.686-1.29.686-1.971 0-.148-.023-.256-.07-.326-.023-.047-.054-.07-.093-.07-.038 0-.1.031-.186.093-.248.179-.558.268-.93.268-.45 0-.843-.18-1.18-.541a1.817 1.817 0 01-.506-1.285c0-.527.194-.986.581-1.378A1.934 1.934 0 0112.604 6z"],
+  "array-timestamp": ["M19 0a1 1 0 01.993.883L20 1v18a1 1 0 01-.883.993L19 20h-4a1 1 0 01-.117-1.993L15 18h3V2h-3a1 1 0 01-.993-.883L14 1a1 1 0 01.883-.993L15 0h4zM5 0a1 1 0 01.117 1.993L5 2H2v16h3a1 1 0 01.993.883L6 19a1 1 0 01-.883.993L5 20H1a1 1 0 01-.993-.883L0 19V1A1 1 0 01.883.007L1 0h4zm5 4a6 6 0 110 12 6 6 0 010-12zm0 1a5 5 0 100 10 5 5 0 000-10zm2.854 2.146a.5.5 0 01.057.638l-.057.07-2.5 2.5a.5.5 0 01-.638.057l-.07-.057-1.5-1.5a.5.5 0 01.638-.765l.07.057L10 9.293l2.146-2.147a.5.5 0 01.708 0z"],
   "arrow-bottom-left": ["M18 3a1.003 1.003 0 00-1.71-.71L4 14.59V7c0-.55-.45-1-1-1s-1 .45-1 1v10c0 .55.45 1 1 1h10c.55 0 1-.45 1-1s-.45-1-1-1H5.41l12.3-12.29c.18-.18.29-.43.29-.71z"],
   "arrow-bottom-right": ["M17 6c-.55 0-1 .45-1 1v7.59L3.71 2.29a1.003 1.003 0 00-1.42 1.42L14.59 16H7c-.55 0-1 .45-1 1s.45 1 1 1h10c.55 0 1-.45 1-1V7c0-.55-.45-1-1-1z"],
   "arrow-down": ["M16 11c-.3 0-.5.1-.7.3L11 15.6V2c0-.5-.4-1-1-1s-1 .5-1 1v13.6l-4.3-4.3c-.2-.2-.4-.3-.7-.3-.5 0-1 .4-1 1 0 .3.1.5.3.7l6 6c.2.2.4.3.7.3s.5-.1.7-.3l6-6c.2-.2.3-.4.3-.7 0-.6-.5-1-1-1z"],
@@ -45764,6 +44996,7 @@ var IconSvgPaths20 = {
   "duplicate": ["M15 4H1c-.55 0-1 .45-1 1v14c0 .55.45 1 1 1h14c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zm-1 14H2V6h12v12zm5-18H5c-.55 0-1 .45-1 1v2h2V2h12v12h-1v2h2c.55 0 1-.45 1-1V1c0-.55-.45-1-1-1z"],
   "edit": ["M4.59 12.59l2.83 2.83 7.65-7.65-2.83-2.83-7.65 7.65zM2 18l4.41-1.59-2.81-2.79L2 18zM16 2c-.55 0-1.05.22-1.41.59l-1.65 1.65 2.83 2.83 1.65-1.65A2.006 2.006 0 0016 2z"],
   "eject": ["M4 12h12c.55 0 1-.45 1-1 0-.25-.1-.47-.25-.64l.01-.01-6-7-.01.01C10.57 3.14 10.3 3 10 3s-.57.14-.75.36l-.01-.01-6 7 .01.01c-.15.17-.25.39-.25.64 0 .55.45 1 1 1zm12 1H4c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-2c0-.55-.45-1-1-1z"],
+  "emoji": ["M10 0c5.523 0 10 4.477 10 10s-4.477 10-10 10S0 15.523 0 10 4.477 0 10 0zm0 2a8 8 0 100 16 8 8 0 000-16zm-4 8l.015.215C6.219 12.42 7.925 14 10 14a4 4 0 003.995-3.8L14 10h2l-.013.238C15.754 13.552 13.163 16 10 16a6 6 0 01-5.996-5.775L4 10h2zm1.5-4a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm5 0a1.5 1.5 0 110 3 1.5 1.5 0 010-3z"],
   "endorsed": ["M19.83 9.38L18.81 7.6V5.62c0-.45-.23-.85-.61-1.08l-1.71-1-1.02-1.76a1.25 1.25 0 00-1.08-.61h-2.03l-1.74-1c-.38-.23-.87-.23-1.25 0l-1.74 1H5.65c-.44 0-.85.23-1.08.61L3.58 3.5l-1.8 1.04c-.38.24-.62.64-.62 1.08v2.06L.17 9.4c-.11.19-.17.4-.17.61s.06.42.17.61l.99 1.72v2.06c0 .45.23.85.61 1.08l1.78 1.02.99 1.72c.23.38.63.61 1.08.61h1.99l1.74 1c.19.11.41.17.62.17.21 0 .42-.06.61-.17l1.74-1h2.03c.44 0 .85-.23 1.08-.61l1.02-1.76 1.71-1c.38-.23.61-.64.61-1.08v-1.97l1.02-1.78c.27-.38.27-.85.04-1.25zm-5.08-.71l-5.01 5.01c-.18.18-.43.29-.71.29-.28 0-.53-.11-.71-.29l-3.01-3.01a1.003 1.003 0 011.42-1.42l2.3 2.3 4.31-4.3a1.003 1.003 0 011.71.71c0 .28-.12.53-.3.71z"],
   "envelope": ["M0 4.01v11.91l6.27-6.27L0 4.01zm18.91-1.03H1.09L10 10.97l8.91-7.99zm-5.18 6.66L20 15.92V4.01l-6.27 5.63zm-3.23 2.9c-.13.12-.31.19-.5.19s-.37-.07-.5-.19l-2.11-1.89-6.33 6.33h17.88l-6.33-6.33-2.11 1.89z"],
   "equals": ["M4 7h12a1 1 0 010 2H4a1 1 0 110-2zm0 4h12a1 1 0 010 2H4a1 1 0 010-2z"],
@@ -45849,6 +45082,7 @@ var IconSvgPaths20 = {
   "heatmap": ["M6 0a6 6 0 100 12A6 6 0 106 0z", "M10.5 8a4.5 4.5 0 100 9 4.5 4.5 0 100-9z", "M16.5 7a3.5 3.5 0 100 7 3.5 3.5 0 100-7zM18 16a2 2 0 100 4 2 2 0 100-4zM2.5 14a2.5 2.5 0 100 5 2.5 2.5 0 100-5zM16.5 0a2.5 2.5 0 100 5 2.5 2.5 0 100-5z"],
   "help": ["M10 0C4.48 0 0 4.48 0 10s4.48 10 10 10 10-4.48 10-10S15.52 0 10 0zM7.41 4.62c.65-.54 1.51-.82 2.56-.82.54 0 1.03.08 1.48.25.44.17.83.39 1.14.68.32.29.56.63.74 1.02.17.39.26.82.26 1.27s-.08.87-.24 1.23c-.16.37-.4.73-.71 1.11l-1.21 1.58c-.14.17-.28.33-.32.48-.05.15-.11.35-.11.6v.97H9v-2s.06-.58.24-.81l1.21-1.64c.25-.3.41-.56.51-.77s.14-.44.14-.67c0-.35-.11-.63-.32-.85s-.5-.33-.88-.33c-.37 0-.67.11-.89.33-.22.23-.37.54-.46.94-.03.12-.11.17-.23.16l-1.95-.29c-.12-.01-.16-.08-.14-.22.13-.93.52-1.67 1.18-2.22zM9 14h2.02L11 16H9v-2z"],
   "helper-management": ["M17 10h-3v3h3v-3zm0 4h-3v3h3v-3zm0-8h-3v3h3V6zm2-6H1C.4 0 0 .4 0 1v18c0 .5.4 1 1 1h18c.5 0 1-.5 1-1V1c0-.6-.5-1-1-1zm-1 18H2V2h16v16zm-9-4H6v3h3v-3zm4 0h-3v3h3v-3z"],
+  "high-priority": ["M12 16v4H8v-4h4zm1-16l-1 14H8L7 0h6z"],
   "highlight": ["M11.22 14.09l3.03-3.03.71.71L20 6.73l-5.71-5.71-5.04 5.04.71.71-3.02 3.04 4.28 4.28zm6.8 3.91h-16c-.55 0-1 .45-1 1s.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1zm-15-1h4.04c.28 0 .53-.11.71-.3l2.02-2.02-3.44-3.45-4.04 4.04c-.18.18-.3.44-.3.71.01.57.46 1.02 1.01 1.02z"],
   "history": ["M10 0C6.71 0 3.82 1.6 2 4.05V2c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .55.45 1 1 1h4c.55 0 1-.45 1-1s-.45-1-1-1H3.76C5.23 3.17 7.47 2 10 2c4.42 0 8 3.58 8 8s-3.58 8-8 8-8-3.58-8-8c0-.55-.45-1-1-1s-1 .45-1 1c0 5.52 4.48 10 10 10s10-4.48 10-10S15.52 0 10 0zm0 3c-.55 0-1 .45-1 1v6c0 .28.11.53.29.71l3 3a1.003 1.003 0 001.42-1.42L11 9.59V4c0-.55-.45-1-1-1z"],
   "home": ["M2 12v7c0 .55.45 1 1 1h5v-7h4v7h5c.55 0 1-.45 1-1v-7l-8-8-8 8zm17.71-2.71L17 6.59V3c0-.55-.45-1-1-1s-1 .45-1 1v1.59L10.71.3C10.53.11 10.28 0 10 0s-.53.11-.71.29l-9 9a1.003 1.003 0 001.42 1.42L10 2.41l8.29 8.29c.18.19.43.3.71.3a1.003 1.003 0 00.71-1.71z"],
@@ -45891,6 +45125,7 @@ var IconSvgPaths20 = {
   "lab-test": ["M13 2a1 1 0 010 2v4l4 8v1a1 1 0 01-1 1H4a1 1 0 01-1-1v-1l4-8V4a1 1 0 110-2h6zm-2 2H9v4l-2 4h6l-2-4V4z"],
   "label": ["M3 12h14v-1H3v1zm11-9H1c-.55 0-1 .45-1 1v12c0 .55.45 1 1 1h18c.55 0 1-.45 1-1V9l-6-6zm4 12H2V5h11v3H3v1h10v1h5v5zm-4-6V5l4 4h-4z"],
   "layer": ["M19.5 9.1l-9-5c-.2-.1-.3-.1-.5-.1s-.3 0-.5.1l-9 5c-.3.2-.5.5-.5.9s.2.7.5.9l9 5c.2.1.3.1.5.1s.3 0 .5-.1l9-5c.3-.2.5-.5.5-.9s-.2-.7-.5-.9z"],
+  "layer-outline": ["M9.514 4.126l-9 5a1 1 0 000 1.748l9 5a1 1 0 00.972 0l9-5a1 1 0 000-1.748l-9-5a1 1 0 00-.972 0zM10 6.144l6.94 3.855L10 13.855 3.059 9.999 10 6.144z"],
   "layers": ["M.5 6.9l9 5c.2.1.3.1.5.1s.3 0 .5-.1l9-5c.3-.2.5-.5.5-.9s-.2-.7-.5-.9l-9-5c-.2-.1-.3-.1-.5-.1s-.3 0-.5.1l-9 5c-.3.2-.5.5-.5.9s.2.7.5.9z", "M19 9c-.2 0-.3 0-.5.1L10 13.9 1.5 9.1C1.3 9 1.2 9 1 9c-.6 0-1 .4-1 1 0 .4.2.7.5.9l9 5c.2.1.3.1.5.1s.3 0 .5-.1l9-5c.3-.2.5-.5.5-.9 0-.6-.4-1-1-1z", "M19 13c-.2 0-.3 0-.5.1L10 17.9l-8.5-4.7c-.2-.2-.3-.2-.5-.2-.6 0-1 .4-1 1 0 .4.2.7.5.9l9 5c.2.1.3.1.5.1s.3 0 .5-.1l9-5c.3-.2.5-.5.5-.9 0-.6-.4-1-1-1z"],
   "layout": ["M18 6c-1.1 0-2 .9-2 2 0 .37.11.71.28 1.01l-2.27 2.27c-.3-.17-.64-.28-1.01-.28-.93 0-1.71.64-1.93 1.5H8.93c-.22-.86-1-1.5-1.93-1.5-.37 0-.71.11-1.01.28L3.72 9.01C3.89 8.71 4 8.37 4 8c0-.34-.09-.66-.24-.94l3.66-3.38c.31.2.68.32 1.08.32 1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2c0 .34.09.66.24.94L3.08 6.32C2.77 6.12 2.4 6 2 6 .9 6 0 6.9 0 8s.9 2 2 2c.37 0 .71-.11 1.01-.28l2.27 2.27c-.17.3-.28.64-.28 1.01s.11.71.28 1.01l-2.27 2.27C2.71 16.11 2.37 16 2 16c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2c0-.37-.11-.71-.28-1.01l2.27-2.27c.3.17.64.28 1.01.28.93 0 1.71-.64 1.93-1.5h2.14c.22.86 1 1.5 1.93 1.5 1.1 0 2-.9 2-2 0-.37-.11-.71-.28-1.01l2.27-2.27c.3.17.64.28 1.01.28 1.1 0 2-.9 2-2s-.9-2-2-2z"],
   "layout-auto": ["M18 13c-.53 0-1.01.21-1.37.55L11.9 10.6c.06-.19.1-.39.1-.6s-.04-.41-.1-.6l4.72-2.95c.37.34.85.55 1.38.55 1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2c0 .21.04.41.1.6l-4.73 2.96c-.24-.23-.54-.4-.87-.48V3.93c.86-.22 1.5-1 1.5-1.93 0-1.1-.9-2-2-2S8 .9 8 2c0 .93.64 1.71 1.5 1.93v4.14c-.33.09-.63.26-.87.48L3.9 5.6c.06-.19.1-.39.1-.6 0-1.1-.9-2-2-2s-2 .9-2 2 .9 2 2 2c.53 0 1.01-.21 1.37-.55L8.1 9.4c-.06.19-.1.39-.1.6s.04.41.1.6l-4.72 2.95C3.01 13.21 2.53 13 2 13c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2c0-.21-.04-.41-.1-.6l4.73-2.96c.24.23.54.4.87.48v4.14C8.64 16.29 8 17.07 8 18c0 1.1.9 2 2 2s2-.9 2-2c0-.93-.64-1.71-1.5-1.93v-4.14c.33-.09.63-.26.87-.48l4.73 2.96c-.06.18-.1.38-.1.59 0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2z"],
@@ -45953,6 +45188,7 @@ var IconSvgPaths20 = {
   "ninja": ["M20 6s-2.98 2.43-6.12 2.19C13.52 5.31 12.05 0 6 0c0 0 2.41 2.99 2.16 6.12C5.27 6.49 0 7.97 0 14c0 0 2.98-2.43 6.11-2.19C6.47 14.69 7.94 20 14 20c0 0-2.42-2.99-2.16-6.13C14.73 13.51 20 12.02 20 6zm-10 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"],
   "not-equal-to": ["M9.487 7l.532-3.196a1 1 0 011.962.392L11.513 7H16a1 1 0 010 2h-4.82l-.333 2H16a1 1 0 010 2h-5.487l-.532 3.196a1 1 0 01-1.962-.392L8.487 13H4a1 1 0 010-2h4.82l.333-2H4a1 1 0 110-2h5.487z"],
   "notifications": ["M10 20c1.1 0 2-.9 2-2H8c0 1.1.9 2 2 2zm7-5c-.55 0-1-.45-1-1V8c0-2.61-1.67-4.81-4-5.63V2c0-1.1-.9-2-2-2S8 .9 8 2v.37C5.67 3.19 4 5.39 4 8v6c0 .55-.45 1-1 1s-1 .45-1 1 .45 1 1 1h14c.55 0 1-.45 1-1s-.45-1-1-1z"],
+  "notifications-snooze": ["M10 18c0 1.1-.9 2-2 2s-2-.9-2-2zM8 0c.476 0 .914.168 1.258.448C8.508.878 8.09 1.562 8 2.5c-.133 1.4.4 2.367 1.6 2.9C8.533 6.6 8 7.467 8 8v1.2a2.8 2.8 0 002.8 2.8H14v2c0 .51.388.935.884.993L15 15c.55 0 1 .45 1 1s-.45 1-1 1H1c-.55 0-1-.45-1-1s.45-1 1-1 1-.45 1-1V8c0-2.61 1.67-4.81 4-5.63V2c0-1.1.9-2 2-2z", "M16 9.25v-.395a.75.75 0 00-.75-.75h-2.813L15.834 3.9A.75.75 0 0016 3.43v-.68a.75.75 0 00-.75-.75h-4.5a.75.75 0 00-.75.75v.184c0 .414.336.75.75.75h2.813L10.22 7.831a1 1 0 00-.221.627v.792c0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75z"],
   "notifications-updated": ["M10 20c1.1 0 2-.9 2-2H8c0 1.1.9 2 2 2zm2-17.834A2.994 2.994 0 008 4.99c0 .808.319 1.557.876 2.114l2.97 2.99a2.99 2.99 0 004.154.072V14c0 .55.45 1 1 1s1 .45 1 1-.45 1-1 1H3c-.55 0-1-.45-1-1s.45-1 1-1 1-.45 1-1V8c0-2.61 1.67-4.81 4-5.63V2c0-1.1.9-2 2-2s2 .9 2 2v.166zm1.26 6.514l-2.97-2.99a.973.973 0 01-.29-.7c0-.55.44-1 .99-1 .27 0 .52.11.7.29l2.28 2.28 4.27-4.27a.99.99 0 01.7-.29c.55 0 1 .45 1 1 0 .28-.11.53-.3.7l-4.98 4.98a.99.99 0 01-1.4 0z"],
   "numbered-list": ["M1.74 9.01h1.27V1h-.95c-.04.24-.12.45-.26.62-.13.17-.29.3-.47.41-.19.11-.4.18-.63.23-.23.04-.46.07-.71.07v1.03h1.75v5.65zm.43 7.93c.18-.14.37-.28.58-.43.21-.14.42-.29.63-.45.21-.16.41-.33.61-.5.2-.18.37-.38.52-.59.15-.21.28-.45.37-.7.09-.25.14-.54.14-.85 0-.25-.04-.52-.12-.8-.08-.28-.21-.54-.39-.78-.19-.24-.43-.44-.73-.59-.3-.17-.68-.25-1.12-.25-.41 0-.77.08-1.08.23-.32.16-.58.37-.8.64-.22.27-.38.59-.49.96-.11.37-.16.77-.16 1.21h1.19c.01-.28.03-.53.08-.77s.12-.45.21-.62c.09-.18.22-.31.38-.42.16-.1.35-.15.59-.15.26 0 .47.05.63.14.16.09.29.21.38.35.09.14.15.29.18.45.03.16.05.31.05.45-.01.31-.08.58-.22.81-.14.24-.32.45-.53.66-.22.2-.45.39-.71.57-.26.18-.51.36-.74.54-.5.36-.89.78-1.17 1.27-.3.47-.45 1.04-.46 1.69H5v-1.14H1.43c.05-.17.14-.33.27-.49.13-.15.29-.3.47-.44zM18 4.02H8c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1h10c.55 0 1-.45 1-1v-1c0-.56-.45-1-1-1zm0 9H8c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1h10c.55 0 1-.45 1-1v-1c0-.56-.45-1-1-1z"],
   "numerical": ["M2.39 5.75c-.17.21-.38.39-.63.52s-.52.23-.83.29c-.3.05-.61.08-.93.08v1.24h2.49V15h1.49V4.98H2.73c-.05.31-.17.57-.34.77zm17.2 4.71c-.27-.44-.65-.71-1.14-.82v-.02c.42-.16.72-.43.92-.79.2-.36.29-.79.29-1.27 0-.42-.08-.8-.23-1.12-.15-.33-.36-.59-.62-.8-.26-.21-.55-.37-.87-.48-.32-.11-.65-.16-.98-.16-.43 0-.82.08-1.16.25-.34.16-.63.39-.87.69-.24.29-.43.64-.57 1.04-.14.4-.22.83-.23 1.3h1.39c-.01-.25.02-.49.07-.72.06-.23.14-.44.26-.63s.27-.34.45-.45c.18-.11.39-.17.63-.17.39 0 .71.12.96.37s.37.58.37.99c0 .29-.05.54-.16.74-.11.2-.25.36-.43.47-.18.11-.38.19-.61.24-.23.05-.46.06-.68.05v1.17c.28-.01.55 0 .81.03s.5.1.71.21c.21.11.38.28.51.5.13.22.2.52.2.89 0 .55-.16.97-.47 1.27-.31.3-.7.45-1.17.45-.55 0-.95-.19-1.23-.58-.27-.39-.4-.88-.38-1.46h-1.39c.01.5.08.96.21 1.38.13.41.32.77.57 1.06.25.29.56.52.93.68.37.16.8.24 1.3.24.41 0 .79-.07 1.16-.21.37-.14.69-.33.96-.58.28-.25.5-.56.66-.92a3 3 0 00.24-1.23c0-.64-.14-1.17-.41-1.61zM8.58 12.41c.21-.18.45-.36.7-.53.25-.18.5-.36.75-.56.25-.2.49-.41.73-.63.23-.22.44-.47.63-.74.18-.27.33-.56.44-.88.11-.32.16-.67.16-1.07 0-.32-.05-.65-.14-1-.09-.35-.25-.68-.47-.97-.22-.3-.51-.55-.87-.74-.36-.2-.81-.29-1.35-.29-.49 0-.93.1-1.3.29-.37.18-.69.44-.95.78-.26.33-.45.73-.58 1.2-.13.46-.2.96-.2 1.5h1.43c.01-.35.04-.67.09-.97.05-.3.14-.56.25-.78.11-.22.26-.39.45-.52s.43-.19.71-.19c.31 0 .56.06.75.18.19.12.34.26.45.43.11.17.18.36.22.56.04.2.06.39.06.57-.01.38-.1.72-.26 1.02-.15.3-.37.57-.63.83-.26.25-.54.49-.85.71-.31.22-.61.45-.89.68-.6.45-1.06.98-1.41 1.58-.35.61-.52 1.32-.53 2.13h6.01v-1.43H7.69c.06-.21.17-.42.33-.61s.34-.38.56-.55z"],
@@ -46064,6 +45300,7 @@ var IconSvgPaths20 = {
   "style": ["M18 18H2V2h12.3l2-2H1C.4 0 0 .4 0 1v18c0 .6.4 1 1 1h18c.6 0 1-.4 1-1V7.7l-2 2V18zm1.2-18l-7.6 7.6 2.8 2.8L20 4.8V0h-.8zM4 15.9c3.1.2 5.9.2 8.2-2 1.1-1.1 1.1-3 0-4.1-.6-.5-1.3-.8-2-.8s-1.4.3-1.9.8C7.2 11 6.6 14.3 4 15.9z"],
   "swap-horizontal": ["M16.02 10c-.01 0-.01 0 0 0H16h.02zM2 6h13.58l-2.29 2.29a1 1 0 00-.3.71 1.003 1.003 0 001.71.71l4-4c.18-.18.29-.43.29-.71 0-.28-.11-.53-.29-.71l-4-4a1.003 1.003 0 00-1.42 1.42L15.58 4H2c-.55 0-1 .45-1 1s.45 1 1 1zm2 4h-.02H4zm14 4H4.42l2.29-2.29a1 1 0 00.3-.71 1.003 1.003 0 00-1.71-.71l-4 4c-.18.18-.29.43-.29.71 0 .28.11.53.29.71l4 4a1.003 1.003 0 001.42-1.42L4.42 16H18c.55 0 1-.45 1-1s-.45-1-1-1z"],
   "swap-vertical": ["M9.71 5.3l-4-4A.997.997 0 005 1.01c-.28 0-.53.11-.71.29l-4 4a1.003 1.003 0 001.42 1.42L4 4.42V18c0 .55.45 1 1 1s1-.45 1-1V4.42l2.29 2.29a1 1 0 00.71.3 1.003 1.003 0 00.71-1.71zM10 3.98c0 .01 0 .01 0 0V4v-.02zm0 12.04c0-.01 0-.01 0 0V16v.02zm9-3.03c-.28 0-.53.11-.71.29L16 15.58V2c0-.55-.45-1-1-1s-1 .45-1 1v13.58l-2.29-2.29a1.003 1.003 0 00-1.42 1.42l4 4c.18.18.43.29.71.29.28 0 .53-.11.71-.29l4-4c.18-.18.29-.43.29-.71 0-.56-.45-1.01-1-1.01z"],
+  "switch": ["M12.293 2.293l1.414 1.414-7.127 7.129a3.5 3.5 0 11-1.415-1.415l7.128-7.128zM16.5 9a3.5 3.5 0 110 7 3.5 3.5 0 010-7zm-13 2a1.5 1.5 0 100 3 1.5 1.5 0 000-3zm13 0a1.5 1.5 0 100 3 1.5 1.5 0 000-3z"],
   "symbol-circle": ["M10 4.01a6 6 0 100 12 6 6 0 100-12z"],
   "symbol-cross": ["M15 8.01h-3v-3c0-.55-.45-1-1-1H9c-.55 0-1 .45-1 1v3H5c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1h3v3c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-3h3c.55 0 1-.45 1-1v-2c0-.56-.45-1-1-1z"],
   "symbol-diamond": ["M15 10.01c0-.21-.08-.39-.18-.54l.02-.01-4-6-.02.01c-.18-.28-.47-.46-.82-.46s-.64.18-.82.45l-.01-.01-4 6 .02.01c-.11.16-.19.34-.19.55s.08.39.18.54l-.02.01 4 6 .02-.01c.18.27.47.46.82.46s.64-.19.82-.46l.02.01 4-6-.02-.01c.1-.16.18-.34.18-.54z"],
@@ -46241,7 +45478,8 @@ function (_super) {
 
     var pixelGridSize = iconSize >= Icon_1.SIZE_LARGE ? Icon_1.SIZE_LARGE : Icon_1.SIZE_STANDARD; // render path elements, or nothing if icon name is unknown.
 
-    var paths = this.renderSvgPaths(pixelGridSize, icon);
+    var paths = this.renderSvgPaths(pixelGridSize, icon); // eslint-disable-next-line deprecation/deprecation
+
     var classes = (0, _classnames.default)(_common.Classes.ICON, _common.Classes.iconClass(icon), _common.Classes.intentClass(intent), className);
     var viewBox = "0 0 " + pixelGridSize + " " + pixelGridSize;
     return React.createElement(tagName, (0, _tslib.__assign)((0, _tslib.__assign)({}, htmlprops), {
@@ -46501,8 +45739,7 @@ function (_super) {
 
     _this.state = {
       isActive: false
-    };
-    _this.currentKeyDown = null; // we're casting as `any` to get around a somewhat opaque safeInvoke error
+    }; // we're casting as `any` to get around a somewhat opaque safeInvoke error
     // that "Type argument candidate 'KeyboardEvent<T>' is not a valid type
     // argument because it is not a supertype of candidate
     // 'KeyboardEvent<HTMLElement>'."
@@ -46528,7 +45765,7 @@ function (_super) {
     };
 
     _this.handleKeyUp = function (e) {
-      var _a, _b; // HACKHACK: https://github.com/palantir/blueprint/issues/4165
+      var _a, _b, _c; // HACKHACK: https://github.com/palantir/blueprint/issues/4165
 
       /* eslint-disable deprecation/deprecation */
 
@@ -46538,11 +45775,11 @@ function (_super) {
           isActive: false
         });
 
-        (0, _common.getRef)(_this.buttonRef).click();
+        (_a = (0, _common.getRef)(_this.buttonRef)) === null || _a === void 0 ? void 0 : _a.click();
       }
 
-      _this.currentKeyDown = null;
-      (_b = (_a = _this.props).onKeyUp) === null || _b === void 0 ? void 0 : _b.call(_a, e);
+      _this.currentKeyDown = undefined;
+      (_c = (_b = _this.props).onKeyUp) === null || _c === void 0 ? void 0 : _c.call(_b, e);
     };
 
     _this.handleBlur = function (e) {
@@ -46659,14 +45896,11 @@ function (_super) {
   (0, _tslib.__extends)(Button, _super);
 
   function Button() {
-    var _this = _super !== null && _super.apply(this, arguments) || this;
+    var _this = _super !== null && _super.apply(this, arguments) || this; // need to keep this ref so that we can access it in AbstractButton#handleKeyUp
 
-    _this.handleRef = (0, _refs.isRefObject)(_this.props.elementRef) ? _this.buttonRef = _this.props.elementRef : function (ref) {
-      var _a;
 
-      _this.buttonRef = ref;
-      (_a = _this.props.elementRef) === null || _a === void 0 ? void 0 : _a(ref);
-    };
+    _this.buttonRef = null;
+    _this.handleRef = (0, _refs.refHandler)(_this, "buttonRef", _this.props.elementRef);
     return _this;
   }
 
@@ -46689,14 +45923,11 @@ function (_super) {
   (0, _tslib.__extends)(AnchorButton, _super);
 
   function AnchorButton() {
-    var _this = _super !== null && _super.apply(this, arguments) || this;
+    var _this = _super !== null && _super.apply(this, arguments) || this; // need to keep this ref so that we can access it in AbstractButton#handleKeyUp
 
-    _this.handleRef = (0, _refs.isRefObject)(_this.props.elementRef) ? _this.buttonRef = _this.props.elementRef : function (ref) {
-      var _a;
 
-      _this.buttonRef = ref;
-      (_a = _this.props.elementRef) === null || _a === void 0 ? void 0 : _a(ref);
-    };
+    _this.buttonRef = null;
+    _this.handleRef = (0, _refs.refHandler)(_this, "buttonRef", _this.props.elementRef);
     return _this;
   }
 
@@ -46758,6 +45989,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * limitations under the License.
  */
 function htmlElement(tagName, tagClassName) {
+  /* eslint-disable-next-line react/display-name */
   return function (props) {
     var className = props.className,
         elementRef = props.elementRef,
@@ -47001,10 +46233,11 @@ function (_super) {
         className = _a.className,
         icon = _a.icon,
         intent = _a.intent,
+        loading = _a.loading,
         cancelButtonText = _a.cancelButtonText,
         confirmButtonText = _a.confirmButtonText,
         onClose = _a.onClose,
-        overlayProps = (0, _tslib.__rest)(_a, ["canEscapeKeyCancel", "canOutsideClickCancel", "children", "className", "icon", "intent", "cancelButtonText", "confirmButtonText", "onClose"]);
+        overlayProps = (0, _tslib.__rest)(_a, ["canEscapeKeyCancel", "canOutsideClickCancel", "children", "className", "icon", "intent", "loading", "cancelButtonText", "confirmButtonText", "onClose"]);
     return React.createElement(_dialog.Dialog, (0, _tslib.__assign)({}, overlayProps, {
       className: (0, _classnames.default)(_common.Classes.ALERT, className),
       canEscapeKeyClose: canEscapeKeyCancel,
@@ -47022,11 +46255,13 @@ function (_super) {
     }, children)), React.createElement("div", {
       className: _common.Classes.ALERT_FOOTER
     }, React.createElement(_buttons.Button, {
+      loading: loading,
       intent: intent,
       text: confirmButtonText,
       onClick: this.handleConfirm
     }), cancelButtonText && React.createElement(_buttons.Button, {
       text: cancelButtonText,
+      disabled: loading,
       onClick: this.handleCancel
     })));
   };
@@ -47062,7 +46297,8 @@ function (_super) {
     canEscapeKeyCancel: false,
     canOutsideClickCancel: false,
     confirmButtonText: "OK",
-    isOpen: false
+    isOpen: false,
+    loading: false
   };
   Alert.displayName = _common.DISPLAYNAME_PREFIX + ".Alert";
   Alert = (0, _tslib.__decorate)([_reactLifecyclesCompat.polyfill], Alert);
@@ -47124,8 +46360,8 @@ var Breadcrumb = function (breadcrumbProps) {
   return React.createElement("a", {
     className: classes,
     href: breadcrumbProps.href,
-    onClick: breadcrumbProps.disabled ? null : breadcrumbProps.onClick,
-    tabIndex: breadcrumbProps.disabled ? null : 0,
+    onClick: breadcrumbProps.disabled ? undefined : breadcrumbProps.onClick,
+    tabIndex: breadcrumbProps.disabled ? undefined : 0,
     target: breadcrumbProps.target
   }, icon, breadcrumbProps.text, breadcrumbProps.children);
 };
@@ -47277,8 +46513,7 @@ function (_super) {
     var classes = (0, _classnames.default)((_a = {}, _a[_common.Classes.TEXT_OVERFLOW_ELLIPSIS] = this.props.ellipsize, _a), this.props.className);
     var _b = this.props,
         children = _b.children,
-        _c = _b.tagName,
-        tagName = _c === void 0 ? "div" : _c,
+        tagName = _b.tagName,
         title = _b.title;
     return React.createElement(tagName, {
       className: classes,
@@ -47290,7 +46525,9 @@ function (_super) {
   };
 
   Text.prototype.update = function () {
-    if (this.textRef == null) {
+    var _a;
+
+    if (((_a = this.textRef) === null || _a === void 0 ? void 0 : _a.textContent) == null) {
       return;
     }
 
@@ -47302,6 +46539,10 @@ function (_super) {
   };
 
   Text.displayName = _props.DISPLAYNAME_PREFIX + ".Text";
+  Text.defaultProps = {
+    ellipsize: false,
+    tagName: "div"
+  };
   Text = (0, _tslib.__decorate)([_reactLifecyclesCompat.polyfill], Text);
   return Text;
 }(_common.AbstractPureComponent2);
@@ -47356,6 +46597,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+// this cyclic import can be removed in v4.0 (https://github.com/palantir/blueprint/issues/3829)
 // eslint-disable-next-line import/no-cycle
 var MenuItem =
 /** @class */
@@ -47432,22 +46674,25 @@ function (_super) {
     var _a = this.props,
         disabled = _a.disabled,
         popoverProps = _a.popoverProps;
-    return React.createElement(_popover.Popover, (0, _tslib.__assign)({
-      autoFocus: false,
-      captureDismiss: false,
-      disabled: disabled,
-      enforceFocus: false,
-      hoverCloseDelay: 0,
-      interactionKind: _popover.PopoverInteractionKind.HOVER,
-      modifiers: SUBMENU_POPOVER_MODIFIERS,
-      position: _common.Position.RIGHT_TOP,
-      usePortal: false
-    }, popoverProps, {
-      content: React.createElement(_menu.Menu, null, children),
-      minimal: true,
-      popoverClassName: (0, _classnames.default)(_common.Classes.MENU_SUBMENU, popoverProps.popoverClassName),
-      target: target
-    }));
+    return (
+      /* eslint-disable-next-line deprecation/deprecation */
+      React.createElement(_popover.Popover, (0, _tslib.__assign)({
+        autoFocus: false,
+        captureDismiss: false,
+        disabled: disabled,
+        enforceFocus: false,
+        hoverCloseDelay: 0,
+        interactionKind: _popover.PopoverInteractionKind.HOVER,
+        modifiers: SUBMENU_POPOVER_MODIFIERS,
+        position: _common.Position.RIGHT_TOP,
+        usePortal: false
+      }, popoverProps, {
+        content: React.createElement(_menu.Menu, null, children),
+        minimal: true,
+        popoverClassName: (0, _classnames.default)(_common.Classes.MENU_SUBMENU, popoverProps === null || popoverProps === void 0 ? void 0 : popoverProps.popoverClassName),
+        target: target
+      }))
+    );
   };
 
   MenuItem.defaultProps = {
@@ -47532,6 +46777,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+// this cyclic import can be removed in v4.0 (https://github.com/palantir/blueprint/issues/3829)
 // eslint-disable-next-line import/no-cycle
 var Menu =
 /** @class */
@@ -47559,7 +46805,11 @@ function (_super) {
   };
 
   Menu.displayName = _props.DISPLAYNAME_PREFIX + ".Menu";
+  /** @deprecated use MenuDivider */
+
   Menu.Divider = _menuDivider.MenuDivider;
+  /** @deprecated use MenuItem*/
+
   Menu.Item = _menuItem.MenuItem;
   Menu = (0, _tslib.__decorate)([_reactLifecyclesCompat.polyfill], Menu);
   return Menu;
@@ -47874,12 +47124,15 @@ function (_super) {
         // order.
         orderedItems = items.slice().reverse();
       }
+      /* eslint-disable deprecation/deprecation */
+
 
       return React.createElement("li", null, React.createElement(_popover.Popover, (0, _tslib.__assign)({
         position: position
       }, _this.props.popoverProps), React.createElement("span", {
         className: _common.Classes.BREADCRUMBS_COLLAPSED
       }), React.createElement(_menu.Menu, null, orderedItems.map(_this.renderOverflowBreadcrumb))));
+      /* eslint-enable deprecation/deprecation */
     };
 
     _this.renderOverflowBreadcrumb = function (props, index) {
@@ -48304,7 +47557,9 @@ function (_super) {
       animationState: _this.props.isOpen ? AnimationStates.OPEN : AnimationStates.CLOSED,
       height: undefined,
       heightWhenOpen: undefined
-    };
+    }; // The element containing the contents of the collapse.
+
+    _this.contents = null;
 
     _this.contentsRefHandler = function (el) {
       _this.contents = el;
@@ -48393,7 +47648,9 @@ function (_super) {
   };
 
   Collapse.prototype.componentDidMount = function () {
-    this.forceUpdate();
+    this.forceUpdate(); // HACKHACK: this should probably be done in getSnapshotBeforeUpdate
+
+    /* eslint-disable react/no-did-mount-set-state */
 
     if (this.props.isOpen) {
       this.setState({
@@ -48406,10 +47663,16 @@ function (_super) {
         height: "0px"
       });
     }
+    /* eslint-disable react/no-did-mount-set-state */
+
   };
 
   Collapse.prototype.componentDidUpdate = function () {
     var _this = this;
+
+    if (this.contents == null) {
+      return;
+    }
 
     var transitionDuration = this.props.transitionDuration;
     var animationState = this.state.animationState;
@@ -48563,12 +47826,15 @@ function (_super) {
 
     if (collapsedChildren.length > 0) {
       var position = collapseFrom === _boundary.Boundary.END ? _position.Position.BOTTOM_RIGHT : _position.Position.BOTTOM_LEFT;
+      /* eslint-disable deprecation/deprecation */
+
       collapsedPopover = React.createElement("li", {
         className: this.props.visibleItemClassName
       }, React.createElement(_popover.Popover, (0, _tslib.__assign)({
         content: React.createElement(_menu.Menu, null, collapsedChildren),
         position: position
       }, this.props.dropdownProps), this.props.dropdownTarget));
+      /* eslint-enable deprecation/deprecation */
     }
 
     return React.createElement("ul", {
@@ -48578,10 +47844,6 @@ function (_super) {
 
 
   CollapsibleList.prototype.partitionChildren = function () {
-    if (this.props.children == null) {
-      return [[], []];
-    }
-
     var childrenArray = React.Children.map(this.props.children, function (child, index) {
       if (!(0, _utils.isElementOfType)(child, _menuItem.MenuItem)) {
         throw new Error(Errors.COLLAPSIBLE_LIST_INVALID_CHILD);
@@ -48591,6 +47853,10 @@ function (_super) {
         key: "visible-" + index
       });
     });
+
+    if (childrenArray == null) {
+      return [[], []];
+    }
 
     if (this.props.collapseFrom === _boundary.Boundary.START) {
       // reverse START list so we can always slice visible items from the front of the list
@@ -48604,45 +47870,13 @@ function (_super) {
   CollapsibleList.displayName = _props.DISPLAYNAME_PREFIX + ".CollapsibleList";
   CollapsibleList.defaultProps = {
     collapseFrom: _boundary.Boundary.START,
-    dropdownTarget: null,
-    visibleItemCount: 3,
-    visibleItemRenderer: null
+    visibleItemCount: 3
   };
   return CollapsibleList;
 }(React.Component);
 
 exports.CollapsibleList = CollapsibleList;
-},{"tslib":"node_modules/tslib/tslib.es6.js","classnames":"node_modules/classnames/index.js","react":"node_modules/react/index.js","../../common/boundary":"node_modules/@blueprintjs/core/lib/esm/common/boundary.js","../../common/classes":"node_modules/@blueprintjs/core/lib/esm/common/classes.js","../../common/errors":"node_modules/@blueprintjs/core/lib/esm/common/errors.js","../../common/position":"node_modules/@blueprintjs/core/lib/esm/common/position.js","../../common/props":"node_modules/@blueprintjs/core/lib/esm/common/props.js","../../common/utils":"node_modules/@blueprintjs/core/lib/esm/common/utils/index.js","../menu/menu":"node_modules/@blueprintjs/core/lib/esm/components/menu/menu.js","../menu/menuItem":"node_modules/@blueprintjs/core/lib/esm/components/menu/menuItem.js","../popover/popover":"node_modules/@blueprintjs/core/lib/esm/components/popover/popover.js"}],"node_modules/@blueprintjs/core/lib/esm/common/utils/isDarkTheme.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.isDarkTheme = isDarkTheme;
-
-require("../configureDom4");
-
-var _ = require("../");
-
-/*
- * Copyright 2017 Palantir Technologies, Inc. All rights reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-function isDarkTheme(element) {
-  return element instanceof Element && element.closest("." + _.Classes.DARK) != null;
-}
-},{"../configureDom4":"node_modules/@blueprintjs/core/lib/esm/common/configureDom4.js","../":"node_modules/@blueprintjs/core/lib/esm/common/index.js"}],"node_modules/@blueprintjs/core/lib/esm/components/context-menu/contextMenuTarget.js":[function(require,module,exports) {
+},{"tslib":"node_modules/tslib/tslib.es6.js","classnames":"node_modules/classnames/index.js","react":"node_modules/react/index.js","../../common/boundary":"node_modules/@blueprintjs/core/lib/esm/common/boundary.js","../../common/classes":"node_modules/@blueprintjs/core/lib/esm/common/classes.js","../../common/errors":"node_modules/@blueprintjs/core/lib/esm/common/errors.js","../../common/position":"node_modules/@blueprintjs/core/lib/esm/common/position.js","../../common/props":"node_modules/@blueprintjs/core/lib/esm/common/props.js","../../common/utils":"node_modules/@blueprintjs/core/lib/esm/common/utils/index.js","../menu/menu":"node_modules/@blueprintjs/core/lib/esm/components/menu/menu.js","../menu/menuItem":"node_modules/@blueprintjs/core/lib/esm/components/menu/menuItem.js","../popover/popover":"node_modules/@blueprintjs/core/lib/esm/components/popover/popover.js"}],"node_modules/@blueprintjs/core/lib/esm/components/context-menu/contextMenuTarget.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -48683,6 +47917,8 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+/** @deprecated use ContextMenu2 */
 function ContextMenuTarget(WrappedComponent) {
   var _a;
 
@@ -48726,6 +47962,9 @@ function ContextMenuTarget(WrappedComponent) {
           var menu = _this.renderContextMenu(e);
 
           if (menu != null) {
+            // HACKHACK: see https://github.com/palantir/blueprint/issues/3979
+
+            /* eslint-disable-next-line react/no-find-dom-node */
             var darkTheme = (0, _isDarkTheme.isDarkTheme)(ReactDOM.findDOMNode(_this));
             e.preventDefault();
             ContextMenu.show(menu, {
@@ -48746,7 +47985,306 @@ function ContextMenuTarget(WrappedComponent) {
     return ContextMenuTargetClass;
   }(WrappedComponent), _a.displayName = "ContextMenuTarget(" + (0, _utils.getDisplayName)(WrappedComponent) + ")", _a;
 }
-},{"tslib":"node_modules/tslib/tslib.es6.js","react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","../../common/errors":"node_modules/@blueprintjs/core/lib/esm/common/errors.js","../../common/utils":"node_modules/@blueprintjs/core/lib/esm/common/utils/index.js","../../common/utils/isDarkTheme":"node_modules/@blueprintjs/core/lib/esm/common/utils/isDarkTheme.js","./contextMenu":"node_modules/@blueprintjs/core/lib/esm/components/context-menu/contextMenu.js"}],"node_modules/@blueprintjs/core/lib/esm/components/divider/divider.js":[function(require,module,exports) {
+},{"tslib":"node_modules/tslib/tslib.es6.js","react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","../../common/errors":"node_modules/@blueprintjs/core/lib/esm/common/errors.js","../../common/utils":"node_modules/@blueprintjs/core/lib/esm/common/utils/index.js","../../common/utils/isDarkTheme":"node_modules/@blueprintjs/core/lib/esm/common/utils/isDarkTheme.js","./contextMenu":"node_modules/@blueprintjs/core/lib/esm/components/context-menu/contextMenu.js"}],"node_modules/@blueprintjs/core/lib/esm/components/dialog/dialogStep.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.DialogStep = void 0;
+
+var _tslib = require("tslib");
+
+var _classnames = _interopRequireDefault(require("classnames"));
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactLifecyclesCompat = require("react-lifecycles-compat");
+
+var _common = require("../../common");
+
+var _props = require("../../common/props");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/*
+ * Copyright 2020 Palantir Technologies, Inc. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+var DialogStep =
+/** @class */
+function (_super) {
+  (0, _tslib.__extends)(DialogStep, _super);
+
+  function DialogStep() {
+    return _super !== null && _super.apply(this, arguments) || this;
+  } // this component is never rendered directly; see MultistepDialog#renderDialogStepPanel()
+
+  /* istanbul ignore next */
+
+
+  DialogStep.prototype.render = function () {
+    var className = this.props.className;
+    return React.createElement("div", {
+      className: _common.Classes.DIALOG_STEP_CONTAINER
+    }, React.createElement("div", {
+      className: (0, _classnames.default)(_common.Classes.DIALOG_STEP, className),
+      role: "dialogsteplist"
+    }));
+  };
+
+  DialogStep.displayName = _props.DISPLAYNAME_PREFIX + ".DialogStep";
+  DialogStep = (0, _tslib.__decorate)([_reactLifecyclesCompat.polyfill], DialogStep);
+  return DialogStep;
+}(_common.AbstractPureComponent2);
+
+exports.DialogStep = DialogStep;
+},{"tslib":"node_modules/tslib/tslib.es6.js","classnames":"node_modules/classnames/index.js","react":"node_modules/react/index.js","react-lifecycles-compat":"node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","../../common":"node_modules/@blueprintjs/core/lib/esm/common/index.js","../../common/props":"node_modules/@blueprintjs/core/lib/esm/common/props.js"}],"node_modules/@blueprintjs/core/lib/esm/components/dialog/multistepDialog.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.MultistepDialog = void 0;
+
+var _tslib = require("tslib");
+
+var _classnames = _interopRequireDefault(require("classnames"));
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactLifecyclesCompat = require("react-lifecycles-compat");
+
+var _common = require("../../common");
+
+var _props = require("../../common/props");
+
+var _buttons = require("../button/buttons");
+
+var _dialog = require("./dialog");
+
+var _dialogStep = require("./dialogStep");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/*
+ * Copyright 2020 Palantir Technologies, Inc. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+var PADDING_BOTTOM = 0;
+var MIN_WIDTH = 800;
+var INITIAL_STATE = {
+  lastViewedIndex: 0,
+  selectedIndex: 0
+};
+
+var MultistepDialog =
+/** @class */
+function (_super) {
+  (0, _tslib.__extends)(MultistepDialog, _super);
+
+  function MultistepDialog() {
+    var _this = _super !== null && _super.apply(this, arguments) || this;
+
+    _this.state = INITIAL_STATE;
+
+    _this.renderDialogStep = function (step, index) {
+      var _a, _b;
+
+      var stepNumber = index + 1;
+      var hasBeenViewed = _this.state.lastViewedIndex >= index;
+      var currentlySelected = _this.state.selectedIndex === index;
+      return React.createElement("div", {
+        className: (0, _classnames.default)(_common.Classes.DIALOG_STEP_CONTAINER, (_a = {}, _a[_common.Classes.ACTIVE] = hasBeenViewed, _a)),
+        key: index
+      }, React.createElement("div", {
+        className: _common.Classes.DIALOG_STEP,
+        onClick: _this.handleClickDialogStep(index)
+      }, React.createElement("div", {
+        className: _common.Classes.DIALOG_STEP_ICON
+      }, stepNumber), React.createElement("div", {
+        className: (0, _classnames.default)(_common.Classes.DIALOG_STEP_TITLE, (_b = {}, _b[_common.Classes.ACTIVE] = currentlySelected, _b))
+      }, step.props.title)));
+    };
+
+    _this.handleClickDialogStep = function (index) {
+      if (index > _this.state.lastViewedIndex) {
+        return;
+      }
+
+      return _this.getDialogStepChangeHandler(index);
+    };
+
+    return _this;
+  }
+
+  MultistepDialog.prototype.render = function () {
+    return React.createElement(_dialog.Dialog, (0, _tslib.__assign)({}, this.props, {
+      style: this.getDialogStyle()
+    }), React.createElement("div", {
+      className: _common.Classes.MULTISTEP_DIALOG_PANELS
+    }, this.renderLeftPanel(), this.maybeRenderRightPanel()));
+  };
+
+  MultistepDialog.prototype.componentDidUpdate = function (prevProps) {
+    if ((prevProps.resetOnClose === undefined || prevProps.resetOnClose) && !prevProps.isOpen && this.props.isOpen) {
+      this.setState(INITIAL_STATE);
+    }
+  };
+
+  MultistepDialog.prototype.getDialogStyle = function () {
+    return (0, _tslib.__assign)({
+      minWidth: MIN_WIDTH,
+      paddingBottom: PADDING_BOTTOM
+    }, this.props.style);
+  };
+
+  MultistepDialog.prototype.renderLeftPanel = function () {
+    return React.createElement("div", {
+      className: _common.Classes.MULTISTEP_DIALOG_LEFT_PANEL
+    }, this.getDialogStepChildren().filter(isDialogStepElement).map(this.renderDialogStep));
+  };
+
+  MultistepDialog.prototype.maybeRenderRightPanel = function () {
+    var steps = this.getDialogStepChildren();
+
+    if (steps.length <= this.state.selectedIndex) {
+      return null;
+    }
+
+    var _a = steps[this.state.selectedIndex].props,
+        className = _a.className,
+        panel = _a.panel,
+        panelClassName = _a.panelClassName;
+    return React.createElement("div", {
+      className: (0, _classnames.default)(_common.Classes.MULTISTEP_DIALOG_RIGHT_PANEL, className, panelClassName)
+    }, panel, this.renderFooter());
+  };
+
+  MultistepDialog.prototype.renderFooter = function () {
+    return React.createElement("div", {
+      className: _common.Classes.MULTISTEP_DIALOG_FOOTER
+    }, React.createElement("div", {
+      className: _common.Classes.DIALOG_FOOTER_ACTIONS
+    }, this.renderButtons()));
+  };
+
+  MultistepDialog.prototype.renderButtons = function () {
+    var buttons = [];
+
+    if (this.state.selectedIndex > 0) {
+      buttons.push(React.createElement(_buttons.Button, {
+        key: "back",
+        onClick: this.getBackClickHandler(),
+        text: "Back"
+      }));
+    }
+
+    if (this.state.selectedIndex === this.getDialogStepChildren().length - 1) {
+      buttons.push(this.renderFinalButton());
+    } else {
+      buttons.push(React.createElement(_buttons.Button, (0, _tslib.__assign)({
+        intent: "primary",
+        key: "next",
+        onClick: this.getNextClickHandler(),
+        text: "Next"
+      }, this.props.nextButtonProps)));
+    }
+
+    return buttons;
+  };
+
+  MultistepDialog.prototype.getBackClickHandler = function () {
+    return this.getDialogStepChangeHandler(this.state.selectedIndex - 1);
+  };
+
+  MultistepDialog.prototype.getNextClickHandler = function () {
+    return this.getDialogStepChangeHandler(this.state.selectedIndex + 1);
+  };
+
+  MultistepDialog.prototype.getDialogStepChangeHandler = function (index) {
+    var _this = this;
+
+    return function (event) {
+      if (_this.props.onChange !== undefined) {
+        var steps = _this.getDialogStepChildren();
+
+        var prevStepId = steps[_this.state.selectedIndex].props.id;
+        var newStepId = steps[index].props.id;
+
+        _this.props.onChange(newStepId, prevStepId, event);
+      }
+
+      _this.setState({
+        lastViewedIndex: Math.max(_this.state.lastViewedIndex, index),
+        selectedIndex: index
+      });
+    };
+  };
+
+  MultistepDialog.prototype.renderFinalButton = function () {
+    return React.createElement(_buttons.Button, (0, _tslib.__assign)({
+      intent: "primary",
+      key: "final",
+      text: "Submit"
+    }, this.props.finalButtonProps));
+  };
+  /** Filters children to only `<DialogStep>`s */
+
+
+  MultistepDialog.prototype.getDialogStepChildren = function (props) {
+    if (props === void 0) {
+      props = this.props;
+    }
+
+    return React.Children.toArray(props.children).filter(isDialogStepElement);
+  };
+
+  MultistepDialog.displayName = _props.DISPLAYNAME_PREFIX + ".MultistepDialog";
+  MultistepDialog.defaultProps = {
+    canOutsideClickClose: true,
+    isOpen: false
+  };
+  MultistepDialog = (0, _tslib.__decorate)([_reactLifecyclesCompat.polyfill], MultistepDialog);
+  return MultistepDialog;
+}(_common.AbstractPureComponent2);
+
+exports.MultistepDialog = MultistepDialog;
+
+function isDialogStepElement(child) {
+  return _common.Utils.isElementOfType(child, _dialogStep.DialogStep);
+}
+},{"tslib":"node_modules/tslib/tslib.es6.js","classnames":"node_modules/classnames/index.js","react":"node_modules/react/index.js","react-lifecycles-compat":"node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","../../common":"node_modules/@blueprintjs/core/lib/esm/common/index.js","../../common/props":"node_modules/@blueprintjs/core/lib/esm/common/props.js","../button/buttons":"node_modules/@blueprintjs/core/lib/esm/components/button/buttons.js","./dialog":"node_modules/@blueprintjs/core/lib/esm/components/dialog/dialog.js","./dialogStep":"node_modules/@blueprintjs/core/lib/esm/components/dialog/dialogStep.js"}],"node_modules/@blueprintjs/core/lib/esm/components/divider/divider.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -48878,23 +48416,46 @@ function (_super) {
   (0, _tslib.__extends)(Drawer, _super);
 
   function Drawer() {
-    return _super !== null && _super.apply(this, arguments) || this;
+    var _this = _super !== null && _super.apply(this, arguments) || this;
+
+    _this.handleOpening = function (node) {
+      var _a, _b;
+
+      _this.lastActiveElementBeforeOpened = document.activeElement;
+      (_b = (_a = _this.props).onOpening) === null || _b === void 0 ? void 0 : _b.call(_a, node);
+    };
+
+    _this.handleClosed = function (node) {
+      var _a, _b;
+
+      if (_this.lastActiveElementBeforeOpened instanceof HTMLElement) {
+        _this.lastActiveElementBeforeOpened.focus();
+      }
+
+      (_b = (_a = _this.props).onClosed) === null || _b === void 0 ? void 0 : _b.call(_a, node);
+    };
+
+    return _this;
   }
 
   Drawer.prototype.render = function () {
-    var _a, _b; // eslint-disable-next-line deprecation/deprecation
+    var _a, _b;
+
+    var _c; // eslint-disable-next-line deprecation/deprecation
 
 
-    var _c = this.props,
-        size = _c.size,
-        style = _c.style,
-        position = _c.position,
-        vertical = _c.vertical;
-    var realPosition = position ? (0, _position.getPositionIgnoreAngles)(position) : null;
-    var classes = (0, _classnames.default)(_common.Classes.DRAWER, (_a = {}, _a[_common.Classes.VERTICAL] = !realPosition && vertical, _a[realPosition ? _common.Classes.positionClass(realPosition) : ""] = true, _a), this.props.className);
+    var _d = this.props,
+        size = _d.size,
+        style = _d.style,
+        position = _d.position,
+        vertical = _d.vertical;
+    var realPosition = position ? (0, _position.getPositionIgnoreAngles)(position) : undefined;
+    var classes = (0, _classnames.default)(_common.Classes.DRAWER, (_a = {}, _a[_common.Classes.VERTICAL] = !realPosition && vertical, _a[(_c = _common.Classes.positionClass(realPosition)) !== null && _c !== void 0 ? _c : ""] = true, _a), this.props.className);
     var styleProp = size == null ? style : (0, _tslib.__assign)((0, _tslib.__assign)({}, style), (_b = {}, _b[(realPosition ? (0, _position.isPositionHorizontal)(realPosition) : vertical) ? "height" : "width"] = size, _b));
     return React.createElement(_overlay.Overlay, (0, _tslib.__assign)({}, this.props, {
-      className: _common.Classes.OVERLAY_CONTAINER
+      className: _common.Classes.OVERLAY_CONTAINER,
+      onOpening: this.handleOpening,
+      onClosed: this.handleClosed
     }), React.createElement("div", {
       className: classes,
       style: styleProp
@@ -48964,7 +48525,6 @@ function (_super) {
   Drawer.defaultProps = {
     canOutsideClickClose: true,
     isOpen: false,
-    position: null,
     style: {},
     vertical: false
   };
@@ -49028,6 +48588,7 @@ var _browser = require("./browser");
 
 Object.keys(_browser).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _browser[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -49091,6 +48652,8 @@ function (_super) {
   function EditableText(props, context) {
     var _this = _super.call(this, props, context) || this;
 
+    _this.inputElement = null;
+    _this.valueElement = null;
     _this.refHandlers = {
       content: function (spanElement) {
         _this.valueElement = spanElement;
@@ -49243,11 +48806,13 @@ function (_super) {
   EditableText.prototype.render = function () {
     var _a;
 
-    var _b = this.props,
-        alwaysRenderInput = _b.alwaysRenderInput,
-        disabled = _b.disabled,
-        multiline = _b.multiline;
-    var value = this.props.value == null ? this.state.value : this.props.value;
+    var _b;
+
+    var _c = this.props,
+        alwaysRenderInput = _c.alwaysRenderInput,
+        disabled = _c.disabled,
+        multiline = _c.multiline;
+    var value = (_b = this.props.value) !== null && _b !== void 0 ? _b : this.state.value;
     var hasValue = value != null && value !== "";
     var classes = (0, _classnames.default)(_common.Classes.EDITABLE_TEXT, _common.Classes.intentClass(this.props.intent), (_a = {}, _a[_common.Classes.DISABLED] = disabled, _a[_common.Classes.EDITABLE_TEXT_EDITING] = this.state.isEditing, _a[_common.Classes.EDITABLE_TEXT_PLACEHOLDER] = !hasValue, _a[_common.Classes.MULTILINE] = multiline, _a), this.props.className);
     var contentStyle;
@@ -49256,13 +48821,13 @@ function (_super) {
       // set height only in multiline mode when not editing
       // otherwise we're measuring this element to determine appropriate height of text
       contentStyle = {
-        height: !this.state.isEditing ? this.state.inputHeight : null
+        height: !this.state.isEditing ? this.state.inputHeight : undefined
       };
     } else {
       // minWidth only applies in single line mode (multiline == width 100%)
       contentStyle = {
         height: this.state.inputHeight,
-        lineHeight: this.state.inputHeight != null ? this.state.inputHeight + "px" : null,
+        lineHeight: this.state.inputHeight != null ? this.state.inputHeight + "px" : undefined,
         minWidth: this.props.minWidth
       };
     } // If we are always rendering an input, then NEVER make the container div focusable.
@@ -49270,7 +48835,7 @@ function (_super) {
     // to focus (when the input is rendered, it is itself focusable so container div doesn't need to be)
 
 
-    var tabIndex = alwaysRenderInput || this.state.isEditing || disabled ? null : 0; // we need the contents to be rendered while editing so that we can measure their height
+    var tabIndex = alwaysRenderInput || this.state.isEditing || disabled ? undefined : 0; // we need the contents to be rendered while editing so that we can measure their height
     // and size the container element responsively
 
     var shouldHideContents = alwaysRenderInput && !this.state.isEditing;
@@ -49292,21 +48857,21 @@ function (_super) {
   EditableText.prototype.componentDidUpdate = function (prevProps, prevState) {
     var _a, _b;
 
-    var state = {}; // allow setting the value to undefined/null in controlled mode
+    var newState = {}; // allow setting the value to undefined/null in controlled mode
 
     if (this.props.value !== prevProps.value && (prevProps.value != null || this.props.value != null)) {
-      state.value = this.props.value;
+      newState.value = this.props.value;
     }
 
     if (this.props.isEditing != null && this.props.isEditing !== prevProps.isEditing) {
-      state.isEditing = this.props.isEditing;
+      newState.isEditing = this.props.isEditing;
     }
 
     if (this.props.disabled || this.props.disabled == null && prevProps.disabled) {
-      state.isEditing = false;
+      newState.isEditing = false;
     }
 
-    this.setState(state);
+    this.setState(newState);
 
     if (this.state.isEditing && !prevState.isEditing) {
       (_b = (_a = this.props).onEdit) === null || _b === void 0 ? void 0 : _b.call(_a, this.state.value);
@@ -49317,12 +48882,14 @@ function (_super) {
 
   EditableText.prototype.renderInput = function (value) {
     var _a = this.props,
+        disabled = _a.disabled,
         maxLength = _a.maxLength,
         multiline = _a.multiline,
         type = _a.type,
         placeholder = _a.placeholder;
     var props = {
       className: _common.Classes.EDITABLE_TEXT_INPUT,
+      disabled: disabled,
       maxLength: maxLength,
       onBlur: this.toggleEditing,
       onChange: this.handleTextChange,
@@ -49337,7 +48904,7 @@ function (_super) {
     if (inputHeight !== 0 && inputWidth !== 0) {
       props.style = {
         height: inputHeight,
-        lineHeight: !multiline && inputHeight != null ? inputHeight + "px" : null,
+        lineHeight: !multiline && inputHeight != null ? inputHeight + "px" : undefined,
         width: multiline ? "100%" : inputWidth
       };
     }
@@ -49366,7 +48933,7 @@ function (_super) {
       var lineHeight = getLineHeight(this.valueElement); // add one line to computed <span> height if text ends in newline
       // because <span> collapses that trailing whitespace but <textarea> shows it
 
-      if (multiline && this.state.isEditing && /\n$/.test(textContent)) {
+      if (multiline && this.state.isEditing && /\n$/.test(textContent !== null && textContent !== void 0 ? textContent : "")) {
         scrollHeight_1 += lineHeight;
       }
 
@@ -49698,7 +49265,10 @@ function (_super) {
 
     _this.state = {
       indeterminate: _this.props.indeterminate || _this.props.defaultIndeterminate || false
-    };
+    }; // must maintain internal reference for `indeterminate` support
+
+    _this.input = null;
+    _this.handleInputRef = (0, _common.refHandler)(_this, "input", _this.props.inputRef);
 
     _this.handleChange = function (evt) {
       var _a, _b;
@@ -49713,13 +49283,6 @@ function (_super) {
 
 
       (_b = (_a = _this.props).onChange) === null || _b === void 0 ? void 0 : _b.call(_a, evt);
-    };
-
-    _this.handleInputRef = function (ref) {
-      var _a, _b;
-
-      _this.input = ref;
-      (_b = (_a = _this.props).inputRef) === null || _b === void 0 ? void 0 : _b.call(_a, ref);
     };
 
     return _this;
@@ -49826,7 +49389,7 @@ function (_super) {
       var _a, _b, _c, _d;
 
       (_b = (_a = _this.props).onInputChange) === null || _b === void 0 ? void 0 : _b.call(_a, e);
-      (_d = (_c = _this.props.inputProps).onChange) === null || _d === void 0 ? void 0 : _d.call(_c, e);
+      (_d = (_c = _this.props.inputProps) === null || _c === void 0 ? void 0 : _c.onChange) === null || _d === void 0 ? void 0 : _d.call(_c, e);
     };
 
     return _this;
@@ -49976,6 +49539,8 @@ var React = _interopRequireWildcard(require("react"));
 
 var _reactLifecyclesCompat = require("react-lifecycles-compat");
 
+var _props = require("../../common/props");
+
 function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
@@ -50003,8 +49568,6 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
  * asychronously. This might happen if a component chooses to do async validation of a value
  * returned by the input's `onChange` callback.
  *
- * Implementation adapted from https://jsfiddle.net/m792qtys/ (linked in the above issue thread).
- *
  * Note: this component does not apply any Blueprint-specific styling.
  */
 var AsyncControllableInput =
@@ -50016,9 +49579,10 @@ function (_super) {
     var _this = _super !== null && _super.apply(this, arguments) || this;
 
     _this.state = {
-      externalValue: _this.props.value,
+      hasPendingUpdate: false,
       isComposing: false,
-      localValue: _this.props.value
+      nextValue: _this.props.value,
+      value: _this.props.value
     };
 
     _this.handleCompositionStart = function (e) {
@@ -50028,7 +49592,7 @@ function (_super) {
         isComposing: true,
         // Make sure that localValue matches externalValue, in case externalValue
         // has changed since the last onChange event.
-        localValue: _this.state.externalValue
+        nextValue: _this.state.value
       });
 
       (_b = (_a = _this.props).onCompositionStart) === null || _b === void 0 ? void 0 : _b.call(_a, e);
@@ -50050,7 +49614,7 @@ function (_super) {
       var value = e.target.value;
 
       _this.setState({
-        localValue: value
+        nextValue: value
       });
 
       (_b = (_a = _this.props).onChange) === null || _b === void 0 ? void 0 : _b.call(_a, e);
@@ -50059,36 +49623,84 @@ function (_super) {
     return _this;
   }
 
-  AsyncControllableInput.getDerivedStateFromProps = function (_a) {
-    var value = _a.value;
-    return {
-      externalValue: value
-    };
+  AsyncControllableInput.getDerivedStateFromProps = function (nextProps, nextState) {
+    if (nextState.isComposing || nextProps.value === undefined) {
+      // don't derive anything from props if:
+      // - in uncontrolled mode, OR
+      // - currently composing, since we'll do that after composition ends
+      return null;
+    }
+
+    var userTriggeredUpdate = nextState.nextValue !== nextState.value;
+
+    if (userTriggeredUpdate) {
+      if (nextProps.value === nextState.nextValue) {
+        // parent has processed and accepted our update
+        if (nextState.hasPendingUpdate) {
+          return {
+            value: nextProps.value,
+            hasPendingUpdate: false
+          };
+        } else {
+          return {
+            value: nextState.nextValue
+          };
+        }
+      } else {
+        if (nextProps.value === nextState.value) {
+          // we have sent the update to our parent, but it has not been processed yet. just wait.
+          // DO NOT set nextValue here, since that will temporarily render a potentially stale controlled value,
+          // causing the cursor to jump once the new value is accepted
+          return {
+            hasPendingUpdate: true
+          };
+        } // accept controlled update overriding user action
+
+
+        return {
+          value: nextProps.value,
+          nextValue: nextProps.value,
+          hasPendingUpdate: false
+        };
+      }
+    } else {
+      // accept controlled update, could be confirming or denying user action
+      return {
+        value: nextProps.value,
+        nextValue: nextProps.value,
+        hasPendingUpdate: false
+      };
+    }
   };
 
   AsyncControllableInput.prototype.render = function () {
     var _a = this.state,
         isComposing = _a.isComposing,
-        externalValue = _a.externalValue,
-        localValue = _a.localValue;
+        hasPendingUpdate = _a.hasPendingUpdate,
+        value = _a.value,
+        nextValue = _a.nextValue;
     var _b = this.props,
         inputRef = _b.inputRef,
         restProps = (0, _tslib.__rest)(_b, ["inputRef"]);
     return React.createElement("input", (0, _tslib.__assign)({}, restProps, {
       ref: inputRef,
-      value: isComposing ? localValue : externalValue,
+      // render the pending value even if it is not confirmed by a parent's async controlled update
+      // so that the cursor does not jump to the end of input as reported in
+      // https://github.com/palantir/blueprint/issues/4298
+      value: isComposing || hasPendingUpdate ? nextValue : value,
       onCompositionStart: this.handleCompositionStart,
       onCompositionEnd: this.handleCompositionEnd,
       onChange: this.handleChange
     }));
   };
 
+  AsyncControllableInput.displayName = _props.DISPLAYNAME_PREFIX + ".AsyncControllableInput";
   AsyncControllableInput = (0, _tslib.__decorate)([_reactLifecyclesCompat.polyfill], AsyncControllableInput);
   return AsyncControllableInput;
 }(React.PureComponent);
 
 exports.AsyncControllableInput = AsyncControllableInput;
-},{"tslib":"node_modules/tslib/tslib.es6.js","react":"node_modules/react/index.js","react-lifecycles-compat":"node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js"}],"node_modules/@blueprintjs/core/lib/esm/components/forms/inputGroup.js":[function(require,module,exports) {
+},{"tslib":"node_modules/tslib/tslib.es6.js","react":"node_modules/react/index.js","react-lifecycles-compat":"node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","../../common/props":"node_modules/@blueprintjs/core/lib/esm/common/props.js"}],"node_modules/@blueprintjs/core/lib/esm/components/forms/inputGroup.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -50144,6 +49756,8 @@ function (_super) {
     var _this = _super !== null && _super.apply(this, arguments) || this;
 
     _this.state = {};
+    _this.leftElement = null;
+    _this.rightElement = null;
     _this.refHandlers = {
       leftElement: function (ref) {
         return _this.leftElement = ref;
@@ -50159,6 +49773,8 @@ function (_super) {
     var _a;
 
     var _b = this.props,
+        _c = _b.asyncControl,
+        asyncControl = _c === void 0 ? false : _c,
         className = _b.className,
         disabled = _b.disabled,
         fill = _b.fill,
@@ -50167,19 +49783,23 @@ function (_super) {
         large = _b.large,
         small = _b.small,
         round = _b.round;
-    var classes = (0, _classnames.default)(_common.Classes.INPUT_GROUP, _common.Classes.intentClass(intent), (_a = {}, _a[_common.Classes.DISABLED] = disabled, _a[_common.Classes.FILL] = fill, _a[_common.Classes.LARGE] = large, _a[_common.Classes.SMALL] = small, _a[_common.Classes.ROUND] = round, _a), className);
+    var inputGroupClasses = (0, _classnames.default)(_common.Classes.INPUT_GROUP, _common.Classes.intentClass(intent), (_a = {}, _a[_common.Classes.DISABLED] = disabled, _a[_common.Classes.FILL] = fill, _a[_common.Classes.LARGE] = large, _a[_common.Classes.SMALL] = small, _a[_common.Classes.ROUND] = round, _a), className);
     var style = (0, _tslib.__assign)((0, _tslib.__assign)({}, this.props.style), {
       paddingLeft: this.state.leftElementWidth,
       paddingRight: this.state.rightElementWidth
     });
-    return React.createElement("div", {
-      className: classes
-    }, this.maybeRenderLeftElement(), React.createElement(_asyncControllableInput.AsyncControllableInput, (0, _tslib.__assign)({
+    var inputProps = (0, _tslib.__assign)((0, _tslib.__assign)({
       type: "text"
-    }, (0, _props.removeNonHTMLProps)(this.props), {
+    }, (0, _props.removeNonHTMLProps)(this.props)), {
       className: _common.Classes.INPUT,
-      inputRef: inputRef,
       style: style
+    });
+    return React.createElement("div", {
+      className: inputGroupClasses
+    }, this.maybeRenderLeftElement(), asyncControl ? React.createElement(_asyncControllableInput.AsyncControllableInput, (0, _tslib.__assign)({}, inputProps, {
+      inputRef: inputRef
+    })) : React.createElement("input", (0, _tslib.__assign)({}, inputProps, {
+      ref: inputRef
     })), this.maybeRenderRightElement());
   };
 
@@ -50281,8 +49901,10 @@ exports.InputGroup = InputGroup;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.toLocaleString = toLocaleString;
 exports.clampValue = clampValue;
 exports.getValueOrEmptyValue = getValueOrEmptyValue;
+exports.parseStringToStringNumber = parseStringToStringNumber;
 exports.isValueNumeric = isValueNumeric;
 exports.isValidNumericKeyboardEvent = isValidNumericKeyboardEvent;
 exports.toMaxPrecision = toMaxPrecision;
@@ -50305,6 +49927,26 @@ var _utils = require("../../common/utils");
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+/** Returns the `decimal` number separator based on locale */
+function getDecimalSeparator(locale) {
+  var testNumber = 1.9;
+  var testText = testNumber.toLocaleString(locale);
+  var one = 1 .toLocaleString(locale);
+  var nine = 9 .toLocaleString(locale);
+  var pattern = one + "(.+)" + nine;
+  var result = new RegExp(pattern).exec(testText);
+  return result && result[1] || ".";
+}
+
+function toLocaleString(num, locale) {
+  if (locale === void 0) {
+    locale = "en-US";
+  }
+
+  return sanitizeNumericInput(num.toLocaleString(locale), locale);
+}
+
 function clampValue(value, min, max) {
   // defaultProps won't work if the user passes in null, so just default
   // to +/- infinity here instead, as a catch-all.
@@ -50320,20 +49962,56 @@ function getValueOrEmptyValue(value) {
 
   return value.toString();
 }
+/** Transform the localized character (ex. "") to a javascript recognizable string number (ex. "10.99")  */
+
+
+function transformLocalizedNumberToStringNumber(character, locale) {
+  var charactersMap = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map(function (value) {
+    return value.toLocaleString(locale);
+  });
+  var jsNumber = charactersMap.indexOf(character);
+
+  if (jsNumber !== -1) {
+    return jsNumber;
+  } else {
+    return character;
+  }
+}
+/** Transforms the localized number (ex. "10,99") to a javascript recognizable string number (ex. "10.99")  */
+
+
+function parseStringToStringNumber(value, locale) {
+  var valueAsString = "" + value;
+
+  if (parseFloat(valueAsString).toString() === value.toString()) {
+    return value.toString();
+  }
+
+  if (locale !== undefined) {
+    var decimalSeparator = getDecimalSeparator(locale);
+    var sanitizedString = sanitizeNumericInput(valueAsString, locale);
+    return sanitizedString.split("").map(function (character) {
+      return transformLocalizedNumberToStringNumber(character, locale);
+    }).join("").replace(decimalSeparator, ".");
+  }
+
+  return value.toString();
+}
 /** Returns `true` if the string represents a valid numeric value, like "1e6". */
 
 
-function isValueNumeric(value) {
+function isValueNumeric(value, locale) {
   // checking if a string is numeric in Typescript is a big pain, because
   // we can't simply toss a string parameter to isFinite. below is the
   // essential approach that jQuery uses, which involves subtracting a
   // parsed numeric value from the string representation of the value. we
   // need to cast the value to the `any` type to allow this operation
   // between dissimilar types.
-  return value != null && value - parseFloat(value) + 1 >= 0;
+  var stringToStringNumber = parseStringToStringNumber(value, locale);
+  return value != null && stringToStringNumber - parseFloat(stringToStringNumber) + 1 >= 0;
 }
 
-function isValidNumericKeyboardEvent(e) {
+function isValidNumericKeyboardEvent(e, locale) {
   // unit tests may not include e.key. don't bother disabling those events.
   if (e.key == null) {
     return true;
@@ -50358,7 +50036,7 @@ function isValidNumericKeyboardEvent(e) {
   // is a floating-point number character that we're allowed to print.
 
 
-  return isFloatingPointNumericCharacter(e.key);
+  return isFloatingPointNumericCharacter(e.key, locale);
 }
 /**
  * A regex that matches a string of length 1 (i.e. a standalone character)
@@ -50373,10 +50051,18 @@ function isValidNumericKeyboardEvent(e) {
  */
 
 
-var FLOATING_POINT_NUMBER_CHARACTER_REGEX = /^[Ee0-9\+\-\.]$/;
-
-function isFloatingPointNumericCharacter(character) {
-  return FLOATING_POINT_NUMBER_CHARACTER_REGEX.test(character);
+function isFloatingPointNumericCharacter(character, locale) {
+  if (locale !== undefined) {
+    var decimalSeparator = getDecimalSeparator(locale).replace(".", "\\.");
+    var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map(function (value) {
+      return value.toLocaleString(locale);
+    }).join("");
+    var localeFloatingPointNumericCharacterRegex = new RegExp("^[Ee" + numbers + "\\+\\-" + decimalSeparator + "]$");
+    return localeFloatingPointNumericCharacterRegex.test(character);
+  } else {
+    var floatingPointNumericCharacterRegex = /^[Ee0-9\+\-\.]$/;
+    return floatingPointNumericCharacterRegex.test(character);
+  }
 }
 /**
  * Round the value to have _up to_ the specified maximum precision.
@@ -50409,9 +50095,11 @@ function convertFullWidthNumbersToAscii(value) {
  */
 
 
-function sanitizeNumericInput(value) {
+function sanitizeNumericInput(value, locale) {
   var valueChars = convertFullWidthNumbersToAscii(value).split("");
-  var sanitizedValueChars = valueChars.filter(isFloatingPointNumericCharacter);
+  var sanitizedValueChars = valueChars.filter(function (valueChar) {
+    return isFloatingPointNumericCharacter(valueChar, locale);
+  });
   return sanitizedValueChars.join("");
 }
 },{"../../common/utils":"node_modules/@blueprintjs/core/lib/esm/common/utils/index.js"}],"node_modules/@blueprintjs/core/lib/esm/components/forms/numericInput.js":[function(require,module,exports) {
@@ -50494,16 +50182,9 @@ function (_super) {
     _this.didPasteEventJustOccur = false;
     _this.delta = 0;
     _this.inputElement = null;
-    _this.intervalId = null;
+    _this.inputRef = (0, _common.refHandler)(_this, "inputElement", _this.props.inputRef);
     _this.incrementButtonHandlers = _this.getButtonEventHandlers(IncrementDirection.UP);
     _this.decrementButtonHandlers = _this.getButtonEventHandlers(IncrementDirection.DOWN);
-
-    _this.inputRef = function (input) {
-      var _a, _b;
-
-      _this.inputElement = input;
-      (_b = (_a = _this.props).inputRef) === null || _b === void 0 ? void 0 : _b.call(_a, input);
-    };
 
     _this.handleButtonClick = function (e, direction) {
       var _a, _b;
@@ -50512,7 +50193,7 @@ function (_super) {
 
       var nextValue = _this.incrementValue(delta);
 
-      (_b = (_a = _this.props).onButtonClick) === null || _b === void 0 ? void 0 : _b.call(_a, +nextValue, nextValue);
+      (_b = (_a = _this.props).onButtonClick) === null || _b === void 0 ? void 0 : _b.call(_a, Number((0, _numericInputUtils.parseStringToStringNumber)(nextValue, _this.props.locale)), nextValue);
     };
 
     _this.stopContinuousChange = function () {
@@ -50533,8 +50214,9 @@ function (_super) {
       if (_this.props.min !== undefined || _this.props.max !== undefined) {
         var min = (_a = _this.props.min) !== null && _a !== void 0 ? _a : -Infinity;
         var max = (_b = _this.props.max) !== null && _b !== void 0 ? _b : Infinity;
+        var valueAsNumber = Number((0, _numericInputUtils.parseStringToStringNumber)(_this.state.value, _this.props.locale));
 
-        if (Number(_this.state.value) <= min || Number(_this.state.value) >= max) {
+        if (valueAsNumber <= min || valueAsNumber >= max) {
           _this.stopContinuousChange();
 
           return;
@@ -50543,7 +50225,7 @@ function (_super) {
 
       var nextValue = _this.incrementValue(_this.delta);
 
-      (_d = (_c = _this.props).onButtonClick) === null || _d === void 0 ? void 0 : _d.call(_c, +nextValue, nextValue);
+      (_d = (_c = _this.props).onButtonClick) === null || _d === void 0 ? void 0 : _d.call(_c, Number((0, _numericInputUtils.parseStringToStringNumber)(nextValue, _this.props.locale)), nextValue);
     }; // Callbacks - Input
     // =================
 
@@ -50593,7 +50275,7 @@ function (_super) {
         direction = IncrementDirection.DOWN;
       }
 
-      if (direction != null) {
+      if (direction !== undefined) {
         // when the input field has focus, some key combinations will modify
         // the field's selection range. we'll actually want to select all
         // text in the field after we modify the value on the following
@@ -50611,7 +50293,7 @@ function (_super) {
 
     _this.handleCompositionEnd = function (e) {
       if (_this.props.allowNumericCharactersOnly) {
-        _this.handleNextValue((0, _numericInputUtils.sanitizeNumericInput)(e.data));
+        _this.handleNextValue((0, _numericInputUtils.sanitizeNumericInput)(e.data, _this.props.locale));
 
         _this.setState({
           currentImeInputInvalid: false
@@ -50622,7 +50304,7 @@ function (_super) {
     _this.handleCompositionUpdate = function (e) {
       if (_this.props.allowNumericCharactersOnly) {
         var data = e.data;
-        var sanitizedValue = (0, _numericInputUtils.sanitizeNumericInput)(data);
+        var sanitizedValue = (0, _numericInputUtils.sanitizeNumericInput)(data, _this.props.locale);
 
         if (sanitizedValue.length === 0 && data.length > 0) {
           _this.setState({
@@ -50641,7 +50323,7 @@ function (_super) {
       // e.key is not trustworthy in onKeyDown in all browsers.
 
 
-      if (_this.props.allowNumericCharactersOnly && !(0, _numericInputUtils.isValidNumericKeyboardEvent)(e)) {
+      if (_this.props.allowNumericCharactersOnly && !(0, _numericInputUtils.isValidNumericKeyboardEvent)(e, _this.props.locale)) {
         e.preventDefault();
       }
 
@@ -50661,7 +50343,7 @@ function (_super) {
 
       if (_this.props.allowNumericCharactersOnly && _this.didPasteEventJustOccur) {
         _this.didPasteEventJustOccur = false;
-        nextValue = (0, _numericInputUtils.sanitizeNumericInput)(value);
+        nextValue = (0, _numericInputUtils.sanitizeNumericInput)(value, _this.props.locale);
       }
 
       _this.handleNextValue(nextValue);
@@ -50690,7 +50372,7 @@ function (_super) {
 
     var value = (_b = (_a = props.value) === null || _a === void 0 ? void 0 : _a.toString()) !== null && _b !== void 0 ? _b : state.value;
     var stepMaxPrecision = NumericInput_1.getStepMaxPrecision(props);
-    var sanitizedValue = value !== NumericInput_1.VALUE_EMPTY ? NumericInput_1.roundAndClampValue(value, stepMaxPrecision, props.min, props.max) : NumericInput_1.VALUE_EMPTY; // if a new min and max were provided that cause the existing value to fall
+    var sanitizedValue = value !== NumericInput_1.VALUE_EMPTY ? NumericInput_1.roundAndClampValue(value, stepMaxPrecision, props.min, props.max, 0, props.locale) : NumericInput_1.VALUE_EMPTY; // if a new min and max were provided that cause the existing value to fall
     // outside of the new bounds, then clamp the value to the new valid range.
 
     if (didBoundsChange && sanitizedValue !== state.value) {
@@ -50716,17 +50398,19 @@ function (_super) {
     }
   };
 
-  NumericInput.roundAndClampValue = function (value, stepMaxPrecision, min, max, delta) {
+  NumericInput.roundAndClampValue = function (value, stepMaxPrecision, min, max, delta, locale) {
     if (delta === void 0) {
       delta = 0;
     }
 
-    if (!(0, _numericInputUtils.isValueNumeric)(value)) {
+    if (!(0, _numericInputUtils.isValueNumeric)(value, locale)) {
       return NumericInput_1.VALUE_EMPTY;
     }
 
-    var nextValue = (0, _numericInputUtils.toMaxPrecision)(parseFloat(value) + delta, stepMaxPrecision);
-    return (0, _numericInputUtils.clampValue)(nextValue, min, max).toString();
+    var currentValue = (0, _numericInputUtils.parseStringToStringNumber)(value, locale);
+    var nextValue = (0, _numericInputUtils.toMaxPrecision)(Number(currentValue) + delta, stepMaxPrecision);
+    var clampedValue = (0, _numericInputUtils.clampValue)(nextValue, min, max);
+    return (0, _numericInputUtils.toLocaleString)(clampedValue, locale);
   };
 
   NumericInput.prototype.render = function () {
@@ -50746,21 +50430,26 @@ function (_super) {
   };
 
   NumericInput.prototype.componentDidUpdate = function (prevProps, prevState) {
-    var _a, _b;
+    var _a, _b, _c;
 
     _super.prototype.componentDidUpdate.call(this, prevProps, prevState);
 
     if (this.state.shouldSelectAfterUpdate) {
-      this.inputElement.setSelectionRange(0, this.state.value.length);
+      (_a = this.inputElement) === null || _a === void 0 ? void 0 : _a.setSelectionRange(0, this.state.value.length);
     }
 
     var didMinChange = this.props.min !== prevProps.min;
     var didMaxChange = this.props.max !== prevProps.max;
     var didBoundsChange = didMinChange || didMaxChange;
+    var didLocaleChange = this.props.locale !== prevProps.locale;
+    var didValueChange = this.state.value !== prevState.value;
 
-    if (didBoundsChange && this.state.value !== prevState.value) {
+    if (didBoundsChange && didValueChange || didLocaleChange && prevState.value !== NumericInput_1.VALUE_EMPTY) {
       // we clamped the value due to a bounds change, so we should fire the change callback
-      (_b = (_a = this.props).onValueChange) === null || _b === void 0 ? void 0 : _b.call(_a, +this.state.value, this.state.value, this.inputElement);
+      var valueToParse = didLocaleChange ? prevState.value : this.state.value;
+      var valueAsString = (0, _numericInputUtils.parseStringToStringNumber)(valueToParse, prevProps.locale);
+      var localizedValue = (0, _numericInputUtils.toLocaleString)(+valueAsString, this.props.locale);
+      (_c = (_b = this.props).onValueChange) === null || _c === void 0 ? void 0 : _c.call(_b, +valueAsString, localizedValue, this.inputElement);
     }
   };
 
@@ -50774,10 +50463,6 @@ function (_super) {
 
     if (min != null && max != null && min > max) {
       throw new Error(Errors.NUMERIC_INPUT_MIN_MAX);
-    }
-
-    if (stepSize == null) {
-      throw new Error(Errors.NUMERIC_INPUT_STEP_SIZE_NULL);
     }
 
     if (stepSize <= 0) {
@@ -50803,9 +50488,12 @@ function (_super) {
 
     if (value != null) {
       var stepMaxPrecision = NumericInput_1.getStepMaxPrecision(nextProps);
-      var sanitizedValue = NumericInput_1.roundAndClampValue(value.toString(), stepMaxPrecision, min, max);
+      var sanitizedValue = NumericInput_1.roundAndClampValue(value.toString(), stepMaxPrecision, min, max, 0, this.props.locale);
+      var valueDoesNotMatch = sanitizedValue !== value.toString();
+      var localizedValue = (0, _numericInputUtils.toLocaleString)(Number((0, _numericInputUtils.parseStringToStringNumber)(value, this.props.locale)), this.props.locale);
+      var isNotLocalized = sanitizedValue !== localizedValue;
 
-      if (sanitizedValue !== value.toString()) {
+      if (valueDoesNotMatch && isNotLocalized) {
         console.warn(Errors.NUMERIC_INPUT_CONTROLLED_VALUE_INVALID);
       }
     }
@@ -50817,19 +50505,22 @@ function (_super) {
     var _a = this.props,
         intent = _a.intent,
         max = _a.max,
-        min = _a.min;
-    var value = this.state.value;
+        min = _a.min,
+        locale = _a.locale;
+    var value = (0, _numericInputUtils.parseStringToStringNumber)(this.state.value, locale);
     var disabled = this.props.disabled || this.props.readOnly;
+    var isIncrementDisabled = max !== undefined && value !== "" && +value >= max;
+    var isDecrementDisabled = min !== undefined && value !== "" && +value <= min;
     return React.createElement(_buttonGroup.ButtonGroup, {
       className: _common.Classes.FIXED,
       key: "button-group",
       vertical: true
     }, React.createElement(_buttons.Button, (0, _tslib.__assign)({
-      disabled: disabled || value !== "" && +value >= max,
+      disabled: disabled || isIncrementDisabled,
       icon: "chevron-up",
       intent: intent
     }, this.incrementButtonHandlers)), React.createElement(_buttons.Button, (0, _tslib.__assign)({
-      disabled: disabled || value !== "" && +value <= min,
+      disabled: disabled || isDecrementDisabled,
       icon: "chevron-down",
       intent: intent
     }, this.decrementButtonHandlers)));
@@ -50838,6 +50529,7 @@ function (_super) {
   NumericInput.prototype.renderInput = function () {
     var inputGroupHtmlProps = (0, _common.removeNonHTMLProps)(this.props, NON_HTML_PROPS, true);
     return React.createElement(_inputGroup.InputGroup, (0, _tslib.__assign)({
+      asyncControl: this.props.asyncControl,
       autoComplete: "off"
     }, inputGroupHtmlProps, {
       intent: this.state.currentImeInputInvalid ? _common.Intent.DANGER : this.props.intent,
@@ -50905,7 +50597,7 @@ function (_super) {
       });
     }
 
-    (_b = (_a = this.props).onValueChange) === null || _b === void 0 ? void 0 : _b.call(_a, +valueAsString, valueAsString, this.inputElement);
+    (_b = (_a = this.props).onValueChange) === null || _b === void 0 ? void 0 : _b.call(_a, Number((0, _numericInputUtils.parseStringToStringNumber)(valueAsString, this.props.locale)), valueAsString, this.inputElement);
   };
 
   NumericInput.prototype.incrementValue = function (delta) {
@@ -50944,7 +50636,7 @@ function (_super) {
       delta = 0;
     }
 
-    return NumericInput_1.roundAndClampValue(value, this.state.stepMaxPrecision, this.props.min, this.props.max, delta);
+    return NumericInput_1.roundAndClampValue(value, this.state.stepMaxPrecision, this.props.min, this.props.max, delta, this.props.locale);
   };
 
   NumericInput.prototype.updateDelta = function (direction, e) {
@@ -51067,7 +50759,9 @@ function (_super) {
   RadioGroup.prototype.renderOptions = function () {
     var _this = this;
 
-    return this.props.options.map(function (option) {
+    var _a;
+
+    return (_a = this.props.options) === null || _a === void 0 ? void 0 : _a.map(function (option) {
       return React.createElement(_controls.Radio, (0, _tslib.__assign)({}, _this.getRadioProps(option), {
         key: option.value,
         labelElement: option.label || option.value
@@ -51149,17 +50843,10 @@ function (_super) {
   function TextArea() {
     var _this = _super !== null && _super.apply(this, arguments) || this;
 
-    _this.state = {}; // keep our own ref so that we can measure and set the height of the component on first mount
+    _this.state = {}; // used to measure and set the height of the component on first mount
 
-    _this.textareaRef = null;
-    _this.refHandlers = {
-      textarea: (0, _common.isRefObject)(_this.props.inputRef) ? _this.textareaRef = _this.props.inputRef : function (ref) {
-        var _a;
-
-        _this.textareaRef = ref;
-        (_a = _this.props.inputRef) === null || _a === void 0 ? void 0 : _a(ref);
-      }
-    };
+    _this.textareaElement = null;
+    _this.handleRef = (0, _common.refHandler)(_this, "textareaElement", _this.props.inputRef);
 
     _this.handleChange = function (e) {
       if (_this.props.growVertically) {
@@ -51177,9 +50864,12 @@ function (_super) {
   }
 
   TextArea.prototype.componentDidMount = function () {
-    if (this.props.growVertically) {
+    if (this.props.growVertically && this.textareaElement !== null) {
+      // HACKHACK: this should probably be done in getSnapshotBeforeUpdate
+
+      /* eslint-disable-next-line react/no-did-mount-set-state */
       this.setState({
-        height: (0, _common.getRef)(this.textareaRef).scrollHeight
+        height: (0, _common.getRef)(this.textareaElement).scrollHeight
       });
     }
   };
@@ -51189,10 +50879,10 @@ function (_super) {
 
     if (prevProps.inputRef !== inputRef) {
       if ((0, _common.isRefObject)(inputRef)) {
-        inputRef.current = this.textareaRef.current;
-        this.textareaRef = inputRef;
+        inputRef.current = this.textareaElement.current;
+        this.textareaElement = inputRef;
       } else if ((0, _common.isRefCallback)(inputRef)) {
-        inputRef(this.textareaRef);
+        inputRef(this.textareaElement);
       }
     }
   };
@@ -51225,7 +50915,7 @@ function (_super) {
     return React.createElement("textarea", (0, _tslib.__assign)({}, htmlProps, {
       className: rootClasses,
       onChange: this.handleChange,
-      ref: this.refHandlers.textarea,
+      ref: this.handleRef,
       style: style
     }));
   };
@@ -51596,7 +51286,7 @@ function comboMatches(a, b) {
 var parseKeyCombo = function (combo) {
   var pieces = combo.replace(/\s/g, "").toLowerCase().split("+");
   var modifiers = 0;
-  var key = null;
+  var key;
 
   for (var _i = 0, pieces_1 = pieces; _i < pieces_1.length; _i++) {
     var piece = pieces_1[_i];
@@ -51676,7 +51366,7 @@ var getKeyComboString = function (e) {
 exports.getKeyComboString = getKeyComboString;
 
 var getKeyCombo = function (e) {
-  var key = null; // HACKHACK: https://github.com/palantir/blueprint/issues/4165
+  var key; // HACKHACK: https://github.com/palantir/blueprint/issues/4165
   // eslint-disable-next-line deprecation/deprecation
 
   var which = e.which;
@@ -51911,7 +51601,7 @@ function (_super) {
 
   Hotkey.prototype.validateProps = function (props) {
     if (props.global !== true && props.group == null) {
-      throw new Error("non-global <Hotkey>s must define a group");
+      console.error("non-global <Hotkey>s must define a group");
     }
   };
 
@@ -51985,18 +51675,22 @@ function (_super) {
   }
 
   Hotkeys.prototype.render = function () {
+    if (!(0, _utils.isReactChildrenElementOrElements)(this.props.children)) {
+      return null;
+    }
+
     var hotkeys = React.Children.map(this.props.children, function (child) {
       return child.props;
     }); // sort by group label alphabetically, prioritize globals
 
     hotkeys.sort(function (a, b) {
-      if (a.global === b.global) {
+      if (a.global === b.global && a.group && b.group) {
         return a.group.localeCompare(b.group);
       }
 
       return a.global ? -1 : 1;
     });
-    var lastGroup = null;
+    var lastGroup;
     var elems = [];
 
     for (var _i = 0, hotkeys_1 = hotkeys; _i < hotkeys_1.length; _i++) {
@@ -52022,6 +51716,10 @@ function (_super) {
   };
 
   Hotkeys.prototype.validateProps = function (props) {
+    if (!(0, _utils.isReactChildrenElementOrElements)(props.children)) {
+      return;
+    }
+
     React.Children.forEach(props.children, function (child) {
       if (!(0, _utils.isElementOfType)(child, _hotkey.Hotkey)) {
         throw new Error(_errors.HOTKEYS_HOTKEY_CHILDREN);
@@ -52103,6 +51801,7 @@ function () {
     this.componentProps = {
       globalHotkeysGroup: "Global hotkeys"
     };
+    this.container = null;
     this.hotkeysQueue = [];
     this.isDialogShowing = false;
 
@@ -52131,7 +51830,7 @@ function () {
     if (this.container != null) {
       ReactDOM.unmountComponentAtNode(this.container);
       this.container.remove();
-      delete this.container;
+      this.container = null;
     }
   };
   /**
@@ -52447,6 +52146,8 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+/** @deprecated use `useHotkeys` hook or `<HotkeysTarget2>` component */
 function HotkeysTarget(WrappedComponent) {
   var _a;
 
@@ -52549,7 +52250,461 @@ function HotkeysTarget(WrappedComponent) {
     return HotkeysTargetClass;
   }(WrappedComponent), _a.displayName = "HotkeysTarget(" + (0, _utils.getDisplayName)(WrappedComponent) + ")", _a;
 }
-},{"tslib":"node_modules/tslib/tslib.es6.js","react":"node_modules/react/index.js","../../common/errors":"node_modules/@blueprintjs/core/lib/esm/common/errors.js","../../common/utils":"node_modules/@blueprintjs/core/lib/esm/common/utils/index.js","./hotkeysEvents":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkeysEvents.js"}],"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/index.js":[function(require,module,exports) {
+},{"tslib":"node_modules/tslib/tslib.es6.js","react":"node_modules/react/index.js","../../common/errors":"node_modules/@blueprintjs/core/lib/esm/common/errors.js","../../common/utils":"node_modules/@blueprintjs/core/lib/esm/common/utils/index.js","./hotkeysEvents":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkeysEvents.js"}],"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkeysDialog2.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.HotkeysDialog2 = void 0;
+
+var _tslib = require("tslib");
+
+var _classnames = _interopRequireDefault(require("classnames"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _common = require("../../common");
+
+var _dialog = require("../dialog/dialog");
+
+var _hotkey = require("./hotkey");
+
+var _hotkeys = require("./hotkeys");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/*
+ * Copyright 2021 Palantir Technologies, Inc. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+var HotkeysDialog2 = function (_a) {
+  var _b = _a.globalGroupName,
+      globalGroupName = _b === void 0 ? "Global" : _b,
+      hotkeys = _a.hotkeys,
+      props = (0, _tslib.__rest)(_a, ["globalGroupName", "hotkeys"]);
+  return _react.default.createElement(_dialog.Dialog, (0, _tslib.__assign)({}, props, {
+    className: (0, _classnames.default)(_common.Classes.HOTKEY_DIALOG, props.className)
+  }), _react.default.createElement("div", {
+    className: _common.Classes.DIALOG_BODY
+  }, _react.default.createElement(_hotkeys.Hotkeys, null, hotkeys.map(function (hotkey, index) {
+    return _react.default.createElement(_hotkey.Hotkey, (0, _tslib.__assign)({
+      key: index
+    }, hotkey, {
+      group: hotkey.global === true && hotkey.group == null ? globalGroupName : hotkey.group
+    }));
+  }))));
+};
+
+exports.HotkeysDialog2 = HotkeysDialog2;
+},{"tslib":"node_modules/tslib/tslib.es6.js","classnames":"node_modules/classnames/index.js","react":"node_modules/react/index.js","../../common":"node_modules/@blueprintjs/core/lib/esm/common/index.js","../dialog/dialog":"node_modules/@blueprintjs/core/lib/esm/components/dialog/dialog.js","./hotkey":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkey.js","./hotkeys":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkeys.js"}],"node_modules/@blueprintjs/core/lib/esm/context/hotkeys/hotkeysProvider.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.HotkeysProvider = exports.HotkeysContext = void 0;
+
+var _tslib = require("tslib");
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _hotkeysDialog = require("../../components/hotkeys/hotkeysDialog2");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/*
+ * Copyright 2021 Palantir Technologies, Inc. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+var initialHotkeysState = {
+  hotkeys: [],
+  isDialogOpen: false
+};
+
+var noOpDispatch = function () {
+  return null;
+}; // we can remove this guard once Blueprint depends on React 16
+
+
+var HotkeysContext = _react.createContext === null || _react.createContext === void 0 ? void 0 : (0, _react.createContext)([initialHotkeysState, noOpDispatch]);
+exports.HotkeysContext = HotkeysContext;
+
+var hotkeysReducer = function (state, action) {
+  switch (action.type) {
+    case "ADD_HOTKEYS":
+      return (0, _tslib.__assign)((0, _tslib.__assign)({}, state), {
+        hotkeys: (0, _tslib.__spreadArrays)(state.hotkeys, action.payload)
+      });
+
+    case "REMOVE_HOTKEYS":
+      return (0, _tslib.__assign)((0, _tslib.__assign)({}, state), {
+        hotkeys: state.hotkeys.filter(function (key) {
+          return action.payload.indexOf(key) === -1;
+        })
+      });
+
+    case "OPEN_DIALOG":
+      return (0, _tslib.__assign)((0, _tslib.__assign)({}, state), {
+        isDialogOpen: true
+      });
+
+    case "CLOSE_DIALOG":
+      return (0, _tslib.__assign)((0, _tslib.__assign)({}, state), {
+        isDialogOpen: false
+      });
+
+    default:
+      return state;
+  }
+};
+/**
+ * Hotkeys context provider, necessary for the `useHotkeys` hook.
+ */
+
+
+var HotkeysProvider = function (_a) {
+  var _b;
+
+  var children = _a.children,
+      dialogProps = _a.dialogProps,
+      renderDialog = _a.renderDialog;
+
+  var _c = (0, _react.useReducer)(hotkeysReducer, initialHotkeysState),
+      state = _c[0],
+      dispatch = _c[1];
+
+  var handleDialogClose = (0, _react.useCallback)(function () {
+    return dispatch({
+      type: "CLOSE_DIALOG"
+    });
+  }, []);
+  var dialog = (_b = renderDialog === null || renderDialog === void 0 ? void 0 : renderDialog(state, {
+    handleDialogClose: handleDialogClose
+  })) !== null && _b !== void 0 ? _b : _react.default.createElement(_hotkeysDialog.HotkeysDialog2, (0, _tslib.__assign)({}, dialogProps, {
+    isOpen: state.isDialogOpen,
+    hotkeys: state.hotkeys,
+    onClose: handleDialogClose
+  }));
+  return _react.default.createElement(HotkeysContext.Provider, {
+    value: [state, dispatch]
+  }, children, dialog);
+};
+
+exports.HotkeysProvider = HotkeysProvider;
+},{"tslib":"node_modules/tslib/tslib.es6.js","react":"node_modules/react/index.js","../../components/hotkeys/hotkeysDialog2":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkeysDialog2.js"}],"node_modules/@blueprintjs/core/lib/esm/context/index.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "HotkeysContext", {
+  enumerable: true,
+  get: function () {
+    return _hotkeysProvider.HotkeysContext;
+  }
+});
+Object.defineProperty(exports, "HotkeysProvider", {
+  enumerable: true,
+  get: function () {
+    return _hotkeysProvider.HotkeysProvider;
+  }
+});
+
+var _hotkeysProvider = require("./hotkeys/hotkeysProvider");
+},{"./hotkeys/hotkeysProvider":"node_modules/@blueprintjs/core/lib/esm/context/hotkeys/hotkeysProvider.js"}],"node_modules/@blueprintjs/core/lib/esm/hooks/hotkeys/useHotkeys.js":[function(require,module,exports) {
+var global = arguments[3];
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.useHotkeys = useHotkeys;
+
+var _tslib = require("tslib");
+
+var _react = require("react");
+
+var _hotkeyParser = require("../../components/hotkeys/hotkeyParser");
+
+var _context = require("../../context");
+
+/*
+ * Copyright 2021 Palantir Technologies, Inc. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/**
+ * React hook to register global and local hotkeys for a component.
+ *
+ * @param keys list of hotkeys to configure
+ * @param options hook options
+ */
+function useHotkeys(keys, options) {
+  if (options === void 0) {
+    options = {};
+  }
+
+  var _a = options.showDialogKeyCombo,
+      showDialogKeyCombo = _a === void 0 ? "?" : _a;
+  var localKeys = (0, _react.useMemo)(function () {
+    return keys.filter(function (k) {
+      return !k.global;
+    }).map(function (k) {
+      return {
+        combo: (0, _hotkeyParser.parseKeyCombo)(k.combo),
+        config: k
+      };
+    });
+  }, [keys]);
+  var globalKeys = (0, _react.useMemo)(function () {
+    return keys.filter(function (k) {
+      return k.global;
+    }).map(function (k) {
+      return {
+        combo: (0, _hotkeyParser.parseKeyCombo)(k.combo),
+        config: k
+      };
+    });
+  }, [keys]); // register keys with global context
+
+  var _b = (0, _react.useContext)(_context.HotkeysContext),
+      dispatch = _b[1];
+
+  (0, _react.useEffect)(function () {
+    var payload = (0, _tslib.__spreadArrays)(globalKeys.map(function (k) {
+      return k.config;
+    }), localKeys.map(function (k) {
+      return k.config;
+    }));
+    dispatch({
+      type: "ADD_HOTKEYS",
+      payload: payload
+    });
+    return function () {
+      return dispatch({
+        type: "REMOVE_HOTKEYS",
+        payload: payload
+      });
+    };
+  }, [keys]);
+
+  var invokeNamedCallbackIfComboRecognized = function (global, combo, callbackName, e) {
+    var _a, _b;
+
+    var isTextInput = isTargetATextInput(e);
+
+    for (var _i = 0, _c = global ? globalKeys : localKeys; _i < _c.length; _i++) {
+      var key = _c[_i];
+      var shouldIgnore = isTextInput && !key.config.allowInInput || key.config.disabled;
+
+      if (!shouldIgnore && (0, _hotkeyParser.comboMatches)(key.combo, combo)) {
+        if (key.config.preventDefault) {
+          e.preventDefault();
+        }
+
+        if (key.config.stopPropagation) {
+          // set a flag just for unit testing. not meant to be referenced in feature work.
+          e.isPropagationStopped = true;
+          e.stopPropagation();
+        }
+
+        (_b = (_a = key.config)[callbackName]) === null || _b === void 0 ? void 0 : _b.call(_a, e);
+      }
+    }
+  };
+
+  var handleGlobalKeyDown = (0, _react.useCallback)(function (e) {
+    // special case for global keydown: if '?' is pressed, open the hotkeys dialog
+    var combo = (0, _hotkeyParser.getKeyCombo)(e);
+    var isTextInput = isTargetATextInput(e);
+
+    if (!isTextInput && (0, _hotkeyParser.comboMatches)((0, _hotkeyParser.parseKeyCombo)(showDialogKeyCombo), combo)) {
+      dispatch({
+        type: "OPEN_DIALOG"
+      });
+    } else {
+      invokeNamedCallbackIfComboRecognized(true, (0, _hotkeyParser.getKeyCombo)(e), "onKeyDown", e);
+    }
+  }, [globalKeys]);
+  var handleGlobalKeyUp = (0, _react.useCallback)(function (e) {
+    return invokeNamedCallbackIfComboRecognized(true, (0, _hotkeyParser.getKeyCombo)(e), "onKeyUp", e);
+  }, [globalKeys]);
+  var handleLocalKeyDown = (0, _react.useCallback)(function (e) {
+    return invokeNamedCallbackIfComboRecognized(false, (0, _hotkeyParser.getKeyCombo)(e.nativeEvent), "onKeyDown", e.nativeEvent);
+  }, [localKeys]);
+  var handleLocalKeyUp = (0, _react.useCallback)(function (e) {
+    return invokeNamedCallbackIfComboRecognized(false, (0, _hotkeyParser.getKeyCombo)(e.nativeEvent), "onKeyUp", e.nativeEvent);
+  }, [localKeys]);
+  (0, _react.useEffect)(function () {
+    document.addEventListener("keydown", handleGlobalKeyDown);
+    document.addEventListener("keyup", handleGlobalKeyUp);
+    return function () {
+      document.removeEventListener("keydown", handleGlobalKeyDown);
+      document.removeEventListener("keyup", handleGlobalKeyUp);
+    };
+  }, []);
+  return {
+    handleKeyDown: handleLocalKeyDown,
+    handleKeyUp: handleLocalKeyUp
+  };
+}
+/**
+ * @returns true if the event target is a text input which should take priority over hotkey bindings
+ */
+
+
+function isTargetATextInput(e) {
+  var elem = e.target; // we check these cases for unit testing, but this should not happen
+  // during normal operation
+
+  if (elem == null || elem.closest == null) {
+    return false;
+  }
+
+  var editable = elem.closest("input, textarea, [contenteditable=true]");
+
+  if (editable == null) {
+    return false;
+  } // don't let checkboxes, switches, and radio buttons prevent hotkey behavior
+
+
+  if (editable.tagName.toLowerCase() === "input") {
+    var inputType = editable.type;
+
+    if (inputType === "checkbox" || inputType === "radio") {
+      return false;
+    }
+  } // don't let read-only fields prevent hotkey behavior
+
+
+  if (editable.readOnly) {
+    return false;
+  }
+
+  return true;
+}
+},{"tslib":"node_modules/tslib/tslib.es6.js","react":"node_modules/react/index.js","../../components/hotkeys/hotkeyParser":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkeyParser.js","../../context":"node_modules/@blueprintjs/core/lib/esm/context/index.js"}],"node_modules/@blueprintjs/core/lib/esm/hooks/index.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "useHotkeys", {
+  enumerable: true,
+  get: function () {
+    return _useHotkeys.useHotkeys;
+  }
+});
+
+var _useHotkeys = require("./hotkeys/useHotkeys");
+},{"./hotkeys/useHotkeys":"node_modules/@blueprintjs/core/lib/esm/hooks/hotkeys/useHotkeys.js"}],"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkeysTarget2.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.HotkeysTarget2 = void 0;
+
+var _react = require("react");
+
+var Errors = _interopRequireWildcard(require("../../common/errors"));
+
+var _utils = require("../../common/utils");
+
+var _hooks = require("../../hooks");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/*
+ * Copyright 2021 Palantir Technologies, Inc. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/**
+ * Utility component which allows consumers to use the new `useHotkeys` hook inside
+ * React component classes. The implementation simply passes through to the hook.
+ */
+var HotkeysTarget2 = function (_a) {
+  var children = _a.children,
+      hotkeys = _a.hotkeys,
+      options = _a.options;
+
+  var _b = (0, _hooks.useHotkeys)(hotkeys, options),
+      handleKeyDown = _b.handleKeyDown,
+      handleKeyUp = _b.handleKeyUp; // run props validation
+
+
+  (0, _react.useEffect)(function () {
+    if (!(0, _utils.isNodeEnv)("production")) {
+      if (typeof children !== "function" && hotkeys.some(function (h) {
+        return !h.global;
+      })) {
+        console.error(Errors.HOTKEYS_TARGET2_CHILDREN_LOCAL_HOTKEYS);
+      }
+    }
+  }, [hotkeys]);
+
+  if (typeof children === "function") {
+    return children({
+      handleKeyDown: handleKeyDown,
+      handleKeyUp: handleKeyUp
+    });
+  } else {
+    return children;
+  }
+};
+
+exports.HotkeysTarget2 = HotkeysTarget2;
+},{"react":"node_modules/react/index.js","../../common/errors":"node_modules/@blueprintjs/core/lib/esm/common/errors.js","../../common/utils":"node_modules/@blueprintjs/core/lib/esm/common/utils/index.js","../../hooks":"node_modules/@blueprintjs/core/lib/esm/hooks/index.js"}],"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -52564,7 +52719,9 @@ var _exportNames = {
   getKeyComboString: true,
   parseKeyCombo: true,
   hideHotkeysDialog: true,
-  setHotkeysDialogProps: true
+  setHotkeysDialogProps: true,
+  HotkeysDialog2: true,
+  HotkeysTarget2: true
 };
 Object.defineProperty(exports, "Hotkey", {
   enumerable: true,
@@ -52620,12 +52777,25 @@ Object.defineProperty(exports, "setHotkeysDialogProps", {
     return _hotkeysDialog.setHotkeysDialogProps;
   }
 });
+Object.defineProperty(exports, "HotkeysDialog2", {
+  enumerable: true,
+  get: function () {
+    return _hotkeysDialog2.HotkeysDialog2;
+  }
+});
+Object.defineProperty(exports, "HotkeysTarget2", {
+  enumerable: true,
+  get: function () {
+    return _hotkeysTarget2.HotkeysTarget2;
+  }
+});
 
 var _hotkeysTypes = require("./hotkeysTypes");
 
 Object.keys(_hotkeysTypes).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _hotkeysTypes[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -52639,6 +52809,7 @@ var _hotkeys = require("./hotkeys");
 Object.keys(_hotkeys).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _hotkeys[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -52656,7 +52827,11 @@ var _hotkeysTarget = require("./hotkeysTarget");
 var _hotkeyParser = require("./hotkeyParser");
 
 var _hotkeysDialog = require("./hotkeysDialog");
-},{"./hotkeysTypes":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkeysTypes.js","./hotkeys":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkeys.js","./hotkey":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkey.js","./keyCombo":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/keyCombo.js","./hotkeysTarget":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkeysTarget.js","./hotkeyParser":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkeyParser.js","./hotkeysDialog":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkeysDialog.js"}],"node_modules/@blueprintjs/core/lib/esm/components/navbar/navbarDivider.js":[function(require,module,exports) {
+
+var _hotkeysDialog2 = require("./hotkeysDialog2");
+
+var _hotkeysTarget2 = require("./hotkeysTarget2");
+},{"./hotkeysTypes":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkeysTypes.js","./hotkeys":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkeys.js","./hotkey":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkey.js","./keyCombo":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/keyCombo.js","./hotkeysTarget":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkeysTarget.js","./hotkeyParser":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkeyParser.js","./hotkeysDialog":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkeysDialog.js","./hotkeysDialog2":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkeysDialog2.js","./hotkeysTarget2":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/hotkeysTarget2.js"}],"node_modules/@blueprintjs/core/lib/esm/components/navbar/navbarDivider.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -53204,7 +53379,7 @@ function (_super) {
 
     _this.state = {
       direction: "push",
-      stack: _this.props.stack != null ? _this.props.stack.slice().reverse() : [_this.props.initialPanel]
+      stack: _this.props.stack != null ? _this.props.stack.slice().reverse() : _this.props.initialPanel !== undefined ? [_this.props.initialPanel] : []
     };
 
     _this.renderPanel = function (panel, index) {
@@ -53431,7 +53606,7 @@ function (_super) {
         value = _b.value;
     var classes = (0, _classnames.default)(_common.Classes.PROGRESS_BAR, _common.Classes.intentClass(intent), (_a = {}, _a[_common.Classes.PROGRESS_NO_ANIMATION] = !animate, _a[_common.Classes.PROGRESS_NO_STRIPES] = !stripes, _a), className); // don't set width if value is null (rely on default CSS value)
 
-    var width = value == null ? null : 100 * (0, _utils.clamp)(value, 0, 1) + "%";
+    var width = value == null ? undefined : 100 * (0, _utils.clamp)(value, 0, 1) + "%";
     return React.createElement("div", {
       className: classes
     }, React.createElement("div", {
@@ -53630,6 +53805,7 @@ function (_super) {
     _this.state = {
       isMoving: false
     };
+    _this.handleElement = null;
     _this.refHandlers = {
       handle: function (el) {
         return _this.handleElement = el;
@@ -53657,6 +53833,34 @@ function (_super) {
       });
 
       _this.changeValue(_this.clientToValue(_this.touchEventClientOffset(event)));
+    };
+
+    _this.getStyleProperties = function () {
+      if (_this.handleElement == null) {
+        return {};
+      } // The handle midpoint of RangeSlider is actually shifted by a margin to
+      // be on the edge of the visible handle element. Because the midpoint
+      // calculation does not take this margin into account, we instead
+      // measure the long side (which is equal to the short side plus the
+      // margin).
+
+
+      var _a = _this.props,
+          _b = _a.min,
+          min = _b === void 0 ? 0 : _b,
+          tickSizeRatio = _a.tickSizeRatio,
+          value = _a.value,
+          vertical = _a.vertical;
+
+      var handleMidpoint = _this.getHandleMidpointAndOffset(_this.handleElement, true).handleMidpoint;
+
+      var offsetRatio = (value - min) * tickSizeRatio;
+      var offsetCalc = "calc(" + (0, _sliderUtils.formatPercentage)(offsetRatio) + " - " + handleMidpoint + "px)";
+      return vertical ? {
+        bottom: offsetCalc
+      } : {
+        left: offsetCalc
+      };
     };
 
     _this.endHandleMovement = function (event) {
@@ -53743,33 +53947,16 @@ function (_super) {
     var _b = this.props,
         className = _b.className,
         disabled = _b.disabled,
-        label = _b.label,
-        min = _b.min,
-        tickSizeRatio = _b.tickSizeRatio,
-        value = _b.value,
-        vertical = _b.vertical;
-    var isMoving = this.state.isMoving; // The handle midpoint of RangeSlider is actually shifted by a margin to
-    // be on the edge of the visible handle element. Because the midpoint
-    // calculation does not take this margin into account, we instead
-    // measure the long side (which is equal to the short side plus the
-    // margin).
-
-    var handleMidpoint = this.getHandleMidpointAndOffset(this.handleElement, true).handleMidpoint;
-    var offsetRatio = (value - min) * tickSizeRatio;
-    var offsetCalc = "calc(" + (0, _sliderUtils.formatPercentage)(offsetRatio) + " - " + handleMidpoint + "px)";
-    var style = vertical ? {
-      bottom: offsetCalc
-    } : {
-      left: offsetCalc
-    };
+        label = _b.label;
+    var isMoving = this.state.isMoving;
     return React.createElement("span", {
       className: (0, _classnames.default)(_common.Classes.SLIDER_HANDLE, (_a = {}, _a[_common.Classes.ACTIVE] = isMoving, _a), className),
-      onKeyDown: disabled ? null : this.handleKeyDown,
-      onKeyUp: disabled ? null : this.handleKeyUp,
-      onMouseDown: disabled ? null : this.beginHandleMovement,
-      onTouchStart: disabled ? null : this.beginHandleTouchMovement,
+      onKeyDown: disabled ? undefined : this.handleKeyDown,
+      onKeyUp: disabled ? undefined : this.handleKeyUp,
+      onMouseDown: disabled ? undefined : this.beginHandleMovement,
+      onTouchStart: disabled ? undefined : this.beginHandleTouchMovement,
       ref: this.refHandlers.handle,
-      style: style,
+      style: this.getStyleProperties(),
       tabIndex: 0
     }, label == null ? null : React.createElement("span", {
       className: _common.Classes.SLIDER_LABEL
@@ -53971,6 +54158,7 @@ function (_super) {
       tickSizeRatio: 0
     };
     _this.handleElements = [];
+    _this.trackElement = null;
 
     _this.addHandleRef = function (ref) {
       if (ref != null) {
@@ -54111,7 +54299,11 @@ function (_super) {
       throw new Error(Errors.SLIDER_ZERO_STEP);
     }
 
-    if (props.labelStepSize <= 0) {
+    if (props.labelStepSize !== undefined && props.labelValues !== undefined) {
+      throw new Error(Errors.MULTISLIDER_WARN_LABEL_STEP_SIZE_LABEL_VALUES_MUTEX);
+    }
+
+    if (props.labelStepSize !== undefined && props.labelStepSize <= 0) {
       throw new Error(Errors.SLIDER_ZERO_LABEL_STEP);
     }
 
@@ -54128,45 +54320,48 @@ function (_super) {
     }
   };
 
-  MultiSlider.prototype.formatLabel = function (value) {
+  MultiSlider.prototype.formatLabel = function (value, isHandleTooltip) {
+    if (isHandleTooltip === void 0) {
+      isHandleTooltip = false;
+    }
+
     var labelRenderer = this.props.labelRenderer;
 
     if (labelRenderer === false) {
-      return null;
+      return undefined;
     } else if (Utils.isFunction(labelRenderer)) {
-      return labelRenderer(value);
+      return labelRenderer(value, {
+        isHandleTooltip: isHandleTooltip
+      });
     } else {
       return value.toFixed(this.state.labelPrecision);
     }
   };
 
   MultiSlider.prototype.renderLabels = function () {
+    var _this = this;
+
     if (this.props.labelRenderer === false) {
       return null;
     }
 
+    var values = this.getLabelValues();
     var _a = this.props,
-        labelStepSize = _a.labelStepSize,
         max = _a.max,
         min = _a.min;
-    var labels = [];
-    var stepSizeRatio = this.state.tickSizeRatio * labelStepSize; // step size lends itself naturally to a `for` loop
-    // eslint-disable-line one-var, no-sequences
-
-    for (var i = min, offsetRatio = 0; i < max || Utils.approxEqual(i, max); i += labelStepSize, offsetRatio += stepSizeRatio) {
-      var offsetPercentage = (0, _sliderUtils.formatPercentage)(offsetRatio);
-      var style = this.props.vertical ? {
+    var labels = values.map(function (step, i) {
+      var offsetPercentage = (0, _sliderUtils.formatPercentage)((step - min) / (max - min));
+      var style = _this.props.vertical ? {
         bottom: offsetPercentage
       } : {
         left: offsetPercentage
       };
-      labels.push(React.createElement("div", {
+      return React.createElement("div", {
         className: _common.Classes.SLIDER_LABEL,
         key: i,
         style: style
-      }, this.formatLabel(i)));
-    }
-
+      }, _this.formatLabel(step));
+    });
     return labels;
   };
 
@@ -54237,12 +54432,13 @@ function (_super) {
       var _b;
 
       var value = _a.value,
-          type = _a.type;
+          type = _a.type,
+          className = _a.className;
       return React.createElement(_handle.Handle, {
-        className: (0, _classnames.default)((_b = {}, _b[_common.Classes.START] = type === _handleProps.HandleType.START, _b[_common.Classes.END] = type === _handleProps.HandleType.END, _b)),
+        className: (0, _classnames.default)((_b = {}, _b[_common.Classes.START] = type === _handleProps.HandleType.START, _b[_common.Classes.END] = type === _handleProps.HandleType.END, _b), className),
         disabled: disabled,
         key: index + "-" + handleProps.length,
-        label: _this.formatLabel(value),
+        label: _this.formatLabel(value, true),
         max: max,
         min: min,
         onChange: _this.getHandlerForIndex(index, _this.handleChange),
@@ -54304,6 +54500,25 @@ function (_super) {
     return -1;
   };
 
+  MultiSlider.prototype.getLabelValues = function () {
+    var _a = this.props,
+        labelStepSize = _a.labelStepSize,
+        labelValues = _a.labelValues,
+        min = _a.min,
+        max = _a.max;
+    var values = [];
+
+    if (labelValues !== undefined) {
+      values = labelValues;
+    } else {
+      for (var i = min; i < max || Utils.approxEqual(i, max); i += labelStepSize !== null && labelStepSize !== void 0 ? labelStepSize : 1) {
+        values.push(i);
+      }
+    }
+
+    return values;
+  };
+
   MultiSlider.prototype.getOffsetRatio = function (value) {
     return Utils.clamp((value - this.props.min) * this.state.tickSizeRatio, 0, 1);
   };
@@ -54337,7 +54552,6 @@ function (_super) {
   var MultiSlider_1;
   MultiSlider.defaultSliderProps = {
     disabled: false,
-    labelStepSize: 1,
     max: 10,
     min: 0,
     showTrackFill: true,
@@ -54357,7 +54571,8 @@ exports.MultiSlider = MultiSlider;
 
 function getLabelPrecision(_a) {
   var labelPrecision = _a.labelPrecision,
-      stepSize = _a.stepSize; // infer default label precision from stepSize because that's how much the handle moves.
+      _b = _a.stepSize,
+      stepSize = _b === void 0 ? MultiSlider.defaultSliderProps.stepSize : _b; // infer default label precision from stepSize because that's how much the handle moves.
 
   return labelPrecision == null ? Utils.countDecimalPlaces(stepSize) : labelPrecision;
 }
@@ -54621,8 +54836,7 @@ function (_super) {
   };
 
   Tab.defaultProps = {
-    disabled: false,
-    id: undefined
+    disabled: false
   };
   Tab.displayName = _props.DISPLAYNAME_PREFIX + ".Tab";
   Tab = (0, _tslib.__decorate)([_reactLifecyclesCompat.polyfill], Tab);
@@ -54780,7 +54994,7 @@ var Expander = function () {
 };
 
 exports.Expander = Expander;
-var TAB_SELECTOR = "." + _common.Classes.TAB;
+var TAB_SELECTOR = "." + _common.Classes.TAB; // HACKHACK: https://github.com/palantir/blueprint/issues/4342
 
 var Tabs =
 /** @class */
@@ -54790,6 +55004,7 @@ function (_super) {
   function Tabs(props) {
     var _this = _super.call(this, props) || this;
 
+    _this.tablistElement = null;
     _this.refHandlers = {
       tablist: function (tabElement) {
         return _this.tablistElement = tabElement;
@@ -54797,7 +55012,9 @@ function (_super) {
     };
 
     _this.handleKeyDown = function (e) {
-      var focusedElement = document.activeElement.closest(TAB_SELECTOR); // rest of this is potentially expensive and futile, so bail if no tab is focused
+      var _a;
+
+      var focusedElement = (_a = document.activeElement) === null || _a === void 0 ? void 0 : _a.closest(TAB_SELECTOR); // rest of this is potentially expensive and futile, so bail if no tab is focused
 
       if (focusedElement == null) {
         return;
@@ -55163,7 +55380,8 @@ function (_super) {
         _c = _b.tabIndex,
         tabIndex = _c === void 0 ? 0 : _c,
         htmlTitle = _b.htmlTitle,
-        htmlProps = (0, _tslib.__rest)(_b, ["active", "children", "className", "fill", "icon", "intent", "interactive", "large", "minimal", "multiline", "onRemove", "rightIcon", "round", "tabIndex", "htmlTitle"]);
+        elementRef = _b.elementRef,
+        htmlProps = (0, _tslib.__rest)(_b, ["active", "children", "className", "fill", "icon", "intent", "interactive", "large", "minimal", "multiline", "onRemove", "rightIcon", "round", "tabIndex", "htmlTitle", "elementRef"]);
 
     var isRemovable = _common.Utils.isFunction(onRemove);
 
@@ -55180,7 +55398,8 @@ function (_super) {
     })) : null;
     return React.createElement("span", (0, _tslib.__assign)({}, htmlProps, {
       className: tagClasses,
-      tabIndex: interactive ? tabIndex : undefined
+      tabIndex: interactive ? tabIndex : undefined,
+      ref: elementRef
     }), React.createElement(_icon.Icon, {
       icon: icon
     }), !(0, _utils.isReactNodeEmpty)(children) && React.createElement(_text.Text, {
@@ -55261,14 +55480,8 @@ function (_super) {
       inputValue: _this.props.inputValue || "",
       isInputFocused: false
     };
-    _this.refHandlers = {
-      input: function (ref) {
-        var _a, _b;
-
-        _this.inputElement = ref;
-        (_b = (_a = _this.props).inputRef) === null || _b === void 0 ? void 0 : _b.call(_a, ref);
-      }
-    };
+    _this.inputElement = null;
+    _this.handleRef = (0, _common.refHandler)(_this, "inputElement", _this.props.inputRef);
 
     _this.addTags = function (value, method) {
       if (method === void 0) {
@@ -55311,14 +55524,14 @@ function (_super) {
         "data-tag-index": index,
         key: tag + "__" + index,
         large: large,
-        onRemove: _this.props.disabled ? null : _this.handleRemoveTag
+        onRemove: _this.props.disabled ? undefined : _this.handleRemoveTag
       }, props), tag);
     };
 
     _this.handleContainerClick = function () {
-      if (_this.inputElement != null) {
-        _this.inputElement.focus();
-      }
+      var _a;
+
+      (_a = (0, _common.getRef)(_this.inputElement)) === null || _a === void 0 ? void 0 : _a.focus();
     };
 
     _this.handleContainerBlur = function (_a) {
@@ -55347,7 +55560,7 @@ function (_super) {
         isInputFocused: true
       });
 
-      (_b = (_a = _this.props.inputProps).onFocus) === null || _b === void 0 ? void 0 : _b.call(_a, event);
+      (_b = (_a = _this.props.inputProps) === null || _a === void 0 ? void 0 : _a.onFocus) === null || _b === void 0 ? void 0 : _b.call(_a, event);
     };
 
     _this.handleInputChange = function (event) {
@@ -55359,7 +55572,7 @@ function (_super) {
       });
 
       (_b = (_a = _this.props).onInputChange) === null || _b === void 0 ? void 0 : _b.call(_a, event);
-      (_d = (_c = _this.props.inputProps).onChange) === null || _d === void 0 ? void 0 : _d.call(_c, event);
+      (_d = (_c = _this.props.inputProps) === null || _c === void 0 ? void 0 : _c.onChange) === null || _d === void 0 ? void 0 : _d.call(_c, event);
     };
 
     _this.handleInputKeyDown = function (event) {
@@ -55461,7 +55674,7 @@ function (_super) {
     var isSomeValueDefined = values.some(function (val) {
       return !!val;
     });
-    var resolvedPlaceholder = placeholder == null || isSomeValueDefined ? inputProps.placeholder : placeholder;
+    var resolvedPlaceholder = placeholder == null || isSomeValueDefined ? inputProps === null || inputProps === void 0 ? void 0 : inputProps.placeholder : placeholder;
     return React.createElement("div", {
       className: classes,
       onBlur: this.handleContainerBlur,
@@ -55481,8 +55694,8 @@ function (_super) {
       onKeyUp: this.handleInputKeyUp,
       onPaste: this.handleInputPaste,
       placeholder: resolvedPlaceholder,
-      ref: this.refHandlers.input,
-      className: (0, _classnames.default)(_common.Classes.INPUT_GHOST, inputProps.className),
+      ref: this.handleRef,
+      className: (0, _classnames.default)(_common.Classes.INPUT_GHOST, inputProps === null || inputProps === void 0 ? void 0 : inputProps.className),
       disabled: disabled
     }))), this.props.rightElement);
   };
@@ -55651,7 +55864,7 @@ function (_super) {
     _this.handleActionClick = function (e) {
       var _a, _b;
 
-      (_b = (_a = _this.props.action).onClick) === null || _b === void 0 ? void 0 : _b.call(_a, e);
+      (_b = (_a = _this.props.action) === null || _a === void 0 ? void 0 : _a.onClick) === null || _b === void 0 ? void 0 : _b.call(_a, e);
 
       _this.triggerDismiss(false);
     };
@@ -55814,6 +56027,12 @@ function (_super) {
 
     _this.toastId = 0;
 
+    _this.renderToast = function (toast) {
+      return React.createElement(_toast.Toast, (0, _tslib.__assign)({}, toast, {
+        onDismiss: _this.getDismissHandler(toast)
+      }));
+    };
+
     _this.getDismissHandler = function (toast) {
       return function (timeoutExpired) {
         _this.dismiss(toast.key, timeoutExpired);
@@ -55944,9 +56163,10 @@ function (_super) {
     }, this.state.toasts.map(this.renderToast, this), this.props.children);
   };
 
-  Toaster.prototype.validateProps = function (props) {
-    // maximum number of toasts should not be a number less than 1
-    if (props.maxToasts < 1) {
+  Toaster.prototype.validateProps = function (_a) {
+    var maxToasts = _a.maxToasts; // maximum number of toasts should not be a number less than 1
+
+    if (maxToasts !== undefined && maxToasts < 1) {
       throw new Error(_errors.TOASTER_MAX_TOASTS_INVALID);
     }
   };
@@ -55962,12 +56182,6 @@ function (_super) {
       // dismiss the oldest toast to stay within the maxToasts limit
       this.dismiss(this.state.toasts[this.state.toasts.length - 1].key);
     }
-  };
-
-  Toaster.prototype.renderToast = function (toast) {
-    return React.createElement(_toast.Toast, (0, _tslib.__assign)({}, toast, {
-      onDismiss: this.getDismissHandler(toast)
-    }));
   };
 
   Toaster.prototype.createToastOptions = function (props, key) {
@@ -56366,6 +56580,7 @@ var _alert = require("./alert/alert");
 Object.keys(_alert).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _alert[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56379,6 +56594,7 @@ var _breadcrumb = require("./breadcrumbs/breadcrumb");
 Object.keys(_breadcrumb).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _breadcrumb[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56392,6 +56608,7 @@ var _breadcrumbs = require("./breadcrumbs/breadcrumbs");
 Object.keys(_breadcrumbs).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _breadcrumbs[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56405,6 +56622,7 @@ var _buttons = require("./button/buttons");
 Object.keys(_buttons).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _buttons[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56418,6 +56636,7 @@ var _buttonGroup = require("./button/buttonGroup");
 Object.keys(_buttonGroup).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _buttonGroup[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56431,6 +56650,7 @@ var _callout = require("./callout/callout");
 Object.keys(_callout).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _callout[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56444,6 +56664,7 @@ var _card = require("./card/card");
 Object.keys(_card).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _card[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56457,6 +56678,7 @@ var _collapse = require("./collapse/collapse");
 Object.keys(_collapse).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _collapse[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56470,6 +56692,7 @@ var _collapsibleList = require("./collapsible-list/collapsibleList");
 Object.keys(_collapsibleList).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _collapsibleList[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56483,6 +56706,7 @@ var _contextMenuTarget = require("./context-menu/contextMenuTarget");
 Object.keys(_contextMenuTarget).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _contextMenuTarget[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56496,10 +56720,39 @@ var _dialog = require("./dialog/dialog");
 Object.keys(_dialog).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _dialog[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
       return _dialog[key];
+    }
+  });
+});
+
+var _multistepDialog = require("./dialog/multistepDialog");
+
+Object.keys(_multistepDialog).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _multistepDialog[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _multistepDialog[key];
+    }
+  });
+});
+
+var _dialogStep = require("./dialog/dialogStep");
+
+Object.keys(_dialogStep).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _dialogStep[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _dialogStep[key];
     }
   });
 });
@@ -56509,6 +56762,7 @@ var _divider = require("./divider/divider");
 Object.keys(_divider).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _divider[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56522,6 +56776,7 @@ var _drawer = require("./drawer/drawer");
 Object.keys(_drawer).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _drawer[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56535,6 +56790,7 @@ var _editableText = require("./editable-text/editableText");
 Object.keys(_editableText).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _editableText[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56548,6 +56804,7 @@ var _controlGroup = require("./forms/controlGroup");
 Object.keys(_controlGroup).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _controlGroup[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56561,6 +56818,7 @@ var _controls = require("./forms/controls");
 Object.keys(_controls).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _controls[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56574,6 +56832,7 @@ var _fileInput = require("./forms/fileInput");
 Object.keys(_fileInput).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _fileInput[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56587,6 +56846,7 @@ var _formGroup = require("./forms/formGroup");
 Object.keys(_formGroup).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _formGroup[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56600,6 +56860,7 @@ var _inputGroup = require("./forms/inputGroup");
 Object.keys(_inputGroup).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _inputGroup[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56613,6 +56874,7 @@ var _numericInput = require("./forms/numericInput");
 Object.keys(_numericInput).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _numericInput[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56626,6 +56888,7 @@ var _radioGroup = require("./forms/radioGroup");
 Object.keys(_radioGroup).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _radioGroup[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56639,6 +56902,7 @@ var _textArea = require("./forms/textArea");
 Object.keys(_textArea).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _textArea[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56652,6 +56916,7 @@ var _html = require("./html/html");
 Object.keys(_html).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _html[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56665,6 +56930,7 @@ var _htmlSelect = require("./html-select/htmlSelect");
 Object.keys(_htmlSelect).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _htmlSelect[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56678,6 +56944,7 @@ var _htmlTable = require("./html-table/htmlTable");
 Object.keys(_htmlTable).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _htmlTable[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56691,6 +56958,7 @@ var _index = require("./hotkeys/index");
 Object.keys(_index).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _index[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56704,6 +56972,7 @@ var _icon = require("./icon/icon");
 Object.keys(_icon).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _icon[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56717,6 +56986,7 @@ var _menu = require("./menu/menu");
 Object.keys(_menu).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _menu[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56730,6 +57000,7 @@ var _menuDivider = require("./menu/menuDivider");
 Object.keys(_menuDivider).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _menuDivider[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56743,6 +57014,7 @@ var _menuItem = require("./menu/menuItem");
 Object.keys(_menuItem).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _menuItem[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56756,6 +57028,7 @@ var _navbar = require("./navbar/navbar");
 Object.keys(_navbar).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _navbar[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56769,6 +57042,7 @@ var _navbarDivider = require("./navbar/navbarDivider");
 Object.keys(_navbarDivider).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _navbarDivider[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56782,6 +57056,7 @@ var _navbarGroup = require("./navbar/navbarGroup");
 Object.keys(_navbarGroup).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _navbarGroup[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56795,6 +57070,7 @@ var _navbarHeading = require("./navbar/navbarHeading");
 Object.keys(_navbarHeading).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _navbarHeading[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56808,6 +57084,7 @@ var _nonIdealState = require("./non-ideal-state/nonIdealState");
 Object.keys(_nonIdealState).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _nonIdealState[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56821,6 +57098,7 @@ var _overflowList = require("./overflow-list/overflowList");
 Object.keys(_overflowList).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _overflowList[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56834,6 +57112,7 @@ var _overlay = require("./overlay/overlay");
 Object.keys(_overlay).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _overlay[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56847,6 +57126,7 @@ var _text = require("./text/text");
 Object.keys(_text).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _text[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56860,6 +57140,7 @@ var _panelProps = require("./panel-stack/panelProps");
 Object.keys(_panelProps).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _panelProps[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56873,6 +57154,7 @@ var _panelStack = require("./panel-stack/panelStack");
 Object.keys(_panelStack).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _panelStack[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56886,6 +57168,7 @@ var _popover = require("./popover/popover");
 Object.keys(_popover).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _popover[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56899,6 +57182,7 @@ var _popoverSharedProps = require("./popover/popoverSharedProps");
 Object.keys(_popoverSharedProps).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _popoverSharedProps[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56912,6 +57196,7 @@ var _portal = require("./portal/portal");
 Object.keys(_portal).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _portal[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56925,6 +57210,7 @@ var _progressBar = require("./progress-bar/progressBar");
 Object.keys(_progressBar).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _progressBar[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56938,6 +57224,7 @@ var _resizeSensor = require("./resize-sensor/resizeSensor");
 Object.keys(_resizeSensor).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _resizeSensor[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56951,6 +57238,7 @@ var _resizeObserverTypes = require("./resize-sensor/resizeObserverTypes");
 Object.keys(_resizeObserverTypes).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _resizeObserverTypes[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56964,6 +57252,7 @@ var _handleProps = require("./slider/handleProps");
 Object.keys(_handleProps).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _handleProps[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56977,6 +57266,7 @@ var _multiSlider = require("./slider/multiSlider");
 Object.keys(_multiSlider).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _multiSlider[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -56990,6 +57280,7 @@ var _rangeSlider = require("./slider/rangeSlider");
 Object.keys(_rangeSlider).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _rangeSlider[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -57003,6 +57294,7 @@ var _slider = require("./slider/slider");
 Object.keys(_slider).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _slider[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -57016,6 +57308,7 @@ var _spinner = require("./spinner/spinner");
 Object.keys(_spinner).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _spinner[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -57029,6 +57322,7 @@ var _tab = require("./tabs/tab");
 Object.keys(_tab).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _tab[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -57042,6 +57336,7 @@ var _tabs = require("./tabs/tabs");
 Object.keys(_tabs).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _tabs[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -57055,6 +57350,7 @@ var _tag = require("./tag/tag");
 Object.keys(_tag).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _tag[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -57068,6 +57364,7 @@ var _tagInput = require("./tag-input/tagInput");
 Object.keys(_tagInput).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _tagInput[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -57081,6 +57378,7 @@ var _toast = require("./toast/toast");
 Object.keys(_toast).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _toast[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -57094,6 +57392,7 @@ var _toaster = require("./toast/toaster");
 Object.keys(_toaster).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _toaster[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -57107,6 +57406,7 @@ var _tooltip = require("./tooltip/tooltip");
 Object.keys(_tooltip).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _tooltip[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -57120,6 +57420,7 @@ var _tree = require("./tree/tree");
 Object.keys(_tree).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _tree[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -57133,6 +57434,7 @@ var _treeNode = require("./tree/treeNode");
 Object.keys(_treeNode).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
   if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _treeNode[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -57162,7 +57464,7 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
  */
 var ContextMenu = contextMenu;
 exports.ContextMenu = ContextMenu;
-},{"../common/configureDom4":"node_modules/@blueprintjs/core/lib/esm/common/configureDom4.js","./context-menu/contextMenu":"node_modules/@blueprintjs/core/lib/esm/components/context-menu/contextMenu.js","./alert/alert":"node_modules/@blueprintjs/core/lib/esm/components/alert/alert.js","./breadcrumbs/breadcrumb":"node_modules/@blueprintjs/core/lib/esm/components/breadcrumbs/breadcrumb.js","./breadcrumbs/breadcrumbs":"node_modules/@blueprintjs/core/lib/esm/components/breadcrumbs/breadcrumbs.js","./button/buttons":"node_modules/@blueprintjs/core/lib/esm/components/button/buttons.js","./button/buttonGroup":"node_modules/@blueprintjs/core/lib/esm/components/button/buttonGroup.js","./callout/callout":"node_modules/@blueprintjs/core/lib/esm/components/callout/callout.js","./card/card":"node_modules/@blueprintjs/core/lib/esm/components/card/card.js","./collapse/collapse":"node_modules/@blueprintjs/core/lib/esm/components/collapse/collapse.js","./collapsible-list/collapsibleList":"node_modules/@blueprintjs/core/lib/esm/components/collapsible-list/collapsibleList.js","./context-menu/contextMenuTarget":"node_modules/@blueprintjs/core/lib/esm/components/context-menu/contextMenuTarget.js","./dialog/dialog":"node_modules/@blueprintjs/core/lib/esm/components/dialog/dialog.js","./divider/divider":"node_modules/@blueprintjs/core/lib/esm/components/divider/divider.js","./drawer/drawer":"node_modules/@blueprintjs/core/lib/esm/components/drawer/drawer.js","./editable-text/editableText":"node_modules/@blueprintjs/core/lib/esm/components/editable-text/editableText.js","./forms/controlGroup":"node_modules/@blueprintjs/core/lib/esm/components/forms/controlGroup.js","./forms/controls":"node_modules/@blueprintjs/core/lib/esm/components/forms/controls.js","./forms/fileInput":"node_modules/@blueprintjs/core/lib/esm/components/forms/fileInput.js","./forms/formGroup":"node_modules/@blueprintjs/core/lib/esm/components/forms/formGroup.js","./forms/inputGroup":"node_modules/@blueprintjs/core/lib/esm/components/forms/inputGroup.js","./forms/numericInput":"node_modules/@blueprintjs/core/lib/esm/components/forms/numericInput.js","./forms/radioGroup":"node_modules/@blueprintjs/core/lib/esm/components/forms/radioGroup.js","./forms/textArea":"node_modules/@blueprintjs/core/lib/esm/components/forms/textArea.js","./html/html":"node_modules/@blueprintjs/core/lib/esm/components/html/html.js","./html-select/htmlSelect":"node_modules/@blueprintjs/core/lib/esm/components/html-select/htmlSelect.js","./html-table/htmlTable":"node_modules/@blueprintjs/core/lib/esm/components/html-table/htmlTable.js","./hotkeys/index":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/index.js","./icon/icon":"node_modules/@blueprintjs/core/lib/esm/components/icon/icon.js","./menu/menu":"node_modules/@blueprintjs/core/lib/esm/components/menu/menu.js","./menu/menuDivider":"node_modules/@blueprintjs/core/lib/esm/components/menu/menuDivider.js","./menu/menuItem":"node_modules/@blueprintjs/core/lib/esm/components/menu/menuItem.js","./navbar/navbar":"node_modules/@blueprintjs/core/lib/esm/components/navbar/navbar.js","./navbar/navbarDivider":"node_modules/@blueprintjs/core/lib/esm/components/navbar/navbarDivider.js","./navbar/navbarGroup":"node_modules/@blueprintjs/core/lib/esm/components/navbar/navbarGroup.js","./navbar/navbarHeading":"node_modules/@blueprintjs/core/lib/esm/components/navbar/navbarHeading.js","./non-ideal-state/nonIdealState":"node_modules/@blueprintjs/core/lib/esm/components/non-ideal-state/nonIdealState.js","./overflow-list/overflowList":"node_modules/@blueprintjs/core/lib/esm/components/overflow-list/overflowList.js","./overlay/overlay":"node_modules/@blueprintjs/core/lib/esm/components/overlay/overlay.js","./text/text":"node_modules/@blueprintjs/core/lib/esm/components/text/text.js","./panel-stack/panelProps":"node_modules/@blueprintjs/core/lib/esm/components/panel-stack/panelProps.js","./panel-stack/panelStack":"node_modules/@blueprintjs/core/lib/esm/components/panel-stack/panelStack.js","./popover/popover":"node_modules/@blueprintjs/core/lib/esm/components/popover/popover.js","./popover/popoverSharedProps":"node_modules/@blueprintjs/core/lib/esm/components/popover/popoverSharedProps.js","./portal/portal":"node_modules/@blueprintjs/core/lib/esm/components/portal/portal.js","./progress-bar/progressBar":"node_modules/@blueprintjs/core/lib/esm/components/progress-bar/progressBar.js","./resize-sensor/resizeSensor":"node_modules/@blueprintjs/core/lib/esm/components/resize-sensor/resizeSensor.js","./resize-sensor/resizeObserverTypes":"node_modules/@blueprintjs/core/lib/esm/components/resize-sensor/resizeObserverTypes.js","./slider/handleProps":"node_modules/@blueprintjs/core/lib/esm/components/slider/handleProps.js","./slider/multiSlider":"node_modules/@blueprintjs/core/lib/esm/components/slider/multiSlider.js","./slider/rangeSlider":"node_modules/@blueprintjs/core/lib/esm/components/slider/rangeSlider.js","./slider/slider":"node_modules/@blueprintjs/core/lib/esm/components/slider/slider.js","./spinner/spinner":"node_modules/@blueprintjs/core/lib/esm/components/spinner/spinner.js","./tabs/tab":"node_modules/@blueprintjs/core/lib/esm/components/tabs/tab.js","./tabs/tabs":"node_modules/@blueprintjs/core/lib/esm/components/tabs/tabs.js","./tag/tag":"node_modules/@blueprintjs/core/lib/esm/components/tag/tag.js","./tag-input/tagInput":"node_modules/@blueprintjs/core/lib/esm/components/tag-input/tagInput.js","./toast/toast":"node_modules/@blueprintjs/core/lib/esm/components/toast/toast.js","./toast/toaster":"node_modules/@blueprintjs/core/lib/esm/components/toast/toaster.js","./tooltip/tooltip":"node_modules/@blueprintjs/core/lib/esm/components/tooltip/tooltip.js","./tree/tree":"node_modules/@blueprintjs/core/lib/esm/components/tree/tree.js","./tree/treeNode":"node_modules/@blueprintjs/core/lib/esm/components/tree/treeNode.js"}],"node_modules/@blueprintjs/core/lib/esm/index.js":[function(require,module,exports) {
+},{"../common/configureDom4":"node_modules/@blueprintjs/core/lib/esm/common/configureDom4.js","./context-menu/contextMenu":"node_modules/@blueprintjs/core/lib/esm/components/context-menu/contextMenu.js","./alert/alert":"node_modules/@blueprintjs/core/lib/esm/components/alert/alert.js","./breadcrumbs/breadcrumb":"node_modules/@blueprintjs/core/lib/esm/components/breadcrumbs/breadcrumb.js","./breadcrumbs/breadcrumbs":"node_modules/@blueprintjs/core/lib/esm/components/breadcrumbs/breadcrumbs.js","./button/buttons":"node_modules/@blueprintjs/core/lib/esm/components/button/buttons.js","./button/buttonGroup":"node_modules/@blueprintjs/core/lib/esm/components/button/buttonGroup.js","./callout/callout":"node_modules/@blueprintjs/core/lib/esm/components/callout/callout.js","./card/card":"node_modules/@blueprintjs/core/lib/esm/components/card/card.js","./collapse/collapse":"node_modules/@blueprintjs/core/lib/esm/components/collapse/collapse.js","./collapsible-list/collapsibleList":"node_modules/@blueprintjs/core/lib/esm/components/collapsible-list/collapsibleList.js","./context-menu/contextMenuTarget":"node_modules/@blueprintjs/core/lib/esm/components/context-menu/contextMenuTarget.js","./dialog/dialog":"node_modules/@blueprintjs/core/lib/esm/components/dialog/dialog.js","./dialog/multistepDialog":"node_modules/@blueprintjs/core/lib/esm/components/dialog/multistepDialog.js","./dialog/dialogStep":"node_modules/@blueprintjs/core/lib/esm/components/dialog/dialogStep.js","./divider/divider":"node_modules/@blueprintjs/core/lib/esm/components/divider/divider.js","./drawer/drawer":"node_modules/@blueprintjs/core/lib/esm/components/drawer/drawer.js","./editable-text/editableText":"node_modules/@blueprintjs/core/lib/esm/components/editable-text/editableText.js","./forms/controlGroup":"node_modules/@blueprintjs/core/lib/esm/components/forms/controlGroup.js","./forms/controls":"node_modules/@blueprintjs/core/lib/esm/components/forms/controls.js","./forms/fileInput":"node_modules/@blueprintjs/core/lib/esm/components/forms/fileInput.js","./forms/formGroup":"node_modules/@blueprintjs/core/lib/esm/components/forms/formGroup.js","./forms/inputGroup":"node_modules/@blueprintjs/core/lib/esm/components/forms/inputGroup.js","./forms/numericInput":"node_modules/@blueprintjs/core/lib/esm/components/forms/numericInput.js","./forms/radioGroup":"node_modules/@blueprintjs/core/lib/esm/components/forms/radioGroup.js","./forms/textArea":"node_modules/@blueprintjs/core/lib/esm/components/forms/textArea.js","./html/html":"node_modules/@blueprintjs/core/lib/esm/components/html/html.js","./html-select/htmlSelect":"node_modules/@blueprintjs/core/lib/esm/components/html-select/htmlSelect.js","./html-table/htmlTable":"node_modules/@blueprintjs/core/lib/esm/components/html-table/htmlTable.js","./hotkeys/index":"node_modules/@blueprintjs/core/lib/esm/components/hotkeys/index.js","./icon/icon":"node_modules/@blueprintjs/core/lib/esm/components/icon/icon.js","./menu/menu":"node_modules/@blueprintjs/core/lib/esm/components/menu/menu.js","./menu/menuDivider":"node_modules/@blueprintjs/core/lib/esm/components/menu/menuDivider.js","./menu/menuItem":"node_modules/@blueprintjs/core/lib/esm/components/menu/menuItem.js","./navbar/navbar":"node_modules/@blueprintjs/core/lib/esm/components/navbar/navbar.js","./navbar/navbarDivider":"node_modules/@blueprintjs/core/lib/esm/components/navbar/navbarDivider.js","./navbar/navbarGroup":"node_modules/@blueprintjs/core/lib/esm/components/navbar/navbarGroup.js","./navbar/navbarHeading":"node_modules/@blueprintjs/core/lib/esm/components/navbar/navbarHeading.js","./non-ideal-state/nonIdealState":"node_modules/@blueprintjs/core/lib/esm/components/non-ideal-state/nonIdealState.js","./overflow-list/overflowList":"node_modules/@blueprintjs/core/lib/esm/components/overflow-list/overflowList.js","./overlay/overlay":"node_modules/@blueprintjs/core/lib/esm/components/overlay/overlay.js","./text/text":"node_modules/@blueprintjs/core/lib/esm/components/text/text.js","./panel-stack/panelProps":"node_modules/@blueprintjs/core/lib/esm/components/panel-stack/panelProps.js","./panel-stack/panelStack":"node_modules/@blueprintjs/core/lib/esm/components/panel-stack/panelStack.js","./popover/popover":"node_modules/@blueprintjs/core/lib/esm/components/popover/popover.js","./popover/popoverSharedProps":"node_modules/@blueprintjs/core/lib/esm/components/popover/popoverSharedProps.js","./portal/portal":"node_modules/@blueprintjs/core/lib/esm/components/portal/portal.js","./progress-bar/progressBar":"node_modules/@blueprintjs/core/lib/esm/components/progress-bar/progressBar.js","./resize-sensor/resizeSensor":"node_modules/@blueprintjs/core/lib/esm/components/resize-sensor/resizeSensor.js","./resize-sensor/resizeObserverTypes":"node_modules/@blueprintjs/core/lib/esm/components/resize-sensor/resizeObserverTypes.js","./slider/handleProps":"node_modules/@blueprintjs/core/lib/esm/components/slider/handleProps.js","./slider/multiSlider":"node_modules/@blueprintjs/core/lib/esm/components/slider/multiSlider.js","./slider/rangeSlider":"node_modules/@blueprintjs/core/lib/esm/components/slider/rangeSlider.js","./slider/slider":"node_modules/@blueprintjs/core/lib/esm/components/slider/slider.js","./spinner/spinner":"node_modules/@blueprintjs/core/lib/esm/components/spinner/spinner.js","./tabs/tab":"node_modules/@blueprintjs/core/lib/esm/components/tabs/tab.js","./tabs/tabs":"node_modules/@blueprintjs/core/lib/esm/components/tabs/tabs.js","./tag/tag":"node_modules/@blueprintjs/core/lib/esm/components/tag/tag.js","./tag-input/tagInput":"node_modules/@blueprintjs/core/lib/esm/components/tag-input/tagInput.js","./toast/toast":"node_modules/@blueprintjs/core/lib/esm/components/toast/toast.js","./toast/toaster":"node_modules/@blueprintjs/core/lib/esm/components/toast/toaster.js","./tooltip/tooltip":"node_modules/@blueprintjs/core/lib/esm/components/tooltip/tooltip.js","./tree/tree":"node_modules/@blueprintjs/core/lib/esm/components/tree/tree.js","./tree/treeNode":"node_modules/@blueprintjs/core/lib/esm/components/tree/treeNode.js"}],"node_modules/@blueprintjs/core/lib/esm/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -57173,6 +57475,7 @@ var _accessibility = require("./accessibility");
 
 Object.keys(_accessibility).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _accessibility[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -57185,6 +57488,7 @@ var _common = require("./common");
 
 Object.keys(_common).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _common[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -57197,6 +57501,7 @@ var _components = require("./components");
 
 Object.keys(_components).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _components[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function () {
@@ -57204,7 +57509,33 @@ Object.keys(_components).forEach(function (key) {
     }
   });
 });
-},{"./accessibility":"node_modules/@blueprintjs/core/lib/esm/accessibility/index.js","./common":"node_modules/@blueprintjs/core/lib/esm/common/index.js","./components":"node_modules/@blueprintjs/core/lib/esm/components/index.js"}],"node_modules/mobx/lib/mobx.module.js":[function(require,module,exports) {
+
+var _context = require("./context");
+
+Object.keys(_context).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _context[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _context[key];
+    }
+  });
+});
+
+var _hooks = require("./hooks");
+
+Object.keys(_hooks).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _hooks[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _hooks[key];
+    }
+  });
+});
+},{"./accessibility":"node_modules/@blueprintjs/core/lib/esm/accessibility/index.js","./common":"node_modules/@blueprintjs/core/lib/esm/common/index.js","./components":"node_modules/@blueprintjs/core/lib/esm/components/index.js","./context":"node_modules/@blueprintjs/core/lib/esm/context/index.js","./hooks":"node_modules/@blueprintjs/core/lib/esm/hooks/index.js"}],"node_modules/mobx/lib/mobx.module.js":[function(require,module,exports) {
 var process = require("process");
 var global = arguments[3];
 "use strict";
@@ -63498,7 +63829,7 @@ exports.EventType = EventType;
 var define;
 var global = arguments[3];
 //! moment.js
-//! version : 2.29.0
+//! version : 2.29.1
 //! authors : Tim Wood, Iskren Chernev, Moment.js contributors
 //! license : MIT
 //! momentjs.com
@@ -66039,8 +66370,7 @@ var global = arguments[3];
     hooks.createFromInputFallback = deprecate(
         'value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), ' +
             'which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are ' +
-            'discouraged and will be removed in an upcoming major release. Please refer to ' +
-            'http://momentjs.com/guides/#/warnings/js-date/ for more info.',
+            'discouraged. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.',
         function (config) {
             config._d = new Date(config._i + (config._useUTC ? ' UTC' : ''));
         }
@@ -69120,7 +69450,7 @@ var global = arguments[3];
 
     //! moment.js
 
-    hooks.version = '2.29.0';
+    hooks.version = '2.29.1';
 
     setHookCallback(createLocal);
 
@@ -72403,11 +72733,11 @@ exports.DatePickerCaption = void 0;
 
 var _tslib = require("tslib");
 
-var _core = require("@blueprintjs/core");
-
 var React = _interopRequireWildcard(require("react"));
 
 var _reactLifecyclesCompat = require("react-lifecycles-compat");
+
+var _core = require("@blueprintjs/core");
 
 var Classes = _interopRequireWildcard(require("./common/classes"));
 
@@ -72571,7 +72901,7 @@ function (_super) {
 }(_core.AbstractPureComponent2);
 
 exports.DatePickerCaption = DatePickerCaption;
-},{"tslib":"node_modules/tslib/tslib.es6.js","@blueprintjs/core":"node_modules/@blueprintjs/core/lib/esm/index.js","react":"node_modules/react/index.js","react-lifecycles-compat":"node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","./common/classes":"node_modules/@blueprintjs/datetime/lib/esm/common/classes.js","./common/dateUtils":"node_modules/@blueprintjs/datetime/lib/esm/common/dateUtils.js","./common/utils":"node_modules/@blueprintjs/datetime/lib/esm/common/utils.js"}],"node_modules/@blueprintjs/datetime/lib/esm/datePickerCore.js":[function(require,module,exports) {
+},{"tslib":"node_modules/tslib/tslib.es6.js","react":"node_modules/react/index.js","react-lifecycles-compat":"node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","@blueprintjs/core":"node_modules/@blueprintjs/core/lib/esm/index.js","./common/classes":"node_modules/@blueprintjs/datetime/lib/esm/common/classes.js","./common/dateUtils":"node_modules/@blueprintjs/datetime/lib/esm/common/dateUtils.js","./common/utils":"node_modules/@blueprintjs/datetime/lib/esm/common/utils.js"}],"node_modules/@blueprintjs/datetime/lib/esm/datePickerCore.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -72659,21 +72989,21 @@ exports.DatePickerNavbar = void 0;
 
 var _tslib = require("tslib");
 
-var _core = require("@blueprintjs/core");
+var _classnames = _interopRequireDefault(require("classnames"));
 
 var React = _interopRequireWildcard(require("react"));
 
-var _classnames = _interopRequireDefault(require("classnames"));
+var _core = require("@blueprintjs/core");
 
 var Classes = _interopRequireWildcard(require("./common/classes"));
 
 var _dateUtils = require("./common/dateUtils");
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
 function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /*
  * Copyright 2018 Palantir Technologies, Inc. All rights reserved.
@@ -72736,7 +73066,7 @@ function (_super) {
 }(React.PureComponent);
 
 exports.DatePickerNavbar = DatePickerNavbar;
-},{"tslib":"node_modules/tslib/tslib.es6.js","@blueprintjs/core":"node_modules/@blueprintjs/core/lib/esm/index.js","react":"node_modules/react/index.js","classnames":"node_modules/classnames/index.js","./common/classes":"node_modules/@blueprintjs/datetime/lib/esm/common/classes.js","./common/dateUtils":"node_modules/@blueprintjs/datetime/lib/esm/common/dateUtils.js"}],"node_modules/@blueprintjs/datetime/lib/esm/shortcuts.js":[function(require,module,exports) {
+},{"tslib":"node_modules/tslib/tslib.es6.js","classnames":"node_modules/classnames/index.js","react":"node_modules/react/index.js","@blueprintjs/core":"node_modules/@blueprintjs/core/lib/esm/index.js","./common/classes":"node_modules/@blueprintjs/datetime/lib/esm/common/classes.js","./common/dateUtils":"node_modules/@blueprintjs/datetime/lib/esm/common/dateUtils.js"}],"node_modules/@blueprintjs/datetime/lib/esm/shortcuts.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -72746,9 +73076,9 @@ exports.Shortcuts = void 0;
 
 var _tslib = require("tslib");
 
-var _core = require("@blueprintjs/core");
-
 var React = _interopRequireWildcard(require("react"));
+
+var _core = require("@blueprintjs/core");
 
 var _classes = require("./common/classes");
 
@@ -72870,7 +73200,7 @@ function createDefaultShortcuts(allowSingleDayRange, hasTimePrecision, useSingle
   var singleDayShortcuts = allowSingleDayRange || useSingleDateShortcuts ? [createShortcut("Today", [today, hasTimePrecision ? tomorrow : today]), createShortcut("Yesterday", [yesterday, hasTimePrecision ? today : yesterday])] : [];
   return (0, _tslib.__spreadArrays)(singleDayShortcuts, [createShortcut(useSingleDateShortcuts ? "1 week ago" : "Past week", [oneWeekAgo, today]), createShortcut(useSingleDateShortcuts ? "1 month ago" : "Past month", [oneMonthAgo, today]), createShortcut(useSingleDateShortcuts ? "3 months ago" : "Past 3 months", [threeMonthsAgo, today])], useSingleDateShortcuts ? [] : [createShortcut("Past 6 months", [sixMonthsAgo, today])], [createShortcut(useSingleDateShortcuts ? "1 year ago" : "Past year", [oneYearAgo, today])], useSingleDateShortcuts ? [] : [createShortcut("Past 2 years", [twoYearsAgo, today])]);
 }
-},{"tslib":"node_modules/tslib/tslib.es6.js","@blueprintjs/core":"node_modules/@blueprintjs/core/lib/esm/index.js","react":"node_modules/react/index.js","./common/classes":"node_modules/@blueprintjs/datetime/lib/esm/common/classes.js","./common/dateUtils":"node_modules/@blueprintjs/datetime/lib/esm/common/dateUtils.js"}],"node_modules/@blueprintjs/datetime/lib/esm/timePicker.js":[function(require,module,exports) {
+},{"tslib":"node_modules/tslib/tslib.es6.js","react":"node_modules/react/index.js","@blueprintjs/core":"node_modules/@blueprintjs/core/lib/esm/index.js","./common/classes":"node_modules/@blueprintjs/datetime/lib/esm/common/classes.js","./common/dateUtils":"node_modules/@blueprintjs/datetime/lib/esm/common/dateUtils.js"}],"node_modules/@blueprintjs/datetime/lib/esm/timePicker.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -72880,11 +73210,11 @@ exports.TimePicker = exports.TimePrecision = void 0;
 
 var _tslib = require("tslib");
 
-var _core = require("@blueprintjs/core");
-
 var _classnames = _interopRequireDefault(require("classnames"));
 
 var React = _interopRequireWildcard(require("react"));
+
+var _core = require("@blueprintjs/core");
 
 var Classes = _interopRequireWildcard(require("./common/classes"));
 
@@ -73299,7 +73629,7 @@ function handleKeyEvent(e, actions, preventDefault) {
     }
   }
 }
-},{"tslib":"node_modules/tslib/tslib.es6.js","@blueprintjs/core":"node_modules/@blueprintjs/core/lib/esm/index.js","classnames":"node_modules/classnames/index.js","react":"node_modules/react/index.js","./common/classes":"node_modules/@blueprintjs/datetime/lib/esm/common/classes.js","./common/dateUtils":"node_modules/@blueprintjs/datetime/lib/esm/common/dateUtils.js","./common/timeUnit":"node_modules/@blueprintjs/datetime/lib/esm/common/timeUnit.js","./common/utils":"node_modules/@blueprintjs/datetime/lib/esm/common/utils.js"}],"node_modules/@blueprintjs/datetime/lib/esm/datePicker.js":[function(require,module,exports) {
+},{"tslib":"node_modules/tslib/tslib.es6.js","classnames":"node_modules/classnames/index.js","react":"node_modules/react/index.js","@blueprintjs/core":"node_modules/@blueprintjs/core/lib/esm/index.js","./common/classes":"node_modules/@blueprintjs/datetime/lib/esm/common/classes.js","./common/dateUtils":"node_modules/@blueprintjs/datetime/lib/esm/common/dateUtils.js","./common/timeUnit":"node_modules/@blueprintjs/datetime/lib/esm/common/timeUnit.js","./common/utils":"node_modules/@blueprintjs/datetime/lib/esm/common/utils.js"}],"node_modules/@blueprintjs/datetime/lib/esm/datePicker.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73309,8 +73639,6 @@ exports.DatePicker = void 0;
 
 var _tslib = require("tslib");
 
-var _core = require("@blueprintjs/core");
-
 var _classnames = _interopRequireDefault(require("classnames"));
 
 var React = _interopRequireWildcard(require("react"));
@@ -73318,6 +73646,8 @@ var React = _interopRequireWildcard(require("react"));
 var _reactDayPicker = _interopRequireDefault(require("react-day-picker"));
 
 var _reactLifecyclesCompat = require("react-lifecycles-compat");
+
+var _core = require("@blueprintjs/core");
 
 var Classes = _interopRequireWildcard(require("./common/classes"));
 
@@ -73790,7 +74120,7 @@ function getInitialMonth(props, value) {
     return DateUtils.getDateBetween([props.minDate, props.maxDate]);
   }
 }
-},{"tslib":"node_modules/tslib/tslib.es6.js","@blueprintjs/core":"node_modules/@blueprintjs/core/lib/esm/index.js","classnames":"node_modules/classnames/index.js","react":"node_modules/react/index.js","react-day-picker":"node_modules/react-day-picker/build/index.js","react-lifecycles-compat":"node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","./common/classes":"node_modules/@blueprintjs/datetime/lib/esm/common/classes.js","./common/dateUtils":"node_modules/@blueprintjs/datetime/lib/esm/common/dateUtils.js","./common/errors":"node_modules/@blueprintjs/datetime/lib/esm/common/errors.js","./datePickerCaption":"node_modules/@blueprintjs/datetime/lib/esm/datePickerCaption.js","./datePickerCore":"node_modules/@blueprintjs/datetime/lib/esm/datePickerCore.js","./datePickerNavbar":"node_modules/@blueprintjs/datetime/lib/esm/datePickerNavbar.js","./shortcuts":"node_modules/@blueprintjs/datetime/lib/esm/shortcuts.js","./timePicker":"node_modules/@blueprintjs/datetime/lib/esm/timePicker.js"}],"node_modules/@blueprintjs/datetime/lib/esm/dateInput.js":[function(require,module,exports) {
+},{"tslib":"node_modules/tslib/tslib.es6.js","classnames":"node_modules/classnames/index.js","react":"node_modules/react/index.js","react-day-picker":"node_modules/react-day-picker/build/index.js","react-lifecycles-compat":"node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","@blueprintjs/core":"node_modules/@blueprintjs/core/lib/esm/index.js","./common/classes":"node_modules/@blueprintjs/datetime/lib/esm/common/classes.js","./common/dateUtils":"node_modules/@blueprintjs/datetime/lib/esm/common/dateUtils.js","./common/errors":"node_modules/@blueprintjs/datetime/lib/esm/common/errors.js","./datePickerCaption":"node_modules/@blueprintjs/datetime/lib/esm/datePickerCaption.js","./datePickerCore":"node_modules/@blueprintjs/datetime/lib/esm/datePickerCore.js","./datePickerNavbar":"node_modules/@blueprintjs/datetime/lib/esm/datePickerNavbar.js","./shortcuts":"node_modules/@blueprintjs/datetime/lib/esm/shortcuts.js","./timePicker":"node_modules/@blueprintjs/datetime/lib/esm/timePicker.js"}],"node_modules/@blueprintjs/datetime/lib/esm/dateInput.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -73855,19 +74185,13 @@ function (_super) {
       value: _this.props.value !== undefined ? _this.props.value : _this.props.defaultValue,
       valueString: null
     };
-    _this.inputEl = null;
-    _this.popoverContentEl = null; // Last element in popover that is tabbable, and the one that triggers popover closure
+    _this.inputElement = null;
+    _this.popoverContentElement = null; // Last element in popover that is tabbable, and the one that triggers popover closure
     // when the user press TAB on it
 
     _this.lastTabbableElement = null;
-    _this.refHandlers = {
-      input: (0, _core.isRefObject)((_a = _this.props.inputProps) === null || _a === void 0 ? void 0 : _a.inputRef) ? _this.inputEl = _this.props.inputProps.inputRef : function (ref) {
-        var _a, _b;
-
-        _this.inputEl = ref;
-        (_b = (_a = _this.props.inputProps) === null || _a === void 0 ? void 0 : _a.inputRef) === null || _b === void 0 ? void 0 : _b(ref);
-      }
-    };
+    _this.handleInputRef = (0, _core.refHandler)(_this, "inputElement", (_a = _this.props.inputProps) === null || _a === void 0 ? void 0 : _a.inputRef);
+    _this.handlePopoverContentRef = (0, _core.refHandler)(_this, "popoverContentElement");
 
     _this.handleClosePopover = function (e) {
       var _a;
@@ -74036,18 +74360,19 @@ function (_super) {
           isOpen: false
         });
 
-        (0, _core.getRef)(_this.inputEl).blur();
+        (0, _core.getRef)(_this.inputElement).blur();
       }
 
       _this.safeInvokeInputProp("onKeyDown", e);
     };
 
     _this.getLastTabbableElement = function () {
-      // Popover contents are well structured, but the selector will need
+      var _a, _b; // Popover contents are well structured, but the selector will need
       // to be updated if more focusable components are added in the future
-      var tabbableElements = _this.popoverContentEl.querySelectorAll("input, [tabindex]:not([tabindex='-1'])");
 
-      var numOfElements = tabbableElements.length; // Keep track of the last focusable element in popover and add
+
+      var tabbableElements = (_a = _this.popoverContentElement) === null || _a === void 0 ? void 0 : _a.querySelectorAll("input, [tabindex]:not([tabindex='-1'])");
+      var numOfElements = (_b = tabbableElements === null || tabbableElements === void 0 ? void 0 : tabbableElements.length) !== null && _b !== void 0 ? _b : 0; // Keep track of the last focusable element in popover and add
       // a blur handler, so that when:
       // * user tabs to the next element, popover closes
       // * focus moves to element within popover, popover stays open
@@ -74058,6 +74383,8 @@ function (_super) {
 
 
     _this.handlePopoverBlur = function (e) {
+      var _a;
+
       var relatedTarget = e.relatedTarget;
 
       if (relatedTarget == null) {
@@ -74065,9 +74392,9 @@ function (_super) {
         relatedTarget = document.activeElement;
       }
 
-      var eventTarget = e.target; // Beware: this.popoverContentEl is sometimes null under Chrome
+      var eventTarget = e.target; // Beware: this.popoverContentElement is sometimes null under Chrome
 
-      if (relatedTarget == null || _this.popoverContentEl != null && !_this.popoverContentEl.contains(relatedTarget)) {
+      if (relatedTarget == null || _this.popoverContentElement != null && !_this.popoverContentElement.contains(relatedTarget)) {
         // Exclude the following blur operations that makes "body" the activeElement
         // and would close the Popover unexpectedly
         // - On disabled change months buttons
@@ -74083,25 +74410,25 @@ function (_super) {
         _this.unregisterPopoverBlurHandler();
 
         _this.lastTabbableElement = _this.getLastTabbableElement();
-
-        _this.lastTabbableElement.addEventListener("blur", _this.handlePopoverBlur);
+        (_a = _this.lastTabbableElement) === null || _a === void 0 ? void 0 : _a.addEventListener("blur", _this.handlePopoverBlur);
       }
     };
 
     _this.registerPopoverBlurHandler = function () {
-      if (_this.popoverContentEl != null) {
+      var _a;
+
+      if (_this.popoverContentElement != null) {
         _this.unregisterPopoverBlurHandler();
 
         _this.lastTabbableElement = _this.getLastTabbableElement();
-
-        _this.lastTabbableElement.addEventListener("blur", _this.handlePopoverBlur);
+        (_a = _this.lastTabbableElement) === null || _a === void 0 ? void 0 : _a.addEventListener("blur", _this.handlePopoverBlur);
       }
     };
 
     _this.unregisterPopoverBlurHandler = function () {
-      if (_this.lastTabbableElement != null) {
-        _this.lastTabbableElement.removeEventListener("blur", _this.handlePopoverBlur);
-      }
+      var _a;
+
+      (_a = _this.lastTabbableElement) === null || _a === void 0 ? void 0 : _a.removeEventListener("blur", _this.handlePopoverBlur);
     };
 
     _this.handleShortcutChange = function (_, selectedShortcutIndex) {
@@ -74151,9 +74478,7 @@ function (_super) {
       }
     });
     var wrappedPopoverContent = React.createElement("div", {
-      ref: function (ref) {
-        return _this.popoverContentEl = ref;
-      }
+      ref: this.handlePopoverContentRef
     }, React.createElement(_datePicker.DatePicker, (0, _tslib.__assign)({}, this.props, {
       dayPickerProps: dayPickerProps,
       onChange: this.handleDateChange,
@@ -74168,32 +74493,35 @@ function (_super) {
         _d = _b.popoverProps,
         popoverProps = _d === void 0 ? {} : _d;
     var isErrorState = value != null && (!(0, _dateUtils.isDateValid)(value) || !this.isDateInRange(value));
-    return React.createElement(_core.Popover, (0, _tslib.__assign)({
-      isOpen: this.state.isOpen && !this.props.disabled,
-      fill: this.props.fill
-    }, popoverProps, {
-      autoFocus: false,
-      className: (0, _classnames.default)(popoverProps.className, this.props.className),
-      content: wrappedPopoverContent,
-      enforceFocus: false,
-      onClose: this.handleClosePopover,
-      popoverClassName: (0, _classnames.default)(Classes.DATEINPUT_POPOVER, popoverProps.popoverClassName)
-    }), React.createElement(_core.InputGroup, (0, _tslib.__assign)({
-      autoComplete: "off",
-      intent: isErrorState ? _core.Intent.DANGER : _core.Intent.NONE,
-      placeholder: this.props.placeholder,
-      rightElement: this.props.rightElement,
-      type: "text"
-    }, inputProps, {
-      disabled: this.props.disabled,
-      inputRef: this.refHandlers.input,
-      onBlur: this.handleInputBlur,
-      onChange: this.handleInputChange,
-      onClick: this.handleInputClick,
-      onFocus: this.handleInputFocus,
-      onKeyDown: this.handleInputKeyDown,
-      value: dateString
-    })));
+    return (
+      /* eslint-disable-next-line deprecation/deprecation */
+      React.createElement(_core.Popover, (0, _tslib.__assign)({
+        isOpen: this.state.isOpen && !this.props.disabled,
+        fill: this.props.fill
+      }, popoverProps, {
+        autoFocus: false,
+        className: (0, _classnames.default)(popoverProps.className, this.props.className),
+        content: wrappedPopoverContent,
+        enforceFocus: false,
+        onClose: this.handleClosePopover,
+        popoverClassName: (0, _classnames.default)(Classes.DATEINPUT_POPOVER, popoverProps.popoverClassName)
+      }), React.createElement(_core.InputGroup, (0, _tslib.__assign)({
+        autoComplete: "off",
+        intent: isErrorState ? _core.Intent.DANGER : _core.Intent.NONE,
+        placeholder: this.props.placeholder,
+        rightElement: this.props.rightElement,
+        type: "text"
+      }, inputProps, {
+        disabled: this.props.disabled,
+        inputRef: this.handleInputRef,
+        onBlur: this.handleInputBlur,
+        onChange: this.handleInputChange,
+        onClick: this.handleInputClick,
+        onFocus: this.handleInputFocus,
+        onKeyDown: this.handleInputKeyDown,
+        value: dateString
+      })))
+    );
   };
 
   DateInput.prototype.componentDidUpdate = function (prevProps, prevState) {
@@ -74685,8 +75013,6 @@ exports.DateRangePicker = void 0;
 
 var _tslib = require("tslib");
 
-var _core = require("@blueprintjs/core");
-
 var _classnames = _interopRequireDefault(require("classnames"));
 
 var React = _interopRequireWildcard(require("react"));
@@ -74694,6 +75020,8 @@ var React = _interopRequireWildcard(require("react"));
 var _reactDayPicker = _interopRequireDefault(require("react-day-picker"));
 
 var _reactLifecyclesCompat = require("react-lifecycles-compat");
+
+var _core = require("@blueprintjs/core");
 
 var DateClasses = _interopRequireWildcard(require("./common/classes"));
 
@@ -75470,7 +75798,7 @@ function getInitialMonth(props, value) {
     return DateUtils.getDateBetween([props.minDate, props.maxDate]);
   }
 }
-},{"tslib":"node_modules/tslib/tslib.es6.js","@blueprintjs/core":"node_modules/@blueprintjs/core/lib/esm/index.js","classnames":"node_modules/classnames/index.js","react":"node_modules/react/index.js","react-day-picker":"node_modules/react-day-picker/build/index.js","react-lifecycles-compat":"node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","./common/classes":"node_modules/@blueprintjs/datetime/lib/esm/common/classes.js","./common/dateUtils":"node_modules/@blueprintjs/datetime/lib/esm/common/dateUtils.js","./common/errors":"node_modules/@blueprintjs/datetime/lib/esm/common/errors.js","./common/monthAndYear":"node_modules/@blueprintjs/datetime/lib/esm/common/monthAndYear.js","./datePickerCaption":"node_modules/@blueprintjs/datetime/lib/esm/datePickerCaption.js","./datePickerCore":"node_modules/@blueprintjs/datetime/lib/esm/datePickerCore.js","./datePickerNavbar":"node_modules/@blueprintjs/datetime/lib/esm/datePickerNavbar.js","./dateRangeSelectionStrategy":"node_modules/@blueprintjs/datetime/lib/esm/dateRangeSelectionStrategy.js","./shortcuts":"node_modules/@blueprintjs/datetime/lib/esm/shortcuts.js","./timePicker":"node_modules/@blueprintjs/datetime/lib/esm/timePicker.js"}],"node_modules/@blueprintjs/datetime/lib/esm/dateRangeInput.js":[function(require,module,exports) {
+},{"tslib":"node_modules/tslib/tslib.es6.js","classnames":"node_modules/classnames/index.js","react":"node_modules/react/index.js","react-day-picker":"node_modules/react-day-picker/build/index.js","react-lifecycles-compat":"node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","@blueprintjs/core":"node_modules/@blueprintjs/core/lib/esm/index.js","./common/classes":"node_modules/@blueprintjs/datetime/lib/esm/common/classes.js","./common/dateUtils":"node_modules/@blueprintjs/datetime/lib/esm/common/dateUtils.js","./common/errors":"node_modules/@blueprintjs/datetime/lib/esm/common/errors.js","./common/monthAndYear":"node_modules/@blueprintjs/datetime/lib/esm/common/monthAndYear.js","./datePickerCaption":"node_modules/@blueprintjs/datetime/lib/esm/datePickerCaption.js","./datePickerCore":"node_modules/@blueprintjs/datetime/lib/esm/datePickerCore.js","./datePickerNavbar":"node_modules/@blueprintjs/datetime/lib/esm/datePickerNavbar.js","./dateRangeSelectionStrategy":"node_modules/@blueprintjs/datetime/lib/esm/dateRangeSelectionStrategy.js","./shortcuts":"node_modules/@blueprintjs/datetime/lib/esm/shortcuts.js","./timePicker":"node_modules/@blueprintjs/datetime/lib/esm/timePicker.js"}],"node_modules/@blueprintjs/datetime/lib/esm/dateRangeInput.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -75529,22 +75857,10 @@ function (_super) {
   function DateRangeInput(props, context) {
     var _this = _super.call(this, props, context) || this;
 
-    _this.startInputRef = null;
-    _this.endInputRef = null;
-    _this.refHandlers = {
-      endInputRef: (0, _core.isRefObject)(_this.props.endInputProps.inputRef) ? _this.endInputRef = _this.props.endInputProps.inputRef : function (ref) {
-        var _a;
-
-        _this.endInputRef = ref;
-        (_a = _this.props.endInputProps.inputRef) === null || _a === void 0 ? void 0 : _a(ref);
-      },
-      startInputRef: (0, _core.isRefObject)(_this.props.startInputProps.inputRef) ? _this.startInputRef = _this.props.startInputProps.inputRef : function (ref) {
-        var _a;
-
-        _this.startInputRef = ref;
-        (_a = _this.props.startInputProps.inputRef) === null || _a === void 0 ? void 0 : _a(ref);
-      }
-    };
+    _this.startInputElement = null;
+    _this.endInputElement = null;
+    _this.handleStartInputRef = (0, _core.refHandler)(_this, "startInputElement", _this.props.startInputProps.inputRef);
+    _this.handleEndInputRef = (0, _core.refHandler)(_this, "endInputElement", _this.props.endInputProps.inputRef);
 
     _this.renderInputGroup = function (boundary) {
       var inputProps = _this.getInputProps(boundary);
@@ -75725,46 +76041,56 @@ function (_super) {
     };
 
     _this.handleInputEvent = function (e, boundary) {
+      var _a, _b, _c, _d, _f, _g;
+
+      var inputProps = _this.getInputProps(boundary);
+
       switch (e.type) {
         case "blur":
           _this.handleInputBlur(e, boundary);
 
+          (_a = inputProps.onBlur) === null || _a === void 0 ? void 0 : _a.call(inputProps, e);
           break;
 
         case "change":
           _this.handleInputChange(e, boundary);
 
+          (_b = inputProps.onChange) === null || _b === void 0 ? void 0 : _b.call(inputProps, e);
           break;
 
         case "click":
+          e = e;
+
           _this.handleInputClick(e);
 
+          (_c = inputProps.onClick) === null || _c === void 0 ? void 0 : _c.call(inputProps, e);
           break;
 
         case "focus":
           _this.handleInputFocus(e, boundary);
 
+          (_d = inputProps.onFocus) === null || _d === void 0 ? void 0 : _d.call(inputProps, e);
           break;
 
         case "keydown":
+          e = e;
+
           _this.handleInputKeyDown(e);
 
+          (_f = inputProps.onKeyDown) === null || _f === void 0 ? void 0 : _f.call(inputProps, e);
           break;
 
         case "mousedown":
+          e = e;
+
           _this.handleInputMouseDown();
 
+          (_g = inputProps.onMouseDown) === null || _g === void 0 ? void 0 : _g.call(inputProps, e);
           break;
 
         default:
           break;
       }
-
-      var inputProps = _this.getInputProps(boundary);
-
-      var callbackFn = _this.getInputGroupCallbackForEvent(e, inputProps);
-
-      callbackFn === null || callbackFn === void 0 ? void 0 : callbackFn(e);
     }; // add a keydown listener to persistently change focus when tabbing:
     // - if focused in start field, Tab moves focus to end field
     // - if focused in end field, Shift+Tab moves focus to start field
@@ -75947,14 +76273,14 @@ function (_super) {
     // ===================
 
 
-    _this.handlePopoverClose = function () {
+    _this.handlePopoverClose = function (event) {
       var _a, _b;
 
       _this.setState({
         isOpen: false
       });
 
-      (_b = (_a = _this.props.popoverProps).onClose) === null || _b === void 0 ? void 0 : _b.call(_a);
+      (_b = (_a = _this.props.popoverProps).onClose) === null || _b === void 0 ? void 0 : _b.call(_a, event);
     };
 
     _this.getIsOpenValueWhenDateChanges = function (nextSelectedStart, nextSelectedEnd) {
@@ -76023,32 +76349,6 @@ function (_super) {
       });
     };
 
-    _this.getInputGroupCallbackForEvent = function (e, inputProps) {
-      // use explicit switch cases to ensure callback function names remain grep-able in the codebase.
-      switch (e.type) {
-        case "blur":
-          return inputProps.onBlur;
-
-        case "change":
-          return inputProps.onChange;
-
-        case "click":
-          return inputProps.onClick;
-
-        case "focus":
-          return inputProps.onFocus;
-
-        case "keydown":
-          return inputProps.onKeyDown;
-
-        case "mousedown":
-          return inputProps.onMouseDown;
-
-        default:
-          return undefined;
-      }
-    };
-
     _this.getInputDisplayString = function (boundary) {
       var values = _this.getStateKeysAndValuesForBoundary(boundary).values;
 
@@ -76095,7 +76395,7 @@ function (_super) {
     };
 
     _this.getInputRef = function (boundary) {
-      return boundary === _core.Boundary.START ? _this.refHandlers.startInputRef : _this.refHandlers.endInputRef;
+      return boundary === _core.Boundary.START ? _this.handleStartInputRef : _this.handleEndInputRef;
     };
 
     _this.getStateKeysAndValuesForBoundary = function (boundary) {
@@ -76243,8 +76543,8 @@ function (_super) {
         isStartInputFocused = _a.isStartInputFocused,
         isEndInputFocused = _a.isEndInputFocused,
         shouldSelectAfterUpdate = _a.shouldSelectAfterUpdate;
-    var startInputRef = (0, _core.getRef)(this.startInputRef);
-    var endInputRef = (0, _core.getRef)(this.endInputRef);
+    var startInputRef = (0, _core.getRef)(this.startInputElement);
+    var endInputRef = (0, _core.getRef)(this.endInputElement);
     var shouldFocusStartInput = this.shouldFocusInputRef(isStartInputFocused, startInputRef);
     var shouldFocusEndInput = this.shouldFocusInputRef(isEndInputFocused, endInputRef);
 
@@ -76306,18 +76606,21 @@ function (_super) {
     var popoverClassName = (0, _classnames.default)(popoverProps.className, this.props.className); // allow custom props for the popover and each input group, but pass them in an order that
     // guarantees only some props are overridable.
 
-    return React.createElement(_core.Popover, (0, _tslib.__assign)({
-      isOpen: this.state.isOpen,
-      position: _core.Position.BOTTOM_LEFT
-    }, this.props.popoverProps, {
-      autoFocus: false,
-      className: popoverClassName,
-      content: popoverContent,
-      enforceFocus: false,
-      onClose: this.handlePopoverClose
-    }), React.createElement("div", {
-      className: _core.Classes.CONTROL_GROUP
-    }, this.renderInputGroup(_core.Boundary.START), this.renderInputGroup(_core.Boundary.END)));
+    return (
+      /* eslint-disable-next-line deprecation/deprecation */
+      React.createElement(_core.Popover, (0, _tslib.__assign)({
+        isOpen: this.state.isOpen,
+        position: _core.Position.BOTTOM_LEFT
+      }, this.props.popoverProps, {
+        autoFocus: false,
+        className: popoverClassName,
+        content: popoverContent,
+        enforceFocus: false,
+        onClose: this.handlePopoverClose
+      }), React.createElement("div", {
+        className: _core.Classes.CONTROL_GROUP
+      }, this.renderInputGroup(_core.Boundary.START), this.renderInputGroup(_core.Boundary.END)))
+    );
   };
 
   DateRangeInput.prototype.validateProps = function (props) {
@@ -77382,11 +77685,11 @@ var process = require("process");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.StyleSheetManager = le;
-exports.ThemeProvider = Be;
-exports.createGlobalStyle = Ye;
-exports.css = Se;
-exports.isStyledComponent = _;
+exports.StyleSheetManager = ye;
+exports.ThemeProvider = Ge;
+exports.createGlobalStyle = $e;
+exports.css = Ae;
+exports.isStyledComponent = N;
 exports.keyframes = We;
 exports.withTheme = exports.version = exports.useTheme = exports.__PRIVATE__ = exports.ThemeContext = exports.ThemeConsumer = exports.StyleSheetContext = exports.StyleSheetConsumer = exports.ServerStyleSheet = exports.default = void 0;
 
@@ -77437,29 +77740,26 @@ var g = function g(e, t) {
   return null !== t && "object" == _typeof(t) && "[object Object]" === (t.toString ? t.toString() : Object.prototype.toString.call(t)) && !(0, _reactIs.typeOf)(t);
 },
     w = Object.freeze([]),
-    b = Object.freeze({});
+    E = Object.freeze({});
 
-function N(e) {
+function b(e) {
   return "function" == typeof e;
 }
 
-function E(e) {
+function _(e) {
   return "production" !== "development" && "string" == typeof e && e || e.displayName || e.name || "Component";
 }
 
-function _(e) {
+function N(e) {
   return e && "string" == typeof e.styledComponentId;
 }
 
-var I = "undefined" != typeof process && (undefined || undefined) || "data-styled",
-    C = "5.2.0",
-    A = "undefined" != typeof window && "HTMLElement" in window,
-    O = "boolean" == typeof SC_DISABLE_SPEEDY && SC_DISABLE_SPEEDY || "undefined" != typeof process && (undefined || undefined) || "production" !== "development",
-    P = {},
-    R = function R() {
-  return "undefined" != typeof __webpack_nonce__ ? __webpack_nonce__ : null;
-},
-    j = "production" !== "development" ? {
+var A = "undefined" != typeof process && (undefined || undefined) || "data-styled",
+    C = "5.2.1",
+    I = "undefined" != typeof window && "HTMLElement" in window,
+    P = Boolean("boolean" == typeof SC_DISABLE_SPEEDY ? SC_DISABLE_SPEEDY : "undefined" != typeof process && void 0 !== undefined && "" !== undefined ? "false" !== undefined && undefined : "undefined" != typeof process && void 0 !== undefined && "" !== undefined ? "false" !== undefined && undefined : "production" !== "development"),
+    O = {},
+    R = "production" !== "development" ? {
   1: "Cannot create styled-component for component: %s.\n\n",
   2: "Can't collect styles once you've consumed a `ServerStyleSheet`'s styles! `ServerStyleSheet` is a one off instance for each server-side render cycle.\n\n- Are you trying to reuse it across renders?\n- Are you accidentally calling collectStyles twice?\n\n",
   3: "Streaming SSR is only supported in a Node.js environment; Please do not try to call this method in the browser.\n\n",
@@ -77478,10 +77778,9 @@ var I = "undefined" != typeof process && (undefined || undefined) || "data-style
   16: "Reached the limit of how many styled components may be created at group %s.\nYou may only create up to 1,073,741,824 components. If you're creating components dynamically,\nas for instance in your render method then you may be running into this limitation.\n\n",
   17: "CSSStyleSheet could not be found on HTMLStyleElement.\nHas styled-components' style tag been unmounted or altered by another script?\n"
 } : {};
-
 exports.version = C;
 
-function T() {
+function D() {
   for (var e = arguments.length <= 0 ? void 0 : arguments[0], t = [], n = 1, r = arguments.length; n < r; n += 1) {
     t.push(n < 0 || arguments.length <= n ? void 0 : arguments[n]);
   }
@@ -77491,33 +77790,127 @@ function T() {
   }), e;
 }
 
-function D(e) {
+function j(e) {
   for (var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), r = 1; r < t; r++) {
     n[r - 1] = arguments[r];
   }
 
-  throw "production" === "development" ? new Error("An error occurred. See https://git.io/JUIaE#" + e + " for more information." + (n.length > 0 ? " Args: " + n.join(", ") : "")) : new Error(T.apply(void 0, [j[e]].concat(n)).trim());
+  throw "production" === "development" ? new Error("An error occurred. See https://git.io/JUIaE#" + e + " for more information." + (n.length > 0 ? " Args: " + n.join(", ") : "")) : new Error(D.apply(void 0, [R[e]].concat(n)).trim());
 }
 
-var k = function k(e) {
+var T = function () {
+  function e(e) {
+    this.groupSizes = new Uint32Array(512), this.length = 512, this.tag = e;
+  }
+
+  var t = e.prototype;
+  return t.indexOfGroup = function (e) {
+    for (var t = 0, n = 0; n < e; n++) {
+      t += this.groupSizes[n];
+    }
+
+    return t;
+  }, t.insertRules = function (e, t) {
+    if (e >= this.groupSizes.length) {
+      for (var n = this.groupSizes, r = n.length, o = r; e >= o;) {
+        (o <<= 1) < 0 && j(16, "" + e);
+      }
+
+      this.groupSizes = new Uint32Array(o), this.groupSizes.set(n), this.length = o;
+
+      for (var s = r; s < o; s++) {
+        this.groupSizes[s] = 0;
+      }
+    }
+
+    for (var i = this.indexOfGroup(e + 1), a = 0, c = t.length; a < c; a++) {
+      this.tag.insertRule(i, t[a]) && (this.groupSizes[e]++, i++);
+    }
+  }, t.clearGroup = function (e) {
+    if (e < this.length) {
+      var t = this.groupSizes[e],
+          n = this.indexOfGroup(e),
+          r = n + t;
+      this.groupSizes[e] = 0;
+
+      for (var o = n; o < r; o++) {
+        this.tag.deleteRule(n);
+      }
+    }
+  }, t.getGroup = function (e) {
+    var t = "";
+    if (e >= this.length || 0 === this.groupSizes[e]) return t;
+
+    for (var n = this.groupSizes[e], r = this.indexOfGroup(e), o = r + n, s = r; s < o; s++) {
+      t += this.tag.getRule(s) + "/*!sc*/\n";
+    }
+
+    return t;
+  }, e;
+}(),
+    k = new Map(),
+    x = new Map(),
+    V = 1,
+    B = function B(e) {
+  if (k.has(e)) return k.get(e);
+
+  for (; x.has(V);) {
+    V++;
+  }
+
+  var t = V++;
+  return "production" !== "development" && ((0 | t) < 0 || t > 1 << 30) && j(16, "" + t), k.set(e, t), x.set(t, e), t;
+},
+    M = function M(e) {
+  return x.get(e);
+},
+    z = function z(e, t) {
+  k.set(e, t), x.set(t, e);
+},
+    L = "style[" + A + '][data-styled-version="5.2.1"]',
+    G = new RegExp("^" + A + '\\.g(\\d+)\\[id="([\\w\\d-]+)"\\].*?"([^"]*)'),
+    F = function F(e, t, n) {
+  for (var r, o = n.split(","), s = 0, i = o.length; s < i; s++) {
+    (r = o[s]) && e.registerName(t, r);
+  }
+},
+    Y = function Y(e, t) {
+  for (var n = t.innerHTML.split("/*!sc*/\n"), r = [], o = 0, s = n.length; o < s; o++) {
+    var i = n[o].trim();
+
+    if (i) {
+      var a = i.match(G);
+
+      if (a) {
+        var c = 0 | parseInt(a[1], 10),
+            u = a[2];
+        0 !== c && (z(u, c), F(e, u, a[3]), e.getTag().insertRules(c, r)), r.length = 0;
+      } else r.push(i);
+    }
+  }
+},
+    q = function q() {
+  return "undefined" != typeof __webpack_nonce__ ? __webpack_nonce__ : null;
+},
+    H = function H(e) {
   var t = document.head,
       n = e || t,
       r = document.createElement("style"),
       o = function (e) {
     for (var t = e.childNodes, n = t.length; n >= 0; n--) {
       var r = t[n];
-      if (r && 1 === r.nodeType && r.hasAttribute(I)) return r;
+      if (r && 1 === r.nodeType && r.hasAttribute(A)) return r;
     }
   }(n),
-      i = void 0 !== o ? o.nextSibling : null;
+      s = void 0 !== o ? o.nextSibling : null;
 
-  r.setAttribute(I, "active"), r.setAttribute("data-styled-version", "5.2.0");
-  var s = R();
-  return s && r.setAttribute("nonce", s), n.insertBefore(r, i), r;
+  r.setAttribute(A, "active"), r.setAttribute("data-styled-version", "5.2.1");
+  var i = q();
+  return i && r.setAttribute("nonce", i), n.insertBefore(r, s), r;
 },
-    x = function () {
+    $ = function () {
   function e(e) {
-    var t = this.element = k(e);
+    var t = this.element = H(e);
     t.appendChild(document.createTextNode("")), this.sheet = function (e) {
       if (e.sheet) return e.sheet;
 
@@ -77526,7 +77919,7 @@ var k = function k(e) {
         if (o.ownerNode === e) return o;
       }
 
-      D(17);
+      j(17);
     }(t), this.length = 0;
   }
 
@@ -77544,9 +77937,9 @@ var k = function k(e) {
     return void 0 !== t && "string" == typeof t.cssText ? t.cssText : "";
   }, e;
 }(),
-    V = function () {
+    W = function () {
   function e(e) {
-    var t = this.element = k(e);
+    var t = this.element = H(e);
     this.nodes = t.childNodes, this.length = 0;
   }
 
@@ -77565,7 +77958,7 @@ var k = function k(e) {
     return e < this.length ? this.nodes[e].textContent : "";
   }, e;
 }(),
-    M = function () {
+    U = function () {
   function e(e) {
     this.rules = [], this.length = 0;
   }
@@ -77579,109 +77972,23 @@ var k = function k(e) {
     return e < this.length ? this.rules[e] : "";
   }, e;
 }(),
-    z = function () {
-  function e(e) {
-    this.groupSizes = new Uint32Array(512), this.length = 512, this.tag = e;
-  }
-
-  var t = e.prototype;
-  return t.indexOfGroup = function (e) {
-    for (var t = 0, n = 0; n < e; n++) {
-      t += this.groupSizes[n];
-    }
-
-    return t;
-  }, t.insertRules = function (e, t) {
-    if (e >= this.groupSizes.length) {
-      for (var n = this.groupSizes, r = n.length, o = r; e >= o;) {
-        (o <<= 1) < 0 && D(16, "" + e);
-      }
-
-      this.groupSizes = new Uint32Array(o), this.groupSizes.set(n), this.length = o;
-
-      for (var i = r; i < o; i++) {
-        this.groupSizes[i] = 0;
-      }
-    }
-
-    for (var s = this.indexOfGroup(e + 1), a = 0, c = t.length; a < c; a++) {
-      this.tag.insertRule(s, t[a]) && (this.groupSizes[e]++, s++);
-    }
-  }, t.clearGroup = function (e) {
-    if (e < this.length) {
-      var t = this.groupSizes[e],
-          n = this.indexOfGroup(e),
-          r = n + t;
-      this.groupSizes[e] = 0;
-
-      for (var o = n; o < r; o++) {
-        this.tag.deleteRule(n);
-      }
-    }
-  }, t.getGroup = function (e) {
-    var t = "";
-    if (e >= this.length || 0 === this.groupSizes[e]) return t;
-
-    for (var n = this.groupSizes[e], r = this.indexOfGroup(e), o = r + n, i = r; i < o; i++) {
-      t += this.tag.getRule(i) + "/*!sc*/\n";
-    }
-
-    return t;
-  }, e;
-}(),
-    G = new Map(),
-    F = new Map(),
-    B = 1,
-    L = function L(e) {
-  if (G.has(e)) return G.get(e);
-  var t = B++;
-  return "production" !== "development" && ((0 | t) < 0 || t > 1 << 30) && D(16, "" + t), G.set(e, t), F.set(t, e), t;
-},
-    q = function q(e) {
-  return F.get(e);
-},
-    H = function H(e, t) {
-  t >= B && (B = t + 1), G.set(e, t), F.set(t, e);
-},
-    $ = "style[" + I + '][data-styled-version="5.2.0"]',
-    Y = new RegExp("^" + I + '\\.g(\\d+)\\[id="([\\w\\d-]+)"\\].*?"([^"]*)'),
-    W = function W(e, t, n) {
-  for (var r, o = n.split(","), i = 0, s = o.length; i < s; i++) {
-    (r = o[i]) && e.registerName(t, r);
-  }
-},
-    U = function U(e, t) {
-  for (var n = t.innerHTML.split("/*!sc*/\n"), r = [], o = 0, i = n.length; o < i; o++) {
-    var s = n[o].trim();
-
-    if (s) {
-      var a = s.match(Y);
-
-      if (a) {
-        var c = 0 | parseInt(a[1], 10),
-            u = a[2];
-        0 !== c && (H(u, c), W(e, u, a[3]), e.getTag().insertRules(c, r)), r.length = 0;
-      } else r.push(s);
-    }
-  }
-},
-    J = A,
+    J = I,
     X = {
-  isServer: !A,
-  useCSSOMInjection: !O
+  isServer: !I,
+  useCSSOMInjection: !P
 },
     Z = function () {
   function e(e, t, n) {
-    void 0 === e && (e = X), void 0 === t && (t = {}), this.options = v({}, X, {}, e), this.gs = t, this.names = new Map(n), !this.options.isServer && A && J && (J = !1, function (e) {
-      for (var t = document.querySelectorAll($), n = 0, r = t.length; n < r; n++) {
+    void 0 === e && (e = E), void 0 === t && (t = {}), this.options = v({}, X, {}, e), this.gs = t, this.names = new Map(n), !this.options.isServer && I && J && (J = !1, function (e) {
+      for (var t = document.querySelectorAll(L), n = 0, r = t.length; n < r; n++) {
         var o = t[n];
-        o && "active" !== o.getAttribute(I) && (U(e, o), o.parentNode && o.parentNode.removeChild(o));
+        o && "active" !== o.getAttribute(A) && (Y(e, o), o.parentNode && o.parentNode.removeChild(o));
       }
     }(this));
   }
 
   e.registerId = function (e) {
-    return L(e);
+    return B(e);
   };
 
   var t = e.prototype;
@@ -77690,36 +77997,36 @@ var k = function k(e) {
   }, t.allocateGSInstance = function (e) {
     return this.gs[e] = (this.gs[e] || 0) + 1;
   }, t.getTag = function () {
-    return this.tag || (this.tag = (n = (t = this.options).isServer, r = t.useCSSOMInjection, o = t.target, e = n ? new M(o) : r ? new x(o) : new V(o), new z(e)));
+    return this.tag || (this.tag = (n = (t = this.options).isServer, r = t.useCSSOMInjection, o = t.target, e = n ? new U(o) : r ? new $(o) : new W(o), new T(e)));
     var e, t, n, r, o;
   }, t.hasNameForId = function (e, t) {
     return this.names.has(e) && this.names.get(e).has(t);
   }, t.registerName = function (e, t) {
-    if (L(e), this.names.has(e)) this.names.get(e).add(t);else {
+    if (B(e), this.names.has(e)) this.names.get(e).add(t);else {
       var n = new Set();
       n.add(t), this.names.set(e, n);
     }
   }, t.insertRules = function (e, t, n) {
-    this.registerName(e, t), this.getTag().insertRules(L(e), n);
+    this.registerName(e, t), this.getTag().insertRules(B(e), n);
   }, t.clearNames = function (e) {
     this.names.has(e) && this.names.get(e).clear();
   }, t.clearRules = function (e) {
-    this.getTag().clearGroup(L(e)), this.clearNames(e);
+    this.getTag().clearGroup(B(e)), this.clearNames(e);
   }, t.clearTag = function () {
     this.tag = void 0;
   }, t.toString = function () {
     return function (e) {
       for (var t = e.getTag(), n = t.length, r = "", o = 0; o < n; o++) {
-        var i = q(o);
+        var s = M(o);
 
-        if (void 0 !== i) {
-          var s = e.names.get(i),
+        if (void 0 !== s) {
+          var i = e.names.get(s),
               a = t.getGroup(o);
 
-          if (void 0 !== s && 0 !== a.length) {
-            var c = I + ".g" + o + '[id="' + i + '"]',
+          if (void 0 !== i && 0 !== a.length) {
+            var c = A + ".g" + o + '[id="' + s + '"]',
                 u = "";
-            void 0 !== s && s.forEach(function (e) {
+            void 0 !== i && i.forEach(function (e) {
               e.length > 0 && (u += e + ",");
             }), r += "" + a + c + '{content:"' + u + '"}/*!sc*/\n';
           }
@@ -77730,28 +78037,99 @@ var k = function k(e) {
     }(this);
   }, e;
 }(),
-    K = function K(e, t) {
+    K = /(a)(d)/gi,
+    Q = function Q(e) {
+  return String.fromCharCode(e + (e > 25 ? 39 : 97));
+};
+
+function ee(e) {
+  var t,
+      n = "";
+
+  for (t = Math.abs(e); t > 52; t = t / 52 | 0) {
+    n = Q(t % 52) + n;
+  }
+
+  return (Q(t % 52) + n).replace(K, "$1-$2");
+}
+
+var te = function te(e, t) {
   for (var n = t.length; n;) {
     e = 33 * e ^ t.charCodeAt(--n);
   }
 
   return e;
 },
-    Q = function Q(e) {
-  return K(5381, e);
-},
-    ee = /^\s*\/\/.*$/gm,
-    te = [":", "[", ".", "#"];
+    ne = function ne(e) {
+  return te(5381, e);
+};
 
-function ne(e) {
+function re(e) {
+  for (var t = 0; t < e.length; t += 1) {
+    var n = e[t];
+    if (b(n) && !N(n)) return !1;
+  }
+
+  return !0;
+}
+
+var oe = ne("5.2.1"),
+    se = function () {
+  function e(e, t, n) {
+    this.rules = e, this.staticRulesId = "", this.isStatic = "production" === "development" && (void 0 === n || n.isStatic) && re(e), this.componentId = t, this.baseHash = te(oe, t), this.baseStyle = n, Z.registerId(t);
+  }
+
+  return e.prototype.generateAndInjectStyles = function (e, t, n) {
+    var r = this.componentId,
+        o = [];
+    if (this.baseStyle && o.push(this.baseStyle.generateAndInjectStyles(e, t, n)), this.isStatic && !n.hash) {
+      if (this.staticRulesId && t.hasNameForId(r, this.staticRulesId)) o.push(this.staticRulesId);else {
+        var s = Ne(this.rules, e, t, n).join(""),
+            i = ee(te(this.baseHash, s.length) >>> 0);
+
+        if (!t.hasNameForId(r, i)) {
+          var a = n(s, "." + i, void 0, r);
+          t.insertRules(r, i, a);
+        }
+
+        o.push(i), this.staticRulesId = i;
+      }
+    } else {
+      for (var c = this.rules.length, u = te(this.baseHash, n.hash), l = "", d = 0; d < c; d++) {
+        var h = this.rules[d];
+        if ("string" == typeof h) l += h, "production" !== "development" && (u = te(u, h + d));else if (h) {
+          var p = Ne(h, e, t, n),
+              f = Array.isArray(p) ? p.join("") : p;
+          u = te(u, f + d), l += f;
+        }
+      }
+
+      if (l) {
+        var m = ee(u >>> 0);
+
+        if (!t.hasNameForId(r, m)) {
+          var y = n(l, "." + m, void 0, r);
+          t.insertRules(r, m, y);
+        }
+
+        o.push(m);
+      }
+    }
+    return o.join(" ");
+  }, e;
+}(),
+    ie = /^\s*\/\/.*$/gm,
+    ae = [":", "[", ".", "#"];
+
+function ce(e) {
   var t,
       n,
       r,
       o,
-      i = void 0 === e ? b : e,
-      s = i.options,
-      a = void 0 === s ? b : s,
-      c = i.plugins,
+      s = void 0 === e ? E : e,
+      i = s.options,
+      a = void 0 === i ? E : i,
+      c = s.plugins,
       u = void 0 === c ? w : c,
       l = new _stylis.default(a),
       d = [],
@@ -77762,7 +78140,7 @@ function ne(e) {
       } catch (e) {}
     }
 
-    return function (n, r, o, i, s, a, c, u, l, d) {
+    return function (n, r, o, s, i, a, c, u, l, d) {
       switch (n) {
         case 1:
           if (0 === l && 64 === r.charCodeAt(0)) return e(r + ";"), "";
@@ -77789,15 +78167,15 @@ function ne(e) {
   }(function (e) {
     d.push(e);
   }),
-      f = function f(e, r, i) {
-    return 0 === r && te.includes(i[n.length]) || i.match(o) ? e : "." + t;
+      f = function f(e, r, s) {
+    return 0 === r && ae.includes(s[n.length]) || s.match(o) ? e : "." + t;
   };
 
-  function m(e, i, s, a) {
+  function m(e, s, i, a) {
     void 0 === a && (a = "&");
-    var c = e.replace(ee, ""),
-        u = i && s ? s + " " + i + " { " + c + " }" : c;
-    return t = a, n = i, r = new RegExp("\\" + n + "\\b", "g"), o = new RegExp("(\\" + n + "\\b){2,}"), l(s || !i ? "" : i, u);
+    var c = e.replace(ie, ""),
+        u = s && i ? i + " " + s + " { " + c + " }" : c;
+    return t = a, n = s, r = new RegExp("\\" + n + "\\b", "g"), o = new RegExp("(\\" + n + "\\b){2,}"), l(i || !s ? "" : s, u);
   }
 
   return l.use([].concat(u, [function (e, t, o) {
@@ -77808,32 +78186,32 @@ function ne(e) {
       return d = [], t;
     }
   }])), m.hash = u.length ? u.reduce(function (e, t) {
-    return t.name || D(15), K(e, t.name);
+    return t.name || j(15), te(e, t.name);
   }, 5381).toString() : "", m;
 }
 
-var re = _react.default.createContext(),
-    oe = re.Consumer,
-    ie = _react.default.createContext(),
-    se = (ie.Consumer, new Z()),
-    ae = ne();
+var ue = _react.default.createContext(),
+    le = ue.Consumer,
+    de = _react.default.createContext(),
+    he = (de.Consumer, new Z()),
+    pe = ce();
 
-exports.StyleSheetConsumer = oe;
-exports.StyleSheetContext = re;
+exports.StyleSheetConsumer = le;
+exports.StyleSheetContext = ue;
 
-function ce() {
-  return (0, _react.useContext)(re) || se;
+function fe() {
+  return (0, _react.useContext)(ue) || he;
 }
 
-function ue() {
-  return (0, _react.useContext)(ie) || ae;
+function me() {
+  return (0, _react.useContext)(de) || pe;
 }
 
-function le(e) {
+function ye(e) {
   var t = (0, _react.useState)(e.stylisPlugins),
       n = t[0],
-      i = t[1],
-      c = ce(),
+      s = t[1],
+      c = fe(),
       u = (0, _react.useMemo)(function () {
     var t = c;
     return e.sheet ? t = e.sheet : e.target && (t = t.reconstructWithOptions({
@@ -77843,7 +78221,7 @@ function le(e) {
     })), t;
   }, [e.disableCSSOMInjection, e.sheet, e.target]),
       l = (0, _react.useMemo)(function () {
-    return ne({
+    return ce({
       options: {
         prefix: !e.disableVendorPrefixes
       },
@@ -77851,278 +78229,209 @@ function le(e) {
     });
   }, [e.disableVendorPrefixes, n]);
   return (0, _react.useEffect)(function () {
-    (0, _shallowequal.default)(n, e.stylisPlugins) || i(e.stylisPlugins);
-  }, [e.stylisPlugins]), _react.default.createElement(re.Provider, {
+    (0, _shallowequal.default)(n, e.stylisPlugins) || s(e.stylisPlugins);
+  }, [e.stylisPlugins]), _react.default.createElement(ue.Provider, {
     value: u
-  }, _react.default.createElement(ie.Provider, {
+  }, _react.default.createElement(de.Provider, {
     value: l
   }, "production" !== "development" ? _react.default.Children.only(e.children) : e.children));
 }
 
-var de = function () {
+var ve = function () {
   function e(e, t) {
     var n = this;
     this.inject = function (e, t) {
-      void 0 === t && (t = ae);
+      void 0 === t && (t = pe);
       var r = n.name + t.hash;
       e.hasNameForId(n.id, r) || e.insertRules(n.id, r, t(n.rules, r, "@keyframes"));
     }, this.toString = function () {
-      return D(12, String(n.name));
+      return j(12, String(n.name));
     }, this.name = e, this.id = "sc-keyframes-" + e, this.rules = t;
   }
 
   return e.prototype.getName = function (e) {
-    return void 0 === e && (e = ae), this.name + e.hash;
+    return void 0 === e && (e = pe), this.name + e.hash;
   }, e;
 }(),
-    he = /([A-Z])/,
-    pe = new RegExp(he, "g"),
-    fe = /^ms-/,
-    me = function me(e) {
+    ge = /([A-Z])/,
+    Se = /([A-Z])/g,
+    we = /^ms-/,
+    Ee = function Ee(e) {
   return "-" + e.toLowerCase();
 };
 
-function ye(e) {
-  return he.test(e) ? e.replace(pe, me).replace(fe, "-ms-") : e;
+function be(e) {
+  return ge.test(e) ? e.replace(Se, Ee).replace(we, "-ms-") : e;
 }
 
-var ve = function ve(e) {
+var _e = function _e(e) {
   return null == e || !1 === e || "" === e;
 };
 
-function ge(e, n, r, o) {
+function Ne(e, n, r, o) {
   if (Array.isArray(e)) {
-    for (var i, s = [], a = 0, c = e.length; a < c; a += 1) {
-      "" !== (i = ge(e[a], n, r, o)) && (Array.isArray(i) ? s.push.apply(s, i) : s.push(i));
+    for (var s, i = [], a = 0, c = e.length; a < c; a += 1) {
+      "" !== (s = Ne(e[a], n, r, o)) && (Array.isArray(s) ? i.push.apply(i, s) : i.push(s));
     }
 
-    return s;
+    return i;
   }
 
-  if (ve(e)) return "";
-  if (_(e)) return "." + e.styledComponentId;
+  if (_e(e)) return "";
+  if (N(e)) return "." + e.styledComponentId;
 
-  if (N(e)) {
+  if (b(e)) {
     if ("function" != typeof (l = e) || l.prototype && l.prototype.isReactComponent || !n) return e;
     var u = e(n);
-    return "production" !== "development" && (0, _reactIs.isElement)(u) && console.warn(E(e) + " is not a styled component and cannot be referred to via component selector. See https://www.styled-components.com/docs/advanced#referring-to-other-components for more details."), ge(u, n, r, o);
+    return "production" !== "development" && (0, _reactIs.isElement)(u) && console.warn(_(e) + " is not a styled component and cannot be referred to via component selector. See https://www.styled-components.com/docs/advanced#referring-to-other-components for more details."), Ne(u, n, r, o);
   }
 
   var l;
-  return e instanceof de ? r ? (e.inject(r, o), e.getName(o)) : e : S(e) ? function e(t, n) {
+  return e instanceof ve ? r ? (e.inject(r, o), e.getName(o)) : e : S(e) ? function e(t, n) {
     var r,
         o,
-        i = [];
+        s = [];
 
-    for (var s in t) {
-      t.hasOwnProperty(s) && !ve(t[s]) && (S(t[s]) ? i.push.apply(i, e(t[s], s)) : N(t[s]) ? i.push(ye(s) + ":", t[s], ";") : i.push(ye(s) + ": " + (r = s, null == (o = t[s]) || "boolean" == typeof o || "" === o ? "" : "number" != typeof o || 0 === o || r in _unitless.default ? String(o).trim() : o + "px") + ";"));
+    for (var i in t) {
+      t.hasOwnProperty(i) && !_e(t[i]) && (S(t[i]) ? s.push.apply(s, e(t[i], i)) : b(t[i]) ? s.push(be(i) + ":", t[i], ";") : s.push(be(i) + ": " + (r = i, null == (o = t[i]) || "boolean" == typeof o || "" === o ? "" : "number" != typeof o || 0 === o || r in _unitless.default ? String(o).trim() : o + "px") + ";"));
     }
 
-    return n ? [n + " {"].concat(i, ["}"]) : i;
+    return n ? [n + " {"].concat(s, ["}"]) : s;
   }(e) : e.toString();
 }
 
-function Se(e) {
+function Ae(e) {
   for (var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), r = 1; r < t; r++) {
     n[r - 1] = arguments[r];
   }
 
-  return N(e) || S(e) ? ge(g(w, [e].concat(n))) : 0 === n.length && 1 === e.length && "string" == typeof e[0] ? e : ge(g(e, n));
+  return b(e) || S(e) ? Ne(g(w, [e].concat(n))) : 0 === n.length && 1 === e.length && "string" == typeof e[0] ? e : Ne(g(e, n));
 }
 
-var we = function we(e) {
+var Ce = /invalid hook call/i,
+    Ie = new Set(),
+    Pe = function Pe(e, t) {
+  if ("production" !== "development") {
+    var n = "The component " + e + (t ? ' with the id of "' + t + '"' : "") + " has been created dynamically.\nYou may see this warning because you've called styled inside another component.\nTo resolve this only create new StyledComponents outside of any render method and function component.";
+
+    try {
+      (0, _react.useRef)(), Ie.has(n) || (console.warn(n), Ie.add(n));
+    } catch (e) {
+      Ce.test(e.message) && Ie.delete(n);
+    }
+  }
+},
+    Oe = function Oe(e, t, n) {
+  return void 0 === n && (n = E), e.theme !== n.theme && e.theme || t || n.theme;
+},
+    Re = /[!"#$%&'()*+,./:;<=>?@[\\\]^`{|}~-]+/g,
+    De = /(^-|-$)/g;
+
+function je(e) {
+  return e.replace(Re, "-").replace(De, "");
+}
+
+var Te = function Te(e) {
+  return ee(ne(e) >>> 0);
+};
+
+function ke(e) {
+  return "string" == typeof e && ("production" === "development" || e.charAt(0) === e.charAt(0).toLowerCase());
+}
+
+var xe = function xe(e) {
   return "function" == typeof e || "object" == _typeof(e) && null !== e && !Array.isArray(e);
 },
-    be = function be(e) {
+    Ve = function Ve(e) {
   return "__proto__" !== e && "constructor" !== e && "prototype" !== e;
 };
 
-function Ne(e, t, n) {
+function Be(e, t, n) {
   var r = e[n];
-  we(t) && we(r) ? Ee(r, t) : e[n] = t;
+  xe(t) && xe(r) ? Me(r, t) : e[n] = t;
 }
 
-function Ee(e) {
+function Me(e) {
   for (var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), r = 1; r < t; r++) {
     n[r - 1] = arguments[r];
   }
 
-  for (var o = 0, i = n; o < i.length; o++) {
-    var s = i[o];
-    if (we(s)) for (var a in s) {
-      be(a) && Ne(e, s[a], a);
+  for (var o = 0, s = n; o < s.length; o++) {
+    var i = s[o];
+    if (xe(i)) for (var a in i) {
+      Ve(a) && Be(e, i[a], a);
     }
   }
 
   return e;
 }
 
-var _e = /(a)(d)/gi,
-    Ie = function Ie(e) {
-  return String.fromCharCode(e + (e > 25 ? 39 : 97));
-};
+var ze = _react.default.createContext(),
+    Le = ze.Consumer;
 
-function Ce(e) {
-  var t,
-      n = "";
+exports.ThemeConsumer = Le;
+exports.ThemeContext = ze;
 
-  for (t = Math.abs(e); t > 52; t = t / 52 | 0) {
-    n = Ie(t % 52) + n;
-  }
-
-  return (Ie(t % 52) + n).replace(_e, "$1-$2");
-}
-
-function Ae(e) {
-  for (var t = 0; t < e.length; t += 1) {
-    var n = e[t];
-    if (N(n) && !_(n)) return !1;
-  }
-
-  return !0;
-}
-
-var Oe = Q("5.2.0"),
-    Pe = function () {
-  function e(e, t, n) {
-    this.rules = e, this.staticRulesId = "", this.isStatic = "production" === "development" && (void 0 === n || n.isStatic) && Ae(e), this.componentId = t, this.baseHash = K(Oe, t), this.baseStyle = n, Z.registerId(t);
-  }
-
-  return e.prototype.generateAndInjectStyles = function (e, t, n) {
-    var r = this.componentId,
-        o = [];
-    if (this.baseStyle && o.push(this.baseStyle.generateAndInjectStyles(e, t, n)), this.isStatic && !n.hash) {
-      if (this.staticRulesId && t.hasNameForId(r, this.staticRulesId)) o.push(this.staticRulesId);else {
-        var i = ge(this.rules, e, t, n).join(""),
-            s = Ce(K(this.baseHash, i.length) >>> 0);
-
-        if (!t.hasNameForId(r, s)) {
-          var a = n(i, "." + s, void 0, r);
-          t.insertRules(r, s, a);
-        }
-
-        o.push(s), this.staticRulesId = s;
-      }
-    } else {
-      for (var c = this.rules.length, u = K(this.baseHash, n.hash), l = "", d = 0; d < c; d++) {
-        var h = this.rules[d];
-        if ("string" == typeof h) l += h, "production" !== "development" && (u = K(u, h + d));else if (h) {
-          var p = ge(h, e, t, n),
-              f = Array.isArray(p) ? p.join("") : p;
-          u = K(u, f + d), l += f;
-        }
-      }
-
-      if (l) {
-        var m = Ce(u >>> 0);
-
-        if (!t.hasNameForId(r, m)) {
-          var y = n(l, "." + m, void 0, r);
-          t.insertRules(r, m, y);
-        }
-
-        o.push(m);
-      }
-    }
-    return o.join(" ");
-  }, e;
-}(),
-    Re = /invalid hook call/i,
-    je = new Set(),
-    Te = function Te(e, t) {
-  if ("production" !== "development") {
-    var n = "The component " + e + (t ? ' with the id of "' + t + '"' : "") + " has been created dynamically.\nYou may see this warning because you've called styled inside another component.\nTo resolve this only create new StyledComponents outside of any render method and function component.";
-
-    try {
-      (0, _react.useRef)(), je.has(n) || (console.warn(n), je.add(n));
-    } catch (e) {
-      Re.test(e.message) && je.delete(n);
-    }
-  }
-},
-    De = function De(e, t, n) {
-  return void 0 === n && (n = b), e.theme !== n.theme && e.theme || t || n.theme;
-},
-    ke = /[!"#$%&'()*+,./:;<=>?@[\\\]^`{|}~-]+/g,
-    xe = /(^-|-$)/g;
-
-function Ve(e) {
-  return e.replace(ke, "-").replace(xe, "");
-}
-
-function Me(e) {
-  return "string" == typeof e && ("production" === "development" || e.charAt(0) === e.charAt(0).toLowerCase());
-}
-
-var ze = function ze(e) {
-  return Ce(Q(e) >>> 0);
-},
-    Ge = _react.default.createContext(),
-    Fe = Ge.Consumer;
-
-exports.ThemeConsumer = Fe;
-exports.ThemeContext = Ge;
-
-function Be(e) {
-  var t = (0, _react.useContext)(Ge),
+function Ge(e) {
+  var t = (0, _react.useContext)(ze),
       n = (0, _react.useMemo)(function () {
     return function (e, t) {
-      if (!e) return D(14);
+      if (!e) return j(14);
 
-      if (N(e)) {
+      if (b(e)) {
         var n = e(t);
-        return "production" === "development" || null !== n && !Array.isArray(n) && "object" == _typeof(n) ? n : D(7);
+        return "production" === "development" || null !== n && !Array.isArray(n) && "object" == _typeof(n) ? n : j(7);
       }
 
-      return Array.isArray(e) || "object" != _typeof(e) ? D(8) : t ? v({}, t, {}, e) : e;
+      return Array.isArray(e) || "object" != _typeof(e) ? j(8) : t ? v({}, t, {}, e) : e;
     }(e.theme, t);
   }, [e.theme, t]);
-  return e.children ? _react.default.createElement(Ge.Provider, {
+  return e.children ? _react.default.createElement(ze.Provider, {
     value: n
   }, e.children) : null;
 }
 
-var Le = {};
+var Fe = {};
 
-function qe(e, t, n) {
-  var o = _(e),
-      s = !Me(e),
-      a = t.displayName,
-      c = void 0 === a ? function (e) {
-    return Me(e) ? "styled." + e : "Styled(" + E(e) + ")";
-  }(e) : a,
+function Ye(e, t, n) {
+  var o = N(e),
+      i = !ke(e),
+      a = t.attrs,
+      c = void 0 === a ? w : a,
       d = t.componentId,
       h = void 0 === d ? function (e, t) {
-    var n = "string" != typeof e ? "sc" : Ve(e);
-    Le[n] = (Le[n] || 0) + 1;
-    var r = n + "-" + ze("5.2.0" + n + Le[n]);
+    var n = "string" != typeof e ? "sc" : je(e);
+    Fe[n] = (Fe[n] || 0) + 1;
+    var r = n + "-" + Te("5.2.1" + n + Fe[n]);
     return t ? t + "-" + r : r;
   }(t.displayName, t.parentComponentId) : d,
-      p = t.attrs,
-      f = void 0 === p ? w : p,
-      g = t.displayName && t.componentId ? Ve(t.displayName) + "-" + t.componentId : t.componentId || h,
-      S = o && e.attrs ? Array.prototype.concat(e.attrs, f).filter(Boolean) : f,
-      I = t.shouldForwardProp;
-
-  o && e.shouldForwardProp && (I = I ? function (n, r) {
+      p = t.displayName,
+      f = void 0 === p ? function (e) {
+    return ke(e) ? "styled." + e : "Styled(" + _(e) + ")";
+  }(e) : p,
+      g = t.displayName && t.componentId ? je(t.displayName) + "-" + t.componentId : t.componentId || h,
+      S = o && e.attrs ? Array.prototype.concat(e.attrs, c).filter(Boolean) : c,
+      A = t.shouldForwardProp;
+  o && e.shouldForwardProp && (A = t.shouldForwardProp ? function (n, r) {
     return e.shouldForwardProp(n, r) && t.shouldForwardProp(n, r);
   } : e.shouldForwardProp);
 
   var C,
-      A = new Pe(n, g, o ? e.componentStyle : void 0),
+      I = new se(n, g, o ? e.componentStyle : void 0),
+      P = I.isStatic && 0 === c.length,
       O = function O(e, t) {
-    return function (e, t, n) {
-      var r = e.attrs,
-          o = e.componentStyle,
-          s = e.defaultProps,
-          a = e.foldedComponentIds,
-          c = e.shouldForwardProp,
-          d = e.styledComponentId,
-          h = e.target;
-      "production" !== "development" && (0, _react.useDebugValue)(d);
+    return function (e, t, n, r) {
+      var o = e.attrs,
+          i = e.componentStyle,
+          a = e.defaultProps,
+          c = e.foldedComponentIds,
+          d = e.shouldForwardProp,
+          h = e.styledComponentId,
+          p = e.target;
+      "production" !== "development" && (0, _react.useDebugValue)(h);
 
-      var p = function (e, t, n) {
-        void 0 === e && (e = b);
+      var f = function (e, t, n) {
+        void 0 === e && (e = E);
         var r = v({}, t, {
           theme: e
         }),
@@ -78130,122 +78439,119 @@ function qe(e, t, n) {
         return n.forEach(function (e) {
           var t,
               n,
-              i,
-              s = e;
+              s,
+              i = e;
 
-          for (t in N(s) && (s = s(r)), s) {
-            r[t] = o[t] = "className" === t ? (n = o[t], i = s[t], n && i ? n + " " + i : n || i) : s[t];
+          for (t in b(i) && (i = i(r)), i) {
+            r[t] = o[t] = "className" === t ? (n = o[t], s = i[t], n && s ? n + " " + s : n || s) : i[t];
           }
         }), [r, o];
-      }(De(t, (0, _react.useContext)(Ge), s) || b, t, r),
-          f = p[0],
-          y = p[1],
-          g = function (e, t, n, r) {
-        var o = ce(),
-            i = ue(),
-            s = e.isStatic && !t,
-            a = s ? e.generateAndInjectStyles(b, o, i) : e.generateAndInjectStyles(n, o, i);
-        return "production" !== "development" && (0, _react.useDebugValue)(a), "production" !== "development" && !s && r && r(a), a;
-      }(o, r.length > 0, f, "production" !== "development" ? e.warnTooManyClasses : void 0),
-          S = n,
-          w = y.$as || t.$as || y.as || t.as || h,
-          E = Me(w),
-          _ = y !== t ? v({}, t, {}, y) : t,
-          I = c || E && _isPropValid.default,
+      }(Oe(t, (0, _react.useContext)(ze), a) || E, t, o),
+          y = f[0],
+          g = f[1],
+          S = function (e, t, n, r) {
+        var o = fe(),
+            s = me(),
+            i = t ? e.generateAndInjectStyles(E, o, s) : e.generateAndInjectStyles(n, o, s);
+        return "production" !== "development" && (0, _react.useDebugValue)(i), "production" !== "development" && !t && r && r(i), i;
+      }(i, r, y, "production" !== "development" ? e.warnTooManyClasses : void 0),
+          w = n,
+          _ = g.$as || t.$as || g.as || t.as || p,
+          N = ke(_),
+          A = g !== t ? v({}, t, {}, g) : t,
           C = {};
 
-      for (var A in _) {
-        "$" !== A[0] && "as" !== A && ("forwardedAs" === A ? C.as = _[A] : I && !I(A, _isPropValid.default) || (C[A] = _[A]));
+      for (var I in A) {
+        "$" !== I[0] && "as" !== I && ("forwardedAs" === I ? C.as = A[I] : (d ? d(I, _isPropValid.default) : !N || (0, _isPropValid.default)(I)) && (C[I] = A[I]));
       }
 
-      return t.style && y.style !== t.style && (C.style = v({}, t.style, {}, y.style)), C.className = Array.prototype.concat(a, d, g !== d ? g : null, t.className, y.className).filter(Boolean).join(" "), C.ref = S, (0, _react.createElement)(w, C);
-    }(C, e, t);
+      return t.style && g.style !== t.style && (C.style = v({}, t.style, {}, g.style)), C.className = Array.prototype.concat(c, h, S !== h ? S : null, t.className, g.className).filter(Boolean).join(" "), C.ref = w, (0, _react.createElement)(_, C);
+    }(C, e, t, P);
   };
 
-  return O.displayName = c, (C = _react.default.forwardRef(O)).attrs = S, C.componentStyle = A, C.displayName = c, C.shouldForwardProp = I, C.foldedComponentIds = o ? Array.prototype.concat(e.foldedComponentIds, e.styledComponentId) : w, C.styledComponentId = g, C.target = o ? e.target : e, C.withComponent = function (e) {
+  return O.displayName = f, (C = _react.default.forwardRef(O)).attrs = S, C.componentStyle = I, C.displayName = f, C.shouldForwardProp = A, C.foldedComponentIds = o ? Array.prototype.concat(e.foldedComponentIds, e.styledComponentId) : w, C.styledComponentId = g, C.target = o ? e.target : e, C.withComponent = function (e) {
     var r = t.componentId,
         o = function (e, t) {
       if (null == e) return {};
       var n,
           r,
           o = {},
-          i = Object.keys(e);
+          s = Object.keys(e);
 
-      for (r = 0; r < i.length; r++) {
-        n = i[r], t.indexOf(n) >= 0 || (o[n] = e[n]);
+      for (r = 0; r < s.length; r++) {
+        n = s[r], t.indexOf(n) >= 0 || (o[n] = e[n]);
       }
 
       return o;
     }(t, ["componentId"]),
-        i = r && r + "-" + (Me(e) ? e : Ve(E(e)));
+        s = r && r + "-" + (ke(e) ? e : je(_(e)));
 
-    return qe(e, v({}, o, {
+    return Ye(e, v({}, o, {
       attrs: S,
-      componentId: i
+      componentId: s
     }), n);
   }, Object.defineProperty(C, "defaultProps", {
     get: function get() {
       return this._foldedDefaultProps;
     },
     set: function set(t) {
-      this._foldedDefaultProps = o ? Ee({}, e.defaultProps, t) : t;
+      this._foldedDefaultProps = o ? Me({}, e.defaultProps, t) : t;
     }
-  }), "production" !== "development" && (Te(c, g), C.warnTooManyClasses = function (e, t) {
+  }), "production" !== "development" && (Pe(f, g), C.warnTooManyClasses = function (e, t) {
     var n = {},
         r = !1;
     return function (o) {
       if (!r && (n[o] = !0, Object.keys(n).length >= 200)) {
-        var i = t ? ' with the id of "' + t + '"' : "";
-        console.warn("Over 200 classes were generated for component " + e + i + ".\nConsider using the attrs method, together with a style object for frequently changed styles.\nExample:\n  const Component = styled.div.attrs(props => ({\n    style: {\n      background: props.background,\n    },\n  }))`width: 100%;`\n\n  <Component />"), r = !0, n = {};
+        var s = t ? ' with the id of "' + t + '"' : "";
+        console.warn("Over 200 classes were generated for component " + e + s + ".\nConsider using the attrs method, together with a style object for frequently changed styles.\nExample:\n  const Component = styled.div.attrs(props => ({\n    style: {\n      background: props.background,\n    },\n  }))`width: 100%;`\n\n  <Component />"), r = !0, n = {};
       }
     };
-  }(c, g)), C.toString = function () {
+  }(f, g)), C.toString = function () {
     return "." + C.styledComponentId;
-  }, s && (0, _hoistNonReactStatics.default)(C, e, {
+  }, i && (0, _hoistNonReactStatics.default)(C, e, {
     attrs: !0,
     componentStyle: !0,
     displayName: !0,
     foldedComponentIds: !0,
     shouldForwardProp: !0,
-    self: !0,
     styledComponentId: !0,
     target: !0,
     withComponent: !0
   }), C;
 }
 
-var He = function He(e) {
+var qe = function qe(e) {
   return function e(t, r, o) {
-    if (void 0 === o && (o = b), !(0, _reactIs.isValidElementType)(r)) return D(1, String(r));
+    if (void 0 === o && (o = E), !(0, _reactIs.isValidElementType)(r)) return j(1, String(r));
 
-    var i = function i() {
-      return t(r, o, Se.apply(void 0, arguments));
+    var s = function s() {
+      return t(r, o, Ae.apply(void 0, arguments));
     };
 
-    return i.withConfig = function (n) {
+    return s.withConfig = function (n) {
       return e(t, r, v({}, o, {}, n));
-    }, i.attrs = function (n) {
+    }, s.attrs = function (n) {
       return e(t, r, v({}, o, {
         attrs: Array.prototype.concat(o.attrs, n).filter(Boolean)
       }));
-    }, i;
-  }(qe, e);
+    }, s;
+  }(Ye, e);
 };
 
 ["a", "abbr", "address", "area", "article", "aside", "audio", "b", "base", "bdi", "bdo", "big", "blockquote", "body", "br", "button", "canvas", "caption", "cite", "code", "col", "colgroup", "data", "datalist", "dd", "del", "details", "dfn", "dialog", "div", "dl", "dt", "em", "embed", "fieldset", "figcaption", "figure", "footer", "form", "h1", "h2", "h3", "h4", "h5", "h6", "head", "header", "hgroup", "hr", "html", "i", "iframe", "img", "input", "ins", "kbd", "keygen", "label", "legend", "li", "link", "main", "map", "mark", "marquee", "menu", "menuitem", "meta", "meter", "nav", "noscript", "object", "ol", "optgroup", "option", "output", "p", "param", "picture", "pre", "progress", "q", "rp", "rt", "ruby", "s", "samp", "script", "section", "select", "small", "source", "span", "strong", "style", "sub", "summary", "sup", "table", "tbody", "td", "textarea", "tfoot", "th", "thead", "time", "title", "tr", "track", "u", "ul", "var", "video", "wbr", "circle", "clipPath", "defs", "ellipse", "foreignObject", "g", "image", "line", "linearGradient", "marker", "mask", "path", "pattern", "polygon", "polyline", "radialGradient", "rect", "stop", "svg", "text", "tspan"].forEach(function (e) {
-  He[e] = He(e);
+  qe[e] = qe(e);
 });
 
-var $e = function () {
+var He = function () {
   function e(e, t) {
-    this.rules = e, this.componentId = t, this.isStatic = Ae(e), Z.registerId(this.componentId + 1);
+    this.rules = e, this.componentId = t, this.isStatic = re(e), Z.registerId(this.componentId + 1);
   }
 
   var t = e.prototype;
   return t.createStyles = function (e, t, n, r) {
-    var o = r(ge(this.rules, t, n, r).join(""), ""),
-        i = this.componentId + e;
-    n.insertRules(i, i, o);
+    var o = r(Ne(this.rules, t, n, r).join(""), ""),
+        s = this.componentId + e;
+    n.insertRules(s, s, o);
   }, t.removeStyles = function (e, t) {
     t.clearRules(this.componentId + e);
   }, t.renderStyles = function (e, t, n, r) {
@@ -78253,21 +78559,21 @@ var $e = function () {
   }, e;
 }();
 
-function Ye(e) {
+function $e(e) {
   for (var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), o = 1; o < t; o++) {
     n[o - 1] = arguments[o];
   }
 
-  var s = Se.apply(void 0, [e].concat(n)),
-      a = "sc-global-" + ze(JSON.stringify(s)),
-      u = new $e(s, a);
+  var i = Ae.apply(void 0, [e].concat(n)),
+      a = "sc-global-" + Te(JSON.stringify(i)),
+      u = new He(i, a);
 
   function l(e) {
-    var t = ce(),
-        n = ue(),
-        o = (0, _react.useContext)(Ge),
+    var t = fe(),
+        n = me(),
+        o = (0, _react.useContext)(ze),
         l = (0, _react.useRef)(t.allocateGSInstance(a)).current;
-    return "production" !== "development" && _react.default.Children.count(e.children) && console.warn("The global style component " + a + " was given child JSX. createGlobalStyle does not render children."), "production" !== "development" && s.some(function (e) {
+    return "production" !== "development" && _react.default.Children.count(e.children) && console.warn("The global style component " + a + " was given child JSX. createGlobalStyle does not render children."), "production" !== "development" && i.some(function (e) {
       return "string" == typeof e && -1 !== e.indexOf("@import");
     }) && console.warn("Please do not use @import CSS syntax in createGlobalStyle at this time, as the CSSOM APIs we use in production do not handle it well. Instead, we recommend using a library such as react-helmet to inject a typical <link> meta tag to the stylesheet, or simply embedding it manually in your index.html <head> section for a simpler app."), (0, _react.useLayoutEffect)(function () {
       return h(l, e, t, o, n), function () {
@@ -78277,15 +78583,15 @@ function Ye(e) {
   }
 
   function h(e, t, n, r, o) {
-    if (u.isStatic) u.renderStyles(e, P, n, o);else {
-      var i = v({}, t, {
-        theme: De(t, r, l.defaultProps)
+    if (u.isStatic) u.renderStyles(e, O, n, o);else {
+      var s = v({}, t, {
+        theme: Oe(t, r, l.defaultProps)
       });
-      u.renderStyles(e, i, n, o);
+      u.renderStyles(e, s, n, o);
     }
   }
 
-  return "production" !== "development" && Te(a), _react.default.memo(l);
+  return "production" !== "development" && Pe(a), _react.default.memo(l);
 }
 
 function We(e) {
@@ -78295,9 +78601,9 @@ function We(e) {
     n[r - 1] = arguments[r];
   }
 
-  var o = Se.apply(void 0, [e].concat(n)).join(""),
-      i = ze(o);
-  return new de(i, o);
+  var o = Ae.apply(void 0, [e].concat(n)).join(""),
+      s = Te(o);
+  return new ve(s, o);
 }
 
 var Ue = function () {
@@ -78305,17 +78611,17 @@ var Ue = function () {
     var e = this;
     this._emitSheetCSS = function () {
       var t = e.instance.toString(),
-          n = R();
-      return "<style " + [n && 'nonce="' + n + '"', I + '="true"', 'data-styled-version="5.2.0"'].filter(Boolean).join(" ") + ">" + t + "</style>";
+          n = q();
+      return "<style " + [n && 'nonce="' + n + '"', A + '="true"', 'data-styled-version="5.2.1"'].filter(Boolean).join(" ") + ">" + t + "</style>";
     }, this.getStyleTags = function () {
-      return e.sealed ? D(2) : e._emitSheetCSS();
+      return e.sealed ? j(2) : e._emitSheetCSS();
     }, this.getStyleElement = function () {
       var t;
-      if (e.sealed) return D(2);
-      var n = ((t = {})[I] = "", t["data-styled-version"] = "5.2.0", t.dangerouslySetInnerHTML = {
+      if (e.sealed) return j(2);
+      var n = ((t = {})[A] = "", t["data-styled-version"] = "5.2.1", t.dangerouslySetInnerHTML = {
         __html: e.instance.toString()
       }, t),
-          o = R();
+          o = q();
       return o && (n.nonce = o), [_react.default.createElement("style", v({}, n, {
         key: "sc-0-0"
       }))];
@@ -78328,40 +78634,40 @@ var Ue = function () {
 
   var t = e.prototype;
   return t.collectStyles = function (e) {
-    return this.sealed ? D(2) : _react.default.createElement(le, {
+    return this.sealed ? j(2) : _react.default.createElement(ye, {
       sheet: this.instance
     }, e);
   }, t.interleaveWithNodeStream = function (e) {
-    return D(3);
+    return j(3);
   }, e;
 }(),
     Je = function Je(e) {
   var t = _react.default.forwardRef(function (t, n) {
-    var o = (0, _react.useContext)(Ge),
-        s = e.defaultProps,
-        a = De(t, o, s);
-    return "production" !== "development" && void 0 === a && console.warn('[withTheme] You are not using a ThemeProvider nor passing a theme prop or a theme in defaultProps in component class "' + E(e) + '"'), _react.default.createElement(e, v({}, t, {
+    var o = (0, _react.useContext)(ze),
+        i = e.defaultProps,
+        a = Oe(t, o, i);
+    return "production" !== "development" && void 0 === a && console.warn('[withTheme] You are not using a ThemeProvider nor passing a theme prop or a theme in defaultProps in component class "' + _(e) + '"'), _react.default.createElement(e, v({}, t, {
       theme: a,
       ref: n
     }));
   });
 
-  return (0, _hoistNonReactStatics.default)(t, e), t.displayName = "WithTheme(" + E(e) + ")", t;
+  return (0, _hoistNonReactStatics.default)(t, e), t.displayName = "WithTheme(" + _(e) + ")", t;
 },
     Xe = function Xe() {
-  return (0, _react.useContext)(Ge);
+  return (0, _react.useContext)(ze);
 },
     Ze = {
   StyleSheet: Z,
-  masterSheet: se
+  masterSheet: he
 };
 
 exports.__PRIVATE__ = Ze;
 exports.useTheme = Xe;
 exports.withTheme = Je;
 exports.ServerStyleSheet = Ue;
-"production" !== "development" && "undefined" != typeof navigator && "ReactNative" === navigator.product && console.warn("It looks like you've imported 'styled-components' on React Native.\nPerhaps you're looking to import 'styled-components/native'?\nRead more about this at https://www.styled-components.com/docs/basics#react-native"), "production" !== "development" && "test" !== "development" && (window["__styled-components-init__"] = window["__styled-components-init__"] || 0, 1 === window["__styled-components-init__"] && console.warn("It looks like there are several instances of 'styled-components' initialized in this application. This may cause dynamic styles not rendering properly, errors happening during rehydration process, missing theme prop, and makes your application bigger without a good reason.\n\nSee https://s-c.sh/2BAXzed for more info."), window["__styled-components-init__"] += 1);
-var _default = He;
+"production" !== "development" && "undefined" != typeof navigator && "ReactNative" === navigator.product && console.warn("It looks like you've imported 'styled-components' on React Native.\nPerhaps you're looking to import 'styled-components/native'?\nRead more about this at https://www.styled-components.com/docs/basics#react-native"), "production" !== "development" && "test" !== "development" && (window["__styled-components-init__"] = window["__styled-components-init__"] || 0, 1 === window["__styled-components-init__"] && console.warn("It looks like there are several instances of 'styled-components' initialized in this application. This may cause dynamic styles to not render properly, errors during the rehydration process, a missing theme prop, and makes your application bigger without good reason.\n\nSee https://s-c.sh/2BAXzed for more info."), window["__styled-components-init__"] += 1);
+var _default = qe;
 exports.default = _default;
 },{"react-is":"node_modules/react-is/index.js","react":"node_modules/react/index.js","shallowequal":"node_modules/shallowequal/index.js","@emotion/stylis":"node_modules/@emotion/stylis/dist/stylis.browser.esm.js","@emotion/unitless":"node_modules/@emotion/unitless/dist/unitless.browser.esm.js","@emotion/is-prop-valid":"node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js","hoist-non-react-statics":"node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js","process":"node_modules/process/browser.js"}],"src/components/SettingsPanel/SettingsPanel.tsx":[function(require,module,exports) {
 "use strict";
@@ -78538,13 +78844,13 @@ var SettingsPanel = function SettingsPanel() {
 exports.SettingsPanel = SettingsPanel;
 var templateObject_1, templateObject_2;
 },{"react":"node_modules/react/index.js","@blueprintjs/core":"node_modules/@blueprintjs/core/lib/esm/index.js","mobx-react-lite":"node_modules/mobx-react-lite/es/index.js","../../store":"src/store/index.ts","@blueprintjs/datetime":"node_modules/@blueprintjs/datetime/lib/esm/index.js","styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js"}],"node_modules/react-csv-reader/dist/react-csv-reader.js":[function(require,module,exports) {
-module.exports=function(e){var t={};function r(i){if(t[i])return t[i].exports;var n=t[i]={i:i,l:!1,exports:{}};return e[i].call(n.exports,n,n.exports,r),n.l=!0,n.exports}return r.m=e,r.c=t,r.d=function(e,t,i){r.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:i})},r.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.t=function(e,t){if(1&t&&(e=r(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var i=Object.create(null);if(r.r(i),Object.defineProperty(i,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var n in e)r.d(i,n,function(t){return e[t]}.bind(null,n));return i},r.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return r.d(t,"a",t),t},r.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},r.p="",r(r.s=0)}([function(e,t,r){"use strict";Object.defineProperty(t,"__esModule",{value:!0});const i=r(1),n=r(2),s=r(3),a=({accept:e=".csv, text/csv",cssClass:t="csv-reader-input",cssInputClass:r="csv-input",cssLabelClass:n="csv-label",fileEncoding:a="UTF-8",inputId:o="react-csv-reader-input",inputStyle:u={},label:h,onError:f,onFileLoaded:l,parserOptions:d={},disabled:c=!1})=>i.createElement("div",{className:t},h&&i.createElement("label",{className:n,htmlFor:o},h),i.createElement("input",{className:r,type:"file",id:o,style:u,accept:e,onChange:e=>(e=>{let t=new FileReader;const r=e.target.files;if(r.length>0){const e={name:r[0].name,size:r[0].size,type:r[0].type};t.onload=r=>{var i;const n=s.parse(t.result,Object.assign(d,{error:f,encoding:a}));l(null!==(i=null==n?void 0:n.data)&&void 0!==i?i:[],e)},t.readAsText(r[0],a)}})(e),disabled:c}));a.propTypes={accept:n.string,cssClass:n.string,cssInputClass:n.string,cssLabelClass:n.string,fileEncoding:n.string,inputId:n.string,inputStyle:n.object,label:n.oneOfType([n.string,n.element]),onError:n.func,onFileLoaded:n.func.isRequired,parserOptions:n.object,disabled:n.bool},t.default=a},function(e,t){e.exports=require("react")},function(e,t){e.exports=require("prop-types")},function(e,t,r){var i,n,s;
+module.exports=function(e){var t={};function r(i){if(t[i])return t[i].exports;var n=t[i]={i:i,l:!1,exports:{}};return e[i].call(n.exports,n,n.exports,r),n.l=!0,n.exports}return r.m=e,r.c=t,r.d=function(e,t,i){r.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:i})},r.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.t=function(e,t){if(1&t&&(e=r(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var i=Object.create(null);if(r.r(i),Object.defineProperty(i,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var n in e)r.d(i,n,function(t){return e[t]}.bind(null,n));return i},r.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return r.d(t,"a",t),t},r.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},r.p="",r(r.s=0)}([function(e,t,r){"use strict";Object.defineProperty(t,"__esModule",{value:!0});const i=r(1),n=r(2),s=r(3),a=({accept:e=".csv, text/csv",cssClass:t="csv-reader-input",cssInputClass:r="csv-input",cssLabelClass:n="csv-label",fileEncoding:a="UTF-8",inputId:o="react-csv-reader-input",inputName:u="react-csv-reader-input",inputStyle:h={},label:f,onError:l,onFileLoaded:d,parserOptions:c={},disabled:p=!1})=>i.createElement("div",{className:t},f&&i.createElement("label",{className:n,htmlFor:o},f),i.createElement("input",{className:r,type:"file",id:o,name:u,style:h,accept:e,onChange:e=>(e=>{let t=new FileReader;const r=e.target.files;if(r.length>0){const e={name:r[0].name,size:r[0].size,type:r[0].type};t.onload=r=>{var i;const n=s.parse(t.result,Object.assign(c,{error:l,encoding:a}));d(null!==(i=null==n?void 0:n.data)&&void 0!==i?i:[],e)},t.readAsText(r[0],a)}})(e),disabled:p}));a.propTypes={accept:n.string,cssClass:n.string,cssInputClass:n.string,cssLabelClass:n.string,fileEncoding:n.string,inputId:n.string,inputName:n.string,inputStyle:n.object,label:n.oneOfType([n.string,n.element]),onError:n.func,onFileLoaded:n.func.isRequired,parserOptions:n.object,disabled:n.bool},t.default=a},function(e,t){e.exports=require("react")},function(e,t){e.exports=require("prop-types")},function(e,t,r){var i,n,s;
 /* @license
 Papa Parse
-v5.1.1
+v5.3.0
 https://github.com/mholt/PapaParse
 License: MIT
-*/n=[],void 0===(s="function"==typeof(i=function e(){"use strict";var t="undefined"!=typeof self?self:"undefined"!=typeof window?window:void 0!==t?t:{},r=!t.document&&!!t.postMessage,i=r&&/blob:/i.test((t.location||{}).protocol),n={},s=0,a={parse:function(r,i){var o=(i=i||{}).dynamicTyping||!1;if(k(o)&&(i.dynamicTypingFunction=o,o={}),i.dynamicTyping=o,i.transform=!!k(i.transform)&&i.transform,i.worker&&a.WORKERS_SUPPORTED){var u=function(){if(!a.WORKERS_SUPPORTED)return!1;var r,i,o=(r=t.URL||t.webkitURL||null,i=e.toString(),a.BLOB_URL||(a.BLOB_URL=r.createObjectURL(new Blob(["(",i,")();"],{type:"text/javascript"})))),u=new t.Worker(o);return u.onmessage=m,u.id=s++,n[u.id]=u}();return u.userStep=i.step,u.userChunk=i.chunk,u.userComplete=i.complete,u.userError=i.error,i.step=k(i.step),i.chunk=k(i.chunk),i.complete=k(i.complete),i.error=k(i.error),delete i.worker,void u.postMessage({input:r,config:i,workerId:u.id})}var c=null;return a.NODE_STREAM_INPUT,"string"==typeof r?c=i.download?new h(i):new l(i):!0===r.readable&&k(r.read)&&k(r.on)?c=new d(i):(t.File&&r instanceof File||r instanceof Object)&&(c=new f(i)),c.stream(r)},unparse:function(e,t){var r=!1,i=!0,n=",",s="\r\n",o='"',u=o+o,h=!1,f=null;!function(){if("object"==typeof t){if("string"!=typeof t.delimiter||a.BAD_DELIMITERS.filter((function(e){return-1!==t.delimiter.indexOf(e)})).length||(n=t.delimiter),("boolean"==typeof t.quotes||"function"==typeof t.quotes||Array.isArray(t.quotes))&&(r=t.quotes),"boolean"!=typeof t.skipEmptyLines&&"string"!=typeof t.skipEmptyLines||(h=t.skipEmptyLines),"string"==typeof t.newline&&(s=t.newline),"string"==typeof t.quoteChar&&(o=t.quoteChar),"boolean"==typeof t.header&&(i=t.header),Array.isArray(t.columns)){if(0===t.columns.length)throw new Error("Option columns is empty");f=t.columns}void 0!==t.escapeChar&&(u=t.escapeChar+o)}}();var l=new RegExp(p(o),"g");if("string"==typeof e&&(e=JSON.parse(e)),Array.isArray(e)){if(!e.length||Array.isArray(e[0]))return c(null,e,h);if("object"==typeof e[0])return c(f||d(e[0]),e,h)}else if("object"==typeof e)return"string"==typeof e.data&&(e.data=JSON.parse(e.data)),Array.isArray(e.data)&&(e.fields||(e.fields=e.meta&&e.meta.fields),e.fields||(e.fields=Array.isArray(e.data[0])?e.fields:d(e.data[0])),Array.isArray(e.data[0])||"object"==typeof e.data[0]||(e.data=[e.data])),c(e.fields||[],e.data||[],h);throw new Error("Unable to serialize unrecognized input");function d(e){if("object"!=typeof e)return[];var t=[];for(var r in e)t.push(r);return t}function c(e,t,r){var a="";"string"==typeof e&&(e=JSON.parse(e)),"string"==typeof t&&(t=JSON.parse(t));var o=Array.isArray(e)&&0<e.length,u=!Array.isArray(t[0]);if(o&&i){for(var h=0;h<e.length;h++)0<h&&(a+=n),a+=g(e[h],h);0<t.length&&(a+=s)}for(var f=0;f<t.length;f++){var l=o?e.length:t[f].length,d=!1,c=o?0===Object.keys(t[f]).length:0===t[f].length;if(r&&!o&&(d="greedy"===r?""===t[f].join("").trim():1===t[f].length&&0===t[f][0].length),"greedy"===r&&o){for(var p=[],m=0;m<l;m++){var _=u?e[m]:m;p.push(t[f][_])}d=""===p.join("").trim()}if(!d){for(var v=0;v<l;v++){0<v&&!c&&(a+=n);var y=o&&u?e[v]:v;a+=g(t[f][y],v)}f<t.length-1&&(!r||0<l&&!c)&&(a+=s)}}return a}function g(e,t){if(null==e)return"";if(e.constructor===Date)return JSON.stringify(e).slice(1,25);var i=e.toString().replace(l,u);return"boolean"==typeof r&&r||"function"==typeof r&&r(e,t)||Array.isArray(r)&&r[t]||function(e,t){for(var r=0;r<t.length;r++)if(-1<e.indexOf(t[r]))return!0;return!1}(i,a.BAD_DELIMITERS)||-1<i.indexOf(n)||" "===i.charAt(0)||" "===i.charAt(i.length-1)?o+i+o:i}}};if(a.RECORD_SEP=String.fromCharCode(30),a.UNIT_SEP=String.fromCharCode(31),a.BYTE_ORDER_MARK="\ufeff",a.BAD_DELIMITERS=["\r","\n",'"',a.BYTE_ORDER_MARK],a.WORKERS_SUPPORTED=!r&&!!t.Worker,a.NODE_STREAM_INPUT=1,a.LocalChunkSize=10485760,a.RemoteChunkSize=5242880,a.DefaultDelimiter=",",a.Parser=g,a.ParserHandle=c,a.NetworkStreamer=h,a.FileStreamer=f,a.StringStreamer=l,a.ReadableStreamStreamer=d,t.jQuery){var o=t.jQuery;o.fn.parse=function(e){var r=e.config||{},i=[];return this.each((function(e){if("INPUT"!==o(this).prop("tagName").toUpperCase()||"file"!==o(this).attr("type").toLowerCase()||!t.FileReader||!this.files||0===this.files.length)return!0;for(var n=0;n<this.files.length;n++)i.push({file:this.files[n],inputElem:this,instanceConfig:o.extend({},r)})})),n(),this;function n(){if(0!==i.length){var t,r,n,u=i[0];if(k(e.before)){var h=e.before(u.file,u.inputElem);if("object"==typeof h){if("abort"===h.action)return t=u.file,r=u.inputElem,n=h.reason,void(k(e.error)&&e.error({name:"AbortError"},t,r,n));if("skip"===h.action)return void s();"object"==typeof h.config&&(u.instanceConfig=o.extend(u.instanceConfig,h.config))}else if("skip"===h)return void s()}var f=u.instanceConfig.complete;u.instanceConfig.complete=function(e){k(f)&&f(e,u.file,u.inputElem),s()},a.parse(u.file,u.instanceConfig)}else k(e.complete)&&e.complete()}function s(){i.splice(0,1),n()}}}function u(e){this._handle=null,this._finished=!1,this._completed=!1,this._halted=!1,this._input=null,this._baseIndex=0,this._partialLine="",this._rowCount=0,this._start=0,this._nextChunk=null,this.isFirstChunk=!0,this._completeResults={data:[],errors:[],meta:{}},function(e){var t=y(e);t.chunkSize=parseInt(t.chunkSize),e.step||e.chunk||(t.chunkSize=null),this._handle=new c(t),(this._handle.streamer=this)._config=t}.call(this,e),this.parseChunk=function(e,r){if(this.isFirstChunk&&k(this._config.beforeFirstChunk)){var n=this._config.beforeFirstChunk(e);void 0!==n&&(e=n)}this.isFirstChunk=!1,this._halted=!1;var s=this._partialLine+e;this._partialLine="";var o=this._handle.parse(s,this._baseIndex,!this._finished);if(!this._handle.paused()&&!this._handle.aborted()){var u=o.meta.cursor;this._finished||(this._partialLine=s.substring(u-this._baseIndex),this._baseIndex=u),o&&o.data&&(this._rowCount+=o.data.length);var h=this._finished||this._config.preview&&this._rowCount>=this._config.preview;if(i)t.postMessage({results:o,workerId:a.WORKER_ID,finished:h});else if(k(this._config.chunk)&&!r){if(this._config.chunk(o,this._handle),this._handle.paused()||this._handle.aborted())return void(this._halted=!0);o=void 0,this._completeResults=void 0}return this._config.step||this._config.chunk||(this._completeResults.data=this._completeResults.data.concat(o.data),this._completeResults.errors=this._completeResults.errors.concat(o.errors),this._completeResults.meta=o.meta),this._completed||!h||!k(this._config.complete)||o&&o.meta.aborted||(this._config.complete(this._completeResults,this._input),this._completed=!0),h||o&&o.meta.paused||this._nextChunk(),o}this._halted=!0},this._sendError=function(e){k(this._config.error)?this._config.error(e):i&&this._config.error&&t.postMessage({workerId:a.WORKER_ID,error:e,finished:!1})}}function h(e){var t;(e=e||{}).chunkSize||(e.chunkSize=a.RemoteChunkSize),u.call(this,e),this._nextChunk=r?function(){this._readChunk(),this._chunkLoaded()}:function(){this._readChunk()},this.stream=function(e){this._input=e,this._nextChunk()},this._readChunk=function(){if(this._finished)this._chunkLoaded();else{if(t=new XMLHttpRequest,this._config.withCredentials&&(t.withCredentials=this._config.withCredentials),r||(t.onload=b(this._chunkLoaded,this),t.onerror=b(this._chunkError,this)),t.open("GET",this._input,!r),this._config.downloadRequestHeaders){var e=this._config.downloadRequestHeaders;for(var i in e)t.setRequestHeader(i,e[i])}if(this._config.chunkSize){var n=this._start+this._config.chunkSize-1;t.setRequestHeader("Range","bytes="+this._start+"-"+n)}try{t.send()}catch(e){this._chunkError(e.message)}r&&0===t.status&&this._chunkError()}},this._chunkLoaded=function(){4===t.readyState&&(t.status<200||400<=t.status?this._chunkError():(this._start+=this._config.chunkSize?this._config.chunkSize:t.responseText.length,this._finished=!this._config.chunkSize||this._start>=function(e){var t=e.getResponseHeader("Content-Range");return null===t?-1:parseInt(t.substring(t.lastIndexOf("/")+1))}(t),this.parseChunk(t.responseText)))},this._chunkError=function(e){var r=t.statusText||e;this._sendError(new Error(r))}}function f(e){var t,r;(e=e||{}).chunkSize||(e.chunkSize=a.LocalChunkSize),u.call(this,e);var i="undefined"!=typeof FileReader;this.stream=function(e){this._input=e,r=e.slice||e.webkitSlice||e.mozSlice,i?((t=new FileReader).onload=b(this._chunkLoaded,this),t.onerror=b(this._chunkError,this)):t=new FileReaderSync,this._nextChunk()},this._nextChunk=function(){this._finished||this._config.preview&&!(this._rowCount<this._config.preview)||this._readChunk()},this._readChunk=function(){var e=this._input;if(this._config.chunkSize){var n=Math.min(this._start+this._config.chunkSize,this._input.size);e=r.call(e,this._start,n)}var s=t.readAsText(e,this._config.encoding);i||this._chunkLoaded({target:{result:s}})},this._chunkLoaded=function(e){this._start+=this._config.chunkSize,this._finished=!this._config.chunkSize||this._start>=this._input.size,this.parseChunk(e.target.result)},this._chunkError=function(){this._sendError(t.error)}}function l(e){var t;u.call(this,e=e||{}),this.stream=function(e){return t=e,this._nextChunk()},this._nextChunk=function(){if(!this._finished){var e,r=this._config.chunkSize;return r?(e=t.substring(0,r),t=t.substring(r)):(e=t,t=""),this._finished=!t,this.parseChunk(e)}}}function d(e){u.call(this,e=e||{});var t=[],r=!0,i=!1;this.pause=function(){u.prototype.pause.apply(this,arguments),this._input.pause()},this.resume=function(){u.prototype.resume.apply(this,arguments),this._input.resume()},this.stream=function(e){this._input=e,this._input.on("data",this._streamData),this._input.on("end",this._streamEnd),this._input.on("error",this._streamError)},this._checkIsFinished=function(){i&&1===t.length&&(this._finished=!0)},this._nextChunk=function(){this._checkIsFinished(),t.length?this.parseChunk(t.shift()):r=!0},this._streamData=b((function(e){try{t.push("string"==typeof e?e:e.toString(this._config.encoding)),r&&(r=!1,this._checkIsFinished(),this.parseChunk(t.shift()))}catch(e){this._streamError(e)}}),this),this._streamError=b((function(e){this._streamCleanUp(),this._sendError(e)}),this),this._streamEnd=b((function(){this._streamCleanUp(),i=!0,this._streamData("")}),this),this._streamCleanUp=b((function(){this._input.removeListener("data",this._streamData),this._input.removeListener("end",this._streamEnd),this._input.removeListener("error",this._streamError)}),this)}function c(e){var t,r,i,n=Math.pow(2,53),s=-n,o=/^\s*-?(\d*\.?\d+|\d+\.?\d*)(e[-+]?\d+)?\s*$/i,u=/(\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\.\d+([+-][0-2]\d:[0-5]\d|Z))|(\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d([+-][0-2]\d:[0-5]\d|Z))|(\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d([+-][0-2]\d:[0-5]\d|Z))/,h=this,f=0,l=0,d=!1,c=!1,m=[],_={data:[],errors:[],meta:{}};if(k(e.step)){var v=e.step;e.step=function(t){if(_=t,w())E();else{if(E(),0===_.data.length)return;f+=t.data.length,e.preview&&f>e.preview?r.abort():(_.data=_.data[0],v(_,h))}}}function b(t){return"greedy"===e.skipEmptyLines?""===t.join("").trim():1===t.length&&0===t[0].length}function E(){if(_&&i&&(x("Delimiter","UndetectableDelimiter","Unable to auto-detect delimiting character; defaulted to '"+a.DefaultDelimiter+"'"),i=!1),e.skipEmptyLines)for(var t=0;t<_.data.length;t++)b(_.data[t])&&_.data.splice(t--,1);return w()&&function(){if(_)if(Array.isArray(_.data[0])){for(var t=0;w()&&t<_.data.length;t++)_.data[t].forEach(r);_.data.splice(0,1)}else _.data.forEach(r);function r(t){k(e.transformHeader)&&(t=e.transformHeader(t)),m.push(t)}}(),function(){if(!_||!e.header&&!e.dynamicTyping&&!e.transform)return _;function t(t,r){var i,n=e.header?{}:[];for(i=0;i<t.length;i++){var s=i,a=t[i];e.header&&(s=i>=m.length?"__parsed_extra":m[i]),e.transform&&(a=e.transform(a,s)),a=C(s,a),"__parsed_extra"===s?(n[s]=n[s]||[],n[s].push(a)):n[s]=a}return e.header&&(i>m.length?x("FieldMismatch","TooManyFields","Too many fields: expected "+m.length+" fields but parsed "+i,l+r):i<m.length&&x("FieldMismatch","TooFewFields","Too few fields: expected "+m.length+" fields but parsed "+i,l+r)),n}var r=1;return!_.data.length||Array.isArray(_.data[0])?(_.data=_.data.map(t),r=_.data.length):_.data=t(_.data,0),e.header&&_.meta&&(_.meta.fields=m),l+=r,_}()}function w(){return e.header&&0===m.length}function C(t,r){return i=t,e.dynamicTypingFunction&&void 0===e.dynamicTyping[i]&&(e.dynamicTyping[i]=e.dynamicTypingFunction(i)),!0===(e.dynamicTyping[i]||e.dynamicTyping)?"true"===r||"TRUE"===r||"false"!==r&&"FALSE"!==r&&(function(e){if(o.test(e)){var t=parseFloat(e);if(s<t&&t<n)return!0}return!1}(r)?parseFloat(r):u.test(r)?new Date(r):""===r?null:r):r;var i}function x(e,t,r,i){var n={type:e,code:t,message:r};void 0!==i&&(n.row=i),_.errors.push(n)}this.parse=function(n,s,o){var u=e.quoteChar||'"';if(e.newline||(e.newline=function(e,t){e=e.substring(0,1048576);var r=new RegExp(p(t)+"([^]*?)"+p(t),"gm"),i=(e=e.replace(r,"")).split("\r"),n=e.split("\n"),s=1<n.length&&n[0].length<i[0].length;if(1===i.length||s)return"\n";for(var a=0,o=0;o<i.length;o++)"\n"===i[o][0]&&a++;return a>=i.length/2?"\r\n":"\r"}(n,u)),i=!1,e.delimiter)k(e.delimiter)&&(e.delimiter=e.delimiter(n),_.meta.delimiter=e.delimiter);else{var h=function(t,r,i,n,s){var o,u,h,f;s=s||[",","\t","|",";",a.RECORD_SEP,a.UNIT_SEP];for(var l=0;l<s.length;l++){var d=s[l],c=0,p=0,m=0;h=void 0;for(var _=new g({comments:n,delimiter:d,newline:r,preview:10}).parse(t),v=0;v<_.data.length;v++)if(i&&b(_.data[v]))m++;else{var y=_.data[v].length;p+=y,void 0!==h?0<y&&(c+=Math.abs(y-h),h=y):h=y}0<_.data.length&&(p/=_.data.length-m),(void 0===u||c<=u)&&(void 0===f||f<p)&&1.99<p&&(u=c,o=d,f=p)}return{successful:!!(e.delimiter=o),bestDelimiter:o}}(n,e.newline,e.skipEmptyLines,e.comments,e.delimitersToGuess);h.successful?e.delimiter=h.bestDelimiter:(i=!0,e.delimiter=a.DefaultDelimiter),_.meta.delimiter=e.delimiter}var f=y(e);return e.preview&&e.header&&f.preview++,t=n,r=new g(f),_=r.parse(t,s,o),E(),d?{meta:{paused:!0}}:_||{meta:{paused:!1}}},this.paused=function(){return d},this.pause=function(){d=!0,r.abort(),t=k(e.chunk)?"":t.substring(r.getCharIndex())},this.resume=function(){h.streamer._halted?(d=!1,h.streamer.parseChunk(t,!0)):setTimeout(this.resume,3)},this.aborted=function(){return c},this.abort=function(){c=!0,r.abort(),_.meta.aborted=!0,k(e.complete)&&e.complete(_),t=""}}function p(e){return e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")}function g(e){var t,r=(e=e||{}).delimiter,i=e.newline,n=e.comments,s=e.step,o=e.preview,u=e.fastMode,h=t=void 0===e.quoteChar?'"':e.quoteChar;if(void 0!==e.escapeChar&&(h=e.escapeChar),("string"!=typeof r||-1<a.BAD_DELIMITERS.indexOf(r))&&(r=","),n===r)throw new Error("Comment character same as delimiter");!0===n?n="#":("string"!=typeof n||-1<a.BAD_DELIMITERS.indexOf(n))&&(n=!1),"\n"!==i&&"\r"!==i&&"\r\n"!==i&&(i="\n");var f=0,l=!1;this.parse=function(e,a,d){if("string"!=typeof e)throw new Error("Input must be a string");var c=e.length,g=r.length,m=i.length,_=n.length,v=k(s),y=[],b=[],E=[],w=f=0;if(!e)return z();if(u||!1!==u&&-1===e.indexOf(t)){for(var C=e.split(i),x=0;x<C.length;x++){if(E=C[x],f+=E.length,x!==C.length-1)f+=i.length;else if(d)return z();if(!n||E.substring(0,_)!==n){if(v){if(y=[],L(E.split(r)),q(),l)return z()}else L(E.split(r));if(o&&o<=x)return y=y.slice(0,o),z(!0)}}return z()}for(var O=e.indexOf(r,f),R=e.indexOf(i,f),S=new RegExp(p(h)+p(t),"g"),T=e.indexOf(t,f);;)if(e[f]!==t)if(n&&0===E.length&&e.substring(f,f+_)===n){if(-1===R)return z();f=R+m,R=e.indexOf(i,f),O=e.indexOf(r,f)}else{if(-1!==O&&(O<R||-1===R)){if(!(O<T)){E.push(e.substring(f,O)),f=O+g,O=e.indexOf(r,f);continue}var I=U(O,T,R);if(I&&void 0!==I.nextDelim){O=I.nextDelim,T=I.quoteSearch,E.push(e.substring(f,O)),f=O+g,O=e.indexOf(r,f);continue}}if(-1===R)break;if(E.push(e.substring(f,R)),M(R+m),v&&(q(),l))return z();if(o&&y.length>=o)return z(!0)}else for(T=f,f++;;){if(-1===(T=e.indexOf(t,T+1)))return d||b.push({type:"Quotes",code:"MissingQuotes",message:"Quoted field unterminated",row:y.length,index:f}),F();if(T===c-1)return F(e.substring(f,T).replace(S,t));if(t!==h||e[T+1]!==h){if(t===h||0===T||e[T-1]!==h){-1!==O&&O<T+1&&(O=e.indexOf(r,T+1)),-1!==R&&R<T+1&&(R=e.indexOf(i,T+1));var D=j(-1===R?O:Math.min(O,R));if(e[T+1+D]===r){E.push(e.substring(f,T).replace(S,t)),e[f=T+1+D+g]!==t&&(T=e.indexOf(t,f)),O=e.indexOf(r,f),R=e.indexOf(i,f);break}var A=j(R);if(e.substring(T+1+A,T+1+A+m)===i){if(E.push(e.substring(f,T).replace(S,t)),M(T+1+A+m),O=e.indexOf(r,f),T=e.indexOf(t,f),v&&(q(),l))return z();if(o&&y.length>=o)return z(!0);break}b.push({type:"Quotes",code:"InvalidQuotes",message:"Trailing quote on quoted field is malformed",row:y.length,index:f}),T++}}else T++}return F();function L(e){y.push(e),w=f}function j(t){var r=0;if(-1!==t){var i=e.substring(T+1,t);i&&""===i.trim()&&(r=i.length)}return r}function F(t){return d||(void 0===t&&(t=e.substring(f)),E.push(t),f=c,L(E),v&&q()),z()}function M(t){f=t,L(E),E=[],R=e.indexOf(i,f)}function z(e){return{data:y,errors:b,meta:{delimiter:r,linebreak:i,aborted:l,truncated:!!e,cursor:w+(a||0)}}}function q(){s(z()),y=[],b=[]}function U(i,n,s){var a={nextDelim:void 0,quoteSearch:void 0},o=e.indexOf(t,n+1);if(n<i&&i<o&&(o<s||-1===s)){var u=e.indexOf(r,o);if(-1===u)return a;o<u&&(o=e.indexOf(t,o+1)),a=U(u,o,s)}else a={nextDelim:i,quoteSearch:n};return a}},this.abort=function(){l=!0},this.getCharIndex=function(){return f}}function m(e){var t=e.data,r=n[t.workerId],i=!1;if(t.error)r.userError(t.error,t.file);else if(t.results&&t.results.data){var s={abort:function(){i=!0,_(t.workerId,{data:[],errors:[],meta:{aborted:!0}})},pause:v,resume:v};if(k(r.userStep)){for(var a=0;a<t.results.data.length&&(r.userStep({data:t.results.data[a],errors:t.results.errors,meta:t.results.meta},s),!i);a++);delete t.results}else k(r.userChunk)&&(r.userChunk(t.results,s,t.file),delete t.results)}t.finished&&!i&&_(t.workerId,t.results)}function _(e,t){var r=n[e];k(r.userComplete)&&r.userComplete(t),r.terminate(),delete n[e]}function v(){throw new Error("Not implemented.")}function y(e){if("object"!=typeof e||null===e)return e;var t=Array.isArray(e)?[]:{};for(var r in e)t[r]=y(e[r]);return t}function b(e,t){return function(){e.apply(t,arguments)}}function k(e){return"function"==typeof e}return i&&(t.onmessage=function(e){var r=e.data;if(void 0===a.WORKER_ID&&r&&(a.WORKER_ID=r.workerId),"string"==typeof r.input)t.postMessage({workerId:a.WORKER_ID,results:a.parse(r.input,r.config),finished:!0});else if(t.File&&r.input instanceof File||r.input instanceof Object){var i=a.parse(r.input,r.config);i&&t.postMessage({workerId:a.WORKER_ID,results:i,finished:!0})}}),(h.prototype=Object.create(u.prototype)).constructor=h,(f.prototype=Object.create(u.prototype)).constructor=f,(l.prototype=Object.create(l.prototype)).constructor=l,(d.prototype=Object.create(u.prototype)).constructor=d,a})?i.apply(t,n):i)||(e.exports=s)}]);
+*/n=[],void 0===(s="function"==typeof(i=function e(){"use strict";var t="undefined"!=typeof self?self:"undefined"!=typeof window?window:void 0!==t?t:{},r=!t.document&&!!t.postMessage,i=r&&/blob:/i.test((t.location||{}).protocol),n={},s=0,a={parse:function(r,i){var o=(i=i||{}).dynamicTyping||!1;if(k(o)&&(i.dynamicTypingFunction=o,o={}),i.dynamicTyping=o,i.transform=!!k(i.transform)&&i.transform,i.worker&&a.WORKERS_SUPPORTED){var u=function(){if(!a.WORKERS_SUPPORTED)return!1;var r,i,o=(r=t.URL||t.webkitURL||null,i=e.toString(),a.BLOB_URL||(a.BLOB_URL=r.createObjectURL(new Blob(["(",i,")();"],{type:"text/javascript"})))),u=new t.Worker(o);return u.onmessage=m,u.id=s++,n[u.id]=u}();return u.userStep=i.step,u.userChunk=i.chunk,u.userComplete=i.complete,u.userError=i.error,i.step=k(i.step),i.chunk=k(i.chunk),i.complete=k(i.complete),i.error=k(i.error),delete i.worker,void u.postMessage({input:r,config:i,workerId:u.id})}var c=null;return a.NODE_STREAM_INPUT,"string"==typeof r?c=i.download?new h(i):new l(i):!0===r.readable&&k(r.read)&&k(r.on)?c=new d(i):(t.File&&r instanceof File||r instanceof Object)&&(c=new f(i)),c.stream(r)},unparse:function(e,t){var r=!1,i=!0,n=",",s="\r\n",o='"',u=o+o,h=!1,f=null,l=!1;!function(){if("object"==typeof t){if("string"!=typeof t.delimiter||a.BAD_DELIMITERS.filter((function(e){return-1!==t.delimiter.indexOf(e)})).length||(n=t.delimiter),("boolean"==typeof t.quotes||"function"==typeof t.quotes||Array.isArray(t.quotes))&&(r=t.quotes),"boolean"!=typeof t.skipEmptyLines&&"string"!=typeof t.skipEmptyLines||(h=t.skipEmptyLines),"string"==typeof t.newline&&(s=t.newline),"string"==typeof t.quoteChar&&(o=t.quoteChar),"boolean"==typeof t.header&&(i=t.header),Array.isArray(t.columns)){if(0===t.columns.length)throw new Error("Option columns is empty");f=t.columns}void 0!==t.escapeChar&&(u=t.escapeChar+o),"boolean"==typeof t.escapeFormulae&&(l=t.escapeFormulae)}}();var d=new RegExp(p(o),"g");if("string"==typeof e&&(e=JSON.parse(e)),Array.isArray(e)){if(!e.length||Array.isArray(e[0]))return g(null,e,h);if("object"==typeof e[0])return g(f||c(e[0]),e,h)}else if("object"==typeof e)return"string"==typeof e.data&&(e.data=JSON.parse(e.data)),Array.isArray(e.data)&&(e.fields||(e.fields=e.meta&&e.meta.fields),e.fields||(e.fields=Array.isArray(e.data[0])?e.fields:c(e.data[0])),Array.isArray(e.data[0])||"object"==typeof e.data[0]||(e.data=[e.data])),g(e.fields||[],e.data||[],h);throw new Error("Unable to serialize unrecognized input");function c(e){if("object"!=typeof e)return[];var t=[];for(var r in e)t.push(r);return t}function g(e,t,r){var a="";"string"==typeof e&&(e=JSON.parse(e)),"string"==typeof t&&(t=JSON.parse(t));var o=Array.isArray(e)&&0<e.length,u=!Array.isArray(t[0]);if(o&&i){for(var h=0;h<e.length;h++)0<h&&(a+=n),a+=m(e[h],h);0<t.length&&(a+=s)}for(var f=0;f<t.length;f++){var l=o?e.length:t[f].length,d=!1,c=o?0===Object.keys(t[f]).length:0===t[f].length;if(r&&!o&&(d="greedy"===r?""===t[f].join("").trim():1===t[f].length&&0===t[f][0].length),"greedy"===r&&o){for(var p=[],g=0;g<l;g++){var _=u?e[g]:g;p.push(t[f][_])}d=""===p.join("").trim()}if(!d){for(var v=0;v<l;v++){0<v&&!c&&(a+=n);var y=o&&u?e[v]:v;a+=m(t[f][y],v)}f<t.length-1&&(!r||0<l&&!c)&&(a+=s)}}return a}function m(e,t){if(null==e)return"";if(e.constructor===Date)return JSON.stringify(e).slice(1,25);!0===l&&"string"==typeof e&&null!==e.match(/^[=+\-@].*$/)&&(e="'"+e);var i=e.toString().replace(d,u);return"boolean"==typeof r&&r||"function"==typeof r&&r(e,t)||Array.isArray(r)&&r[t]||function(e,t){for(var r=0;r<t.length;r++)if(-1<e.indexOf(t[r]))return!0;return!1}(i,a.BAD_DELIMITERS)||-1<i.indexOf(n)||" "===i.charAt(0)||" "===i.charAt(i.length-1)?o+i+o:i}}};if(a.RECORD_SEP=String.fromCharCode(30),a.UNIT_SEP=String.fromCharCode(31),a.BYTE_ORDER_MARK="\ufeff",a.BAD_DELIMITERS=["\r","\n",'"',a.BYTE_ORDER_MARK],a.WORKERS_SUPPORTED=!r&&!!t.Worker,a.NODE_STREAM_INPUT=1,a.LocalChunkSize=10485760,a.RemoteChunkSize=5242880,a.DefaultDelimiter=",",a.Parser=g,a.ParserHandle=c,a.NetworkStreamer=h,a.FileStreamer=f,a.StringStreamer=l,a.ReadableStreamStreamer=d,t.jQuery){var o=t.jQuery;o.fn.parse=function(e){var r=e.config||{},i=[];return this.each((function(e){if("INPUT"!==o(this).prop("tagName").toUpperCase()||"file"!==o(this).attr("type").toLowerCase()||!t.FileReader||!this.files||0===this.files.length)return!0;for(var n=0;n<this.files.length;n++)i.push({file:this.files[n],inputElem:this,instanceConfig:o.extend({},r)})})),n(),this;function n(){if(0!==i.length){var t,r,n,u=i[0];if(k(e.before)){var h=e.before(u.file,u.inputElem);if("object"==typeof h){if("abort"===h.action)return t=u.file,r=u.inputElem,n=h.reason,void(k(e.error)&&e.error({name:"AbortError"},t,r,n));if("skip"===h.action)return void s();"object"==typeof h.config&&(u.instanceConfig=o.extend(u.instanceConfig,h.config))}else if("skip"===h)return void s()}var f=u.instanceConfig.complete;u.instanceConfig.complete=function(e){k(f)&&f(e,u.file,u.inputElem),s()},a.parse(u.file,u.instanceConfig)}else k(e.complete)&&e.complete()}function s(){i.splice(0,1),n()}}}function u(e){this._handle=null,this._finished=!1,this._completed=!1,this._halted=!1,this._input=null,this._baseIndex=0,this._partialLine="",this._rowCount=0,this._start=0,this._nextChunk=null,this.isFirstChunk=!0,this._completeResults={data:[],errors:[],meta:{}},function(e){var t=y(e);t.chunkSize=parseInt(t.chunkSize),e.step||e.chunk||(t.chunkSize=null),this._handle=new c(t),(this._handle.streamer=this)._config=t}.call(this,e),this.parseChunk=function(e,r){if(this.isFirstChunk&&k(this._config.beforeFirstChunk)){var n=this._config.beforeFirstChunk(e);void 0!==n&&(e=n)}this.isFirstChunk=!1,this._halted=!1;var s=this._partialLine+e;this._partialLine="";var o=this._handle.parse(s,this._baseIndex,!this._finished);if(!this._handle.paused()&&!this._handle.aborted()){var u=o.meta.cursor;this._finished||(this._partialLine=s.substring(u-this._baseIndex),this._baseIndex=u),o&&o.data&&(this._rowCount+=o.data.length);var h=this._finished||this._config.preview&&this._rowCount>=this._config.preview;if(i)t.postMessage({results:o,workerId:a.WORKER_ID,finished:h});else if(k(this._config.chunk)&&!r){if(this._config.chunk(o,this._handle),this._handle.paused()||this._handle.aborted())return void(this._halted=!0);o=void 0,this._completeResults=void 0}return this._config.step||this._config.chunk||(this._completeResults.data=this._completeResults.data.concat(o.data),this._completeResults.errors=this._completeResults.errors.concat(o.errors),this._completeResults.meta=o.meta),this._completed||!h||!k(this._config.complete)||o&&o.meta.aborted||(this._config.complete(this._completeResults,this._input),this._completed=!0),h||o&&o.meta.paused||this._nextChunk(),o}this._halted=!0},this._sendError=function(e){k(this._config.error)?this._config.error(e):i&&this._config.error&&t.postMessage({workerId:a.WORKER_ID,error:e,finished:!1})}}function h(e){var t;(e=e||{}).chunkSize||(e.chunkSize=a.RemoteChunkSize),u.call(this,e),this._nextChunk=r?function(){this._readChunk(),this._chunkLoaded()}:function(){this._readChunk()},this.stream=function(e){this._input=e,this._nextChunk()},this._readChunk=function(){if(this._finished)this._chunkLoaded();else{if(t=new XMLHttpRequest,this._config.withCredentials&&(t.withCredentials=this._config.withCredentials),r||(t.onload=b(this._chunkLoaded,this),t.onerror=b(this._chunkError,this)),t.open(this._config.downloadRequestBody?"POST":"GET",this._input,!r),this._config.downloadRequestHeaders){var e=this._config.downloadRequestHeaders;for(var i in e)t.setRequestHeader(i,e[i])}if(this._config.chunkSize){var n=this._start+this._config.chunkSize-1;t.setRequestHeader("Range","bytes="+this._start+"-"+n)}try{t.send(this._config.downloadRequestBody)}catch(e){this._chunkError(e.message)}r&&0===t.status&&this._chunkError()}},this._chunkLoaded=function(){4===t.readyState&&(t.status<200||400<=t.status?this._chunkError():(this._start+=this._config.chunkSize?this._config.chunkSize:t.responseText.length,this._finished=!this._config.chunkSize||this._start>=function(e){var t=e.getResponseHeader("Content-Range");return null===t?-1:parseInt(t.substring(t.lastIndexOf("/")+1))}(t),this.parseChunk(t.responseText)))},this._chunkError=function(e){var r=t.statusText||e;this._sendError(new Error(r))}}function f(e){var t,r;(e=e||{}).chunkSize||(e.chunkSize=a.LocalChunkSize),u.call(this,e);var i="undefined"!=typeof FileReader;this.stream=function(e){this._input=e,r=e.slice||e.webkitSlice||e.mozSlice,i?((t=new FileReader).onload=b(this._chunkLoaded,this),t.onerror=b(this._chunkError,this)):t=new FileReaderSync,this._nextChunk()},this._nextChunk=function(){this._finished||this._config.preview&&!(this._rowCount<this._config.preview)||this._readChunk()},this._readChunk=function(){var e=this._input;if(this._config.chunkSize){var n=Math.min(this._start+this._config.chunkSize,this._input.size);e=r.call(e,this._start,n)}var s=t.readAsText(e,this._config.encoding);i||this._chunkLoaded({target:{result:s}})},this._chunkLoaded=function(e){this._start+=this._config.chunkSize,this._finished=!this._config.chunkSize||this._start>=this._input.size,this.parseChunk(e.target.result)},this._chunkError=function(){this._sendError(t.error)}}function l(e){var t;u.call(this,e=e||{}),this.stream=function(e){return t=e,this._nextChunk()},this._nextChunk=function(){if(!this._finished){var e,r=this._config.chunkSize;return r?(e=t.substring(0,r),t=t.substring(r)):(e=t,t=""),this._finished=!t,this.parseChunk(e)}}}function d(e){u.call(this,e=e||{});var t=[],r=!0,i=!1;this.pause=function(){u.prototype.pause.apply(this,arguments),this._input.pause()},this.resume=function(){u.prototype.resume.apply(this,arguments),this._input.resume()},this.stream=function(e){this._input=e,this._input.on("data",this._streamData),this._input.on("end",this._streamEnd),this._input.on("error",this._streamError)},this._checkIsFinished=function(){i&&1===t.length&&(this._finished=!0)},this._nextChunk=function(){this._checkIsFinished(),t.length?this.parseChunk(t.shift()):r=!0},this._streamData=b((function(e){try{t.push("string"==typeof e?e:e.toString(this._config.encoding)),r&&(r=!1,this._checkIsFinished(),this.parseChunk(t.shift()))}catch(e){this._streamError(e)}}),this),this._streamError=b((function(e){this._streamCleanUp(),this._sendError(e)}),this),this._streamEnd=b((function(){this._streamCleanUp(),i=!0,this._streamData("")}),this),this._streamCleanUp=b((function(){this._input.removeListener("data",this._streamData),this._input.removeListener("end",this._streamEnd),this._input.removeListener("error",this._streamError)}),this)}function c(e){var t,r,i,n=Math.pow(2,53),s=-n,o=/^\s*-?(\d+\.?|\.\d+|\d+\.\d+)(e[-+]?\d+)?\s*$/,u=/(\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\.\d+([+-][0-2]\d:[0-5]\d|Z))|(\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d([+-][0-2]\d:[0-5]\d|Z))|(\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d([+-][0-2]\d:[0-5]\d|Z))/,h=this,f=0,l=0,d=!1,c=!1,m=[],_={data:[],errors:[],meta:{}};if(k(e.step)){var v=e.step;e.step=function(t){if(_=t,w())E();else{if(E(),0===_.data.length)return;f+=t.data.length,e.preview&&f>e.preview?r.abort():(_.data=_.data[0],v(_,h))}}}function b(t){return"greedy"===e.skipEmptyLines?""===t.join("").trim():1===t.length&&0===t[0].length}function E(){if(_&&i&&(R("Delimiter","UndetectableDelimiter","Unable to auto-detect delimiting character; defaulted to '"+a.DefaultDelimiter+"'"),i=!1),e.skipEmptyLines)for(var t=0;t<_.data.length;t++)b(_.data[t])&&_.data.splice(t--,1);return w()&&function(){if(_)if(Array.isArray(_.data[0])){for(var t=0;w()&&t<_.data.length;t++)_.data[t].forEach(r);_.data.splice(0,1)}else _.data.forEach(r);function r(t,r){k(e.transformHeader)&&(t=e.transformHeader(t,r)),m.push(t)}}(),function(){if(!_||!e.header&&!e.dynamicTyping&&!e.transform)return _;function t(t,r){var i,n=e.header?{}:[];for(i=0;i<t.length;i++){var s=i,a=t[i];e.header&&(s=i>=m.length?"__parsed_extra":m[i]),e.transform&&(a=e.transform(a,s)),a=C(s,a),"__parsed_extra"===s?(n[s]=n[s]||[],n[s].push(a)):n[s]=a}return e.header&&(i>m.length?R("FieldMismatch","TooManyFields","Too many fields: expected "+m.length+" fields but parsed "+i,l+r):i<m.length&&R("FieldMismatch","TooFewFields","Too few fields: expected "+m.length+" fields but parsed "+i,l+r)),n}var r=1;return!_.data.length||Array.isArray(_.data[0])?(_.data=_.data.map(t),r=_.data.length):_.data=t(_.data,0),e.header&&_.meta&&(_.meta.fields=m),l+=r,_}()}function w(){return e.header&&0===m.length}function C(t,r){return i=t,e.dynamicTypingFunction&&void 0===e.dynamicTyping[i]&&(e.dynamicTyping[i]=e.dynamicTypingFunction(i)),!0===(e.dynamicTyping[i]||e.dynamicTyping)?"true"===r||"TRUE"===r||"false"!==r&&"FALSE"!==r&&(function(e){if(o.test(e)){var t=parseFloat(e);if(s<t&&t<n)return!0}return!1}(r)?parseFloat(r):u.test(r)?new Date(r):""===r?null:r):r;var i}function R(e,t,r,i){var n={type:e,code:t,message:r};void 0!==i&&(n.row=i),_.errors.push(n)}this.parse=function(n,s,o){var u=e.quoteChar||'"';if(e.newline||(e.newline=function(e,t){e=e.substring(0,1048576);var r=new RegExp(p(t)+"([^]*?)"+p(t),"gm"),i=(e=e.replace(r,"")).split("\r"),n=e.split("\n"),s=1<n.length&&n[0].length<i[0].length;if(1===i.length||s)return"\n";for(var a=0,o=0;o<i.length;o++)"\n"===i[o][0]&&a++;return a>=i.length/2?"\r\n":"\r"}(n,u)),i=!1,e.delimiter)k(e.delimiter)&&(e.delimiter=e.delimiter(n),_.meta.delimiter=e.delimiter);else{var h=function(t,r,i,n,s){var o,u,h,f;s=s||[",","\t","|",";",a.RECORD_SEP,a.UNIT_SEP];for(var l=0;l<s.length;l++){var d=s[l],c=0,p=0,m=0;h=void 0;for(var _=new g({comments:n,delimiter:d,newline:r,preview:10}).parse(t),v=0;v<_.data.length;v++)if(i&&b(_.data[v]))m++;else{var y=_.data[v].length;p+=y,void 0!==h?0<y&&(c+=Math.abs(y-h),h=y):h=y}0<_.data.length&&(p/=_.data.length-m),(void 0===u||c<=u)&&(void 0===f||f<p)&&1.99<p&&(u=c,o=d,f=p)}return{successful:!!(e.delimiter=o),bestDelimiter:o}}(n,e.newline,e.skipEmptyLines,e.comments,e.delimitersToGuess);h.successful?e.delimiter=h.bestDelimiter:(i=!0,e.delimiter=a.DefaultDelimiter),_.meta.delimiter=e.delimiter}var f=y(e);return e.preview&&e.header&&f.preview++,t=n,r=new g(f),_=r.parse(t,s,o),E(),d?{meta:{paused:!0}}:_||{meta:{paused:!1}}},this.paused=function(){return d},this.pause=function(){d=!0,r.abort(),t=k(e.chunk)?"":t.substring(r.getCharIndex())},this.resume=function(){h.streamer._halted?(d=!1,h.streamer.parseChunk(t,!0)):setTimeout(h.resume,3)},this.aborted=function(){return c},this.abort=function(){c=!0,r.abort(),_.meta.aborted=!0,k(e.complete)&&e.complete(_),t=""}}function p(e){return e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")}function g(e){var t,r=(e=e||{}).delimiter,i=e.newline,n=e.comments,s=e.step,o=e.preview,u=e.fastMode,h=t=void 0===e.quoteChar?'"':e.quoteChar;if(void 0!==e.escapeChar&&(h=e.escapeChar),("string"!=typeof r||-1<a.BAD_DELIMITERS.indexOf(r))&&(r=","),n===r)throw new Error("Comment character same as delimiter");!0===n?n="#":("string"!=typeof n||-1<a.BAD_DELIMITERS.indexOf(n))&&(n=!1),"\n"!==i&&"\r"!==i&&"\r\n"!==i&&(i="\n");var f=0,l=!1;this.parse=function(e,a,d){if("string"!=typeof e)throw new Error("Input must be a string");var c=e.length,g=r.length,m=i.length,_=n.length,v=k(s),y=[],b=[],E=[],w=f=0;if(!e)return z();if(u||!1!==u&&-1===e.indexOf(t)){for(var C=e.split(i),R=0;R<C.length;R++){if(E=C[R],f+=E.length,R!==C.length-1)f+=i.length;else if(d)return z();if(!n||E.substring(0,_)!==n){if(v){if(y=[],L(E.split(r)),q(),l)return z()}else L(E.split(r));if(o&&o<=R)return y=y.slice(0,o),z(!0)}}return z()}for(var O=e.indexOf(r,f),S=e.indexOf(i,f),x=new RegExp(p(h)+p(t),"g"),T=e.indexOf(t,f);;)if(e[f]!==t)if(n&&0===E.length&&e.substring(f,f+_)===n){if(-1===S)return z();f=S+m,S=e.indexOf(i,f),O=e.indexOf(r,f)}else{if(-1!==O&&(O<S||-1===S)){if(!(O<T)){E.push(e.substring(f,O)),f=O+g,O=e.indexOf(r,f);continue}var I=P(O,T,S);if(I&&void 0!==I.nextDelim){O=I.nextDelim,T=I.quoteSearch,E.push(e.substring(f,O)),f=O+g,O=e.indexOf(r,f);continue}}if(-1===S)break;if(E.push(e.substring(f,S)),M(S+m),v&&(q(),l))return z();if(o&&y.length>=o)return z(!0)}else for(T=f,f++;;){if(-1===(T=e.indexOf(t,T+1)))return d||b.push({type:"Quotes",code:"MissingQuotes",message:"Quoted field unterminated",row:y.length,index:f}),j();if(T===c-1)return j(e.substring(f,T).replace(x,t));if(t!==h||e[T+1]!==h){if(t===h||0===T||e[T-1]!==h){-1!==O&&O<T+1&&(O=e.indexOf(r,T+1)),-1!==S&&S<T+1&&(S=e.indexOf(i,T+1));var D=F(-1===S?O:Math.min(O,S));if(e[T+1+D]===r){E.push(e.substring(f,T).replace(x,t)),e[f=T+1+D+g]!==t&&(T=e.indexOf(t,f)),O=e.indexOf(r,f),S=e.indexOf(i,f);break}var A=F(S);if(e.substring(T+1+A,T+1+A+m)===i){if(E.push(e.substring(f,T).replace(x,t)),M(T+1+A+m),O=e.indexOf(r,f),T=e.indexOf(t,f),v&&(q(),l))return z();if(o&&y.length>=o)return z(!0);break}b.push({type:"Quotes",code:"InvalidQuotes",message:"Trailing quote on quoted field is malformed",row:y.length,index:f}),T++}}else T++}return j();function L(e){y.push(e),w=f}function F(t){var r=0;if(-1!==t){var i=e.substring(T+1,t);i&&""===i.trim()&&(r=i.length)}return r}function j(t){return d||(void 0===t&&(t=e.substring(f)),E.push(t),f=c,L(E),v&&q()),z()}function M(t){f=t,L(E),E=[],S=e.indexOf(i,f)}function z(e){return{data:y,errors:b,meta:{delimiter:r,linebreak:i,aborted:l,truncated:!!e,cursor:w+(a||0)}}}function q(){s(z()),y=[],b=[]}function P(i,n,s){var a={nextDelim:void 0,quoteSearch:void 0},o=e.indexOf(t,n+1);if(n<i&&i<o&&(o<s||-1===s)){var u=e.indexOf(r,o);if(-1===u)return a;o<u&&(o=e.indexOf(t,o+1)),a=P(u,o,s)}else a={nextDelim:i,quoteSearch:n};return a}},this.abort=function(){l=!0},this.getCharIndex=function(){return f}}function m(e){var t=e.data,r=n[t.workerId],i=!1;if(t.error)r.userError(t.error,t.file);else if(t.results&&t.results.data){var s={abort:function(){i=!0,_(t.workerId,{data:[],errors:[],meta:{aborted:!0}})},pause:v,resume:v};if(k(r.userStep)){for(var a=0;a<t.results.data.length&&(r.userStep({data:t.results.data[a],errors:t.results.errors,meta:t.results.meta},s),!i);a++);delete t.results}else k(r.userChunk)&&(r.userChunk(t.results,s,t.file),delete t.results)}t.finished&&!i&&_(t.workerId,t.results)}function _(e,t){var r=n[e];k(r.userComplete)&&r.userComplete(t),r.terminate(),delete n[e]}function v(){throw new Error("Not implemented.")}function y(e){if("object"!=typeof e||null===e)return e;var t=Array.isArray(e)?[]:{};for(var r in e)t[r]=y(e[r]);return t}function b(e,t){return function(){e.apply(t,arguments)}}function k(e){return"function"==typeof e}return i&&(t.onmessage=function(e){var r=e.data;if(void 0===a.WORKER_ID&&r&&(a.WORKER_ID=r.workerId),"string"==typeof r.input)t.postMessage({workerId:a.WORKER_ID,results:a.parse(r.input,r.config),finished:!0});else if(t.File&&r.input instanceof File||r.input instanceof Object){var i=a.parse(r.input,r.config);i&&t.postMessage({workerId:a.WORKER_ID,results:i,finished:!0})}}),(h.prototype=Object.create(u.prototype)).constructor=h,(f.prototype=Object.create(u.prototype)).constructor=f,(l.prototype=Object.create(l.prototype)).constructor=l,(d.prototype=Object.create(u.prototype)).constructor=d,a})?i.apply(t,n):i)||(e.exports=s)}]);
 
 },{"react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js"}],"src/components/PresenceTablePanel/UploadExcel.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
@@ -78761,9 +79067,9 @@ var PresenceTablePanel = function PresenceTablePanel() {
 
   return (0, _mobxReactLite.useObserver)(function () {
     if (presenceStore.fileIsLoaded) {
-      return _react.default.createElement(_StudentTable.StudentTable, {
+      return _react.default.createElement("div", null, _react.default.createElement("h3", null, "Nombre d'\xE9tudiants pr\xE9sents: ", presenceStore.presenceData.students.length), _react.default.createElement(_StudentTable.StudentTable, {
         students: presenceStore.presenceData.students
-      });
+      }));
     }
 
     return _react.default.createElement("div", {
@@ -78856,7 +79162,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38707" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63844" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
